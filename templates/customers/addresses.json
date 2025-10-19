@@ -1,0 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-addresses",
+      "blocks": {
+        "addresses": {
+          "type": "addresses",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "addresses"
+      ],
+      "custom_css": [
+        ".input+.input, .input+.input-row, .input-row+.input-row, .input-row+.input {margin-top: 3%;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_XrDWpP": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{% assign foundNonGermanAddress = false %}\n{% for address in customer.addresses %}\n  {% if address.country != \"Deutschland\" %}\n    {% assign foundNonGermanAddress = true %}\n    {% break %}\n  {% endif %}\n{% endfor %}\n\n{% if foundNonGermanAddress %}\n<div class=\"vat-enter\"\n  <!-- Füge hier den Code ein, der ausgeführt werden soll, wenn mindestens eine Adresse nicht aus Deutschland stammt -->\n  <p>Solltest du eine UST-Id. haben um aus Deutschland Mehrwertsteuerfrei einzukaufen, validiere diese hier.</p>\n  <div>\n      {{ \"//www.modules4u.biz/shopify/exemptify/js/validate_vat_v1.js.php?shop=nailmondo.myshopify.com\" | script_tag }}\n          <div><div><h2>{{ shop.metafields['exemptify']['m4u_headline'] }}</h2></div>\n              <input type=\"text\" placeholder=\"{{ shop.metafields['exemptify']['m4u_vat_id_placeholder'] }}\" id=\"VatId\" name=\"VatId\" maxlength=\"20\" style=\"max-width:160px;\">\n            <div id=\"ValidStatus\"><img id=\"StatusImg\" width=\"28\"></div>\n          <div id=\"ErrMsg\"></div>   \n              <input id=\"CustomerId\" type=\"hidden\" value=\"{{ customer.id }}\">\n              <input id=\"ShopCtyId\" type=\"hidden\" value=\"{{ shop.metafields['exemptify']['country'] }}\">              \n              <input id=\"VatIdSubmit\" type=\"button\" value=\"{{ shop.metafields['exemptify']['m4u_button_validate'] }}\">\n              <input id=\"DeleteId\" type=\"button\" value=\"{{ shop.metafields['exemptify']['m4u_button_delete'] }}\">      \n            </div>\n      </div></div>\n      <!-- End Exemptify account page VAT ID validation -->\n{% else %}\n  <!-- Füge hier den Code ein, der ausgeführt werden soll, wenn alle Adressen aus Deutschland stammen -->\n{% endif %}\n\n<style>\n.vat-enter { text-align:center;}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_XrDWpP"
+  ]
+}

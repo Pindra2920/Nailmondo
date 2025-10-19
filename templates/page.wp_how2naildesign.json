@@ -1,0 +1,420 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_kTRLWf": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .discount-bar {\n    background-color: #27bf2eb8; \n    color: white;\n    padding: 4px;\n    text-align: center;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: Open Sans, sans-serif;\nmargin:0px -15px 0px -20px;\nbox-shadow: 1px 2px 7px -2px #0000004a;    z-index: 9;\n  }\n\n.discount-bar .checkmark-icon {\n    margin-right: 5px;\n    width: 15px;\n    height: 15px;\n}\n\n  .discount-bar .checkmark-icon path {\n    fill: white;\n  }\n</style>\n\n<div class=\"discount-bar\">\n  <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n    <path d=\"M20.285,2.288l-11.69,11.69-4.869-4.869L2,11.835l6.594,6.594,13.881-13.881L20.285,2.288z\"/>\n  </svg>\n  <span>Dein <b>10% Rabattcode</b> von Leni wurde aktiviert</span>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "h3.heading.h2 {text-shadow: 0px 0px 20px #000; font-weight: 500;}",
+        ".image-overlay__text-container {font-weight: 500; text-shadow: 0 0 12px black;}",
+        ".image-overlay--small {--image-height: 200px;}",
+        ".button {line-height: 18px; padding: 5px 10px 5px 10px; letter-spacing: 0.5px; font-size: 10px; text-transform: none; line-height: 14px;}",
+        "@media (min-width: 1024px) {.button {font-size: 12px; line-height: 16px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Bildschirmfoto_2025-08-26_um_08.50.20.webp",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "https://lynis-nailshop.de/discount/COM15?redirect=%2Fpages%2Fneu",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#fac850",
+        "button_text_color": "#0d0d0d",
+        "overlay_color": "#0d0d0d",
+        "overlay_opacity": 15
+      }
+    },
+    "bild_image_6CqB3H": {
+      "type": "Bild-Image",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative; border-radius: 50%; overflow: hidden;}",
+        ".insta-image-proof img {object-fit: cover; border-radius: 50%;}"
+      ],
+      "settings": {
+        "bild": "shopify://shop_images/4a7f63ab70679c1947c3ccb3d684b504_tplv-tiktokx-cropcenter_1080_1080.jpg",
+        "alt_text": "",
+        "bild_groesse": "small",
+        "bild_positionierung": "zentriert",
+        "custom_class": "insta-image-proof",
+        "bild_url": ""
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "@𝗵𝗼𝘄𝟮𝗻𝗮𝗶𝗹𝗱𝗲𝘀𝗶𝗴𝗻",
+        "content": "<p>Ich zeige dir alle Produkte, die ich nutze und mit meinem Code \"<strong>tiktok_bine</strong>\" kannst du noch <strong>10% als </strong><span style=\"text-decoration:underline\"><strong>NEUKUNDE</strong></span><strong> sparen!</strong></p><h6>Der Code wird als Neukunde automatisch abgezogen, nachdem du Artikel in den Warenkorb eingefügt hast, wenn du Neukunde bist.</h6>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_product_t4FazD": {
+      "type": "featured-product",
+      "blocks": {
+        "variant_picker_GgxyYy": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "enable_block_styling": false,
+            "block_background": "#ffffff",
+            "block_border": "#000000",
+            "block_font_color": "#000000",
+            "block_background_selected": "#000000",
+            "block_border_selected": "#000000",
+            "block_font_color_selected": "#ffffff",
+            "block_border_not_available": "#000000",
+            "block_font_color_not_available": "#000000",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_tYjpC6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker_GgxyYy",
+        "buy_buttons_tYjpC6"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "glue-gel-gratis-silikontool-bine-set",
+        "subheading": "",
+        "title": "Perfektes Set für 3D Blumen",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "enable_image_zoom_icon": true,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "show_thumbnails_on_mobile": false,
+        "show_arrow_of_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "show_application_steps": false,
+        "application_steps_background": "#000000",
+        "application_steps_color": "#ffffff",
+        "font_size_application_steps": 10,
+        "application_steps_text_1": "",
+        "application_steps_text_2": "",
+        "application_steps_text_3": "",
+        "application_steps_text_4": ""
+      }
+    },
+    "custom_liquid_XMDDCX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "NEUE VIDEOS",
+        "title": "Beliebte 3D Blumen",
+        "liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_68ad6015b7f62e00580fa624\"></div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#f4f4f4",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_RMTgG4": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_q7n8PM": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/image0.jpg",
+            "dot_type": "inverted",
+            "product_1": "xxl-square-tips-clear",
+            "product_1_horizontal_position": 28,
+            "product_1_vertical_position": 57,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "non-sticky-gel-white",
+            "product_2_horizontal_position": 53,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "white-dream-farbgel-5ml",
+            "product_3_horizontal_position": 37,
+            "product_3_vertical_position": 49,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_DwnQTC": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/image2.jpg",
+            "dot_type": "inverted",
+            "product_1": "tunneltips-clear-nachfuellbeutel-500-stueck",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 66,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "candy-pastell-lollipop-farbgel-5ml",
+            "product_2_horizontal_position": 41,
+            "product_2_vertical_position": 58,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "black-is-back",
+            "product_3_horizontal_position": 58,
+            "product_3_vertical_position": 54,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_U6yprH": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/image3.jpg",
+            "dot_type": "inverted",
+            "product_1": "tunneltips-clear-nachfuellbeutel-500-stueck",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 54,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "white-pearl-pigment",
+            "product_2_horizontal_position": 64,
+            "product_2_vertical_position": 39,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "high-gloss-uv-protect-10ml",
+            "product_3_horizontal_position": 31,
+            "product_3_vertical_position": 30,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_6ULHTJ": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/image4.jpg",
+            "dot_type": "normal",
+            "product_1": "farbgel-loveletter-deckend",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 35,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "non-sticky-gel-clear",
+            "product_2_horizontal_position": 61,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "white-dream-farbgel-5ml",
+            "product_3_horizontal_position": 43,
+            "product_3_vertical_position": 22,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_q7n8PM",
+        "look_DwnQTC",
+        "look_U6yprH",
+        "look_6ULHTJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".shop-the-look,.shop-the-look__item {max-width: 700px; margin: auto;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "MEINE NÄGEL"
+      }
+    },
+    "model_view_QNMnNc": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "bine-favoriten",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "Produkte, auf die ich nicht verzichten möchte",
+        "title": "Meine Favoriten",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_zxDPyw": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_6dM4Jt": {
+          "type": "collection",
+          "settings": {
+            "collection": "bine-farben",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6dM4Jt"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lieblingsfarben",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "leni-etc",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Alles was ich sonst nutze",
+        "content": "",
+        "css-klasse": "block2",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_kTRLWf",
+    "image_with_text_overlay_a94x7r",
+    "bild_image_6CqB3H",
+    "rich_text_teMzPn",
+    "featured_product_t4FazD",
+    "custom_liquid_XMDDCX",
+    "shop_the_look_RMTgG4",
+    "model_view_QNMnNc",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_zxDPyw",
+    "unterkategorie_cGRNLE",
+    "main"
+  ]
+}

@@ -1,0 +1,425 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_ykPtXe": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div id=\"tiktok-top-bar\" style=\"display: none;\">\n  <div class=\"tiktok-bar-content\">\n    🎉 Exklusiver TikTok 10% Welcome Rabatt freigeschaltet 🎉\n  </div>\n</div>\n\n<style>\n  .tiktok-bar-content {\n    border: 2px dotted red;\n    padding: 5px 10px;\n    margin: 0 auto;\n    text-align: center;\n    font-weight: bold;\n    font-size: 12px;\n    background-color: #fffbe6;\n    color: #d10000;\n    max-width: 100%;\n    position: relative;\n    margin-top: 10px;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    function getUTMCampaign() {\n      const params = new URLSearchParams(window.location.search);\n      return params.get('utm_campaign');\n    }\n\n    if (getUTMCampaign() === 'tiktok10') {\n      var bar = document.getElementById('tiktok-top-bar');\n      if (bar) {\n        bar.style.display = 'block';\n      }\n    }\n  });\n</script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_CVzjxT": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div id=\"discount-bar\" style=\"display: none;\">\n  <div class=\"discount-content\">\n    🎉 NUR HEUTE: 5 % Rabatt mit dem Code <strong>JUNI5</strong> sichern!\n    <button id=\"copy-discount\" style=\"margin-left: 10px; padding: 4px 8px; background-color: #006b3c; color: white; border: none; border-radius: 3px; cursor: pointer;\">\n      Code kopieren\n    </button>\n  </div>\n</div>\n\n<style>\n  .discount-content {\n    border: 2px dotted green;\n    padding: 5px 10px;\n    margin: 0 auto;\n    text-align: center;\n    font-weight: bold;\n    font-size: 12px;\n    background-color: #e6fff2;\n    color: #006b3c;\n    max-width: 100%;\n    position: relative;\n    margin-top: 10px;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get('sssl') === 'gpmax') {\n      const bar = document.getElementById('discount-bar');\n      if (bar) {\n        bar.style.display = 'block';\n      }\n\n      const button = document.getElementById('copy-discount');\n      if (button) {\n        button.addEventListener('click', function() {\n          navigator.clipboard.writeText('JUNI5').then(function() {\n            button.textContent = 'Code kopiert!';\n          }).catch(function(err) {\n            console.error('Kopieren fehlgeschlagen:', err);\n          });\n        });\n      }\n    }\n  });\n</script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "announcement_bar_animated_sh_VgimUQ": {
+      "type": "announcement-bar-animated-SH",
+      "disabled": true,
+      "settings": {
+        "background_color": "#cecece",
+        "marquee_padding": 7,
+        "scroll_speed": 40,
+        "delimiter": "●",
+        "text_color": "#141414",
+        "font_size": 12,
+        "text_1": "✨ 100€ EINKAUFSWERT & 10€ Gutschein per E-Mail! ✨",
+        "text_1_enabled": true,
+        "text_2": "10€ CASHBACK 🤑 AB 100€",
+        "text_2_enabled": true,
+        "text_3": "✨ 100€ EINKAUFSWERT & 10€ Gutschein per E-Mail! ✨",
+        "text_3_enabled": true,
+        "text_4": "NUR BIS SONNTAG 23:59 UHR",
+        "text_4_enabled": true
+      }
+    },
+    "announcement_bar_animated_sh_hXiqmt": {
+      "type": "announcement-bar-animated-SH",
+      "disabled": true,
+      "settings": {
+        "background_color": "#9c0000",
+        "marquee_padding": 7,
+        "scroll_speed": 40,
+        "delimiter": "●",
+        "text_color": "#ffffff",
+        "font_size": 12,
+        "text_1": "AKTION ENDET HEUTE 23:59 UHR",
+        "text_1_enabled": true,
+        "text_2": "25% SPAREN 🤑 AUF ALLES*",
+        "text_2_enabled": true,
+        "text_3": "✨ SALE DES JAHRES ✨",
+        "text_3_enabled": false,
+        "text_4": "Text 4",
+        "text_4_enabled": false
+      }
+    },
+    "1707205712db334b9f": {
+      "type": "apps",
+      "blocks": {
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU": {
+          "type": "shopify://apps/categories/blocks/category-breadcrumbs/2d8e3108-b94b-4b0c-8f03-e3726bad87be",
+          "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000ee",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#afafaf",
+            "title_decoration": "",
+            "title_transform": "",
+            "spacing_above": 15,
+            "spacing_below": 15,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": true,
+            "show_catroot": false,
+            "link_catroot": "/",
+            "text_catroot": "Start",
+            "show_tags": false,
+            "show_finalbread_as_textonly": true,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": true,
+            "prod_multicat_sel": "leastprod",
+            "link_catall": "/collections/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 35,
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
+          }
+        }
+      },
+      "block_order": [
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_rNXyYm": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{% assign items = product.metafields.jtl.bulletpoints | split: '•' %}\n<ul style=\"list-style-type:none; padding: 0;\">\n{% for item in items %}\n  {% if item != '' %}\n  <li style=\"display: flex; margin-bottom: 6px;\">\n    <span style=\"white-space: nowrap; margin-right: 5px;\">•</span>\n    <span style=\"flex: 1;\">{{ item | strip }}</span>\n  </li>\n  {% endif %}\n{% endfor %}\n</ul>"
+          }
+        },
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "enable_block_styling": true,
+            "block_background": "#f5f5f5",
+            "block_border": "#000000",
+            "block_font_color": "#0d0d0d",
+            "block_background_selected": "#000000",
+            "block_border_selected": "#000000",
+            "block_font_color_selected": "#ffffff",
+            "block_border_not_available": "#0d0d0d",
+            "block_font_color_not_available": "#0d0d0d",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "liquid_wEF3w4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.rapi-bundles__bar-title {\n    font-size: 18px !important;\n    font-family: 'Rajdhani', sans-serif !important;\n}\n.rapi-bundles__bar-price {\n    font-size: 14px !important;\n}\nlabel.rapi-bundles__bar-container.border-rounded {\n    line-height: 20px;\n} \n</style>"
+          }
+        },
+        "liquid_rCaMBy": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"sh-cart-counter-container\">\n    <svg width=\"15\" height=\"15\" aria-hidden=\"true\" class=\"sh-circle-svg\">\n        <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"#ffe6c1\"></circle>\n        <circle cx=\"7.5\" cy=\"7.5\" r=\"4\" fill=\"#fdd080\"></circle>\n    </svg>\n    <p class=\"sh-cart-count\"><i>Aktuell in <span id=\"cartCount\"></span> Warenkörben</i></p>\n</div>\n\n<style>\n:root {\n    --sh-svg-vertical-offset: -1px;\n}\n\n.sh-cart-counter-container {\n    display: flex;\n    align-items: center;\n    justify-content: left;\n    margin-top: 0px;\n    margin-bottom: 0px;\n}\n\n.sh-circle-svg {\n    margin-right: 5px;\n    transform: translateY(var(--sh-svg-vertical-offset));\n    margin-top: 12px;\n}\n\np.sh-cart-count {\n    color: grey;\n    line-height: 0;\n\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    var randomCount = getRandomInt(6, 4);    \n    document.getElementById(\"cartCount\").innerText = randomCount;\n\n    function getRandomInt(min, max) {\n        return Math.floor(Math.random() * (max - min + 1)) + min;\n    }\n});\n</script>"
+          }
+        },
+        "136a629f-7d9f-49d0-8277-16d8527be548": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_payment_button": false,
+            "atc_button_background": "#fac850",
+            "atc_button_text_color": "#000000",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "show_qty_discount": true,
+            "qty_discount_title": "Menge auswählen:",
+            "qty_discount_badge_color": "",
+            "qty_discount_font_color": ""
+          }
+        },
+        "inventory_n6niiR": {
+          "type": "inventory",
+          "settings": {
+            "inventory_high_color": "#138a36",
+            "inventory_low_color": "#f9ca4f",
+            "inventory_out_of_stock_color": "#ff0000",
+            "low_inventory_threshold": 25,
+            "text_in_stock": "{{ product.metafields.jtl.delivery_status.value }}"
+          }
+        },
+        "liquid_UmnFDe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if customer and customer.tags contains 'Bestandskunde' %}\n{% else %}\n  <!-- Der Kunde ist kein Bestandskunde, zeige den speziellen Inhalt an -->\n  <div class=\"ed-payment-bar-pdp\">\n    {% render 'ed-payment-bar' %}\n    {% if settings.show_rate_payment_pdp %}\n      {% render 'ed-klarna-custom-payment' %}\n    {% endif %}\n  </div>\n{% endif %}"
+          }
+        },
+        "liquid_Aw4kfd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.jtl.produktinfo != blank %}\n{{ product.metafields.jtl.produktinfo }}\n{% endif %}"
+          }
+        },
+        "product_upsell_L3XpbH": {
+          "type": "product_upsell",
+          "disabled": true,
+          "settings": {
+            "p_u_t": "Wird oft zusammen gekauft",
+            "u_btn_text": "Ab ins Körbchen"
+          }
+        },
+        "eb_easy_bundle_builder_app_block_mix_and_match_bundle_9fEJtM": {
+          "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-mixAndMatchBundle/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_rNXyYm",
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e",
+        "liquid_wEF3w4",
+        "liquid_rCaMBy",
+        "136a629f-7d9f-49d0-8277-16d8527be548",
+        "inventory_n6niiR",
+        "liquid_UmnFDe",
+        "liquid_Aw4kfd",
+        "product_upsell_L3XpbH",
+        "eb_easy_bundle_builder_app_block_mix_and_match_bundle_9fEJtM"
+      ],
+      "custom_css": [
+        ".loader-button__text {line-height: 12px;}",
+        ".product-form__custom-liquid {font-size: 12px; color: grey; line-height: 16px;}"
+      ],
+      "settings": {
+        "bundle_title": "",
+        "bundle_title_after": "",
+        "optional_product": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_title_sticky_add_to_cart": true,
+        "show_variant_selection_sticky_add_to_cart": true,
+        "show_price_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "andockmethode",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "enable_image_zoom_icon": true,
+        "enable_image_zoom_click_mobile": true,
+        "enable_image_zoom_click_desktop": true,
+        "color_video_story": "#c8c8c8",
+        "show_thumbnails_on_mobile": true,
+        "show_arrow_of_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "show_application_steps": false,
+        "application_steps_background": "#0d0d0d",
+        "application_steps_color": "#f5f5f5",
+        "font_size_application_steps": 12,
+        "application_steps_text_1": "It is a long established fact that a reader will be",
+        "application_steps_text_2": "It is a long established fact that a reader will be",
+        "application_steps_text_3": "It is a long established fact that a reader",
+        "application_steps_text_4": "It is a long established fact that a reader will",
+        "enable_social_proof": false,
+        "social_proof_background": "#ffffff",
+        "social_proof_text": "#000000",
+        "social_proof_box_style": "0",
+        "ppl_social_proof": "Mert, Lukas",
+        "enable_insta_checkmark": true,
+        "text_social_proof": "und 10.000 andere lieben unsere Produkte",
+        "enable_text_bold": false,
+        "enable_popular_variants": true,
+        "popular_variants_badge": "#de2a2a",
+        "popular_variants_badge_color": "#f5f5f5",
+        "popular_variants_text": "Bestseller",
+        "enable_buy_box": true,
+        "buy_box_border_color": "#d7d7d7",
+        "buy_box_bg_color": "#ffffff",
+        "buy_box_border_radius": 15,
+        "update_prices_on_qty_change": true
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "close_description_tab": true
+          }
+        },
+        "liquid_8mtn3Y": {
+          "type": "liquid",
+          "settings": {
+            "title": "Artikel im Angebot?",
+            "liquid": "<div class=\"expensive\">Du kannst dich hier eintragen und wirst benachrichtigt, wenn der Artikel mal im Angebot ist.<br>\n<b>Hinweis:</b> Wir haben <u>extrem selten</u> Angebote, du brauchst also nicht warten.<br>\n<br>Sollte dir der Artikel zu teuer sein oder du möchtest mehrere davon bestellen, kann es allerdings hilfreich für dich sein.</div><br><br>"
+          }
+        },
+        "0143d1a2-8601-4246-86bd-38cb71251946": {
+          "type": "liquid",
+          "settings": {
+            "title": "Warnhinweise & Rechtliches",
+            "liquid": "<div class=\"rechtstexte-pdp\" style=\"display: flex; flex-wrap: wrap; sans-serif; gap: 20px;\">\n  <div style=\"flex: 1; min-width: 300px;\">\n    <p style=\"font-family: 'Rajdhani', sans-serif; text-decoration:underline; font-weight: bold; font-size:14px;margin-bottom:5px;\">Hersteller</p>\n    {% if product.metafields.gpsr.manufacturer_name != blank %}\n      <p style=\"margin: 2px 0;\">\n        {{ product.metafields.gpsr.manufacturer_name }}<br>\n        {{ product.metafields.gpsr.manufacturer_street }} {{ product.metafields.gpsr.manufacturer_housenumber }}<br>\n        {{ product.metafields.gpsr.manufacturer_postalcode }} {{ product.metafields.gpsr.manufacturer_city }}<br>\n        {{ product.metafields.gpsr.manufacturer_state }} {{ product.metafields.gpsr.manufacturer_country }}<br>\n        <a href=\"{{ product.metafields.gpsr.manufacturer_homepage }}\" target=\"_blank\">{{ product.metafields.gpsr.manufacturer_homepage }}</a><br>\n      </p>\n    {% else %}\n      <p style=\"margin: 2px 0; font-style: italic;\">Folgt in Kürze</p>\n    {% endif %}\n  </div>\n  <div style=\"flex: 1; min-width: 300px;\">\n    <p style=\"font-family: 'Rajdhani', sans-serif; font-weight: bold; text-decoration:underline; font-size:14px;margin-bottom:5px;\">Verantwortliche Person</p>\n    {% if product.metafields.gpsr.responsibleperson_name != blank %}\n      <p style=\"margin: 2px 0;\">\n        {{ product.metafields.gpsr.responsibleperson_name }}<br>\n        {{ product.metafields.gpsr.responsibleperson_street }} {{ product.metafields.gpsr.responsibleperson_housenumber }}<br>\n        {{ product.metafields.gpsr.responsibleperson_postalcode }} {{ product.metafields.gpsr.responsibleperson_city }}<br>\n        {{ product.metafields.gpsr.responsibleperson_state }} {{ product.metafields.gpsr.responsibleperson_country }}<br>\n        <a href=\"{{ product.metafields.gpsr.responsibleperson_homepage }}\" target=\"_blank\">{{ product.metafields.gpsr.responsibleperson_homepage }}</a><br>\n      </p>\n    {% else %}\n      <p style=\"margin: 2px 0; font-style: italic;\">Folgt in Kürze</p>\n    {% endif %}\n  </div>\n\n<div>\n  <br>\n  <b>Hinweise zur Nutzung:</b>\n  Vor der Anwendung die Produktbeschreibung lesen und ggf. Anwendungsvideos beachten. Produkte nur für den beschriebenen Zweck verwenden und außerhalb der Reichweite von Kindern aufbewahren. Bei allergischen Reaktionen die Nutzung sofort einstellen und bei Problemen den Kontakt aufnehmen. Entsprechende Warnhinweise sind auf der Seite & auf dem Produkt dargestellt.\n</div>\n</div>\n\n<br>\n<hr>\n<br>\n\n<div class=\"rechtstexte-pdp\">\n  {% if product.metafields.jtl.warnhinweise != blank %}\n    <b>Warnhinweise: </b>{{ product.metafields.jtl.warnhinweise }}<br>\n  {% endif %}\n\n  <br><br>\n\n  {% if product.metafields.jtl.sicherheitshinweise != blank %}\n    <b>Sicherheitshinweise: </b>{{ product.metafields.jtl.sicherheitshinweise }}<br>\n  {% endif %}\n\n  <br>\n  Aufgrund der Lichtverhältnisse bei der Produktfotografie und unterschiedlichen Bildschirmeinstellungen kann es dazu kommen, dass die Farbe des Produktes nicht authentisch wiedergegeben wird.<br>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "liquid_8mtn3Y",
+        "0143d1a2-8601-4246-86bd-38cb71251946"
+      ],
+      "custom_css": [
+        "li::marker {color: white !important;}",
+        "h3 {margin: 0px !important; font-size: 20px !important; line-height: 22px !important; letter-spacing: 0px !important;}"
+      ],
+      "settings": {
+        "enable_desktop_accordion": false
+      }
+    },
+    "custom_liquid_GJC3Py": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.piktogramm-container {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: flex-start;\n}\n.piktogramm-icon {\n  margin-right: 3% !important;\n  margin-bottom: 1% !important;\n  margin-top: 1% !important;\n  width:auto;\n  height:40px;\n}\n.rechtstexte-pdp {\n    font-size: 10px;\n    color: grey;\nline-height: 14px;\n    margin-top: 5px;\n  }\n\n.inhaltsstoffe {\n    font-size: 12px;\n\tcolor: #414141;\n  }\n\n</style>\n\n<div class=\"piktogramm-container\">\n{% assign piktogramm = product.metafields.custom.piktogramme | strip %}\n{% if piktogramm contains 'Di-Hema + HEMA frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-dihema.jpg?v=1711435592\" alt=\"Di-Hema + HEMA frei\">\n{% endif %}\n{% if piktogramm contains 'Hema frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-hema.jpg?v=1711435592\" alt=\"Hema frei\">\n{% endif %}\n{% if piktogramm contains '! Achtung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-achtung.jpg?v=1711435592\" alt=\"Achtung\">\n{% endif %}\n{% if piktogramm contains 'Entzündlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-entzuendlich.jpg?v=1711435592\" alt=\"Entzündlich\">\n{% endif %}\n{% if piktogramm contains 'Umweltgefährlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-umwelt.jpg?v=1711435592\" alt=\"Umweltgefährlich\">\n{% endif %}\n{% if piktogramm contains '12M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-12m.jpg?v=1711435592\" alt=\"12M\">\n{% endif %}\n{% if piktogramm contains '6M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-6m.jpg?v=1711435592\" alt=\"6M\">\n{% endif %}\n{% if piktogramm contains 'Giftig' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-giftig.jpg?v=1711435591\" alt=\"Giftig\">\n{% endif %}\n{% if piktogramm contains 'Gefahr-Schrift' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gefahr.jpg?v=1711435592\" alt=\"Gefahr-Schrift\">\n{% endif %}\n{% if piktogramm contains 'Ätzend' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-aezend.jpg?v=1711435592\" alt=\"Ätzend\">\n{% endif %}\n{% if piktogramm contains '*Nur für gewerblichen Bedarf' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gewerbe.png?v=1711435592\" alt=\"Nur für gewerblichen Bedarf\">\n{% endif %}\n{% if piktogramm contains 'Gesundheitsgefährdung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gesundheit.jpg?v=1711435592\" alt=\"Gesundheitsgefährdung\">\n{% endif %}\n{% if piktogramm contains '**Nicht für kosmetischen Gebrauch' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-kosmetik.jpg?v=1711435592\" alt=\"Nicht für kosmetischen Gebrauch\">\n{% endif %}\n</div>\n<div class=\"rechtstexte-pdp\">\n  {% if product.metafields.jtl.inhaltsstoffe != blank %}\n    <div class=\"inhaltsstoffe\"><b>Inhaltsstoffe/Ingredients: </b>{{ product.metafields.jtl.inhaltsstoffe }}</div>\n  {% endif %}\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_mJdJbj": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".footer__reviewsLogo-container {display: none !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Kunden-Bewertungen",
+        "liquid": "<script src=\"https://widget.reviews.io/polaris/build.js\"></script>\n<div id=\"ReviewsWidget\"></div>\n<script>\nnew ReviewsWidget('#ReviewsWidget', {\n//Your REVIEWS.io Store ID and widget type:\nstore: 'www.lynis-nailshop.de',\nwidget: 'polaris',\n\n//Content settings (store_review,product_review,third_party_review,questions). Choose what to display in this widget:\noptions: {\n    types: 'product_review',\n    lang: 'de',\n    //Possible layout options: bordered, large and reverse.\n    layout: '',\n    //How many reviews & questions to show per page?\n    per_page: 8,\n    store_review:{\n      hide_if_no_results: false,\n    },\n    third_party_review:{\n      hide_if_no_results: false,\n    },\n    product_review: {\n      sku: \"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\",\n      enable_rich_snippets: true,\n\n      /* Your custom Structured Data */\n      structured_data: {\n\n        category: {{ product.type | json }},\n        {% capture gtin_length %}{{ product.variants.first.barcode | size }}{% endcapture %}\n\n\n        {% if gtin_length == \"14\" %}\n           gtin14:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"13\" %}\n           gtin13:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"12\" %}\n           gtin12:\"{{product.variants.first.barcode}}\",\n        {% endif %}\n\n        url: \"{{ shop.url }}{{ product.url }}\",\n\n        {%- if product.featured_image -%}\n          image: \"https:{{ product.featured_image | product_img_url: 'grande' }}\",\n        {%- endif -%}\n\n        {% if variant.image %}\n          {% assign variant_image_size = variant.image.width | append: 'x' %}\n          image: \"http:{{ variant.image.src | img_url: variant_image_size }}\",\n        {% endif %}\n\n        description: \"{{ product.description | strip_html | strip_newlines | escape }}\",\n        {% assign ruk_current_variant = product.selected_or_first_available_variant %}\n        {% assign ruk_variant_count = product.variants | size %}\n        {% assign ruk_count = 0 %}\n\n        {% if product.variants %}\n          {% assign ruk_count = ruk_count | plus: 1 %}\n\n          offers: [{\n              type: \"Offer\",\n              priceCurrency: \"{{ cart.currency.iso_code }}\",\n              price: \"{{ ruk_current_variant.price | money_without_currency }}\",\n              itemCondition: \"http://schema.org/NewCondition\",\n              availability: \"http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}\",\n              url: \"{{ shop.url }}{{ ruk_current_variant.url }}\",\n\n              {% if ruk_current_variant.image %}\n                  {% assign variant_image_size = ruk_current_variant.image.width | append: 'x' %}\n                  image: \"https:{{ ruk_current_variant.image.src | img_url: variant_image_size }}\",\n              {% else %}\n                  image: \"https:{{ product.featured_image.src | img_url: 'grande' }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.title != 'Default Title' %}\n                  name: \"{{ product.title | strip_html | escape }} - {{ fa_current_variant.title | escape }}\",\n              {% else %}\n                  name: \"{{ product.title | strip_html | escape }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 12 %}\n                  gtin12: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 13 %}\n                  gtin13: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 14 %}\n                  gtin14: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.sku != blank %}\n                  sku: \"{{ ruk_current_variant.sku }}\",\n              {% else %}\n                  sku: \"{{ ruk_current_variant.id }}\",\n              {% endif %}\n\n              {% if product.description != blank %}\n                  description: \"{{ product.description | strip_html | escape | strip_newlines }}\",\n              {% endif %}\n\n              priceValidUntil: \"{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | replace:' ','%20' }}\"\n          }],\n        {% endif %}\n\n        brand: {\n          type: 'Brand',\n          name: '{{ product.vendor | escape }}',\n        },\n      },\n    },\n\n    /* Toggle Options */\n    questions:{\n          hide_if_no_results:false,\n          enable_ask_question:true,\n          show_dates:true,\n          grouping:\"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\"\n    },\n\n    //Header settings:\n    header:{\n        enable_summary: true, //Show overall rating & review count\n        enable_ratings: true,\n        enable_attributes: true,\n        enable_image_gallery: true, //Show photo & video gallery\n        enable_percent_recommended: false, //Show what percentage of reviewers recommend it\n        enable_write_review: true, //Show \"Write Review\" button\n        enable_ask_question: false, //Show \"Ask Question\" button\n        enable_sub_header: true, //Show subheader\n        rating_decimal_places: 2,\n        use_write_review_button:  true, //Show \"be the first to leave a review\" text as a button\n    },\n\n    //Filtering settings:\n    filtering:{\n        enable: true, //Show filtering options\n        enable_text_search: false, //Show search field\n        enable_sorting: true, //Show sorting options (most recent, most popular)\n        enable_product_filter: false, //Show product options filter\n        enable_media_filter: true, //Show reviews with images/video/media options\n        enable_overall_rating_filter: true, //Show overall rating breakdown filter\n        enable_language_filter: false, // Filter by review language\n        enable_language_filter_language_change: false, // Update widget language based on language selected\n        enable_ratings_filters: true, //Show product attributes filter\n        enable_attributes_filters: true, //Show author attributes filter\n        enable_expanded_filters: false, //Show filters as a section instead of dropdown\n    },\n\n    //Review settings:\n    reviews:{\n        enable_avatar: false, //Show author avatar\n        enable_reviewer_name:  true, //Show author name\n        enable_reviewer_address:  true, //Show author location\n        reviewer_address_format: 'city, country', //Author location display format\n        enable_verified_badge: true, //Show \"Verified Customer\" badge\n        enable_subscriber_badge: true, //Show \"Verified Subscriber\" badge\n        review_content_filter: 'no_content', //Filter content\n        enable_reviewer_recommends: false, //Show \"I recommend it\" badge\n        enable_attributes: true, //Show author attributes\n        enable_product_name: false, //Show display product name\n        enable_review_title: undefined, //Show review title\n        enable_replies: true, //Show review replies\n        enable_images: true, //Show display review photos\n        enable_ratings: true, //Show product attributes (additional ratings)\n        enable_share: false, //Show share buttons\n        enable_helpful_vote: false, //Show \"was this helpful?\" section\n        enable_helpful_display: false, //Show how many times times review upvoted\n        enable_report: false, //Show report button\n        enable_date: true, //Show when review was published\n        enable_third_party_source: true, //Show third party source\n        enable_duplicate_reviews: undefined, //Show multiple reviews from the same user\n\n    },\n},\n//Translation settings\ntranslations: {\n    'Verified Customer': 'Verifizierter Kauf'\n},\n//Style settings:\nstyles: {\n    //Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.\n    '--base-font-size': '16px',\n\n    //Button styles (shared between buttons):\n    '--common-button-font-family': 'inherit',\n    '--common-button-font-size':'16px',\n    '--common-button-font-weight':'500',\n    '--common-button-letter-spacing':'0',\n    '--common-button-text-transform':'none',\n    '--common-button-vertical-padding':'10px',\n    '--common-button-horizontal-padding':'20px',\n    '--common-button-border-width':'2px',\n    '--common-button-border-radius':'0px',\n\n    //Primary button styles:\n    '--primary-button-bg-color': '#0E1311',\n    '--primary-button-border-color': '#0E1311',\n    '--primary-button-text-color': '#ffffff',\n\n    //Secondary button styles:\n    '--secondary-button-bg-color': 'transparent',\n    '--secondary-button-border-color': '#0E1311',\n    '--secondary-button-text-color': '#0E1311',\n\n    //Star styles:\n    '--common-star-color': '#FAC850',\n    '--common-star-disabled-color': 'rgba(0,0,0,0.25)',\n    '--medium-star-size': '22px',\n    '--small-star-size': '19px',\n\n    //Heading styles:\n    '--heading-text-color': '#0E1311',\n    '--heading-text-font-weight': '600',\n    '--heading-text-font-family': 'inherit',\n    '--heading-text-line-height': '1.4',\n    '--heading-text-letter-spacing': '0',\n    '--heading-text-transform': 'none',\n\n    //Body text styles:\n    '--body-text-color': '#0E1311',\n    '--body-text-font-weight': '400',\n    '--body-text-font-family': 'inherit',\n    '--body-text-line-height': '1.4',\n    '--body-text-letter-spacing': '0',\n    '--body-text-transform': 'none',\n\n    //Input field styles:\n    '--inputfield-text-font-family': 'inherit',\n    '--input-text-font-size': '14px',\n    '--inputfield-text-font-weight': '400',\n    '--inputfield-text-color': '#0E1311',\n    '--inputfield-border-color': 'rgba(0,0,0,0.2)',\n    '--inputfield-background-color': 'transparent',\n    '--inputfield-border-width': '1px',\n    '--inputfield-border-radius': '0px',\n\n    '--common-border-color': 'rgba(0,0,0,0.15)',\n    '--common-border-width': '1px',\n    '--common-sidebar-width': '190px',\n\n    //Filters panel styles:\n    '--filters-panel-bg-color': 'transparent',\n    '--filters-panel-font-size': '16px',\n    '--filters-panel-text-color': '16px',\n    '--filters-panel-horizontal-padding': '0',\n    '--filters-panel-vertical-padding': '0',\n\n    //Slider indicator (for attributes) styles:\n    '--slider-indicator-bg-color': 'rgba(0,0,0,0.1)',\n    '--slider-indicator-button-color': '#0E1311',\n    '--slider-indicator-width': '190px',\n\n    //Badge styles:\n    '--badge-icon-color': '#138A36',\n    '--badge-icon-font-size': 'inherit',\n    '--badge-text-color': '#525252',\n    '--badge-text-font-size': 'inherit',\n    '--badge-text-letter-spacing': 'inherit',\n    '--badge-text-transform': 'uppercase',\n\n    //Author styles:\n    '--author-font-size': 'inherit',\n    '--author-text-transform': 'none',\n\n    //Author avatar styles:\n    '--avatar-thumbnail-size': '60px',\n    '--avatar-thumbnail-border-radius': '100px',\n    '--avatar-thumbnail-text-color': '#0E1311',\n    '--avatar-thumbnail-bg-color': 'rgba(0,0,0,0.1)',\n\n    //Product photo or review photo styles:\n    '--photo-video-thumbnail-size': '80px',\n    '--photo-video-thumbnail-border-radius': '0px',\n\n    //Media (photo & video) slider styles:\n    '--mediaslider-scroll-button-icon-color': '#0E1311',\n    '--mediaslider-scroll-button-bg-color': 'rgba(255, 255, 255, 0.85)',\n    '--mediaslider-overlay-text-color': '#ffffff',\n    '--mediaslider-overlay-bg-color': 'rgba(0, 0, 0, 0.8))',\n    '--mediaslider-item-size': '110px',\n\n    //Pagination & tabs styles (normal):\n    '--pagination-tab-text-color': '#0E1311',\n    '--pagination-tab-text-transform': 'none',\n    '--pagination-tab-text-letter-spacing': '0',\n    '--pagination-tab-text-font-size': '16px',\n    '--pagination-tab-text-font-weight': '600',\n\n    //Pagination & tabs styles (active):\n    '--pagination-tab-active-text-color': '#0E1311',\n    '--pagination-tab-active-text-font-weight': '600',\n    '--pagination-tab-active-border-color': '#0E1311',\n    '--pagination-tab-border-width': '3px',\n},\n});\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "170814798825cb927e": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_dXpLzj": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#ffffff",
+            "z_index": 1,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_dXpLzj"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "rich_text_YajaAP": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {font-size: 14px; font-family: \"Rajdhani\", sans-serif; color: #e9a9b6; font-weight: 600; margin-bottom: -5px; margin-top: 20px; line-height: 17px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "{{ product.metafields.custom.seo_text | metafield_tag }}",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_Tz4QLi": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.metafield-rich_text_field {\n  font-size: 10px;\n  line-height: 14px;\n  color: #676767;\n  hyphens: auto;\n  word-break: break-word;\n  text-align: justify;\n}</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_ykPtXe",
+    "custom_liquid_CVzjxT",
+    "announcement_bar_animated_sh_VgimUQ",
+    "announcement_bar_animated_sh_hXiqmt",
+    "1707205712db334b9f",
+    "main",
+    "product-content",
+    "custom_liquid_GJC3Py",
+    "custom_liquid_mJdJbj",
+    "170814798825cb927e",
+    "rich_text_YajaAP",
+    "custom_html_Tz4QLi"
+  ]
+}

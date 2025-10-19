@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#buffer",
+            "title": "Buffer",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#normal",
+            "title": "Normale & Wechel Feilen",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sonstiges",
+            "title": "Sonstiges",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "dl_page_collection_headline_xzD7nk": {
+      "type": "dl-page-collection-headline",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Feile_2fcdb204-bb08-4133-b1cf-d971a65f4373.jpg",
+        "subheading": "",
+        "title": "Nagelfeilen & Buffer",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-feilen-buffer",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Buffer",
+        "content": "",
+        "css-klasse": "buffer",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-feilen-wechselfeilen",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Zum in Form feilen der Modellage",
+        "title": "Normale & Wechselfeilen",
+        "content": "",
+        "css-klasse": "feilen",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-feilen-sonstiges",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Sonstiges",
+        "content": "",
+        "css-klasse": "sonstiges",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.buffer, .normale, .sonstiges {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n .buffer, .normale, .sonstiges {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Schöne Nägel mit einer Nagelfeile?</h2><p>Wir alle haben eine, und wir alle brauchen eine, wir reden von unserer allerseits beliebten <strong>Nagelfeile</strong>. Ich glaube, es gibt keinen einzigen Haushalt in der nicht eine Nagelfeile existiert. Du bekommst eine Nagelfeile in verschiedenen Formen. Es gibt sie, in Lang, in Kurz, in Dick, in Dünn sogar in gebogen sind <strong>Nagelfeilen</strong> sehr beliebt. Man sieht du hast eine Menge Auswahl! Gepflegte Hände und Nägel, sind sowohl im Privatleben als auch im Berufsalltag sehr entscheidend. Denn deine Nägel sind ein Teil des ersten Eindrucks, den du bei anderen hinterlässt.</p><p></p><h2>Nägel,Feilen, Form! Welche Nagelfeilen Arten und Formen gibt es eigentlich?</h2><p><strong>Nagelfeilen</strong>, werden in verschiedenen Bereichen eingesetzt. Gerade bei einer Professionellen Maniküre werden oft verschiedene Arten von Feilen verwendet. Welche Form du für dich aussuchst, ist ganz von dir abhängig. Wie es für dich am einfachsten ist. Es ist immer wichtig, dass du dir deine Naturnägel anschaust welche Beschaffenheit sie haben, oder ob du eine Modellage auf deinen Nägeln trägst. Den für jede Modellage gibt es verschiedene professionelle Nagelfeilen. Einige davon sind zum Beispiel,<br/><br/>· Glasfeilen<br/>· Metallfeilen<br/>· Diamant Nagelfeile<br/>· Sandblattfeilen<br/>· Bufferfeile<br/>· Einweg Nagelfeilen<br/>· Polierfeile<br/><br/>Jetzt fragst du dich sicher, welche Nagelfeile oder Marke ist nun am besten für meine Nägel geeignet. Dazu kommen wir dann noch genauer. Wichtig, bei Sandblatt Nagelfeilen gibt es etwas sehr, sehr wichtiges zu beachten! Bevor du mit deiner Nagelfeile beginnen kannst zu feilen, gibt es immer einen Schritt den du beachten solltest um starke Schnitte und Verletzungen zu vermeiden. Du musst, und das ist wirklich ein Muss! Deine Nagelfeile unbedingt vorher entschärfen. Den die Seiten bei deiner <strong>Nagelfeile</strong> sind sehr scharf und gefährlich. Du nimmst dir eine zweite Feile zu Hand, und entschärfst sie von allen Seiten. Streiche mit den scharfen Rändern deiner Nagelfeile, entlang der Körnung der anderen Feile. So kannst du ganz einfach deine Nagelfeile entschärfen.</p><h2>Nagelfeile Gelnägel? Welche Nagelfeile ist am besten für Modellagen geeignet?</h2><p>Welche Nagelfeile Marke ist es nun? Für Modellagen verwendet man Sandblattfeilen in verschiedenen Körnungen. Meistens haben diese zwei verschiedene Seiten, eine die etwas gröber ist und eine die etwas feiner ist. Man sieht sehr oft Sandblattfeilen mit 100/180 Grit, die verschiedenen Zahlen zeigen dir, das die Nagelfeile verschiedene Seiten und Körnungen hat. Jetzt kommt es darauf an, welche Modellage du auf deinen Nägeln hast, oder welche du in Zukunft tragen möchtest. Dann beginnen wir jetzt einfach mit der <a href=\"https://lynis-nailshop.de/acryl\" title=\"Acryl\"><strong>Acryl</strong> </a>Modellage. Acryl ist im Gegensatz zu <a href=\"https://lynis-nailshop.de/gele\" title=\"Gel\"><strong>Gel</strong> </a>sehr hart und starr. Da kannst du schon eine Feile mit 80 oder 100 Grit verwenden. Denn mit einer 180 Nagelfeile würdest du ewig brauchen, bis du deine Fingernägel fertig in Form hast. Wir reden hier aber vom Material befeilen. Für deine Naturnägel sind diese groben Nagelfeilen nicht geeignet.</p><h2>Einweg Nagelfeilen, eine der hygienischsten Erfindungen überhaupt!</h2><p>In Nagelstudios und generell in der Beauty Branche nimmt die Verwendung von Einmal Nagelfeilen zu. Einweg Feilen, nennt man auch Wechselblatt Feilen, denn man zieht das Feilblatt ganz einfach nach der Verwendung von seinem Plastik oder <a href=\"https://lynis-nailshop.de/suche?controller=search&s=board\" title=\"Metallboard\"><strong>Metallboard </strong></a>ab. Diese Methode, ist total hygienisch und man kann so seinem Kunden wirklich eine perfekte Sauberkeit und Hygiene garantieren, da niemand vorher dieses Feilblatt verwendet hat. Diese Feilblätter bestehen auch aus Sandpapier nur mit dem Vorteil, dass man sie wie oben gesagt, einfach nach dem Feilen beim Kunden wegwerfen kann. Du bekommst diese Feilblätter in allen gängigen Arten und Körnungen. Nagelfeile Set? Bekommst du alles bei uns im Online Shop.</p><p></p><h2>Nagelfeile, Glas! Effektiv für meine Nägel</h2><p>Gute Nagelfeilen für zu Hause sind Glasfeilen, und Nagel Buffer. Sie werden sehr oft gekauft und sind für zu Hause sehr beliebt. Eine Glasfeile ist besonders hochwertig, jedoch solltest du aufpassen, einmal runter gefallen kann die Feile auch schon kaputt sein, da sie ja aus Glas besteht. Eine Glasfeile ist für deine Naturnägel optimal da sie sehr fein ist. Die Nagelfeile kann gut gereinigt werden und hält sehr lange. Dadurch, dass sie so fein ist, ist sie nicht unbedingt zum Kürzen der Nägel geeignet. Da wäre es immer gut, wenn du deine Nägel mit einer gröberen <strong>Nagelfeile </strong>kürzt und den letzten Schliff mit der Glasfeile machst. Den gerade diese Nagel Feilen, sind sehr schonend zu deinen Nägeln. Sie versiegeln deinen Nagel, damit dieser nicht mehr splittern kann. Solltest du zu Nägeln neigen die in einzelnen Schichten splittern, besorg dir eine Glasfeile. Diese Nagelfeile, ist am besten für deine Nägel geeignet und hilft dir den Spliss zu beseitigen. Buffer Nägel? Wenn du vorhast, dir deine Nägel mit Nagellack oder<strong> </strong><a href=\"https://lynis-nailshop.de/gellacke\" title=\"Gellack\"><strong>Shellac/ Gellack </strong></a>zu lackieren. Ist ein Nail Buffer für deine Nägel perfekt. Damit kannst du deine Nageloberfläche sanft mattieren und leichte Reste von der Nagelhaut vorsichtig entfernen. Ein Nagelbuffer wird sehr oft zur Vorbereitung und Nagelreinigung verwendet dabei spielt die Marke keine Rolle.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Nagelfeilen überall, was hat es damit auf sich?</h2><p>Meistens, tragen wir Frauen sogar eine <strong>Nagelfeile</strong> in unserer Handtasche mit herum. Wenn wir die Feile auch finden würden, wenn wir sie brauchen! Es ist einfach immer, in unseren Taschen zu viel Platz, dass sich eine Feile ganz einfach vor uns verstecken kann. Eine Feile in der Tasche hat den Zweck, dass wir vor den Tücken des Alltags gesichert sind, und natürlich zur Vorsorge, denn es kann passieren, dass uns jederzeit ein Nagel einreist oder wir uns einen abbrechen. Daher gehen wir, auf Nummer sicher, um sofort alles wieder in Form feilen zu können und schwerere Verletzungen zu vermeiden. Abgebrochene und eingerissene Nägel, egal wer! Niemand mag die Situation… Du bleibst dann überall mit deinen Fingernägeln hängen und der Nagel reißt dadurch noch mehr ein. Daher ist es schon praktisch, eine Nagelfeile jederzeit zur Hand zu haben und sofort handeln zu können.</p><h2>Körnung und Grit, zeigen dir die Stärke deiner Nagelfeile</h2><p>Einweg Nagelfeilen Dm? Gibt es eigentlich eine bestimmte Marke von Nagelfeilen, die am besten ist. Gerade wenn du dabei bist dir eine <strong>Nagelfeile</strong> in der Drogerie zu kaufen, stehst du vor einer großen Auswahl an Produkten. Welche Marke soll ich jetzt nehmen? Da kann dir die Körnung weiterhelfen. Die unterschiedliche Körnung sagt dir, für was du die Nagelfeile verwenden kannst. Ob bei Naturnägel oder Kunstnägel zum Kürzen zum Feilen oder einfach zum Polieren. Wenn du verschiedene Nagelfeilen verwendest arbeite dich immer von der gröberen Körnung zur feineren Körnung. So gibst du deinen Nägeln noch mal den letzten Schliff und gleichst damit tiefere Schleifspuren aus. Eine Körnung die als Grit angegeben wird, sagt dir wie grob oder wie fein deine Nagelfeile ist. Je höher der Wert desto feiner ist die Nagelfeile zu deinen Nägeln. Angefangen von den ganz groben mit 80 Grit, bis hin zu den sehr feinen Nagelfeilen mit einem Körnungsgrad von bis zu 600 Grit. Jede einzelne Nagelfeile hat ihren Zweck. Ein Nagelfeilen Set bestehend aus mehreren <strong>Feilen</strong> findest du bei uns im Shop unter der Kategorie Zubehör, Feilen und Buffer.</p><h2>Welche Nagelfeile für Gelnägel verwende ich jetzt?</h2><p><a href=\"https://lynis-nailshop.de/gele\" title=\"Gel\"><strong>Gel</strong> </a>ist nicht so hart und starr wie <a href=\"https://lynis-nailshop.de/acryl\" title=\"Acryl\"><strong>Acryl</strong></a>. Wobei wenn du <a href=\"https://lynis-nailshop.de/suche?controller=search&s=Fiberglasgel\" title=\"Fiberglasgel\"><strong>Fiberglasgel</strong> </a>oder <a href=\"https://lynis-nailshop.de/acrylgel\" title=\"Acrylgel\"><strong>Acrylgel</strong> </a>verwendest wirst du schon nochmal einen Unterschied von der Härte merken. Für Gelnägel eignet sich besonders gut eine Sandpapierfeile mit 100/180 Grit. Damit kannst du alles schön, in die Form bringen die du gerne möchtest. Gerade zum mattieren deiner Nägel und beim Tips kürzen eignet sich eine 180 Grit Nagelfeile sehr gut. Bitte beachte trotzdem, dass 180 auch für den Naturnagel, wenn du zu viel und zu lange auf der Nagelplatte feilst schädlich sein kann, das Problem wird dann, dass er zu dünn wird. Dadurch kannst du dir oder deiner Kundin Schmerzen zufügen, die erst, wenn der Nagel wieder komplett neu und in Natur Stärke nachgewachsen ist aufhören. Für Naturnägel sagt man immer 240 Grit, wobei ich die Erfahrung gemacht habe, dass eine bessere Haltbarkeit für deine Gelnägel bei 180 Grit am besten gegeben ist.</p><h2>Was ist die beste Nagelfeile für meine Naturnägel?</h2><p>Welche <strong>Nagelfeile</strong> du am besten für deine Maniküre zu Hause verwendest, kommt immer auf den Zustand und den Nageltyp deiner Fingernägel an. Hast du sehr weiche Naturnägel, rate ich dir dazu eine sanfte Feile mit feiner Körnung, also 240 Grit für deine Maniküre zu benutzen. Diese Feile ist dadurch sanfter zu deinen Nägeln und schädigt sie nicht. Damit kannst du deine Nägel richtig feilen. Die Metallfeile ist einer der beliebtesten Feilen, jedoch solltest du sie sehr vorsichtig einsetzen, sie lässt deine Nägel sehr leicht splittern. Daher ist sie nicht unbedingt für Fingernägel geeignet. Die Metallfeile besitzt eine feinere und eine gröbere Seite dadurch ist sie sehr gut für eine Pediküre geeignet, da Fußnägel dicker, stärker und weniger empfindlich sind. Schneide oder Knipse deine Nägel nur in Ausnahme Fällen. Am besten und am gesünderen ist es für deine Naturnägel, diese immer mit einer Nagel Feile kurz zu feilen. Denn mit dem schneiden passiert es sehr leicht, dass man zu viel wegschneidet und sich verletzt, und der Nagel spaltet sich vorne an der Nagelplatte oder fängt an zu splittern. Bedeutet, dass er dir sehr leicht einreißen wird.</p><h2>Was hat es mit Polierfeilen auf sich?</h2><p>Eine Polierfeile für Nägel, eignet sich besonders gut, wenn du Glanz auf deinen Naturnägeln bringen möchtest. Polierfeile Nägel? Diese Feile lässt sich ganz einfach und schnell anwenden. Du bewegst die Feile auf deinem Nagel, bis du ein richtig schönes Quietschen hörst. Dann weißt du, dass du die Feile richtig anwendest. Diese Feile kannst du öfters anwenden, gerade bei Maniküren sind Polierfeilen sehr beliebt. Jedoch hält der Glanz nicht so lange. Einfach öfters mal die Nägel polieren und deine Nägel sind immer schön glänzend. Sehr feine Körnungen von 400, kannst du sogar als Abschluss für deine Acrylnägel verwenden. Anstatt einem Versiegler, polierst du deine Acrylnägel einfach auf. Du kannst sie nach dem polieren dann einfach so lassen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "dl_page_collection_headline_xzD7nk",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

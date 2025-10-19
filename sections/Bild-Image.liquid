@@ -1,0 +1,106 @@
+<style>
+.bild-container {
+  text-align: center; /* Standard-Positionierung */
+}
+.bild-container.links {
+  text-align: left;
+}
+.bild-container.zentriert {
+  text-align: center;
+}
+.bild-container.rechts {
+  text-align: right;
+}
+/* Benutzerdefinierte CSS-Klasse wird hier nicht direkt angewendet, sondern als Klassenname hinzugefügt */
+</style>
+
+<div class="bild-container {{ section.settings.bild_positionierung }} {{ section.settings.custom_class }}">
+  {% if section.settings.bild != blank %}
+    {% if section.settings.bild_url != blank %}
+      <a href="{{ section.settings.bild_url }}">
+        <img src="{{ section.settings.bild | img_url: section.settings.bild_groesse }}" alt="{{ section.settings.alt_text }}">
+      </a>
+    {% else %}
+      <img src="{{ section.settings.bild | img_url: section.settings.bild_groesse }}" alt="{{ section.settings.alt_text }}">
+    {% endif %}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Bild-Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bild",
+      "label": "Bild auswählen"
+    },
+    {
+      "type": "text",
+      "id": "alt_text",
+      "label": "Alternativer Text",
+      "default": "Nageldesign-Bild"
+    },
+    {
+      "type": "select",
+      "id": "bild_groesse",
+      "label": "Bildgröße",
+      "options": [
+        {
+          "value": "small",
+          "label": "Klein"
+        },
+        {
+          "value": "medium",
+          "label": "Mittel"
+        },
+        {
+          "value": "large",
+          "label": "Groß"
+        },
+        {
+          "value": "original",
+          "label": "Original"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "bild_positionierung",
+      "label": "Bildpositionierung",
+      "options": [
+        {
+          "value": "links",
+          "label": "Links"
+        },
+        {
+          "value": "zentriert",
+          "label": "Zentriert"
+        },
+        {
+          "value": "rechts",
+          "label": "Rechts"
+        }
+      ],
+      "default": "zentriert"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Benutzerdefinierte CSS-Klasse",
+      "default": "Benutzerdefinierte CSS-Klasse"
+    },
+    {
+      "type": "url",
+      "id": "bild_url",
+      "label": "Bild URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Standard-Bild-Section"
+    }
+  ]
+}
+{% endschema %}

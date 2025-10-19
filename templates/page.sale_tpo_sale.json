@@ -1,0 +1,405 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block1",
+            "title": "Aufbaugel",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block2",
+            "title": "Liquid Builder",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block3",
+            "title": "Shellac",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block4",
+            "title": "Versiegler",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block5",
+            "title": "Farbgel",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block7",
+            "title": "Ab 6€",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3TTeMm": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block7",
+            "title": "ab 10€",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_GPLCWA": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block7",
+            "title": "",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_3JL4xx",
+        "story_item_PK38LE",
+        "story_item_TLG6iA",
+        "story_item_XKAYAz",
+        "story_item_BDmQte",
+        "story_item_3TTeMm",
+        "story_item_GPLCWA"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner:after {display: none;}",
+        ".image-wrapper {display: none !important;}",
+        ".stories-wrapper .inner .stories-nav .story-item {padding: 7px 10px 5px 10px !important; background: #d5d5d5; border-radius: 5px; color: white !important; border: 1px solid white; margin-left: 10px;}",
+        ".stories-wrapper .inner .stories-nav {padding: 10px 0 7px !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".image-overlay--small {--image-height: 200px;}",
+        ".button {line-height: 18px; padding: 5px 10px 5px 10px; letter-spacing: 0.5px; font-size: 10px; text-transform: none; line-height: 14px;}",
+        "@media (min-width: 1024px) {.button {font-size: 12px; line-height: 16px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Sale_5e7a2d05-bc98-478b-8830-3eedc20b2fb8.jpg",
+        "subheading": "NUR BIS SONNTAG!",
+        "title": "LAST MINUTE DEALS",
+        "content": "",
+        "button_text": "GÜNSTIG WIE NIE!",
+        "button_link": "#",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#de2b2b",
+        "button_text_color": "#fafafa",
+        "overlay_color": "#000000",
+        "overlay_opacity": 46
+      }
+    },
+    "countdown_QN4iUg": {
+      "type": "countdown",
+      "custom_css": [
+        ".timer {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "title": "ENDET IN ..",
+        "end_date": "2025-08-31 23:59",
+        "redirect_url": "#"
+      }
+    },
+    "model_view_QNMnNc": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "disabled": true,
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "MÄRZ 2024",
+        "title": "NEUE Produkte",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Das wird dich erwarten..",
+        "content": "<p>Es wird neue Farbgele geben, dazu neue Werkzeuge von Staleks und die beliebten Nailart Perlen in drei verschiedenen Farben!</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_blocks_ipAPCn": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_LAgcRD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farbgel-rosy-deckend-3.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_CrRLmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farbgel-rosy-deckend-3.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_Fca9BT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shellac-chrome-peach-farbe-fuer-naegel-led-uv-geeignet-selbstglaettend-gel-polish-fuer-gel-gellack-acryl-nageldesigns.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_LAgcRD",
+        "image_CrRLmc",
+        "image_Fca9BT"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Promotion blocks",
+        "section_size": "large",
+        "stack_on_mobile": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_product_QT67TW": {
+      "type": "featured-product",
+      "blocks": {
+        "variant_picker_Qtmgir": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "enable_block_styling": false,
+            "block_background": "#ffffff",
+            "block_border": "#000000",
+            "block_font_color": "#000000",
+            "block_background_selected": "#000000",
+            "block_border_selected": "#000000",
+            "block_font_color_selected": "#ffffff",
+            "block_border_not_available": "#000000",
+            "block_font_color_not_available": "#000000",
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_GLhDiq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker_Qtmgir",
+        "buy_buttons_GLhDiq"
+      ],
+      "disabled": true,
+      "name": "Featured product",
+      "settings": {
+        "product": "cover-creamy-rose",
+        "subheading": "Nur wenige Stückzahlen verfügbar",
+        "title": "TESTAKTION: Teste ein beliebtes Aufbaugele zum unschlagbaren Preis!",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "enable_image_zoom_icon": true,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "show_thumbnails_on_mobile": false,
+        "show_arrow_of_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "show_application_steps": false,
+        "application_steps_background": "#000000",
+        "application_steps_color": "#ffffff",
+        "font_size_application_steps": 10,
+        "application_steps_text_1": "",
+        "application_steps_text_2": "",
+        "application_steps_text_3": "",
+        "application_steps_text_4": ""
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "last-minute-sale",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "LAST MINUTE DEALS",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\nspan.loader-button__text {\n    line-height: 22px;\n}\nbutton.product-item__cta.button.button--primary.hidden-tablet-and-up {\n    padding: 5px;\n    letter-spacing: 1px;\n}\n\n.block1, .block2, .block3, .block4 , .block5 , .block6 {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .block1, .block2, .block3, .block4 , .block5 , .block6 {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "image_with_text_overlay_a94x7r",
+    "countdown_QN4iUg",
+    "model_view_QNMnNc",
+    "ed_headline_HUkXrn",
+    "rich_text_teMzPn",
+    "promotion_blocks_ipAPCn",
+    "featured_product_QT67TW",
+    "unterkategorie_bjNPkn",
+    "main",
+    "custom_html_DnEbXa"
+  ]
+}

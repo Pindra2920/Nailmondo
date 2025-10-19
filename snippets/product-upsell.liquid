@@ -1,0 +1,11 @@
+<br><div class="reeview-app-widget" id="reeview-app-widget_67811b4f70c433003fb518f8"></div>
+{% if product.metafields.jtl.upsells.value %}
+  <div class="upsell-container">
+    <div class="upsell_title_label">{{ block.settings.p_u_t }}</div>
+    <div
+      id="upsell_container"
+      data-products="{{ product.metafields.jtl.upsells.value }}"
+      data-btn="{{ block.settings.u_btn_text }}"
+    ></div>
+  </div>
+{% endif %}

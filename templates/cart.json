@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {}
+        },
+        "order_note": {
+          "type": "order_note",
+          "disabled": true,
+          "settings": {
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "order_note"
+      ],
+      "custom_css": [
+        "button.checkout-button.button.button--primary.button--full {max-height: 30px; margin-top: 10px;}",
+        ".shipping-estimator {display: none;}"
+      ],
+      "settings": {
+        "show_payment_methods": false,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "Germany",
+        "empty_button_link": "shopify://collections/all"
+      }
+    },
+    "cart-recommendations": {
+      "type": "cart-recommendations",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like"
+      }
+    },
+    "17080967944aa3771a": {
+      "type": "apps",
+      "blocks": {
+        "exemptify_exemptify_cart_validation_block_qbVQy9": {
+          "type": "shopify://apps/exemptify/blocks/ExemptifyCartValidationBlock/53648040-92ea-472b-92a5-eb781e92b01b",
+          "settings": {
+            "align_right": false,
+            "exemptify_cart_title": "EU VAT ID",
+            "title_size": 1.3,
+            "exemptify_cart_subttitle": "(VAT will be deducted at the next step)",
+            "subtitle_size": 0.8,
+            "exemptify_cart_placeholder": "EU VAT ID",
+            "exemptify_cart_email_placeholder": "Email address",
+            "additional_styles": "padding:10px;",
+            "additional_qs": "&"
+          }
+        }
+      },
+      "block_order": [
+        "exemptify_exemptify_cart_validation_block_qbVQy9"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cart-recommendations",
+    "17080967944aa3771a"
+  ]
+}

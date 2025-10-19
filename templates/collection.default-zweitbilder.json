@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        "nav.breadcrumb.breadcrumb--floating.text--xsmall.hidden-phone {display: none;}",
+        ".image-overlay--small {--image-height: 200px;}",
+        "h1.heading.h1 {text-align: center;}"
+      ],
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "section_height": "small",
+        "text_width": "fill",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        "span.label.label--highlight {display: none;}",
+        "@media (max-width: 768px) {.price--highlight {font-size: 14px !important; }}",
+        ".product-facet__meta-bar-item--count {display: none;}",
+        ".product-item__image-wrapper {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "show_sort_by": false,
+        "products_per_page": 100,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 5,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "drawer",
+        "show_model_view": true,
+        "checkfield_color": "#bfbfbf",
+        "model_view_image_order": 1,
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "multi_column_wEgbNn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_mh88qj": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "{{ collection.metafields.custom.seo_texte_left | metafield_tag }}",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_anKWGW": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "{{ collection.metafields.custom.seo_texte_rechts | metafield_tag }}",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_mh88qj",
+        "item_anKWGW"
+      ],
+      "custom_css": [
+        ".metafield-rich_text_field {text-align: justify;}",
+        ".multi-column__inner {grid-template-columns: repeat(2, 1fr);}",
+        ".multi-column__inner > * {min-width: 0; max-width: 100%;}",
+        "h2 {font-size: 14px; font-family: \"Rajdhani\", sans-serif; color: #e9a9b6; font-weight: 600; margin-bottom: -5px; margin-top: 20px; line-height: 17px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "{{ collection.metafields.custom.seo_text_headline.value }}",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_XFgBqG": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.metafield-rich_text_field {\n  font-size: 10px;\n  line-height: 15px;\n  color: #676767;\nword-break: break-word;\n  hyphens: auto;\n}</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "multi_column_wEgbNn",
+    "custom_html_XFgBqG"
+  ]
+}

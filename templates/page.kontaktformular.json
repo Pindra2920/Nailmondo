@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "custom_liquid_H4gAxe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div style=\"text-align: center;\">\n    <h3>Hinweis: Kundenservice hat Betriebsurlaub! ☀️ Der Paketversand findet weiterhin statt! 📦</h3>\n    In der Zeit vom <b>16.10 - 27.10.24</b> werden <u>keine</u> Anfragen beantwortet! Du wirst ab dem <b>28.10.24</b> eine Antwort erhalten ☺️ Danke für dein Verständnis!\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#cf0000",
+        "text_color": "#ffffff"
+      }
+    },
+    "multi_collumn_liquid_FAJtxi": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_kM68M8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/whatsapp-logo.png",
+            "image_width": 30,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "WhatsApp",
+            "content": "{% assign today = 'now' | date: \"%u\" %}\n{% if today == '6' or today == '7' %}\nAm Wochenende nicht verfügbar.\n{% else %}\n<a href=\"https://wa.me/4917658698791\" style=\"display:inline-block; background-color: #25D366; color: white; font-size: 12px; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; text-align:center; line-height:1; text-decoration:none;\"><b>über WhatsApp schreiben</b></a>\n<p style=\"font-size:11px; line-height:15px;\">Bitte <b>E-Mail</b> mit angeben!<p>\n{% endif %}",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "button",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_LLECYg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/analoges-telefon.png",
+            "image_width": 30,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Telefon",
+            "content": "{% assign today = 'now' | date: \"%u\" %}\n{% if today == '6' or today == '7' %}\nAm Wochenende nicht verfügbar.\n{% else %}\n<a href=\"tel:+4957416033910\" style=\"background-color: grey; color: white; font-size: 12px; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; line-height:1; text-decoration: none;\"><b>per Telefon anrufen</b></a><br>\n<p style=\"font-size:11px;line-height:15px;\"><b>+49 5741 / 6033910</b><br>(09:00 - 15:00 Uhr)<p>\n{% endif %}",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "button",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_kM68M8",
+        "item_LLECYg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Wir helfen dir gerne!",
+        "content": "{% assign today = 'now' | date: \"%u\" %}{% if today == '6' or today == '7' %}  Aktuell ist wochenende, daher kannst du nur per Formular eine Anfrage stellen.{% else %}  Schreib uns per WhatsApp, per Formular oder ruf uns an!{% endif %}",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#f7f7f7",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_XHCAhB": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "Wähle deine Anfrage!",
+        "liquid": "{% render 'kontaktformulare' %}\n<style>\n.globo-formbuilder {\n    text-align: center;\n}</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_H4gAxe",
+    "multi_collumn_liquid_FAJtxi",
+    "custom_liquid_XHCAhB"
+  ]
+}

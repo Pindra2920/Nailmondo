@@ -1,0 +1,579 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#liquid-gele",
+            "title": "Liquid Builder",
+            "icon": "shopify://shop_images/Liquid_Builder.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_D67DYz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XYGmy9": {
+          "type": "story-item",
+          "settings": {
+            "link": "#nofile",
+            "title": "No File",
+            "icon": "shopify://shop_images/nofile.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_D67DYz",
+        "story_item_TLG6iA",
+        "story_item_XYGmy9",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_UpbCxz",
+        "story_item_6DfUrC"
+      ],
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "model_view_VmDxBy": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#bababa"
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Aufbau- & Modellagegele",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbau-clear",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 120px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Clear & sonstige Gele",
+        "content": "",
+        "css-klasse": "clear-gele",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-cover-makeup",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Zum Abdecken & Kaschieren von Unebenheiten",
+        "title": "Cover & Make-Up Gele",
+        "content": "",
+        "css-klasse": "cover",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_twaEDU": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_KLxigQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-no-file",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KLxigQ"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Perfekt für den Aufbau ohne zu Feilen",
+        "title": "No File Builder",
+        "content": "",
+        "css-klasse": "nofile",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_W8QB3R": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_XGB9mr": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-liquidbuilder",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_XGB9mr"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 120px !important;}"
+      ],
+      "settings": {
+        "subheading": "Aufbaugele in der Flasche",
+        "title": "Liquid Builder",
+        "content": "",
+        "css-klasse": "liquid-gele",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-fiberglas",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Verstärkt den Nagel mit Fiberglasfasern",
+        "title": "Fiberglas Gele",
+        "content": "",
+        "css-klasse": "fiberglas",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-effektgele",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für funkelnde & schimmernde Nägel",
+        "title": "Effekt Gele",
+        "content": "",
+        "css-klasse": "effekt",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_xcddhE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_dqMkE6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-french",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqMkE6"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für perfekten French mit optimaler Deckkraft",
+        "title": "French Gele",
+        "content": "",
+        "css-klasse": "french",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_9gz3Gy": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_9GF7Nd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-farbige",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9GF7Nd"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für ein langanhaltendes Farbergebnis",
+        "title": "Farbige Gele",
+        "content": "",
+        "css-klasse": "farbige",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_iDjfXC": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_i36Ki6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-non-sticky",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_i36Ki6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Kann wie Knete mit Fingern geformt werden (Als Fullcover oder für Designs geeignet)",
+        "title": "Non Sticky Gele",
+        "content": "",
+        "css-klasse": "sticky",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .nofile, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -200px;\n    padding-top: 200px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .nofile, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n.product-item__quick-buy-button {\n    right: 5px !important;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>In diesem Beitrag werden wir alles Wissenswerte über <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>erklären, von den Vorteilen bis zur Anwendung und Pflege. Wenn du auf der Suche nach einem Produkt bist, das deinen Nägeln Stabilität und eine natürliche Optik verleiht, dann bist du hier genau richtig. Begleite uns auf einer Reise durch die Welt des <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugels </a>und entdecke, warum es ein absolutes Must-Have in der Nagelpflege ist!</p><h2>Aufbaugel: Was ist das?</h2><p>Bevor wir ins Detail gehen, schauen wir uns das <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>genauer an. <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>ist ein speziell formuliertes Gel, das verwendet wird, um künstlichen Nägeln oder dem natürlichen Nagel zusätzliche Stabilität und Festigkeit zu verleihen. Es wird in der Regel nach dem Auftragen des <a href=\"https://lynis-nailshop.de/collections/haftgel\" title=\"Grundiergel\">Grundierungsgels</a> auf den Nagel aufgetragen und unter einer <a href=\"https://lynis-nailshop.de/products/dual-uv-led-lampe\" title=\"LED Lampe\">UV- oder LED-Lampe </a>ausgehärtet. Das Aufbaugel bildet eine robuste Schicht, die den Nagel verstärkt und ihm eine natürliche, gleichmäßige Form gibt.</p><h2>Die Vorteile von Aufbaugel</h2><p>Aufbaugel bietet zahlreiche Vorteile für deine Nägel.</p><p>Hier sind einige der wichtigsten:</p><ul><li>Stärkung der Nägel: <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>stärkt die Nägel und verleiht ihnen mehr Stabilität. Es bildet eine Schutzschicht, die vor Brüchen und Absplittern schützt und so das Wachstum gesunder Nägel fördert.</li></ul><p></p><ul><li>Natürliches Aussehen: Das <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>sorgt für ein natürliches Aussehen der Nägel. Es gleicht Unebenheiten aus und verleiht den Nägeln eine glatte und gleichmäßige Oberfläche. So kannst du auch ohne künstliche Nagelverlängerungen schöne und gepflegte Nägel genießen.</li></ul><p></p><ul><li>Verlängerung der Nägel: <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>ermöglicht es, kurze Nägel zu verlängern. Damit kannst du individuelle Nagelstile kreieren und deiner Kreativität freien Lauf lassen.</li></ul><p></p><ul><li>Haltbarkeit der Maniküre: Das <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>sorgt dafür, dass deine Maniküre länger hält. Es schützt den Lack vor Absplittern und verlängert die Haltbarkeit des Designs. So kannst du dich länger an einer perfekten Maniküre erfreuen.</li></ul><p></p><ul><li>Einfache Anwendung: <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>kann sowohl von professionellen Nageldesignern als auch von dir zu Hause angewendet werden. Mit etwas Übung und den richtigen Werkzeugen kannst du das Gel problemlos auftragen und unter einer UV- oder LED-Lampe aushärten.</li></ul><p></p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>FAQ's zum <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel</a></h2><p>Ist <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>schädlich für die Nägel?</p><p>Nein, <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>ist nicht schädlich für die Nägel, solange es korrekt angewendet wird. Es ist wichtig, das Gel in dünnen Schichten aufzutragen und zwischen den Schichten ausreichend Zeit zum Aushärten zu lassen. Wenn das Aufbaugel ordnungsgemäß entfernt wird und die Nägel regelmäßig gepflegt werden, bleibt die Gesundheit der Nägel erhalten.</p><p>Wie entferne ich <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel</a>?</p><p><a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>kann durch Feilen (<a href=\"https://lynis-nailshop.de/pages/nagelfeilen-buffer\" title=\"Feile\">Handfeile </a>oder <a href=\"https://lynis-nailshop.de/products/fraeser-tritor-one\" title=\"Fräser\">Fräser</a>) entfernt werden. Wenn du das Gel selbst entfernen möchtest, solltest du vorsichtig <a href=\"https://lynis-nailshop.de/pages/nagelfeilen-buffer\" title=\"Feile\">feilen </a>und darauf achten, die natürlichen Nägel nicht zu beschädigen.</p><p>Kann ich <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>auf dünnen oder brüchigen Nägeln verwenden?</p><p>Ja, <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel </a>kann verwendet werden, um dünnen oder brüchigen Nägeln mehr Stabilität zu verleihen. Es ist jedoch wichtig, die Nägel vor dem Auftragen des Gels gut zu pflegen um die Gesundheit und Stärke zu verbessern.</p><h2>Fazit</h2><p><a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\">Aufbaugel</a> ist die perfekte Lösung, um deinen Nägeln mehr Stabilität und ein natürliches Aussehen zu verleihen. Mit seinen Vorteilen wie der Stärkung der Nägel, der Verlängerung der Maniküre und der einfachen Anwendung ist Aufbaugel ein unverzichtbares Produkt in der Nagelpflege. Ob du kurze Nägel optisch verlängern möchtest oder deine natürlichen Nägel stärken willst, Aufbaugel ist die Antwort. Probiere es aus und erlebe die wunderbare Welt schöner und gepflegter Nägel!</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "model_view_VmDxBy",
+    "ed_headline_HUkXrn",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_twaEDU",
+    "unterkategorie_W8QB3R",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_WJ8Ter",
+    "unterkategorie_xcddhE",
+    "unterkategorie_9gz3Gy",
+    "unterkategorie_iDjfXC",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

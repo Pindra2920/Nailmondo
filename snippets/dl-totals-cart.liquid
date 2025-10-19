@@ -1,0 +1,195 @@
+{% comment %} CHECK FREE SHIPPING AMOUNT {% endcomment %}
+{% if settings.cart_free_shipping_threshold != blank %}
+  {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold | plus: 0 %}
+{% else %}
+  {% assign cart_free_shipping_threshold = false %}
+{% endif %}
+{% comment %} END {% endcomment %}
+
+{% assign cart_total_price = cart.total_price | divided_by: 100 %}
+
+{% comment %} CHECK SHIPPING PRICE {% endcomment %}
+{% if settings.shipping_price != blank %}
+  {% assign shipping_price = settings.shipping_price | times: 1.0 %}
+{% else %}
+  {% assign shipping_price = 0 %}
+{% endif %}
+{% comment %} END {% endcomment %}
+
+{% comment %} CHECK IF CALCULATION IS ENABLED {% endcomment %}
+{% if settings.calculation_of_free_shipping == false %}
+  {% assign shipping_price = 0 %}
+{% endif %}
+{% comment %} END {% endcomment %}
+
+{% comment %} IF FREE SHIPPING AMOUNT IS REACHED {% endcomment %}
+{% if cart_total_price >= cart_free_shipping_threshold and settings.cart_free_shipping_threshold != blank %}
+  {% assign shipping_price = 0 %}
+{% endif %}
+{% comment %} END {% endcomment %}
+
+{% comment %}Calculate discounts based on strike prices{% endcomment %}
+{% assign compare_at_price_total_discount = 0 %}
+{% assign regular_item_prices = 0 %}
+{% for item in cart.items %}
+  {% if item.variant.compare_at_price > item.final_price %}
+    {% assign compare_at_price_discount = item.variant.compare_at_price
+      | minus: item.final_price
+      | times: item.quantity
+    %}
+    {% assign compare_at_price_total_discount = compare_at_price_total_discount | plus: compare_at_price_discount %}
+  {% endif %}
+  {% if item.variant.compare_at_price > item.final_price %}
+    {% assign regular_item_price = item.variant.compare_at_price | times: item.quantity %}
+  {% else %}
+    {% assign regular_item_price = item.original_price | times: item.quantity %}
+  {% endif %}
+  {% assign regular_item_prices = regular_item_prices | plus: regular_item_price %}
+{% endfor %}
+{% assign total_discount = compare_at_price_total_discount | plus: cart.total_discount %}
+{% assign regular_item_prices_plus_shipping = regular_item_prices | plus: shipping_price %}
+{% comment %}END{% endcomment %}
+
+{% comment %} CALCULATE ALWAYS TOTAL CART PRICE {% endcomment %}
+{% assign final_cart_total_price = cart.total_price | plus: shipping_price %}
+{% comment %} END {% endcomment %}
+
+<div class="totals">
+  {% comment %} IF CALCULATION OF DELIVERY FEES IS DEACTIVATED {% endcomment %}
+  {% if settings.calculation_of_free_shipping != false %}
+    {% if settings.shipping_price != blank %}
+      {% if cart.total_discount > 0 %}
+        <div class="totals-row">
+          <h3 class="totals__subtotal">Rabattcode</h3>
+          <span class="totals__subtotal-value"><span class="discount-label">-{{ cart.total_discount | money }}</span></span>
+        </div>
+      {% endif %}
+      {% if compare_at_price_total_discount > 0 %}
+        <div class="totals-row">
+          <h3 class="totals__subtotal">{{ 'cart.general.productdiscount' | t }}</h3>
+          <!--
+            <span class="totals__subtotal-value"><span class="discount-label">{{ total_discount | money }}</span></span>
+          -->
+          <span class="totals__subtotal-value">
+            <span class="discount-label">{{ compare_at_price_total_discount | money }}</span>
+          </span>
+        </div>
+      {% endif %}
+      {% comment %} TOTAL DISCOUNT {% endcomment %}
+      {% if total_discount > 0
+        and compare_at_price_total_discount > 0
+        and total_discount > compare_at_price_total_discount
+      %}
+        <div class="totals-row">
+          <h3 class="totals__subtotal">
+            <b>{{ 'cart.general.total_discount' | t }}</b>
+          </h3>
+          <span class="totals__subtotal-value"
+            ><span class="discount-label">{{ total_discount | money }}</span></span
+          >
+        </div>
+        <hr>
+      {% endif %}
+
+
+  <div class="totals-row">
+    <h3 class="total__value totals__subtotal">{{ 'cart.general.subtotal' | t }}</h3>
+
+    
+{% comment %} SICHERUNG MIT SHIPPINGCOSTS 
+    <span class="totals__subtotal-value">
+      {% if total_discount > 0 -%}
+        statt <span class="price--compare">{{ regular_item_prices_plus_shipping | money }}</span> nur
+      {%- endif %}
+      <span class="total-value-price">{{ final_cart_total_price | money }}</span>
+    </span>
+{% endcomment %}
+    
+    <span class="totals__subtotal-value">
+      {% if total_discount > 0 -%}
+        statt <span class="price--compare">{{ regular_item_prices | money }}</span> nur
+      {%- endif %}
+      <span class="total-value-price"><b>{{ cart.total_price | money }}</b></span>
+    </span>
+
+  </div>
+      
+{% comment %} VERSANDANZEIGE {% endcomment %}
+<div class="totals-row">
+  <h3 class="totals__subtotal">{{ 'cart.general.delivery' | t }}</h3>
+  <span class="totals__subtotal-value totals__subtotal-value-price">
+    {% if customer %}
+      {% assign customerIsFromGermany = false %}
+      {% for address in customer.addresses %}
+        {% if address.country == "Deutschland" %}
+          {% assign customerIsFromGermany = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if customerIsFromGermany %}
+        {% if shipping_price == 0 %}
+          <span class="free-shipping-label">GRATIS Versand</span>
+        {% else %}
+          {{ shipping_price | money }}
+        {% endif %}
+      {% else %}
+      <i>ab 9,99 €</i>
+      {% endif %}
+    {% else %}
+      {% if shipping_price == 0 %}
+        <span class="free-shipping-label">in 🇩🇪 {{ 'cart.general.free' | t }}</span>
+      {% else %}
+        <i>wird in der Kasse berechnet</i>
+      {% endif %}
+    {% endif %}
+  </span>
+</div>
+
+
+
+      {% if settings.show_free_return != false %}
+        <div class="totals-row">
+          <h3 class="totals__subtotal">{{ 'cart.general.return' | t }}</h3>
+          <span class="totals__subtotal-value">
+            <span class="free-shipping-label">{{ 'cart.general.free' | t }}</span>
+          </span>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+  {% comment %} END {% endcomment %}
+
+</div>
+
+{% comment %} IF CALCULATION OF DELIVERY FEES IS DEACTIVATED {% endcomment %}
+{% if settings.calculation_of_free_shipping != false %}
+  {% if settings.shipping_price != blank %}
+    <script>
+      document.addEventListener("cart:updated", function (event) {
+          let cart = event.detail.cart; // Gives you access to the whole variant details
+          let cartSubtotal = cart.total_price / 100;
+
+          if (cart.items_subtotal_price > 0) {
+              setTimeout(() => {
+                  let deliveryPriceDiv = document.querySelector('.totals .totals__subtotal-value-price');
+                  let TotalPriceDiv = document.querySelector('.totals .total-value-price');
+                  let deliverThreshold = {{ cart_free_shipping_threshold }};
+
+                  let deliveryPriceCents = {{ shipping_price }};
+                  let deliveryPriceEuro = deliveryPriceCents / 100;
+
+                  if (cartSubtotal >= deliverThreshold && deliverThreshold != false) {
+                      deliveryPriceDiv.innerHTML = "<span class='free-shipping-label'>{{ 'cart.general.free' | t }}</span>";
+                  } else {
+                      let newTotalPrice = deliveryPriceEuro + cartSubtotal;
+                      deliveryPriceDiv.innerText = {{ shipping_price | money}};
+                      TotalPriceDiv.innerText = newTotalPrice.toFixed(2) + " €";
+                  }
+
+              }, 900);
+          }
+      });
+    </script>
+  {% endif %}
+{% endif %}
+{% comment %} END {% endcomment %}

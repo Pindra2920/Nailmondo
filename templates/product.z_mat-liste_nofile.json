@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1707205712db334b9f": {
+      "type": "apps",
+      "blocks": {
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU": {
+          "type": "shopify://apps/categories/blocks/category-breadcrumbs/2d8e3108-b94b-4b0c-8f03-e3726bad87be",
+          "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000ee",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#afafaf",
+            "title_decoration": "",
+            "title_transform": "",
+            "spacing_above": 15,
+            "spacing_below": 15,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": true,
+            "show_catroot": false,
+            "link_catroot": "/",
+            "text_catroot": "Start",
+            "show_tags": false,
+            "show_finalbread_as_textonly": true,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": true,
+            "prod_multicat_sel": "leastprod",
+            "link_catall": "/collections/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 35,
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
+          }
+        }
+      },
+      "block_order": [
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_rNXyYm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign items = product.metafields.jtl.bulletpoints | split: '•' %}\n<ul style=\"list-style-type:none; padding: 0;\">\n{% for item in items %}\n  {% if item != '' %}\n  <li style=\"display: flex; margin-bottom: 6px;\">\n    <span style=\"white-space: nowrap; margin-right: 5px;\">•</span>\n    <span style=\"flex: 1;\">{{ item | strip }}</span>\n  </li>\n  {% endif %}\n{% endfor %}\n</ul>"
+          }
+        },
+        "liquid_Aw4kfd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.jtl.produktinfo != blank %}\n{{ product.metafields.jtl.produktinfo }}\n{% endif %}"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_rNXyYm",
+        "liquid_Aw4kfd"
+      ],
+      "custom_css": [
+        ".product-meta__price-list-container {display: none !important;}",
+        ".bewertungsblock {display: none;}",
+        ".b2b-text {display: none;}"
+      ],
+      "settings": {
+        "bundle_title": "Choose your 4 products",
+        "bundle_title_after": "Gute Wahl!!!",
+        "optional_product": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_title_sticky_add_to_cart": false,
+        "show_variant_selection_sticky_add_to_cart": false,
+        "show_price_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "enable_image_zoom_icon": false,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "color_video_story": "#c8c8c8",
+        "show_thumbnails_on_mobile": true,
+        "show_arrow_of_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "show_application_steps": false,
+        "application_steps_background": "#0d0d0d",
+        "application_steps_color": "#f5f5f5",
+        "font_size_application_steps": 12,
+        "application_steps_text_1": "It is a long established fact that a reader will be",
+        "application_steps_text_2": "It is a long established fact that a reader will be",
+        "application_steps_text_3": "It is a long established fact that a reader",
+        "application_steps_text_4": "It is a long established fact that a reader will",
+        "enable_social_proof": false,
+        "social_proof_background": "#ffffff",
+        "social_proof_text": "#000000",
+        "social_proof_box_style": "0",
+        "ppl_social_proof": "Mert, Lukas",
+        "enable_insta_checkmark": true,
+        "text_social_proof": "und 10.000 andere lieben unsere Produkte",
+        "enable_text_bold": false,
+        "enable_popular_variants": true,
+        "popular_variants_badge": "#de2a2a",
+        "popular_variants_badge_color": "#f5f5f5",
+        "popular_variants_text": "Bestseller",
+        "enable_buy_box": true,
+        "buy_box_border_color": "#d7d7d7",
+        "buy_box_bg_color": "#ffffff",
+        "buy_box_border_radius": 15,
+        "update_prices_on_qty_change": true
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "enable_desktop_accordion": false
+      }
+    },
+    "rich_text_hRQzJJ": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Wähle deine Produkte selbst aus!",
+        "content": "<p>Wenn du genau dieselben Ergebnisse erzielen möchtest wie in dem Training, dann kannst du hier die Produkte wählen.</p><p>Du kannst natürlich auch mit bereits vorhandenen arbeiten, allerdings kann die Verarbeitung der Produkte dann variieren.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ececec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "produkte_materialiste_LnGdYm": {
+      "type": "produkte-materialiste",
+      "settings": {
+        "subheading": "",
+        "title": "No File Gele",
+        "recommendations_count": 19,
+        "products": [
+          "no-file-builder-gel-almond",
+          "no-file-builder-gel-beige",
+          "no-file-builder-gel-blossom-2",
+          "no-file-builder-gel-clear",
+          "no-file-builder-gel-milky-white-2",
+          "no-file-builder-gel-sugar-n-sweets",
+          "no-file-builder-gel-warm-pink"
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "produkte_materialiste_cBmLFP": {
+      "type": "produkte-materialiste",
+      "settings": {
+        "subheading": "",
+        "title": "Liquid Builder Gele",
+        "recommendations_count": 19,
+        "products": [
+          "liquid-builder-creamy-rose",
+          "liquid-builder-ivory",
+          "liquid-builder-naked",
+          "liquid-builder-nude",
+          "liquid-builder-princess",
+          "liquid-builder-soft-nature",
+          "liquid-builder-soft-white"
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "produkte_materialiste_piRBRt": {
+      "type": "produkte-materialiste",
+      "settings": {
+        "subheading": "",
+        "title": "Flüssigkeiten & Gele",
+        "recommendations_count": 4,
+        "products": [
+          "ultra-bond-saurefrei-15ml",
+          "primer-saeurehaltig",
+          "high-gloss-uv-protect-10ml"
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "produkte_materialiste_fDWbjU": {
+      "type": "produkte-materialiste",
+      "settings": {
+        "subheading": "",
+        "title": "Werkzeuge",
+        "recommendations_count": 4,
+        "products": [
+          "nagelschere-asymetrisch-uniq-20-typ-4-staleks-pro",
+          "lyni-allrounder-pinsel-groesse-6",
+          "nailartpinsel-fineliner",
+          "kunststoff-board-expert-20-staleks-pro",
+          "donutfeile-staleks",
+          "modellierschablone-500er-rolle-lyni",
+          "acrylgel-pinsel-mit-spatel",
+          "pro-pusher-staleks",
+          "all-in-tips-clear"
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "produkte_materialiste_QCLq6x": {
+      "type": "produkte-materialiste",
+      "settings": {
+        "subheading": "",
+        "title": "Bits",
+        "recommendations_count": 4,
+        "products": [
+          "nagelhaut-hartmetallbit-birnenform",
+          "diamantbit-nagelhaut",
+          "diamant-bit-flamme-fein",
+          "diamant-bit-flamme-normal",
+          "diamant-bit-flamme-superfein",
+          "hartmetall-fraeser-bit-birne",
+          "diamant-bit-birne-mittel",
+          "diamant-bit-birne-fein-1",
+          "hartmetall-fraser-bit-birne-schmal",
+          "hartmetallfraser-kegel-normal",
+          "kegel-normal-hartmetall-bit"
+        ],
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "175143425717ba0140": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_hn4EC6": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#FFFFFF",
+            "z_index": 1,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_hn4EC6"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "1707205712db334b9f",
+    "main",
+    "product-content",
+    "rich_text_hRQzJJ",
+    "produkte_materialiste_LnGdYm",
+    "produkte_materialiste_cBmLFP",
+    "produkte_materialiste_piRBRt",
+    "produkte_materialiste_fDWbjU",
+    "produkte_materialiste_QCLq6x",
+    "175143425717ba0140"
+  ]
+}

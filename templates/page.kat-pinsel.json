@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "dl_page_collection_headline_tAAgYi": {
+      "type": "dl-page-collection-headline",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/manikuere-prozess-der-meister-poliert-den-nagel-mit-einer-automatisierten-maschine-poliermittelentferner-bohren_1.png",
+        "subheading": "",
+        "title": "Pinsel",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Pinsel",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pinsel-modellier-pinsel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für einen Präzisen Auftrag",
+        "title": "Modellier Pinsel",
+        "content": "",
+        "css-klasse": "modellier",
+        "products_count": 100,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pinsel-nailart-pinsel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "NailArt Pinsel",
+        "content": "",
+        "css-klasse": "nailart",
+        "products_count": 100,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pinsel-sonstiges",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Staubpinsel & Halterungen",
+        "content": "",
+        "css-klasse": "sonstige",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.modellier, .nailart, .staub, .sonstiges {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n .modellier, .nailart, .staub, .sonstiges {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Welche Nailart Pinsel gibt es?</h2><p>Wenn du noch nie von einem <a href=\"https://lynis-nailshop.de/products/ombre-pinsel\" title=\"Ombre Pinsel\"><strong>Ombre Pinsel</strong></a> gehört hast, dann wird es Zeit, dass du dir einen kaufst! Mit diesem <a href=\"https://lynis-nailshop.de/products/ombre-pinsel\" title=\"Ombre Pinsel\"><strong>Ombre Nägel Pinsel</strong></a> gehen Ombre Muster sehr einfach. Natürlich bedarf es Übung, aber viele schwören darauf, dass dies die einzige Möglichkeit ist, eine schöne und einfache <a href=\"https://lynis-nailshop.de/products/ombre-pinsel\" title=\"Ombre Pinsel\"><strong>Ombre Pinsel</strong> <strong>Nailart</strong></a><strong> </strong>auf deine Nägel zu zaubern. Verläufe gehen durch die abgeschrägten und fluffigen Haare besonders gut. Mit dem trockenen <a href=\"https://lynis-nailshop.de/products/ombre-pinsel\" title=\"Ombre Pinsel\"><strong>Nailart Pinsel</strong></a> lassen sich Pigmente gut aufnehmen und auf deinen Nagel tupfen. <a href=\"https://lynis-nailshop.de/products/babyboomer-pinsel\" title=\"Babyboomer Pinsel\"><strong>Pinsel Babyboomer</strong></a>? Ja, es gibt sogar einen eigenen Pinsel für Babyboomer Techniken. Mit diesem <a href=\"https://lynis-nailshop.de/products/babyboomer-pinsel\" title=\"Babyboomer Pinsel\"><strong>Nailart Pinsel</strong></a> lassen sich wunderschöne Babyboomer und Verläufe verarbeiten. Der Unterschied zum <a href=\"https://lynis-nailshop.de/products/ombre-pinsel\" title=\"Ombre Pinsel\"><strong>Ombre Pinsel</strong></a> ist, dass der <a href=\"https://lynis-nailshop.de/products/babyboomer-pinsel\" title=\"Babyboomer Pinsel\"><strong>Babyboomer Pinsel</strong> </a>unterschiedlich lange Borsten (Pinselhaare) besitzt und somit sehr einfach für Verläufe anwendbar ist. <a href=\"https://lynis-nailshop.de/products/babyboomer-pinsel\" title=\"Babyboome Pinsel\"><strong>Babyboomer Nägel Pinsel</strong></a> solltest du einmal ausprobieren. Viele Nageldesigner haben ein Problem mit einem Boomer. Mit etwas Übung und dem perfekten <a href=\"https://lynis-nailshop.de/products/babyboomer-pinsel\" title=\"Babyboomer Pinsel\"><strong>Nailart Pinsel</strong></a> gelingt dir der Babyboomer Look jedoch um vieles leichter. Solltest du es noch nicht gesehen haben, in unserem <a href=\"https://lynis-nailshop.de/\" title=\"Nailshop\"><strong>Shop</strong> </a>bieten wir verschiedene <a href=\"http://www.lynis-nailacademy.de/\" title=\"Nailacademy\"><strong>Online-Schulungen</strong></a> an, falls du Hilfe brauchst, Probleme mit <a href=\"https://lynis-nailacademy.de/nailart-schulung/\" title=\"Nailart Schulung\"><strong>Nailart</strong> </a>oder einem <a href=\"https://lynis-nailacademy.de/babyboomer-kurs/\" title=\"Babyboomer Schulung\"><strong>Babyboomer</strong> </a>hast, vielleicht willst du auch einfach wissen, wie eine <a href=\"https://lynis-nailacademy.de/russische-manikure-kurs/\" title=\"Maniküre Schulung\"><strong>Maniküre</strong> </a>richtig funktioniert. Egal, ob Anfänger oder Fortgeschritten, mit den <a href=\"http://www.lynis-nailacademy.de/\" title=\"Onlineschulung\"><strong>Online-Schulungen</strong></a> kannst du dich weiterbilden. Solltest du auf den Geschmack gekommen sein, mit Nageldesign zu beginnen, bist du bei uns in den richtigen Händen. Es gibt eine Kombination für die <strong>Hygiene</strong> zum Reinigen deiner<strong> </strong><a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nailart Pinsel\"><strong>Nailart Pinsel</strong></a>. Verwende nicht unbedingt <a href=\"https://lynis-nailshop.de/products/cleaner-nageldesign\" title=\"Cleaner\"><strong>Cleaner</strong></a>. Entweder du streichst den Farbrest auf einer <a href=\"https://lynis-nailshop.de/products/zelletten\" title=\"Zellette \"><strong>Zellette</strong> </a>aus oder du reinigst deinen <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Pinsel \"><strong>Pinsel</strong> </a>mit dünn viskosen <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegelungsgel\"><strong>Versiegelungsgel</strong></a>. Ich bevorzuge beides gemeinsam und mit dieser <strong>Pflege</strong> bleiben deine Flachpinsel in top Form. Bei einem <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Gel Nailart Pinsel\"><strong>Gel Nailart Pinsel</strong></a> für deine Modellage reicht ein leichtes Abstreifen aus. Du musst nicht mehr machen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Was ist ein Katzenzungenpinsel?</h2><p>Anwendung <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Katzenzungenpinsel\"><strong>Katzenzungenpinsel</strong></a>! Ein Katzenzungenpinsel ist einer für alles. Egal, ob flach oder rund. Mit einer <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Katzenzungenpinsel\"><strong>Katzenzungenpinsel</strong></a>-Borste kannst du sowohl weiche Farbverläufe als auch mit der Pinselspitze fein zulaufende Striche auf deine Fingernägel malen. <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Katzenzungenpinsel\"><strong>Katzenzungenpinsel</strong></a>-Gel? Sehr viele benutzen diesen <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Pinsel \"><strong>Pinsel</strong> </a>auch für das Arbeiten mit Gel. <a href=\"https://lynis-nailshop.de/products/3d-nailartpinsel-rosegold\" title=\"3D Nailart Pinsel\"><strong>3D Nailart Pinsel</strong></a>, mittlerweile ein wichtiges Handwerkszeug. Wozu benötige ich einen <a href=\"/products/3d-gelpinsel\" title=\"3D Gelpinsel\"><strong>3D Pinsel</strong></a>? Dieser <a href=\"https://lynis-nailshop.de/products/3d-nailartpinsel-rosegold\" title=\"Nail Art Pinsel 3D\"><strong>Nail Art Pinsel 3D</strong></a> eignet sich perfekt durch seine Spitze für 3D Acryl Blümchen und Malen mit <a href=\"https://lynis-nailshop.de/collections/farbgel\" title=\"Farbgel\"><strong>Gel</strong> </a>oder <a href=\"https://lynis-nailshop.de/collections/acryl-farbpowder\" title=\"Farbpowder\"><strong>Acryl</strong> </a>Farben. Jeder, und auch du, hat seine Vorlieben mit welchem <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nail Art Pinsel\"><strong>Nail Art Pinsel</strong></a> er am liebsten arbeitet. Gerade für Modellagen ist es wichtig, dass man sich durch die ganzen <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nail Art Pinsel\"><strong>Nail Art Pinsel</strong></a> testet und seinen <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nail Art Pinsel\"><strong>Nail Art Pinsel</strong></a> findet, denn du sollst so einfach wie möglich arbeiten können. Bei <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nail Art Pinsel\"><strong>Nail Art Pinsel</strong></a> ist generell zu beachten: Kleine Arbeiten = <strong>kleine Pinsel</strong>, Große Arbeiten= <strong>große Pinsel</strong>, du musst für dich selbst bestimmen, mit welcher Größe du arbeitest.</p><h2>Wie bestimme ich die Größe meines Nailart Gelpinsel?</h2><p>Die am meisten verwendeten <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Gel Nailart Pinsel\"><strong>Gel Nailart Pinsel</strong></a> sind in den Größen 4 oder 6. Beim <a href=\"https://lynis-nailshop.de/products/lyni-allrounder-pinsel-groesse-6\" title=\"Fullcover Pinsel\"><strong>Fullcover</strong> </a>auftragen ist immer Größe 6 von Vorteil. Beim Modellieren kommt sehr oft Größe 6 zum Einsatz. Schau dir einfach das Nagelbett deiner Kundin sehr gut an, damit lässt sich die Pinselgröße ganz leicht bestimmen. Bei längeren oder extrem langen Nägeln ist Größe 8 zu bevorzugen, denn sonst würdest du ewig an einem Nagel mit der Arbeit brauchen, da du mehr Material benötigst. Die Größe deines <strong>Pinsels</strong> bestimmt die Aufnahmemenge von deinem <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Aufbaugel\"><strong>Gel</strong> </a>oder <a href=\"https://lynis-nailshop.de/collections/acryl-powder\" title=\"Acryl Powder\"><strong>Acryl</strong> </a>und beeinflusst somit auch das Ergebnis. Preise variieren je nach Art und Beschaffenheit deines <a href=\"https://lynis-nailshop.de/pages/nageldesign-pinsel\" title=\"Nailart Pinsel\"><strong>Pinsels</strong></a>. Ein <a href=\"https://lynis-nailshop.de/products/pinsel-set\" title=\"Pinselset\"><strong>Katzenzungenpinsel Set</strong> </a>findest du bei uns im <a href=\"https://lynis-nailshop.de/\" title=\"Nailahop\"><strong>Shop</strong> </a>Sortiment unter der Kategorie <strong>Zubehör</strong> und der Produktart, <strong>Pinsel</strong>. Eine große Auswahl und verschiedenste Vorteile in den Produktkategorien für deine perfekte Modellage findest du in unserem <a href=\"https://lynis-nailshop.de/\" title=\"Nailshop\"><strong>Online Shop</strong></a>. Egal, ob <a href=\"https://lynis-nailshop.de/pages/aufbaugele\" title=\"Gele\"><strong>Gele</strong></a>, <a href=\"https://lynis-nailshop.de/collections/acryl-powder\" title=\"Acrylpulver\"><strong>Acrylpulver</strong></a>, <a href=\"https://lynis-nailshop.de/collections/farbgel\" title=\"Farbgel\"><strong>Farbe</strong></a>, <strong>Sets</strong> und viele weitere Artikel und Produkte warten bei uns im <strong>Shop</strong> darauf, von dir entdeckt zu werden.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Nageldesign Pinsel für NailArt, Gel & Acryl",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "dl_page_collection_headline_tAAgYi",
+    "ed_headline_HUkXrn",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_WJ8Ter",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

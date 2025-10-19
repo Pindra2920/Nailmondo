@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_html_JgrfHe": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<br><div class=\"hinweis\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/info-icon.png?v=1707912877\" style=\"margin-right: 10px; width: 20px; height: 20px;\"><b>Hinweis für Kunden vor 26.03.24:</b><br>Wenn du in unserem <b>\"alten\"</b> Shop bereits ein Konto hattest, fülle deine Daten hier erneut aus, dann aktiviert sich dein Account &amp; du findest all deine Bestellungen wieder! <br><br><b>Nutz deine alte E-Mail Adresse &amp; wähle ein <u>beliebiges</u> Passwort, danach ist dein Konto reaktiviert.</b>\n</div>\n<style>\n  .hinweis {\nbackground-color: #fefeed;\n    border-left: 5px solid #f3ce2147;\n    padding: 10px;\n    font-family: 'Open Sans', sans-serif;\n    line-height: 1.6;\nmax-width: 530px;\n    margin: auto;\n}\n  .hinweis-icon {\n    margin-right: 10px;\n    font-size: 24px;\n  }\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#bababa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-customers-register",
+      "blocks": {
+        "register_form": {
+          "type": "register",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "register_form"
+      ],
+      "custom_css": [
+        ".password-input {position: relative;}",
+        ".toggle-password {color: #757575; /* Icon-Farbe, an das Design anpassbar */}",
+        ".input__field {padding-right: 40px; /* Stellt sicher, dass Text nicht unter das Icon rutscht */}"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "custom_html_JgrfHe",
+    "main"
+  ]
+}

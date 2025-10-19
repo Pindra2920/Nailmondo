@@ -1,0 +1,398 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1707205712db334b9f": {
+      "type": "apps",
+      "blocks": {
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU": {
+          "type": "shopify://apps/categories/blocks/category-breadcrumbs/2d8e3108-b94b-4b0c-8f03-e3726bad87be",
+          "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000ee",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#afafaf",
+            "title_decoration": "",
+            "title_transform": "",
+            "spacing_above": 15,
+            "spacing_below": 15,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": true,
+            "show_catroot": false,
+            "link_catroot": "/",
+            "text_catroot": "Start",
+            "show_tags": false,
+            "show_finalbread_as_textonly": true,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": true,
+            "prod_multicat_sel": "leastprod",
+            "link_catall": "/collections/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 35,
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
+          }
+        }
+      },
+      "block_order": [
+        "categories_uncomplicated_category_breadcrumbs_CxJbRU"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
+    "custom_html_RN8UrQ": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<h1 class=\"h1-DL\">\n<b>Anti-Lifting-Set</b> für wochenlange Nägel <u>ohne Liftings</u>\n</h1>\n<br>\n<style>.bewertungsblock {\n    display: none;\n}\n.force-center {\n    position: relative;\n    justify-content: center !important;\n    text-align: center !important;\n}\n.product-meta__price-list-container {\n    margin-top: 10px !important;\n}\n.h1-DL {\n    text-align: center;\n    font-family: 'Rajdhani', sans-serif;\n    font-weight: 400;\n    font-size: 24px;\n    padding-top: 25px;\n    margin-bottom: 0px;\nline-height:26px;\n}\nnav.breadcrumb.text--xsmall.text--subdued.hidden-phone {\n    display: none;\n}\n.ed-product-form__payment-container .ed-quantity-atc-container {\n    display: flex;\n    flex-direction: row;\n    height: 50px;\n}\n.ed-buy-box {\n    box-shadow: #00000030 0 0 19px -5px !important;\n    padding: 0px !important;\n}\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_6XxjNF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"top-trusts\"><b>Geheimwaffe</b> für wochenlang bombenfeste Nägel 💅🏻\n<br><span class=\"top-trust-lower\">Über <b>100.000x</b> verkauft ·  täglich <b>tausendfach</b> im Einsatz </span></div>\n<br>\n<div class=\"ruk_rating_snippet force-center\" data-sku=\"LYN201911210;LYN201911039;LYN201911214;LYN201911141\"></div>\n<script src=\"https://widget.reviews.io/rating-snippet/dist.js\"></script>\n<link rel=\"stylesheet\" href=\"https://widget.reviews.io/rating-snippet/dist.css\"/>\n<script>\nratingSnippet(\"ruk_rating_snippet\", {\n  store: \"www.lynis-nailshop.de\",\n  mode: \"default\",\n  color: \"#0E1311\",\n  linebreak: false,\nremoveBrackets: true,\n  text: \"Sternebewertungen <b>(verifiziert)</b>\",\n  singularText: \"Sternebewertung\",\n  lang: \"de\",\n  usePolaris: true,\n  showEmptyStars: false,\n});\n</script><br>\nWähle dein passendes Set\n<style>\n.top-trusts {\n    background: black;\n    margin: 0px -15px;\n    padding: 10px;\n    border-radius: 14px 14px 0px 0px;\n    color: white;\nfont-size: 15px;\ntext-align:center;\n}\n.top-trust-lower {\n    color: white;\nfont-size:12px;\ntop: 3px !important;\n    position: relative;\n}\n@media (max-width: 768px) {\n    .top-trusts {\n        margin: -8px -8px;\n    }\n}\n.bewertungsblock {\n    display: none;\n}\n</style>"
+          }
+        },
+        "liquid_jPfQMA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"custom-variant-picker\">\n  <div class=\"variant-option\" data-value=\"Basic Set\">\n    <div class=\"variant-option-wrapper\">\n      <div class=\"variant-details\">\n        <h3 class=\"variant-title\">Basic Set</h3>\n        <p class=\"variant-items\">· 1x Ultra Bond<br>· 1x Perfect Flex<br>· 1x Nail Prep<br>· 1x Primer</p>\n      </div>\n      <div class=\"variant-price\">\n        <span class=\"price-old\">34,96 €</span><br>\n        <span class=\"price-current\">29,90 €</span>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"variant-option recommended\" data-value=\"Premium Set\">\n    <div class=\"variant-option-wrapper\">\n      <div class=\"badge-recommended\">MEISTGEKAUFT</div>\n      <div class=\"variant-details\">\n        <h3 class=\"variant-title\">Premium Set</h3>\n        <p class=\"variant-items\">· Produkte aus Basic Set<br>+ <b>Videokurs:</b> NIE wieder Liftings<br>+ 100% <b>Geld zurück Garantie</b></p>\n      </div>\n      <div class=\"variant-price\">\n        <span class=\"price-old\">166,85 €</span><br>\n        <span class=\"price-current\">49,90 €</span><br>\n        <span class=\"price-savings\">66,95€ gespart!</span>\n      </div>\n      <div class=\"variant-free-gift\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/gift-icon2.png?v=1742389648\" class=\"gift-image\">\n        <span class=\"gift-text\">👇 <b><i><u>Nur bis morgen 23:59 Uhr:</i></u></b><br>+ <strong>GRATIS Versiegler</strong> im Wert von 11,90€</span>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"variant-option\" data-value=\"Expert Set\">\n    <div class=\"variant-option-wrapper\">\n      <div class=\"variant-details\">\n        <h3 class=\"variant-title\">Expert Vorrats Set<br></h3>\n        <p class=\"variant-items\">· Jedes Produkt <b>3x</b><br>+ <b>Videokurs:</b> NIE wieder Liftings<br>+ 100% <b>Geld zurück Garantie</b></p>\n      </div>\n      <div class=\"variant-price\">\n          <span class=\"price-old\">194,72 €</span><br>\n        <span class=\"price-current\">109,90 €</span>\n      </div>\n      <div class=\"variant-free-gift\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/gift-shipping.png?v=1742475239\" class=\"gift-image\">\n          <span class=\"gift-text\">+ <strong>Kostenloser</strong><br>Prio-Versand</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/gift-icon2.png?v=1742389648\" class=\"gift-image\">\n        <span class=\"gift-text\">+ <strong>GRATIS Versiegler</strong><br> im Wert von 11,90€</span>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n  .custom-variant-picker {\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n  }\n\n  .variant-option-wrapper {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n    border: 1.4px solid #e0e0e0;\n    border-radius: 8px;\n    padding: 5px;\n    cursor: pointer;\n    position: relative;\n    align-items: center;\n  }\n\n  .variant-option.active .variant-option-wrapper {\n    border-color: #8bc34a;\n    background-color: #f5faf0;\n  }\n\n  .badge-recommended {\n    position: absolute;\n    top: -7px;\n    right: 5px;\n    background-color: black;\n    color: white;\n    padding: 1px 5px;\n    border-radius: 4px;\n    font-size: 0.8rem;\n    font-weight: bold;\n    z-index: 2;\n  }\n\n  .variant-details {\n    flex-grow: 1;\n\tpadding-top: 7px;\n\tpadding-left: 8px;\n\tmax-width: 75%;\n  }\n\n  .variant-title {\n      margin-bottom: 5px;\n      color: #333;\n      font-family: 'Rajdhani', sans-serif;\n\t      font-size: 14px !important;\n  }\n  .variant-image {\n    width: 50px;\n    border-radius: 6px;\n  }\n\n\n  .variant-items {\n    padding-left: 10px;\n    margin: 5px 0;\n  }\n\n  .variant-price {\n    text-align: right;\n    font-weight: bold;\n    margin-left: auto;\n\tline-height:20px;\n\tmax-width: 20%;\n  }\n  \n\t.price-current {\n      font-size: 16px;\n      font-weight: 300;\n      color: #494949;\n  }\n\n  .price-old {\n    color: #de2a2a;\n    text-decoration: line-through;\n    font-weight: normal;\n  }\n  \n  .price-savings {\n      background: green;\n      color: white;\n      padding: 0px 5px;\n      font-size: 10px;\n      float: right;\n  }\n\n  .variant-free-gift {\n    background-color: #f5f5f5;\n    padding: 10px;\n    border-radius: 4px;\n    font-size: 0.9rem;\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    width: 100%;\n    box-sizing: border-box;\n  }\n\n  .gift-image {\n    width: 50px;\n    border-radius: 4px;\n  }\n\n  .product-form__option-selector { display: none; }\n\n  @media (max-width: 600px) {\n    .variant-title, .variant-items, .variant-price, .variant-free-gift { font-size: 0.9rem; }\n    .variant-label { display: block; width: max-content; margin-top: 4px; }\n  }\n\n  @media (min-width: 601px) {\n    .mobile-only { display: none; }\n    .gift-text { white-space: nowrap; }\n  }\n  \n  @media (max-width: 600px) {\n    .variant-option-wrapper {\n      display: flex;\n      flex-wrap: wrap; /* Erlaubt Umbruch, aber Bild, Details & Preis bleiben zusammen */\n      align-items: center;\n    }\n\n    .variant-image {\n      width: auto;\n      max-width: 25%; /* Bild passt sich flexibel an */\n      min-width: 50px; /* Verhindert, dass das Bild zu klein wird */\n      height: auto;\n      flex-shrink: 1; /* Bild schrumpft, wenn nötig */\n    }\n\n    .variant-details {\n      flex-grow: 1; /* Details nutzen den verbleibenden Platz */\n      min-width: 0; /* Verhindert Überlauf */\n    }\n\n    .variant-price {\n      flex-shrink: 0; /* Preis bleibt stabil */\n      white-space: nowrap; /* Verhindert Umbrüche */\n    }\n\n    /* Erzwingt, dass das Free Gift unterhalb bleibt */\n    .variant-free-gift {\n      width: 100%; /* Volle Breite */\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      margin-top: 10px;\n      flex-wrap: nowrap;\n      order: 1; /* Setzt das Free Gift unter die Hauptreihe */\n    }\n\n    .variant-option-wrapper > .variant-free-gift {\n      flex-basis: 100%; /* Stellt sicher, dass Free Gift unterhalb bleibt */\n    }\n  }\n\n.product-meta__price-list-container {\n      display: none;\n  }\nh1.product-meta__title.heading.h3 {\n    display: none;\n}\np.product-meta__taxes-included.text--small {\n    display: none;\n}\n.bewertungsblock {\n    display: none;\n}\n</style>"
+          }
+        },
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "enable_block_styling": true,
+            "block_background": "#f5f5f5",
+            "block_border": "#000000",
+            "block_font_color": "#0d0d0d",
+            "block_background_selected": "#000000",
+            "block_border_selected": "#000000",
+            "block_font_color_selected": "#ffffff",
+            "block_border_not_available": "#0d0d0d",
+            "block_font_color_not_available": "#0d0d0d",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "liquid_Nq9Twm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"high-demand-badge\">\n  <span class=\"badge-label\">Hohe Nachfrage</span>\n  <span class=\"badge-text\">\n    Verkauft sich schnell,<br> in wenigen Tagen ausverkauft\n  </span>\n</div>\n<style>\n  .high-demand-badge {\n    display: flex;\n    align-items: center;\n    font-family: Open Sans, sans-serif;\n  }\n\n  .badge-label {\n    background-color: #ffece6;\n    color: #e53935;\n    font-weight: bold;\n    padding: 4px 10px;\n    border-radius: 6px;\n    margin-right: 5px;\n    font-size: 12px;\n  }\n\n  .badge-text {\n    color: #000;\n    font-size: 11px;\n    line-height: 1;\n    color:grey;\n  }\n</style>"
+          }
+        },
+        "136a629f-7d9f-49d0-8277-16d8527be548": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_payment_button": false,
+            "atc_button_background": "#fac850",
+            "atc_button_text_color": "#000000",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "show_qty_discount": false,
+            "qty_discount_title": "Menge auswählen:",
+            "qty_discount_badge_color": "",
+            "qty_discount_font_color": ""
+          }
+        },
+        "liquid_NM88pJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"stock-info\">\n          <span class=\"mwst-text\">inkl. MwSt · in 1-2 Werktagen bei Dir in 🇩🇪 <br>GRATIS Lieferung ab 70,00€</span>\n<br><br>{% if customer and customer.tags contains 'Bestandskunde' %}\n{% else %}\n  <!-- Der Kunde ist kein Bestandskunde, zeige den speziellen Inhalt an -->\n  <div class=\"ed-payment-bar-pdp\">\n    {% render 'ed-payment-bar' %}\n    {% if settings.show_rate_payment_pdp %}\n      {% render 'ed-klarna-custom-payment' %}\n    {% endif %}\n  </div>\n{% endif %}\n<style>\n  .stock-info {\n    font-size: 11px;\nmargin-top:10px;\nline-height:1.1;\n  }\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_6XxjNF",
+        "liquid_jPfQMA",
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e",
+        "liquid_Nq9Twm",
+        "136a629f-7d9f-49d0-8277-16d8527be548",
+        "liquid_NM88pJ"
+      ],
+      "custom_css": [
+        ".loader-button__text {line-height: 12px;}",
+        ".product-form__custom-liquid {font-size: 12px; color: grey; line-height: 16px;}"
+      ],
+      "settings": {
+        "bundle_title": "",
+        "bundle_title_after": "",
+        "optional_product": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_title_sticky_add_to_cart": true,
+        "show_variant_selection_sticky_add_to_cart": true,
+        "show_price_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "andockmethode",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "enable_image_zoom_icon": true,
+        "enable_image_zoom_click_mobile": true,
+        "enable_image_zoom_click_desktop": true,
+        "color_video_story": "#c8c8c8",
+        "show_thumbnails_on_mobile": true,
+        "show_arrow_of_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "show_application_steps": false,
+        "application_steps_background": "#0d0d0d",
+        "application_steps_color": "#f5f5f5",
+        "font_size_application_steps": 12,
+        "application_steps_text_1": "It is a long established fact that a reader will be",
+        "application_steps_text_2": "It is a long established fact that a reader will be",
+        "application_steps_text_3": "It is a long established fact that a reader",
+        "application_steps_text_4": "It is a long established fact that a reader will",
+        "enable_social_proof": false,
+        "social_proof_background": "#f4f4f4",
+        "social_proof_text": "#303030",
+        "social_proof_box_style": "0",
+        "ppl_social_proof": "",
+        "enable_insta_checkmark": false,
+        "text_social_proof": "Die Geheimwaffe für wochenlang bombenfeste Nägel",
+        "enable_text_bold": false,
+        "enable_popular_variants": true,
+        "popular_variants_badge": "#de2a2a",
+        "popular_variants_badge_color": "#f5f5f5",
+        "popular_variants_text": "Bestseller",
+        "enable_buy_box": true,
+        "buy_box_border_color": "#d7d7d7",
+        "buy_box_bg_color": "#ffffff",
+        "buy_box_border_radius": 15,
+        "update_prices_on_qty_change": true
+      }
+    },
+    "gp_global_section_564352139632050962_3x3cnU": {
+      "type": "gp-global-section-564352139632050962",
+      "name": "PDP · Haftungswunder",
+      "settings": {
+        "section_preload": "off_lazy_script",
+        "checksum": "",
+        "gguCjS4A--l_childItem_0": "<p><span style=\"font-size:12px;\"><strong>Wochenlanger </strong>Halt ohne ewige Liftings</span></p>",
+        "gg2XzkNMSXu_childItem_0": "<p><span style=\"font-size:12px;\"><strong>Glücklichere</strong> Kunden dank besserer <strong>Haftung</strong></span></p>",
+        "ggAWJTHQ_U2_childItem_0": "<p><span style=\"font-size:12px;\"><strong>Geld zurück Garantie! </strong>Haftung oder Geld zurück</span></p>",
+        "ggbit7Ex-4i_childItem_0": "<p><span style=\"font-size:12px;\"><strong>Perfekt aufeinander</strong> abgestimmte Produkte</span></p>",
+        "ggnMG0pE5Rr_childItem_0": "<p><span style=\"font-size:12px;\"><strong>Keine Zeitverschwendung </strong>mit etlichen Produkttests</span></p>",
+        "ggH_IrItlpG_text": "Haftungsprobleme, ein <strong>Leid</strong>, das jeder Nageldesigner kennt",
+        "ggjm_y0DW68_text": "<p><span style=\"font-size:16px;\"><i><strong>Sei mal ehrlich?</strong></i></span></p><p>Du wärst nicht hier, wenn deine Nägel oder die deiner Kunden wochenlang halten!</p><p> </p><p>Du hast immer mal wieder mit Haftungsproblemen zu kämpfen, Nägel fallen einfach ab, Liftings entstehen? Da bist du nicht alleine. Täglich kämpfen tausende Nageldesigner mit diesem Problem.. ein Leid mit nervigen Folgen.</p>",
+        "gggQM8LlxUj_text": "<p><span style=\"color:#595959;font-size:13px;\">Wir konnten es auch nicht glauben, als wir es entwickelt haben</span></p>",
+        "ggHOE8ribhc_text": "Die <strong>Folgen </strong>ewiger<strong> Liftings</strong>?",
+        "ggEEC5oSQHo_text": "<p><strong>Geldverschwendung</strong> aufgrund ewiger Tests anderer Produkte</p>",
+        "ggISjntG2WL_text": "<p><strong>Unzufriedene </strong>Kunden &amp; <strong>Frust</strong> an der eigenen Arbeit</p>",
+        "ggalQZb6jRz_text": "<p><strong>Zeitverschwendung </strong>durch abfallende Nägel und Liftings</p>",
+        "ggiBx0R8E7E_text": "<p><strong>Geldverschwendung</strong> aufgrund ewiger Tests anderer Produkte</p>",
+        "ggbDSLh3FzU_text": "<p><strong>Unzufriedene </strong>Kunden &amp; <strong>Frust</strong> an der eigenen Arbeit</p>",
+        "ggrZXlHsSSo_text": "<p><strong>Zeitverschwendung </strong>durch abfallende Nägel und Liftings</p>",
+        "ggS3DPYRMZi_text": "<p><span style=\"color:#595959;font-size:13px;\">Jahrelange Entwicklung bringt Licht ins dunkle!</span></p>",
+        "gg7lbWes0pS_text": "Die <strong>ZWEI </strong>Gründe, wieso deine Nägel nicht <strong>HALTEN</strong>!",
+        "gg5irIBBaRh_text": "<p>1. FALSCHE<strong> Produkte</strong></p>",
+        "gg2Tiv3qkIF_text": "<p>Du hast mehrfach verschiedene Produkte getestet und es hält immer noch nicht? Der Grund liegt darin, dass die meisten Produkte auf dem Markt nicht aufeinander abgestimmt sind. Die Funktion des einen Produkts wird durch das falsche Folgeprodukt aufgehoben, das Ergebnis: Es hält nicht! <br><strong>Und das ist nicht deine Schuld!</strong></p>",
+        "gg2AbqTeZzn_text": "<p>2. FALSCHER<strong> Untergrund</strong></p>",
+        "ggrcm0io3y__text": "<p>Selbst mit den richtigen Produkten kann es zu Problemen kommen und das aus einem Grund: Stell dir vor, dein Gel ist ein Aufkleber und du möchtest den Aufkleber auf einem Untergrund kleben, der staubig oder nass ist. Wie gut wird der Aufkleber haften? <strong>GARNICHT. </strong></p><p><strong>Und ist nun der Aufkleber daran Schuld, dass er nicht haftet?</strong> Wohl kaum.</p>",
+        "ggv-FJiQ-KZ_text": "<strong>Meine Mission: </strong>Deine<strong> </strong>Nägel<strong> </strong>zum<strong> Halten </strong>zu bringen",
+        "ggbx6yVlW-R_childItem_0": "<p>Als es <i>\"Klick\"</i>  in der Entwicklung machte..</p>",
+        "ggbx6yVlW-R_childItem_1": "<p>Von YouTube zur bekanntesten Trainerin in Deutschland</p>",
+        "ggbx6yVlW-R_childItem_2": "<p>Mein Traum zur Trainerin</p>",
+        "ggPbfL2mFjK_text": "<p>Seit Jahren wollte ich dieses Problem lösen und durch Zufall habe ich es gefunden.</p><p>Es war nicht das <strong>EINE</strong> Produkt was hilft, sondern die <strong>Kombination</strong> aus mehreren Produkten in der <strong>richtigen</strong> Reihenfolge und Anwendung auf dem <strong>richtigen</strong> Untergrund.</p><p><br><strong>Über Jahre wurde das Haftungswunder-Set optimiert, um selbst bei schwierigsten Haftungsproblemen perfekte Haltbarkeit zu gewährleisten</strong></p>",
+        "gg-32KuWIwT_text": "<p>Auf meinem Weg zu perfekten Nägeln wollte ich andere daran teilhaben und habe hunderte YouTube-Videos aufgenommen, damit ich anderen Menschen mit meinem Problem helfen konnte .. denn es gab kaum jemanden, der Online gezeigt hat, wie man Nägel macht. </p><p> </p><p>Gesagt, getan, heute habe ich mit einer der größten YouTube-Kanäle im Nageldesign-Bereich und ca. 20 Mio. Klicks auf meine Videos und über 105.000 Abonnenten.</p>",
+        "ggdGgEtnO5B_text": "<p>Immer mehr Leute haben gefragt: Welche Produkte nutzt du? Was sind die besten Produkte? Kannst du mich schulen?</p><p> </p><p>All diese Fragen habe ich hundertfach, täglich bekommen.</p><p> </p><p>So habe ich 2016 meinen Online-Shop gegründet und meine Online-Schule, wo ich bereits über 15.000 Schülern mein Wissen weitergeben durfte. Der Online-Shop gehört zu einer der beliebtesten Nagelshops in Deutschland mit über 150.000 Kunden.</p><p> </p><p>Und alles begann mit dem Schritt, heute zu starten.. Nun bist du dran!</p>",
+        "ggaPW3O5nI8_text": "<p><span style=\"color:#575757;font-size:12px;\"><strong>Evelyn Gerz</strong></span><span style=\"font-size:12px;\">  </span><span style=\"color:#B4B4B4;font-size:12px;\">/ Gründerin, bekannt unter LyniNails</span></p>",
+        "ggxe0wQgryx_text": "<span style=\"font-size:28px;\">Deine neue<strong> Geheimwaffe: </strong>Das Haftungswunder</span>",
+        "ggVVm_6UxnZ_text": "<p><span style=\"font-size:18px;\"><strong>Keine</strong> Liftings &amp; <strong>Haftungsprobleme</strong> mehr</span></p>",
+        "ggpyhHlmqMD_text": "<p><span style=\"font-size:18px;\">Für <strong>jeden</strong> Nageltypen geeignet</span><br><span style=\"font-size:15px;\">(Feuchte, trockene, spröde Nägel usw.)</span></p>",
+        "ggK_dbxVkBd_text": "<p><span style=\"font-size:18px;\"><strong>Garantierte Haftung </strong>durch den Videokurs</span></p>",
+        "ggGFU0N-Zhx_text": "<p><span style=\"font-size:18px;\">Verbindet sich perfekt mit der Nagelplatte – <strong>ohne die Nägel anzugreifen.</strong></span></p>",
+        "ggjNqTAcOba_text": "<p><span style=\"font-size:18px;\">Extra <strong>Haftungs-Boost</strong> für jede Modellage: egal ob Gel, Acryl oder Polygel oder Shellac.</span></p>",
+        "ggb_ZJT4uEq_text": "<p><span style=\"font-size:18px;\">In <strong>Sekunden</strong> aufgetragen – mit <strong>wochenlangen</strong> Effekt.</span></p>"
+      }
+    },
+    "gp_global_section_564498340738237202_JG7imR": {
+      "type": "gp-global-section-564498340738237202",
+      "name": "PDP · Haftungswunder #2",
+      "settings": {
+        "section_preload": "off_lazy_script",
+        "checksum": "",
+        "gg-XgEl85hX_text": "<p>Alexandra Martin</p>",
+        "gg-yqkHWza6_text": "<p>Hannover, Deutschland</p>",
+        "gghloHdi_2t_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 4 Wochen)</p>",
+        "ggKxLtEP6Ja_text": "<p>\"10000000/10 wirklich tolles tolles tolles Produkt!! Ich habe den Ultra Bond ein paar Wochen zuvor gekauft und auch der hat die Haltbarkeit der Nägel schon deutlich verlängert. ABER mit der <strong>Routine</strong> „Dehydrator(andere Marke) + primer ( selbe Marke wie Dehy.) + Ultra Bond + Rubber base“ halten meine Nägel BOMBE und es liegt zu<strong> 100% </strong>an den Lyni nails Produkten!! Liebe es so sehr kein einziges Lifting mehr!!!!!\"</p>",
+        "gg-hIA4tfz6_text": "<p>Laura S.</p>",
+        "gggqVvMl2FO_text": "<p>Mannheim, Deutschland</p>",
+        "ggiPn1KkWTI_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 7 Tagen)</p>",
+        "ggAucG76TFS_text": "<p>\"Ewig hatte ich es mit Liftings zu tun, keine Modellage wollte halten und hab wirklich alles mögliche versucht. Durch Corona habe ich damals angefangen mir selber die Nägel zu machen, das Nagelstudio ist mir mittlerweile auch zu teuer geworden. Aber halten wollte Nix bei mir. Auf TikTok hab ich dann von dem Perfect Flex gehört und es einfach mal bestellt. Auf einmal hält ALLES! Nie wieder Haftungsschwierigkeiten und Steinchen halten auch bis zum nächsten Auffüllen😍 Wenn ihr genau das gleiche Problem habt, probiert es aus, ihr werdet es nie wieder missen wollen!\"</p>",
+        "ggDW2RU_S0P_text": "<p>Michelle E.</p>",
+        "ggSnmZ6KNX1_text": "<p>Elz, Deutschland</p>",
+        "ggIRR0jx5tQ_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 2 Wochen)</p>",
+        "ggJpgEeiMg-_text": "<p>\"Das ist das Beste was es auf dem Nagelmarkt gibt!! Seitdem ich die Rubber Base Perfekt Flex bei meinen Kunden benutze, kommen die alle ohne Liftings wieder. Ich habe schon so vieles aus und durchprobiert und es hat mich langsam alles zweifeln lassen. Bin unfassbar froh das Produkt entdeckt zu haben und kann es jedem einfach nur weiterempfehlen!! Auch Steinchen damit befestigen, die wochenlang auf den Nägeln bleiben und nicht abfallen, ist mit diesem Produkt möglich! Ein Must Have für jedes Nagelstudio! 👌🏼\"</p>",
+        "ggpC6FufmNZ_text": "<p>Christin Z.</p>",
+        "ggvjYnMdhuF_text": "<p>Gilching, Deutschland</p>",
+        "ggPFKARXjjD_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 23 Tagen)</p>",
+        "ggwaFZnDzCQ_text": "<p>\"Tolles Zeug! Hab starke Problemnägel und schon einiges ausprobiert, hatte immer wieder lieftings und Nägel verloren. Seid ich die Serie davon benutze nichts mehr. Einfach top 👍🏻\"</p>",
+        "ggwhr9cQWfv_text": "<p>Susanne S. H.</p>",
+        "ggZvZkFembt_text": "<p>Tirol, Österreich</p>",
+        "ggL2jc-_4Yf_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 10 Tagen)</p>",
+        "ggJoXrs_0wE_text": "<p>\"Ich mache meiner Mama und mir Hobbymäßig die Nägel. Meine Mama ist Diabetiker und hat Haftungsprobleme. Seit wir dieses Produkt benutzen gibt es keinerlei Liftings mehr.\"</p>",
+        "gg6l3ehDGHX_text": "<p>Sophie K.</p>",
+        "ggZJVNvRQh2_text": "<p>Oschersleben, Deutschland</p>",
+        "ggUVwoccYJa_text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 3 Monaten)</p>",
+        "ggJJTfrbn-x_text": "<p>\"Erklärt sich beim Verwenden, warum es Lynis ‚Heiliger Gral‘ ist. Geht bei mir auch nicht mehr ohne…und es ist soooo vielseitig…\"</p>",
+        "ggGzRks9wsd_text": "<p>Carolin G.</p>",
+        "gg5pjxxNbAp_text": "<p>Wesseling, Deutschland</p>",
+        "ggHNyJI2mZ__text": "<p><strong>VERFIZIERTER KAUF</strong> (vor 7 Monaten)</p>",
+        "ggEGhO59jX-_text": "<p>\"Bestes Produkt das ich je benutzt hatte!! Würklich die 3 combos zusammen bestehend aus (dehydrator, säure primer und ultra bond) sind ein wunder!! 100% Kundenzufriedenheit und langhaltende nägel! Die Produkte sollten viel viel mehr kosten für so eine gute Qualität bezahle ich gerne mehr! Vielen Dank Lyni grossen Respekt und liebe Grüsse\"</p>",
+        "ggwtjdunHLx_text": "45TAGE",
+        "ggNNXSRx6la_text": "<p>GELD ZURÜCK GARANTIE</p>",
+        "ggOrq5cHqsj_text": "<p>Unser <strong>Haftungs</strong>-VERSPRECHEN</p>",
+        "ggmwN7T41ou_text": "<p>Sollten deine Nägel keine Verbesserung oder wochenlange Haltbarkeit erreichen, die du mithilfe des Videokurses erreichen wirst, dann erhältst du dein <strong>Geld zurück. </strong>Das ist meine <strong>Haftungs</strong>-<strong>GARANTIE</strong> an DICH!</p><p><br>Diese Garantie kann ich dir geben, denn in den Erklärungsvideos habe ich dir jeden Schritt genau erklärt, damit dein Untergrund perfekt vorbereitet ist und alles bombenfest hält. Du wirst nach dem Kurs wissen, wie du den richtigen Untergrund identifizierst (trocken, feucht, ölig usw.) ihn daraufhin behandelst, um den perfekten Untergrund zu schaffen und dann jedes Gel / Acryl zum Halten bringst.</p>",
+        "ggyYcCrzgPb_text": "<p>Sollten deine Nägel dann nicht halten, erhältst du dein Geld zu 100% zurück! Mein Versprechen an DICH.</p>",
+        "gg01a9BmBp0_text": "<p>*<strong><u>Information zur Garantie:</u></strong> Die Haltbarkeits-Garantie erhältst du <strong>nur</strong> im <strong>Premium + Expert Vorrats Set</strong> (das Basic Set ist <strong>ausgeschlossen</strong>, da ich dir <strong><u>nicht</u></strong> vermitteln kann, wie du die Produkte <strong><u>richtig</u></strong> nutzt und somit kann ich dir <strong><u>keine</u></strong> Garantie geben)</p>",
+        "ggOzR8q99YH_text": "<strong>Videokurs:</strong> So bringst du jeden Nagel zum Halten",
+        "ggjIr2EHFJH_text": "<p><strong><u>Info:</u></strong> Das Wissen in diesem Kurs beruht auf <u>hunderten</u> Tests, <u>15 Jahren Erfahrung</u> und würde ich nur in meinen bezahlten Schulungen verraten. Der Preis der Kurs liegt einzeln bei <strong>69,90€</strong> und du bekommst den Kurs im Premium + Expert Set dazu.</p>",
+        "gg2jL9uDD9w_childItem_0": "<p><strong>Vorstellung: </strong>Das wird dich erwarten</p>",
+        "gg2jL9uDD9w_childItem_1": "<p><strong>Mythos &amp; Wahrheit:</strong> Darum halten deine Nägel nicht</p>",
+        "gg2jL9uDD9w_childItem_2": "<p><strong>Analyse: </strong>Feuchte oder trockene Nägel</p>",
+        "gg2jL9uDD9w_childItem_3": "<p><strong>Produkte: </strong>Wann benutze ich welche?</p>",
+        "gg2jL9uDD9w_childItem_4": "<p><strong>Versiegelung: </strong>Wichtigkeit &amp; meine besten Tipps</p>",
+        "gg2jL9uDD9w_childItem_5": "<p><strong>Untergrund: </strong>Die perfekte Vorbereitung</p>",
+        "gg2jL9uDD9w_childItem_6": "<p><strong>Praxis: </strong>Den perfekten Untergrund schaffen</p>",
+        "gg2jL9uDD9w_childItem_7": "<p><strong>BONUS: </strong>Nägel modellieren <strong>OHNE</strong> jemals zu feilen</p>",
+        "ggFtsFLrxvR_text": "<strong>Häufige </strong>Kundenfragen",
+        "gg3ErCxdNqz_childItem_0": "<p><strong>Wie lange werden meine Nägel mit dem Set halten?</strong></p>",
+        "gg3ErCxdNqz_childItem_1": "<p><strong>Für wen ist das Haftungswunder geeignet?</strong></p>",
+        "gg3ErCxdNqz_childItem_2": "<p><strong>Ich habe Problemnägel, geht es damit auch?</strong></p>",
+        "gg3ErCxdNqz_childItem_3": "<p><strong>Meine Nägel halten nur wenige Tage, geht es dann auch?</strong></p>",
+        "gg3ErCxdNqz_childItem_4": "<p><strong>Wie wende ich das Set richtig an?</strong></p>",
+        "ggwFKITec0V_text": "<p>Eine genaue Zeitangabe kann ich natürlich nicht geben, aber du wirst deine Haltbarkeit erhöhen, du wirst spüren wie die Nägel besser halten, robuster sind und weniger anfällig sein. Und wenn nicht, dann erhältst du dein Geld zurück.</p>",
+        "ggUfC7Y6bc5_text": "<p>Es ist sowohl für Anfänger als auch Profis und Studios gemacht. Jeder Nageldesigner der Haftungsprobleme oder Problemkunden hat, sollte dieses Set nutzen.</p>",
+        "ggNFlRwZvD6_text": "<p>JA! Definitiv, es ist genau dafür ausgelegt. Egal ob du feuchte, fettige, trockene, spröde Nägel oder sonst etwas hast, es wird deine Haltbarkeit verlängern, wenn du dich an unsere Anleitung hältst und die Produkte richtig anwendest.</p>",
+        "gg3f0_22YqL_text": "<p>Wenn du die Produkte richtig nutzt und den Kurs durchgearbeitet hast, wo ich dir genau zeige, wie du deinen Naturnagel-Untergrund vorbereitest, dann wird sich deine Haltbarkeit erhöhen! Falls nicht, melde dich bei uns - wir helfen dir! Sollte das nicht helfen, erhältst du natürlich dein Geld zurück.</p>",
+        "gg6OlLRhjut_text": "<p>Wichtige Frage, denn das ist das A &amp; O. Stell die vor du möchtest einen Aufkleber oder Sticker auf einem staubigen oder nassen Untergrund befestigen. Du wirst ihn NIEMALS zum Halten bringen. </p><p> </p><p>Genau deswegen habe ich einen Videokurs, den du im Premium + Expert Vorrats Set erhältst entwickelt, wo ich dir Step-by-Step zeige wie du den Untergrund vorbereitest sodass du maximalen Haftungsboost erhältst.</p>",
+        "gg6mdvmxven_childItem_0": "<p><strong>Gibt es eine Geld zurück Garantie?</strong></p>",
+        "gg6mdvmxven_childItem_1": "<p><strong>Ich bin Allergiker, darf ich die Produkte nutzen?</strong></p>",
+        "gg6mdvmxven_childItem_2": "<p><strong>Muss ich zusätzlich etwas kaufen?</strong></p>",
+        "gg6mdvmxven_childItem_3": "<p><strong>Wie lange komme ich mit dem Set aus?</strong></p>",
+        "ggfpqfGvkr1_text": "<p>JA, im Premium + Expert Vorratsset! Du hast 45 Tage Zeit, zu testen, ob das Set für dich und deine Kunden wirkt. Solltest du also merken, dass mithilfe meiner Videoanleitungen und der richtigen Anwendung deine Nägel keine Verbesserung in der Haltbarkeit haben, erhältst du dein Geld zu 100 % zurück. </p>",
+        "ggLDQ_eeqk2_text": "<p>Grundsätzlich JA, allerdings solltest du genau prüfen, auf welchen Inhaltsstoff du allergisch bist. In unseren Tests haben HEMA-Allergiker keine Schwierigkeiten gehabt.</p><p> </p><p>Bitte prüfe vor der Nutzung, ob du allergisch bist!</p>",
+        "ggy2s4NxH-J_text": "<p>Nein. Im Set ist alles enthalten, was du brauchst. Du kannst es direkt mit deinem vorhandenen System kombinieren, egal ob Gel, Acryl, Polygel, Shellac etc.</p>",
+        "ggvjxXCWHnZ_text": "<p>Je nach Verbrauch reicht ein Set für ca. <strong>25–40 Anwendungen</strong> – abhängig von der Menge, die du pro Nagel verwendest.</p>"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "liquid_d3mceh": {
+          "type": "liquid",
+          "settings": {
+            "title": "Inhaltsstoffe",
+            "liquid": "<style>\n.piktogramm-container {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: flex-start;\n}\n.piktogramm-icon {\n  margin-right: 3% !important;\n  margin-bottom: 1% !important;\n  margin-top: 1% !important;\n  width:auto;\n  height:40px;\n}\n.rechtstexte-pdp {\n    font-size: 10px;\n    color: grey;\nline-height: 14px;\n    margin-top: 5px;\n  }\n\n.inhaltsstoffe {\n    font-size: 12px;\n\tcolor: #414141;\n  }\n\n</style>\n\n<div class=\"piktogramm-container\">\n{% assign piktogramm = product.metafields.custom.piktogramme | strip %}\n{% if piktogramm contains 'Di-Hema + HEMA frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-dihema.jpg?v=1711435592\" alt=\"Di-Hema + HEMA frei\">\n{% endif %}\n{% if piktogramm contains 'Hema frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-hema.jpg?v=1711435592\" alt=\"Hema frei\">\n{% endif %}\n{% if piktogramm contains '! Achtung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-achtung.jpg?v=1711435592\" alt=\"Achtung\">\n{% endif %}\n{% if piktogramm contains 'Entzündlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-entzuendlich.jpg?v=1711435592\" alt=\"Entzündlich\">\n{% endif %}\n{% if piktogramm contains 'Umweltgefährlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-umwelt.jpg?v=1711435592\" alt=\"Umweltgefährlich\">\n{% endif %}\n{% if piktogramm contains '12M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-12m.jpg?v=1711435592\" alt=\"12M\">\n{% endif %}\n{% if piktogramm contains '6M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-6m.jpg?v=1711435592\" alt=\"6M\">\n{% endif %}\n{% if piktogramm contains 'Giftig' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-giftig.jpg?v=1711435591\" alt=\"Giftig\">\n{% endif %}\n{% if piktogramm contains 'Gefahr-Schrift' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gefahr.jpg?v=1711435592\" alt=\"Gefahr-Schrift\">\n{% endif %}\n{% if piktogramm contains 'Ätzend' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-aezend.jpg?v=1711435592\" alt=\"Ätzend\">\n{% endif %}\n{% if piktogramm contains '*Nur für gewerblichen Bedarf' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gewerbe.png?v=1711435592\" alt=\"Nur für gewerblichen Bedarf\">\n{% endif %}\n{% if piktogramm contains 'Gesundheitsgefährdung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gesundheit.jpg?v=1711435592\" alt=\"Gesundheitsgefährdung\">\n{% endif %}\n{% if piktogramm contains '**Nicht für kosmetischen Gebrauch' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-kosmetik.jpg?v=1711435592\" alt=\"Nicht für kosmetischen Gebrauch\">\n{% endif %}\n</div>\n<div class=\"rechtstexte-pdp\">\n  {% if product.metafields.jtl.inhaltsstoffe != blank %}\n    <div class=\"inhaltsstoffe\"><b>Inhaltsstoffe/Ingredients: </b>{{ product.metafields.jtl.inhaltsstoffe }}</div>\n  {% endif %}\n</div>"
+          }
+        },
+        "0143d1a2-8601-4246-86bd-38cb71251946": {
+          "type": "liquid",
+          "settings": {
+            "title": "Warnhinweise & Rechtliches",
+            "liquid": "<div class=\"rechtstexte-pdp\" style=\"display: flex; flex-wrap: wrap; sans-serif; gap: 20px;\">\n  <div style=\"flex: 1; min-width: 300px;\">\n    <p style=\"font-family: 'Rajdhani', sans-serif; text-decoration:underline; font-weight: bold; font-size:14px;margin-bottom:5px;\">Hersteller</p>\n    {% if product.metafields.gpsr.manufacturer_name != blank %}\n      <p style=\"margin: 2px 0;\">\n        {{ product.metafields.gpsr.manufacturer_name }}<br>\n        {{ product.metafields.gpsr.manufacturer_street }} {{ product.metafields.gpsr.manufacturer_housenumber }}<br>\n        {{ product.metafields.gpsr.manufacturer_postalcode }} {{ product.metafields.gpsr.manufacturer_city }}<br>\n        {{ product.metafields.gpsr.manufacturer_state }} {{ product.metafields.gpsr.manufacturer_country }}<br>\n        <a href=\"{{ product.metafields.gpsr.manufacturer_homepage }}\" target=\"_blank\">{{ product.metafields.gpsr.manufacturer_homepage }}</a><br>\n      </p>\n    {% else %}\n      <p style=\"margin: 2px 0; font-style: italic;\">Folgt in Kürze</p>\n    {% endif %}\n  </div>\n  <div style=\"flex: 1; min-width: 300px;\">\n    <p style=\"font-family: 'Rajdhani', sans-serif; font-weight: bold; text-decoration:underline; font-size:14px;margin-bottom:5px;\">Verantwortliche Person</p>\n    {% if product.metafields.gpsr.responsibleperson_name != blank %}\n      <p style=\"margin: 2px 0;\">\n        {{ product.metafields.gpsr.responsibleperson_name }}<br>\n        {{ product.metafields.gpsr.responsibleperson_street }} {{ product.metafields.gpsr.responsibleperson_housenumber }}<br>\n        {{ product.metafields.gpsr.responsibleperson_postalcode }} {{ product.metafields.gpsr.responsibleperson_city }}<br>\n        {{ product.metafields.gpsr.responsibleperson_state }} {{ product.metafields.gpsr.responsibleperson_country }}<br>\n        <a href=\"{{ product.metafields.gpsr.responsibleperson_homepage }}\" target=\"_blank\">{{ product.metafields.gpsr.responsibleperson_homepage }}</a><br>\n      </p>\n    {% else %}\n      <p style=\"margin: 2px 0; font-style: italic;\">Folgt in Kürze</p>\n    {% endif %}\n  </div>\n\n<div>\n  <br>\n  <b>Hinweise zur Nutzung:</b>\n  Vor der Anwendung die Produktbeschreibung lesen und ggf. Anwendungsvideos beachten. Produkte nur für den beschriebenen Zweck verwenden und außerhalb der Reichweite von Kindern aufbewahren. Bei allergischen Reaktionen die Nutzung sofort einstellen und bei Problemen den Kontakt aufnehmen. Entsprechende Warnhinweise sind auf der Seite & auf dem Produkt dargestellt.\n</div>\n</div>\n\n<br>\n<hr>\n<br>\n\n<div class=\"rechtstexte-pdp\">\n  {% if product.metafields.jtl.warnhinweise != blank %}\n    <b>Warnhinweise: </b>{{ product.metafields.jtl.warnhinweise }}<br>\n  {% endif %}\n\n  <br><br>\n\n  {% if product.metafields.jtl.sicherheitshinweise != blank %}\n    <b>Sicherheitshinweise: </b>{{ product.metafields.jtl.sicherheitshinweise }}<br>\n  {% endif %}\n\n  <br>\n  Aufgrund der Lichtverhältnisse bei der Produktfotografie und unterschiedlichen Bildschirmeinstellungen kann es dazu kommen, dass die Farbe des Produktes nicht authentisch wiedergegeben wird.<br>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_d3mceh",
+        "0143d1a2-8601-4246-86bd-38cb71251946"
+      ],
+      "custom_css": [
+        "li::marker {color: white !important;}",
+        "h3 {margin: 0px !important; font-size: 20px !important; line-height: 22px !important; letter-spacing: 0px !important;}"
+      ],
+      "settings": {
+        "enable_desktop_accordion": false
+      }
+    },
+    "custom_liquid_mJdJbj": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".footer__reviewsLogo-container {display: none !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Kunden-Bewertungen",
+        "liquid": "<script src=\"https://widget.reviews.io/polaris/build.js\"></script>\n<div id=\"ReviewsWidget\"></div>\n<script>\nnew ReviewsWidget('#ReviewsWidget', {\n//Your REVIEWS.io Store ID and widget type:\nstore: 'www.lynis-nailshop.de',\nwidget: 'polaris',\n\n//Content settings (store_review,product_review,third_party_review,questions). Choose what to display in this widget:\noptions: {\n    types: 'product_review',\n    lang: 'de',\n    //Possible layout options: bordered, large and reverse.\n    layout: '',\n    //How many reviews & questions to show per page?\n    per_page: 8,\n    store_review:{\n      hide_if_no_results: false,\n    },\n    third_party_review:{\n      hide_if_no_results: false,\n    },\n    product_review: {\n      sku: \"LYN201911210;LYN201911039;LYN201911214;LYN201911141\",\n      enable_rich_snippets: true,\n\n      /* Your custom Structured Data */\n      structured_data: {\n\n        category: {{ product.type | json }},\n        {% capture gtin_length %}{{ product.variants.first.barcode | size }}{% endcapture %}\n\n\n        {% if gtin_length == \"14\" %}\n           gtin14:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"13\" %}\n           gtin13:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"12\" %}\n           gtin12:\"{{product.variants.first.barcode}}\",\n        {% endif %}\n\n        url: \"{{ shop.url }}{{ product.url }}\",\n\n        {%- if product.featured_image -%}\n          image: \"https:{{ product.featured_image | product_img_url: 'grande' }}\",\n        {%- endif -%}\n\n        {% if variant.image %}\n          {% assign variant_image_size = variant.image.width | append: 'x' %}\n          image: \"http:{{ variant.image.src | img_url: variant_image_size }}\",\n        {% endif %}\n\n        description: \"{{ product.description | strip_html | strip_newlines | escape }}\",\n        {% assign ruk_current_variant = product.selected_or_first_available_variant %}\n        {% assign ruk_variant_count = product.variants | size %}\n        {% assign ruk_count = 0 %}\n\n        {% if product.variants %}\n          {% assign ruk_count = ruk_count | plus: 1 %}\n\n          offers: [{\n              type: \"Offer\",\n              priceCurrency: \"{{ cart.currency.iso_code }}\",\n              price: \"{{ ruk_current_variant.price | money_without_currency }}\",\n              itemCondition: \"http://schema.org/NewCondition\",\n              availability: \"http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}\",\n              url: \"{{ shop.url }}{{ ruk_current_variant.url }}\",\n\n              {% if ruk_current_variant.image %}\n                  {% assign variant_image_size = ruk_current_variant.image.width | append: 'x' %}\n                  image: \"https:{{ ruk_current_variant.image.src | img_url: variant_image_size }}\",\n              {% else %}\n                  image: \"https:{{ product.featured_image.src | img_url: 'grande' }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.title != 'Default Title' %}\n                  name: \"{{ product.title | strip_html | escape }} - {{ fa_current_variant.title | escape }}\",\n              {% else %}\n                  name: \"{{ product.title | strip_html | escape }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 12 %}\n                  gtin12: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 13 %}\n                  gtin13: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 14 %}\n                  gtin14: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.sku != blank %}\n                  sku: \"{{ ruk_current_variant.sku }}\",\n              {% else %}\n                  sku: \"{{ ruk_current_variant.id }}\",\n              {% endif %}\n\n              {% if product.description != blank %}\n                  description: \"{{ product.description | strip_html | escape | strip_newlines }}\",\n              {% endif %}\n\n              priceValidUntil: \"{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | replace:' ','%20' }}\"\n          }],\n        {% endif %}\n\n        brand: {\n          type: 'Brand',\n          name: '{{ product.vendor | escape }}',\n        },\n      },\n    },\n\n    /* Toggle Options */\n    questions:{\n          hide_if_no_results:false,\n          enable_ask_question:true,\n          show_dates:true,\n          grouping:\"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\"\n    },\n\n    //Header settings:\n    header:{\n        enable_summary: true, //Show overall rating & review count\n        enable_ratings: true,\n        enable_attributes: true,\n        enable_image_gallery: true, //Show photo & video gallery\n        enable_percent_recommended: false, //Show what percentage of reviewers recommend it\n        enable_write_review: true, //Show \"Write Review\" button\n        enable_ask_question: false, //Show \"Ask Question\" button\n        enable_sub_header: true, //Show subheader\n        rating_decimal_places: 2,\n        use_write_review_button:  true, //Show \"be the first to leave a review\" text as a button\n    },\n\n    //Filtering settings:\n    filtering:{\n        enable: true, //Show filtering options\n        enable_text_search: false, //Show search field\n        enable_sorting: true, //Show sorting options (most recent, most popular)\n        enable_product_filter: false, //Show product options filter\n        enable_media_filter: true, //Show reviews with images/video/media options\n        enable_overall_rating_filter: true, //Show overall rating breakdown filter\n        enable_language_filter: false, // Filter by review language\n        enable_language_filter_language_change: false, // Update widget language based on language selected\n        enable_ratings_filters: true, //Show product attributes filter\n        enable_attributes_filters: true, //Show author attributes filter\n        enable_expanded_filters: false, //Show filters as a section instead of dropdown\n    },\n\n    //Review settings:\n    reviews:{\n        enable_avatar: false, //Show author avatar\n        enable_reviewer_name:  true, //Show author name\n        enable_reviewer_address:  true, //Show author location\n        reviewer_address_format: 'city, country', //Author location display format\n        enable_verified_badge: true, //Show \"Verified Customer\" badge\n        enable_subscriber_badge: true, //Show \"Verified Subscriber\" badge\n        review_content_filter: 'no_content', //Filter content\n        enable_reviewer_recommends: false, //Show \"I recommend it\" badge\n        enable_attributes: true, //Show author attributes\n        enable_product_name: false, //Show display product name\n        enable_review_title: undefined, //Show review title\n        enable_replies: true, //Show review replies\n        enable_images: true, //Show display review photos\n        enable_ratings: true, //Show product attributes (additional ratings)\n        enable_share: false, //Show share buttons\n        enable_helpful_vote: false, //Show \"was this helpful?\" section\n        enable_helpful_display: false, //Show how many times times review upvoted\n        enable_report: false, //Show report button\n        enable_date: true, //Show when review was published\n        enable_third_party_source: true, //Show third party source\n        enable_duplicate_reviews: undefined, //Show multiple reviews from the same user\n\n    },\n},\n//Translation settings\ntranslations: {\n    'Verified Customer': 'Verifizierter Kauf'\n},\n//Style settings:\nstyles: {\n    //Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.\n    '--base-font-size': '16px',\n\n    //Button styles (shared between buttons):\n    '--common-button-font-family': 'inherit',\n    '--common-button-font-size':'16px',\n    '--common-button-font-weight':'500',\n    '--common-button-letter-spacing':'0',\n    '--common-button-text-transform':'none',\n    '--common-button-vertical-padding':'10px',\n    '--common-button-horizontal-padding':'20px',\n    '--common-button-border-width':'2px',\n    '--common-button-border-radius':'0px',\n\n    //Primary button styles:\n    '--primary-button-bg-color': '#0E1311',\n    '--primary-button-border-color': '#0E1311',\n    '--primary-button-text-color': '#ffffff',\n\n    //Secondary button styles:\n    '--secondary-button-bg-color': 'transparent',\n    '--secondary-button-border-color': '#0E1311',\n    '--secondary-button-text-color': '#0E1311',\n\n    //Star styles:\n    '--common-star-color': '#FAC850',\n    '--common-star-disabled-color': 'rgba(0,0,0,0.25)',\n    '--medium-star-size': '22px',\n    '--small-star-size': '19px',\n\n    //Heading styles:\n    '--heading-text-color': '#0E1311',\n    '--heading-text-font-weight': '600',\n    '--heading-text-font-family': 'inherit',\n    '--heading-text-line-height': '1.4',\n    '--heading-text-letter-spacing': '0',\n    '--heading-text-transform': 'none',\n\n    //Body text styles:\n    '--body-text-color': '#0E1311',\n    '--body-text-font-weight': '400',\n    '--body-text-font-family': 'inherit',\n    '--body-text-line-height': '1.4',\n    '--body-text-letter-spacing': '0',\n    '--body-text-transform': 'none',\n\n    //Input field styles:\n    '--inputfield-text-font-family': 'inherit',\n    '--input-text-font-size': '14px',\n    '--inputfield-text-font-weight': '400',\n    '--inputfield-text-color': '#0E1311',\n    '--inputfield-border-color': 'rgba(0,0,0,0.2)',\n    '--inputfield-background-color': 'transparent',\n    '--inputfield-border-width': '1px',\n    '--inputfield-border-radius': '0px',\n\n    '--common-border-color': 'rgba(0,0,0,0.15)',\n    '--common-border-width': '1px',\n    '--common-sidebar-width': '190px',\n\n    //Filters panel styles:\n    '--filters-panel-bg-color': 'transparent',\n    '--filters-panel-font-size': '16px',\n    '--filters-panel-text-color': '16px',\n    '--filters-panel-horizontal-padding': '0',\n    '--filters-panel-vertical-padding': '0',\n\n    //Slider indicator (for attributes) styles:\n    '--slider-indicator-bg-color': 'rgba(0,0,0,0.1)',\n    '--slider-indicator-button-color': '#0E1311',\n    '--slider-indicator-width': '190px',\n\n    //Badge styles:\n    '--badge-icon-color': '#138A36',\n    '--badge-icon-font-size': 'inherit',\n    '--badge-text-color': '#525252',\n    '--badge-text-font-size': 'inherit',\n    '--badge-text-letter-spacing': 'inherit',\n    '--badge-text-transform': 'uppercase',\n\n    //Author styles:\n    '--author-font-size': 'inherit',\n    '--author-text-transform': 'none',\n\n    //Author avatar styles:\n    '--avatar-thumbnail-size': '60px',\n    '--avatar-thumbnail-border-radius': '100px',\n    '--avatar-thumbnail-text-color': '#0E1311',\n    '--avatar-thumbnail-bg-color': 'rgba(0,0,0,0.1)',\n\n    //Product photo or review photo styles:\n    '--photo-video-thumbnail-size': '80px',\n    '--photo-video-thumbnail-border-radius': '0px',\n\n    //Media (photo & video) slider styles:\n    '--mediaslider-scroll-button-icon-color': '#0E1311',\n    '--mediaslider-scroll-button-bg-color': 'rgba(255, 255, 255, 0.85)',\n    '--mediaslider-overlay-text-color': '#ffffff',\n    '--mediaslider-overlay-bg-color': 'rgba(0, 0, 0, 0.8))',\n    '--mediaslider-item-size': '110px',\n\n    //Pagination & tabs styles (normal):\n    '--pagination-tab-text-color': '#0E1311',\n    '--pagination-tab-text-transform': 'none',\n    '--pagination-tab-text-letter-spacing': '0',\n    '--pagination-tab-text-font-size': '16px',\n    '--pagination-tab-text-font-weight': '600',\n\n    //Pagination & tabs styles (active):\n    '--pagination-tab-active-text-color': '#0E1311',\n    '--pagination-tab-active-text-font-weight': '600',\n    '--pagination-tab-active-border-color': '#0E1311',\n    '--pagination-tab-border-width': '3px',\n},\n});\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1751374197e0af5bfa": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_RRWBJV": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#ffffff",
+            "z_index": 1,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_RRWBJV"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "1707205712db334b9f",
+    "custom_html_RN8UrQ",
+    "main",
+    "gp_global_section_564352139632050962_3x3cnU",
+    "gp_global_section_564498340738237202_JG7imR",
+    "product-content",
+    "custom_liquid_mJdJbj",
+    "1751374197e0af5bfa"
+  ]
+}

@@ -1,0 +1,27 @@
+{% if template contains 'product' %}
+    {% for video in product.metafields.standard.featured_video.value.sources %}
+        {% assign video_url = video.url %}
+    {% endfor %}
+
+    <ed-video-thumbnail class="ed-video-thumbnail"
+                        video-src="{{ video_url }}"
+                        autoplay="true"
+                        controls="true">
+        <div class="thumbnail-container btn-open">
+            {% if product.metafields.standard.featured_video_thumbnail != blank %}
+                <img src="{{ product.metafields.standard.featured_video_thumbnail.value | img_url: '100x' }}" alt=""/>
+                <div class="overlay" style="border-color:{{ color_video_story }};"></div>
+                <div class="play-btn">
+                    <span class="arrow-right"></span>
+                </div>
+            {% else %}
+                {% assign default_thumbnail_url = 'https://cdn.shopify.com/s/files/1/0606/6277/6063/files/video-thumbnail-test.gif?v=1707894911' %}
+                <img src="{{ default_thumbnail_url }}" alt=""/>
+                <div class="overlay" style="border-color:{{ color_video_story }};"></div>
+                <div class="play-btn">
+                    <span class="arrow-right"></span>
+                </div>
+            {% endif %}
+        </div>
+    </ed-video-thumbnail>
+{% endif %}

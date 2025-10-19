@@ -1,0 +1,290 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_kTRLWf": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .discount-bar {\n    background-color: #27bf2eb8; \n    color: white;\n    padding: 4px;\n    text-align: center;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: Open Sans, sans-serif;\nmargin:0px -15px 0px -20px;\nbox-shadow: 1px 2px 7px -2px #0000004a;    z-index: 9;\n  }\n\n.discount-bar .checkmark-icon {\n    margin-right: 5px;\n    width: 15px;\n    height: 15px;\n}\n\n  .discount-bar .checkmark-icon path {\n    fill: white;\n  }\n</style>\n\n<div class=\"discount-bar\">\n  <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n    <path d=\"M20.285,2.288l-11.69,11.69-4.869-4.869L2,11.835l6.594,6.594,13.881-13.881L20.285,2.288z\"/>\n  </svg>\n  <span>Dein <b>10% Rabattcode</b> von Leni wurde aktiviert</span>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "h3.heading.h2 {text-shadow: 0px 0px 20px #000; font-weight: 500;}",
+        ".image-overlay__text-container {font-weight: 500; text-shadow: 0 0 12px black;}",
+        ".image-overlay--small {--image-height: 200px;}",
+        ".button {line-height: 18px; padding: 5px 10px 5px 10px; letter-spacing: 0.5px; font-size: 10px; text-transform: none; line-height: 14px;}",
+        "@media (min-width: 1024px) {.button {font-size: 12px; line-height: 16px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/nailsbyleni-tiktok.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "https://lynis-nailshop.de/discount/COM15?redirect=%2Fpages%2Fneu",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#fac850",
+        "button_text_color": "#0d0d0d",
+        "overlay_color": "#0d0d0d",
+        "overlay_opacity": 40
+      }
+    },
+    "bild_image_6CqB3H": {
+      "type": "Bild-Image",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative;}"
+      ],
+      "settings": {
+        "bild": "shopify://shop_images/nailsbyleni-instabild-Photoroom.png-Photoroom.png",
+        "alt_text": "",
+        "bild_groesse": "small",
+        "bild_positionierung": "zentriert",
+        "custom_class": "insta-image-proof",
+        "bild_url": ""
+      }
+    },
+    "bild_image_hGew8x": {
+      "type": "Bild-Image",
+      "custom_css": [
+        ".tiktok-leni-proof {max-width: 95%; margin: auto; margin-bottom: -25px;}",
+        "@media (min-width: 1024px) {.tiktok-leni-proof {max-width: 600px; }}"
+      ],
+      "settings": {
+        "bild": "shopify://shop_images/gempages_516802024675738699-16894bf7-52d0-4efc-8a3b-bbd141213b61_e6449398-1a59-48a3-b4f7-eeb3eed868c1.webp",
+        "alt_text": "",
+        "bild_groesse": "original",
+        "bild_positionierung": "zentriert",
+        "custom_class": "tiktok-leni-proof",
+        "bild_url": ""
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Meine ersten eigenen Produkte in Zusammenarbeit mit Lyni sind endlich ONLINE! </p><p>Als <strong>Neukunde</strong> kannst du mit dem Code <span style=\"text-decoration:underline\"><em><strong>tiktok_leni</strong></em></span> noch 10% auf meine Produkte sowie auf alle anderen nicht reduzierten Produkte sparen!</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "model_view_QNMnNc": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "leni-x-kollektion",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Meine ersten eigenen Produkte",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_M8Nmjx": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_UVnXeg": {
+          "type": "collection",
+          "settings": {
+            "collection": "favoriten-leni",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_UVnXeg"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "Produkte, auf die ich nicht verzichten möchte",
+        "title": "Meine Favoriten",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_RmQBpf": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_KNJxcf": {
+          "type": "collection",
+          "settings": {
+            "collection": "leni-lieblingsfarben",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KNJxcf"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lieblingsfarben",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_tcP3yr": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_UVGtqK": {
+          "type": "collection",
+          "settings": {
+            "collection": "leni-etc",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_UVGtqK"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Alles was ich sonst nutze",
+        "content": "",
+        "css-klasse": "block2",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_Ab8cYz": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    const url = new URL(window.location.href);\n    if (!url.searchParams.has(\"lyn\")) {\n        url.searchParams.set(\"lyn\", \"531\");\n        window.location.href = url.toString();\n    }\n});\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_kTRLWf",
+    "image_with_text_overlay_a94x7r",
+    "bild_image_6CqB3H",
+    "bild_image_hGew8x",
+    "rich_text_teMzPn",
+    "model_view_QNMnNc",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_M8Nmjx",
+    "unterkategorie_RmQBpf",
+    "unterkategorie_tcP3yr",
+    "main",
+    "custom_html_Ab8cYz"
+  ]
+}

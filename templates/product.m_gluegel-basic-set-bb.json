@@ -1,0 +1,812 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_QhRE9W": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.custom-label-DL {\n    display: inline-block;\n    background-color: #cacaca;\n    padding: 1px 6px 1px !important;\n    text-transform: uppercase;\n    letter-spacing: 0.5px !important;\n    font-size: 11px !important;\n    color: #1e1e1e !important;\nfont-weight:100 !important;\n}\n</style>\n<div class=\"custom-label-DL\">bis zu <b>15 Anwendungen</b></div>ㅤ<div class=\"custom-label-DL\"><b>4€</b> pro Nägel machen</div>\n<br><br>"
+          }
+        },
+        "liquid_rNXyYm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign items = product.metafields.jtl.bulletpoints | split: '•' %}\n<ul style=\"list-style-type:none; padding: 0;\">\n{% for item in items %}\n  {% if item != '' %}\n  <li style=\"display: flex; margin-bottom: 6px;\">\n    <span style=\"white-space: nowrap; margin-right: 5px;\">•</span>\n    <span style=\"flex: 1;\">{{ item | strip }}</span>\n  </li>\n  {% endif %}\n{% endfor %}\n</ul>"
+          }
+        },
+        "bundle_builder_RaWb6p": {
+          "type": "bundle_builder",
+          "settings": {
+            "step": "<b>Farbe</b><br>",
+            "image": "shopify://shop_images/auswahl-grosser2.png",
+            "products": [
+              "glue-gel-white-gg",
+              "glue-gel-schwarz-gg",
+              "shellac-glam-nude-gg",
+              "gel-polish-blush-10ml-gg",
+              "gel-polish-mademoiselle-gg",
+              "gel-polish-pure-beauty-gg",
+              "shellac-pastell-nude-gg",
+              "gel-polish-happy-day-gg",
+              "gel-polish-girly-gg",
+              "gel-polish-rosewood-gg",
+              "shellac-fairytale-gg",
+              "shellac-suitable-gg",
+              "gel-polish-glitterchoc-gg",
+              "gel-polish-silver-gg",
+              "gel-polish-memories-10ml-gg",
+              "shellac-glam-purple-gg",
+              "shellac-pastell-rose-gg",
+              "gel-polish-disco-fever-gg",
+              "shellac-pastell-lilac-gg",
+              "shellac-pastell-mint-gg",
+              "shellac-pastell-light-blue-gg",
+              "shellac-pastell-blue-gg",
+              "gel-polish-apple-10ml-gg",
+              "gel-polish-grey-shadow-gg",
+              "shellac-shy-gg",
+              "shellac-girlfriend-gg",
+              "shellac-classic-red-gg",
+              "shellac-crazy-girl-gg",
+              "gel-polish-be-special-gg",
+              "gel-polish-sweet-cherry-gg",
+              "shellac-latina-gg",
+              "shellac-autumn-gg",
+              "shellac-ruby-red-gg",
+              "shellac-glamorous-gg",
+              "gel-polish-aubergine-gg",
+              "gel-polish-apricot-gg",
+              "gel-polish-clay-10ml-gg",
+              "shellac-delight-gg",
+              "shellac-show-time-gg",
+              "shellac-exotic-gg",
+              "shellac-berrylicious-gg",
+              "shellac-game-of-stones-gg",
+              "gel-polish-look-at-me-gg",
+              "gel-polish-hypnotic-gg",
+              "shellac-meadow-gg",
+              "gel-polish-smaragd-gg",
+              "gel-polish-dark-night-gg",
+              "shellac-darkness-gg",
+              "shellac-forever-gg",
+              "shellac-very-berry-gg"
+            ],
+            "btn_text": "Farbe wählen..",
+            "price": "",
+            "info": "<p>Viele weitere Farben findest du bei unseren <a href=\"/collections/shellac-farben\" title=\"Shellac Farben\">Shellacen</a></p>",
+            "optional": false
+          }
+        },
+        "bundle_builder_VhVrfg": {
+          "type": "bundle_builder",
+          "settings": {
+            "step": "<b>Form</b><br>",
+            "image": "shopify://shop_images/auswahl-grosser2.png",
+            "products": [
+              "ballerina-extra-kurz",
+              "extra-kurz-rund",
+              "mandel-extra-kurz",
+              "square-extra-kurz",
+              "extra-short-ballerina",
+              "click-it-tips-shorty-round-gg",
+              "click-it-tips-clear-mandel-gg",
+              "click-it-tips-square-clear-gg",
+              "klick-it-tips-gg",
+              "click-it-tips-round-clear-gg",
+              "click-it-tips-square-long-clear-gg"
+            ],
+            "btn_text": "Form auswählen..",
+            "price": "",
+            "info": "",
+            "optional": false
+          }
+        },
+        "bundle_builder_jqwGiN": {
+          "type": "bundle_builder",
+          "settings": {
+            "step": "<b>Entfernung</b><br>",
+            "image": "shopify://shop_images/auswahl-grosser2.png",
+            "products": [
+              "remover-set-fur-glue-gel-nails"
+            ],
+            "btn_text": "Einfache Entfernung?",
+            "price": "(optional)",
+            "info": "<p><em><strong>Tipp: </strong></em>Wenn du eine <strong>einfache</strong> & <strong>schonene</strong> Entfernung der Nägel in 20-30min. möchtest, empfehlen wir dir dieses Set.</p>",
+            "optional": true
+          }
+        },
+        "bundle_builder_yxqqFg": {
+          "type": "bundle_builder",
+          "settings": {
+            "step": "<b>UV-Lampe</b><br>",
+            "image": "shopify://shop_images/auswahl-grosser2.png",
+            "products": [
+              "bowled-lampe-gg",
+              "twin-led-lampe-gg",
+              "dual-uv-led-lampe"
+            ],
+            "btn_text": "Benötigst du eine Lampe?",
+            "price": "(optional)",
+            "info": "<p>Wenn du noch <span style=\"text-decoration:underline\"><strong>keine</strong></span> Lampe zum Aushärten der Shellac Farben hast, dann wähle hier das Gerät.</p>",
+            "optional": true
+          }
+        },
+        "liquid_RFCrTj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.gg-basic-inhalte::before {\n    content: '';\n    display: inline-block;\n    width: 16px;\n    height: 16px;\n    background-image: url('https://cdn.shopify.com/s/files/1/0606/6277/6063/files/info-icon.png');\n    background-size: contain;\n    background-repeat: no-repeat;\n    margin-right: 5px;\n    vertical-align: bottom;\n}\n</style>\n<div class=\"gg-basic-inhalte\">{%- render 'help_page' -%}</div>"
+          }
+        },
+        "136a629f-7d9f-49d0-8277-16d8527be548": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_payment_button": false,
+            "atc_button_background": "#fac850",
+            "atc_button_text_color": "#000000",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "show_qty_discount": false,
+            "qty_discount_title": "Menge auswählen:",
+            "qty_discount_badge_color": "",
+            "qty_discount_font_color": ""
+          }
+        },
+        "55b78893-f828-4f07-8560-bb3458268c59": {
+          "type": "inventory",
+          "settings": {
+            "inventory_high_color": "#138a36",
+            "inventory_low_color": "#f9ca4f",
+            "inventory_out_of_stock_color": "#ff0000",
+            "low_inventory_threshold": 25,
+            "text_in_stock": "{{ product.metafields.jtl.delivery_status.value }}"
+          }
+        },
+        "liquid_UmnFDe": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"ed-payment-bar-pdp\">\n{% render 'ed-payment-bar' %}\n{% if settings.show_rate_payment_pdp  %}\n{% render 'ed-klarna-custom-payment' %}\n{% endif %}\n</div>"
+          }
+        },
+        "liquid_edGDAC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.product-bundle-products-selection .product-bundle-add-product-img {\n    background: radial-gradient(circle, rgba(255, 255, 255, 1) 45%, rgb(224 224 224) 100%);\n    border: 1px solid #dbd1b4;\n    border-radius: 80px;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 10% 0;\n}\n\n.product-bundle-products-selection .product-bundle-add-product-img {\n    padding: 5px !important;\n    height: 108px;\n}\n\n.product-bundle-add-product.added .p-img {\n    width: auto;\n    border-radius: 100%;\n    mix-blend-mode: multiply;\n}\n\np.p-title {\n    text-align: center !important;\n    font-size: 12px !important;\n    line-height: 1.5 !important;\n}\n.progress-text {\n    margin-bottom: 5px;\n}\n@media (max-width: 768px) {\n  .product-bundle-products-selection .product-bundle-add-product-img {\n      height: 22vw !important;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_AxnTcU": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!-- Unsicher Smiley Section -->\n<div style=\"display: flex; align-items: center; padding: 15px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-top: 20px;\">\n    <!-- Question Icon -->\n    <div style=\"flex-shrink: 0;\">\n        <i class=\"fas fa-question-circle\" style=\"font-size: 24px; color: grey;\"></i>\n    </div>\n    <!-- Text -->\n    <div style=\"flex-grow: 1; margin-left: 15px;\">\n        <p style=\"margin: 0; font-size: 14px; color: #333;\">\n            <strong>Unsicher ob es das richtige für dich ist?<br></strong> Lass deine Nägel im Selbsttest kostenlos analysieren!\n        </p>\n    </div>\n    <!-- CTA Button -->\n    <div style=\"flex-shrink: 0; margin-left: 5px;\">\n        <a href=\"https://nailmondo.myshopify.com/pages/selbsttest-v1\" style=\"display: inline-block; padding: 10px 20px; background-color: green; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;\">Jetzt starten!</a>\n    </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_QhRE9W",
+        "liquid_rNXyYm",
+        "bundle_builder_RaWb6p",
+        "bundle_builder_VhVrfg",
+        "bundle_builder_jqwGiN",
+        "bundle_builder_yxqqFg",
+        "liquid_RFCrTj",
+        "136a629f-7d9f-49d0-8277-16d8527be548",
+        "55b78893-f828-4f07-8560-bb3458268c59",
+        "liquid_UmnFDe",
+        "liquid_edGDAC",
+        "liquid_AxnTcU"
+      ],
+      "custom_css": [
+        "li.breadcrumb__item {display: none;}",
+        ".ed-buy-box {box-shadow: #00000030 0px 0px 19px -5px; padding: 0px 0px 15px 0px !important;}",
+        "product-inventory.product-form__inventory-wrapper {margin-bottom: -4%;}",
+        ".product-form__custom-liquid {font-size: 12px; color: grey; line-height: 16px;}",
+        ".product-bundle-title {padding: 5px; background: #f1f1f1; border-radius: 15px; text-align: center; font-family: \"Rajdhani\", sans-serif; font-weight: 600 !important;}",
+        "product-payment-container#MainPaymentContainer {display: none;}"
+      ],
+      "settings": {
+        "bundle_title": "Stelle dir dein eigenes Set zusammen:",
+        "bundle_title_after": "Tolle Wahl!",
+        "optional_product": "keine-auswahl",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_title_sticky_add_to_cart": true,
+        "show_variant_selection_sticky_add_to_cart": true,
+        "show_price_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "glue-gel-basic-set-inhalte",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "enable_image_zoom_icon": false,
+        "enable_image_zoom_click_mobile": true,
+        "enable_image_zoom_click_desktop": true,
+        "color_video_story": "#0d0d0d",
+        "show_thumbnails_on_mobile": true,
+        "show_arrow_of_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "show_application_steps": false,
+        "application_steps_background": "#0d0d0d",
+        "application_steps_color": "#f5f5f5",
+        "font_size_application_steps": 12,
+        "application_steps_text_1": "It is a long established fact that a reader will be",
+        "application_steps_text_2": "It is a long established fact that a reader will be",
+        "application_steps_text_3": "It is a long established fact that a reader",
+        "application_steps_text_4": "It is a long established fact that a reader will",
+        "enable_social_proof": true,
+        "social_proof_background": "#f4f4f4",
+        "social_proof_text": "#000000",
+        "social_proof_box_style": "10px",
+        "social_proof_image_1": "shopify://shop_images/2024-02-29_16.20.31.jpg",
+        "social_proof_image_2": "shopify://shop_images/photo_2024-02-29_16.20.49.jpg",
+        "ppl_social_proof": "",
+        "enable_insta_checkmark": false,
+        "text_social_proof": "über 10.000 Kunden lieben das Glue Gel",
+        "enable_text_bold": false,
+        "enable_popular_variants": false,
+        "popular_variants_badge": "#de2a2a",
+        "popular_variants_badge_color": "#f5f5f5",
+        "popular_variants_text": "Bestseller",
+        "enable_buy_box": true,
+        "buy_box_border_color": "#d7d7d7",
+        "buy_box_bg_color": "#ffffff",
+        "buy_box_border_radius": 15,
+        "update_prices_on_qty_change": true
+      }
+    },
+    "ed_application_steps_section_jCNiGn": {
+      "type": "ed-application-steps-section",
+      "custom_css": [
+        ".ed-application-inner-container-section .ed-application-steps-container .ed-application-steps-item .ed-application-steps-image-wrapper {height: 100% !important;}",
+        "@media only screen and (min-width: 1000px) .ed-application-inner-container-section .ed-application-steps-container .ed-application-steps-item .ed-application-steps-image-wrapper {{height: 100% !important; }}",
+        ".ed-application-steps .ed-application-steps-container .ed-application-steps-item .ed-application-steps-image-wrapper .application-step-number {top: 2px;}"
+      ],
+      "settings": {
+        "show_application_steps_mobile": true,
+        "application_steps_background": "#dbd1b4",
+        "application_steps_color": "#2e2e2e",
+        "font_size_application_steps": 10,
+        "application_steps_image_1": "shopify://shop_images/step1.jpg",
+        "application_steps_text_1": "",
+        "application_steps_image_2": "shopify://shop_images/step2.jpg",
+        "application_steps_text_2": "",
+        "application_steps_image_3": "shopify://shop_images/step3.jpg",
+        "application_steps_text_3": "",
+        "application_steps_text_4": ""
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "enable_desktop_accordion": false
+      }
+    },
+    "custom_html_NeXL48": {
+      "type": "custom-html",
+      "custom_css": [],
+      "settings": {
+        "subheading": "NEUE Technik in 2024",
+        "title": "Glue Gel Nägel von <b>Zuhause</b>",
+        "html": "<style>\ndiv#shopify-section-template--19340685181196__custom_html_NeXL48 {\n    max-width: 1000px !important;\n    margin: auto;\n}</style>\n<script>(function (d, s, id) {\n        var js, hjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id))\n            return;\n        js = d.createElement(s);\n        js.id = id;\n        js.src = \"//www.ezplayer.net/scripts/sdk/v6/lib.js?1710421272\";\n        hjs.parentNode.insertBefore(js, hjs);\n    }(document, 'script', 'ezplayer-jssdk'));</script>\n\n<div class=\"js-hqplayer css-hqplayer\">\n    <div class=\"js-hqplayer__video\" data-uid=\"477a1ba932ee8e328b49f0f702f21bdf429dd22e\" data-height=\"720\" data-width=\"1080\"></div>        \n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_tUG3rT": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_a6Ld3P": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi-nails1.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EDzgNN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi-nails4.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_tkNwYD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi-nails2.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_F3DC7c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/testi-nails3.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_a6Ld3P",
+        "item_EDzgNN",
+        "item_tkNwYD",
+        "item_F3DC7c"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_text_with_icons_fggnLe": {
+      "type": "ed-text-with-icons",
+      "blocks": {
+        "item_3XE6fL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify://shop_images/icon5.png",
+            "custom_icon_width": 50,
+            "title": "4-6 WOCHEN HALT WIE ECHTE STUDIONÄGEL",
+            "content": ""
+          }
+        },
+        "item_eYEz4k": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify://shop_images/icon1.png",
+            "custom_icon_width": 50,
+            "title": "EXTREM GÜNSTIG! NUR\n4€,- PRO ANWENDUNG",
+            "content": ""
+          }
+        },
+        "item_JatFFJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify://shop_images/icon3.png",
+            "custom_icon_width": 50,
+            "title": "HALTBARE GELNÄGEL IN UNTER 60 MINUTEN.",
+            "content": ""
+          }
+        },
+        "item_4ejVBi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify://shop_images/icon2.png",
+            "custom_icon_width": 50,
+            "title": "PROBLEMLOS & EINFACH ZUM AUFFÜLLEN",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_3XE6fL",
+        "item_eYEz4k",
+        "item_JatFFJ",
+        "item_4ejVBi"
+      ],
+      "settings": {
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "gallery_g9QnqQ": {
+      "type": "gallery",
+      "blocks": {
+        "image_9hR7tq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_3MgWcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_4_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_YCB7wB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_cfAHUa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_1_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_nEFACe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_nGtcq8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_8bkbyf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_JGptdn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_aaAm3R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_bHTFaL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_MPUKaw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_apqyG7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_1.jpg",
+            "caption": ""
+          }
+        },
+        "image_Y6ymYB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_1.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9hR7tq",
+        "image_3MgWcb",
+        "image_YCB7wB",
+        "image_cfAHUa",
+        "image_nEFACe",
+        "image_nGtcq8",
+        "image_8bkbyf",
+        "image_JGptdn",
+        "image_aaAm3R",
+        "image_bHTFaL",
+        "image_MPUKaw",
+        "image_apqyG7",
+        "image_Y6ymYB"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Kundenergebnisse",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "gallery_FQhfJy": {
+      "type": "gallery",
+      "blocks": {
+        "image_T3DqfQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feedback.jpg",
+            "caption": ""
+          }
+        },
+        "image_DT3GRR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feedback2.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_T3DqfQ",
+        "image_DT3GRR"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_RKFNzU": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_cyeEMX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/stress-test-gg.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "<span style=\"font-size:large;\"<b>STRESS-TEST</b></span><br>\n<span style=\"color:#be9c54\">HALTBAR BIS ZU<b> 6 WOCHEN</b></span>",
+            "content": "<p>Nach wenigen Anwendungen wirst du den Dreh raus haben & auch deine Nägel werden bis zu 6 Wochen lang halten & sich auch dann noch bombenfest anfühlen.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_cyeEMX"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_hKDWFz": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_9tbLHi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gg-kurs.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "<span style=\"font-size:large;\"<b>WIR HELFEN DIR</b></span><br>\n<span style=\"color:#be9c54\"><b>KEINE ANGST</b> - WIR SIND DA!</span>",
+            "content": "<p>Jeder Anfänger wird ohne Vorerfahrung dank meinem Online-Kurs seine Nägel zum Halten bringen. Wir sind jederzeit bei Fragen & Problemen für dich da. Zusätzlich gibt es eine Facebook-Gruppe um dich mit anderen auszutauschen.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9tbLHi"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "right",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_PKFc4Q": {
+      "type": "faq",
+      "blocks": {
+        "question_Yy8NTz": {
+          "type": "question",
+          "settings": {
+            "title": "Was ist der Unterschied zu normalen Gelnägeln?",
+            "answer": "<p>Durch die <strong>knetbare</strong> und standfeste Konsistenz des Glue Gels ist das Set kinderleicht anzuwenden und für Anfänger sehr gut geeignet. Im Gegensatz zu anderen Gelen läuft es <span style=\"text-decoration:underline\"><strong>nicht in den Rand</strong></span> und ein Überschuss kann kinderleicht und ohne Rückstände vor dem Aushärten entfernt werden. So einfach war Nägel machen noch <strong>nie!</strong></p>"
+          }
+        },
+        "question_eK3frE": {
+          "type": "question",
+          "settings": {
+            "title": "Wie oft kann man die Nägel mit dem Set arbeiten?",
+            "answer": "<p>Du kannst <strong>ca.</strong> <strong>20x Anwendungen</strong> mit dem Set arbeiten. Danach benötigst du lediglich noch Feilen, Tips und Glue Gel. Eine Anwendung kostet somit unter 4,00€ und hält 4-6 Wochen! <strong>Das Set hält also über ein Jahr!</strong></p>"
+          }
+        },
+        "question_DwVc4t": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange muss das Glue Gel aushärten?",
+            "answer": "<p>Das Glue Gel muss in einer UV Lampe 120 Sek., in einer UV/LED Kombi Lampe 90 Sek. Und in einer LED Lampe 60 Sek. ausgehärtet werden</p><p><strong>Tipp:</strong> Befestige jeden Tip indem du das Gel für 10sek. \"anhärtest\", dadurch sparst du dir Zeit und musst am Ende nur 1x in die Lampe um alle 5 Nägel auszuhärten.</p>"
+          }
+        },
+        "question_E9HfgT": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange halten die Nägel?",
+            "answer": "<p>Wenn du alles richtig machst, können die Glue Gel Nails<strong>4-6 Wochen halten</strong>, je nachdem wie schnell deine Nägel rauswachsen. Sie sind genauso haltbar wie Nägel aus dem Studio.</p>"
+          }
+        },
+        "question_UHfdLR": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich das wirklich alleine machen ohne Erfahrung?",
+            "answer": "<p>Ja! Es ist kinderleicht und dank des kostenlosen Videokurses, den du zum Set dazu bekommst, wirst du es 100%ig schaffen! :)</p>"
+          }
+        },
+        "question_qQ8AiC": {
+          "type": "question",
+          "settings": {
+            "title": "Wie kann ich die Nägel entfernen?",
+            "answer": "<p>Kinderleicht & schnell! Mit unserem Remover Set kannst du schonend deine Nägel innerhalb von 20-30min. ohne Rückstände entfernen.</p>"
+          }
+        },
+        "question_hQCfkf": {
+          "type": "question",
+          "settings": {
+            "title": "Muss ich etwas bestimmtes beachten?",
+            "answer": "<p>Eine gründliche Naturnagelvorbereitung ist wie bei jeder Modellage das A und O, damit die Nägel gut halten. Schaue dir dazu unsere Anleitung an, damit du nichts falsch machst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_Yy8NTz",
+        "question_eK3frE",
+        "question_DwVc4t",
+        "question_E9HfgT",
+        "question_UHfdLR",
+        "question_qQ8AiC",
+        "question_hQCfkf"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Häufige Fragen",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_j9rUW4": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".footer__reviewsLogo-container {display: none !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<script src=\"https://widget.reviews.io/polaris/build.js\"></script>\n<div id=\"ReviewsWidget\"></div>\n<script>\nnew ReviewsWidget('#ReviewsWidget', {\n//Your REVIEWS.io Store ID and widget type:\nstore: 'www.lynis-nailshop.de',\nwidget: 'polaris',\n\n//Content settings (store_review,product_review,third_party_review,questions). Choose what to display in this widget:\noptions: {\n    types: 'product_review',\n    lang: 'de',\n    //Possible layout options: bordered, large and reverse.\n    layout: '',\n    //How many reviews & questions to show per page?\n    per_page: 8,\n    store_review:{\n      hide_if_no_results: false,\n    },\n    third_party_review:{\n      hide_if_no_results: false,\n    },\n    product_review: {\n      sku: \"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\",\n      enable_rich_snippets: true,\n\n      /* Your custom Structured Data */\n      structured_data: {\n\n        category: {{ product.type | json }},\n        {% capture gtin_length %}{{ product.variants.first.barcode | size }}{% endcapture %}\n\n\n        {% if gtin_length == \"14\" %}\n           gtin14:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"13\" %}\n           gtin13:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"12\" %}\n           gtin12:\"{{product.variants.first.barcode}}\",\n        {% endif %}\n\n        url: \"{{ shop.url }}{{ product.url }}\",\n\n        {%- if product.featured_image -%}\n          image: \"https:{{ product.featured_image | product_img_url: 'grande' }}\",\n        {%- endif -%}\n\n        {% if variant.image %}\n          {% assign variant_image_size = variant.image.width | append: 'x' %}\n          image: \"http:{{ variant.image.src | img_url: variant_image_size }}\",\n        {% endif %}\n\n        description: \"{{ product.description | strip_html | strip_newlines | escape }}\",\n        {% assign ruk_current_variant = product.selected_or_first_available_variant %}\n        {% assign ruk_variant_count = product.variants | size %}\n        {% assign ruk_count = 0 %}\n\n        {% if product.variants %}\n          {% assign ruk_count = ruk_count | plus: 1 %}\n\n          offers: [{\n              type: \"Offer\",\n              priceCurrency: \"{{ cart.currency.iso_code }}\",\n              price: \"{{ ruk_current_variant.price | money_without_currency }}\",\n              itemCondition: \"http://schema.org/NewCondition\",\n              availability: \"http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}\",\n              url: \"{{ shop.url }}{{ ruk_current_variant.url }}\",\n\n              {% if ruk_current_variant.image %}\n                  {% assign variant_image_size = ruk_current_variant.image.width | append: 'x' %}\n                  image: \"https:{{ ruk_current_variant.image.src | img_url: variant_image_size }}\",\n              {% else %}\n                  image: \"https:{{ product.featured_image.src | img_url: 'grande' }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.title != 'Default Title' %}\n                  name: \"{{ product.title | strip_html | escape }} - {{ fa_current_variant.title | escape }}\",\n              {% else %}\n                  name: \"{{ product.title | strip_html | escape }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 12 %}\n                  gtin12: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 13 %}\n                  gtin13: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 14 %}\n                  gtin14: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.sku != blank %}\n                  sku: \"{{ ruk_current_variant.sku }}\",\n              {% else %}\n                  sku: \"{{ ruk_current_variant.id }}\",\n              {% endif %}\n\n              {% if product.description != blank %}\n                  description: \"{{ product.description | strip_html | escape | strip_newlines }}\",\n              {% endif %}\n\n              priceValidUntil: \"{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | replace:' ','%20' }}\"\n          }],\n        {% endif %}\n\n        brand: {\n          type: 'Brand',\n          name: '{{ product.vendor | escape }}',\n        },\n      },\n    },\n\n    /* Toggle Options */\n    questions:{\n          hide_if_no_results:false,\n          enable_ask_question:true,\n          show_dates:true,\n          grouping:\"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\"\n    },\n\n    //Header settings:\n    header:{\n        enable_summary: true, //Show overall rating & review count\n        enable_ratings: true,\n        enable_attributes: true,\n        enable_image_gallery: true, //Show photo & video gallery\n        enable_percent_recommended: false, //Show what percentage of reviewers recommend it\n        enable_write_review: true, //Show \"Write Review\" button\n        enable_ask_question: false, //Show \"Ask Question\" button\n        enable_sub_header: true, //Show subheader\n        rating_decimal_places: 2,\n        use_write_review_button:  true, //Show \"be the first to leave a review\" text as a button\n    },\n\n    //Filtering settings:\n    filtering:{\n        enable: true, //Show filtering options\n        enable_text_search: false, //Show search field\n        enable_sorting: true, //Show sorting options (most recent, most popular)\n        enable_product_filter: false, //Show product options filter\n        enable_media_filter: true, //Show reviews with images/video/media options\n        enable_overall_rating_filter: true, //Show overall rating breakdown filter\n        enable_language_filter: false, // Filter by review language\n        enable_language_filter_language_change: false, // Update widget language based on language selected\n        enable_ratings_filters: true, //Show product attributes filter\n        enable_attributes_filters: true, //Show author attributes filter\n        enable_expanded_filters: false, //Show filters as a section instead of dropdown\n    },\n\n    //Review settings:\n    reviews:{\n        enable_avatar: false, //Show author avatar\n        enable_reviewer_name:  true, //Show author name\n        enable_reviewer_address:  true, //Show author location\n        reviewer_address_format: 'city, country', //Author location display format\n        enable_verified_badge: true, //Show \"Verified Customer\" badge\n        enable_subscriber_badge: true, //Show \"Verified Subscriber\" badge\n        review_content_filter: 'no_content', //Filter content\n        enable_reviewer_recommends: false, //Show \"I recommend it\" badge\n        enable_attributes: true, //Show author attributes\n        enable_product_name: false, //Show display product name\n        enable_review_title: undefined, //Show review title\n        enable_replies: true, //Show review replies\n        enable_images: true, //Show display review photos\n        enable_ratings: true, //Show product attributes (additional ratings)\n        enable_share: false, //Show share buttons\n        enable_helpful_vote: false, //Show \"was this helpful?\" section\n        enable_helpful_display: false, //Show how many times times review upvoted\n        enable_report: false, //Show report button\n        enable_date: true, //Show when review was published\n        enable_third_party_source: true, //Show third party source\n        enable_duplicate_reviews: undefined, //Show multiple reviews from the same user\n\n    },\n},\n//Translation settings\ntranslations: {\n    'Verified Customer': 'Verfizierter Kauf'\n},\n//Style settings:\nstyles: {\n    //Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.\n    '--base-font-size': '16px',\n\n    //Button styles (shared between buttons):\n    '--common-button-font-family': 'inherit',\n    '--common-button-font-size':'16px',\n    '--common-button-font-weight':'500',\n    '--common-button-letter-spacing':'0',\n    '--common-button-text-transform':'none',\n    '--common-button-vertical-padding':'10px',\n    '--common-button-horizontal-padding':'20px',\n    '--common-button-border-width':'2px',\n    '--common-button-border-radius':'0px',\n\n    //Primary button styles:\n    '--primary-button-bg-color': '#0E1311',\n    '--primary-button-border-color': '#0E1311',\n    '--primary-button-text-color': '#ffffff',\n\n    //Secondary button styles:\n    '--secondary-button-bg-color': 'transparent',\n    '--secondary-button-border-color': '#0E1311',\n    '--secondary-button-text-color': '#0E1311',\n\n    //Star styles:\n    '--common-star-color': '#FAC850',\n    '--common-star-disabled-color': 'rgba(0,0,0,0.25)',\n    '--medium-star-size': '22px',\n    '--small-star-size': '19px',\n\n    //Heading styles:\n    '--heading-text-color': '#0E1311',\n    '--heading-text-font-weight': '600',\n    '--heading-text-font-family': 'inherit',\n    '--heading-text-line-height': '1.4',\n    '--heading-text-letter-spacing': '0',\n    '--heading-text-transform': 'none',\n\n    //Body text styles:\n    '--body-text-color': '#0E1311',\n    '--body-text-font-weight': '400',\n    '--body-text-font-family': 'inherit',\n    '--body-text-line-height': '1.4',\n    '--body-text-letter-spacing': '0',\n    '--body-text-transform': 'none',\n\n    //Input field styles:\n    '--inputfield-text-font-family': 'inherit',\n    '--input-text-font-size': '14px',\n    '--inputfield-text-font-weight': '400',\n    '--inputfield-text-color': '#0E1311',\n    '--inputfield-border-color': 'rgba(0,0,0,0.2)',\n    '--inputfield-background-color': 'transparent',\n    '--inputfield-border-width': '1px',\n    '--inputfield-border-radius': '0px',\n\n    '--common-border-color': 'rgba(0,0,0,0.15)',\n    '--common-border-width': '1px',\n    '--common-sidebar-width': '190px',\n\n    //Filters panel styles:\n    '--filters-panel-bg-color': 'transparent',\n    '--filters-panel-font-size': '16px',\n    '--filters-panel-text-color': '16px',\n    '--filters-panel-horizontal-padding': '0',\n    '--filters-panel-vertical-padding': '0',\n\n    //Slider indicator (for attributes) styles:\n    '--slider-indicator-bg-color': 'rgba(0,0,0,0.1)',\n    '--slider-indicator-button-color': '#0E1311',\n    '--slider-indicator-width': '190px',\n\n    //Badge styles:\n    '--badge-icon-color': '#138A36',\n    '--badge-icon-font-size': 'inherit',\n    '--badge-text-color': '#525252',\n    '--badge-text-font-size': 'inherit',\n    '--badge-text-letter-spacing': 'inherit',\n    '--badge-text-transform': 'uppercase',\n\n    //Author styles:\n    '--author-font-size': 'inherit',\n    '--author-text-transform': 'none',\n\n    //Author avatar styles:\n    '--avatar-thumbnail-size': '60px',\n    '--avatar-thumbnail-border-radius': '100px',\n    '--avatar-thumbnail-text-color': '#0E1311',\n    '--avatar-thumbnail-bg-color': 'rgba(0,0,0,0.1)',\n\n    //Product photo or review photo styles:\n    '--photo-video-thumbnail-size': '80px',\n    '--photo-video-thumbnail-border-radius': '0px',\n\n    //Media (photo & video) slider styles:\n    '--mediaslider-scroll-button-icon-color': '#0E1311',\n    '--mediaslider-scroll-button-bg-color': 'rgba(255, 255, 255, 0.85)',\n    '--mediaslider-overlay-text-color': '#ffffff',\n    '--mediaslider-overlay-bg-color': 'rgba(0, 0, 0, 0.8))',\n    '--mediaslider-item-size': '110px',\n\n    //Pagination & tabs styles (normal):\n    '--pagination-tab-text-color': '#0E1311',\n    '--pagination-tab-text-transform': 'none',\n    '--pagination-tab-text-letter-spacing': '0',\n    '--pagination-tab-text-font-size': '16px',\n    '--pagination-tab-text-font-weight': '600',\n\n    //Pagination & tabs styles (active):\n    '--pagination-tab-active-text-color': '#0E1311',\n    '--pagination-tab-active-text-font-weight': '600',\n    '--pagination-tab-active-border-color': '#0E1311',\n    '--pagination-tab-border-width': '3px',\n},\n});\n</script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_CUiPny": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.piktogramm-container {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: flex-start;\n}\n.piktogramm-icon {\n  margin-right: 3% !important;\n  margin-bottom: 1% !important;\n  margin-top: 1% !important;\n  width:auto;\n  height:40px;\n}\n.rechtstexte-pdp {\n    font-size: 10px;\n    color: grey;\nline-height: 14px;\n    margin-top: 5px;\n  }\n\n.inhaltsstoffe {\n    font-size: 12px;\n\tcolor: #414141;\n  }\n\n</style>\n\n<div class=\"piktogramm-container\">\n{% assign piktogramm = product.metafields.custom.piktogramme | strip %}\n{% if piktogramm contains 'Di-Hema + HEMA frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-dihema.jpg?v=1711435592\" alt=\"Di-Hema + HEMA frei\">\n{% endif %}\n{% if piktogramm contains 'Hema frei' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-hema.jpg?v=1711435592\" alt=\"Hema frei\">\n{% endif %}\n{% if piktogramm contains '! Achtung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-achtung.jpg?v=1711435592\" alt=\"Achtung\">\n{% endif %}\n{% if piktogramm contains 'Entzündlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-entzuendlich.jpg?v=1711435592\" alt=\"Entzündlich\">\n{% endif %}\n{% if piktogramm contains 'Umweltgefährlich' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-umwelt.jpg?v=1711435592\" alt=\"Umweltgefährlich\">\n{% endif %}\n{% if piktogramm contains '12M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-12m.jpg?v=1711435592\" alt=\"12M\">\n{% endif %}\n{% if piktogramm contains '6M' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-6m.jpg?v=1711435592\" alt=\"6M\">\n{% endif %}\n{% if piktogramm contains 'Giftig' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-giftig.jpg?v=1711435591\" alt=\"Giftig\">\n{% endif %}\n{% if piktogramm contains 'Gefahr-Schrift' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gefahr.jpg?v=1711435592\" alt=\"Gefahr-Schrift\">\n{% endif %}\n{% if piktogramm contains 'Ätzend' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-aezend.jpg?v=1711435592\" alt=\"Ätzend\">\n{% endif %}\n{% if piktogramm contains '*Nur für gewerblichen Bedarf' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gewerbe.png?v=1711435592\" alt=\"Nur für gewerblichen Bedarf\">\n{% endif %}\n{% if piktogramm contains 'Gesundheitsgefährdung' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-gesundheit.jpg?v=1711435592\" alt=\"Gesundheitsgefährdung\">\n{% endif %}\n{% if piktogramm contains '**Nicht für kosmetischen Gebrauch' %}\n  <img class=\"piktogramm-icon\" src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/pikto-kosmetik.jpg?v=1711435592\" alt=\"Nicht für kosmetischen Gebrauch\">\n{% endif %}\n</div>\n<div class=\"rechtstexte-pdp\">\n  {% if product.metafields.jtl.inhaltsstoffe != blank %}\n    <div class=\"inhaltsstoffe\"><b>Inhaltsstoffe/Ingredients: </b>{{ product.metafields.jtl.inhaltsstoffe }}</div>\n  {% endif %}\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "17513746440d53be35": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_WNzzwC": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#FFFFFF",
+            "z_index": 1,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_WNzzwC"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ed_application_steps_section_jCNiGn",
+    "product-content",
+    "custom_html_NeXL48",
+    "multi_collumn_liquid_tUG3rT",
+    "ed_text_with_icons_fggnLe",
+    "gallery_g9QnqQ",
+    "gallery_FQhfJy",
+    "ed_image_with_text_RKFNzU",
+    "ed_image_with_text_hKDWFz",
+    "faq_PKFc4Q",
+    "custom_liquid_j9rUW4",
+    "custom_liquid_CUiPny",
+    "17513746440d53be35"
+  ]
+}

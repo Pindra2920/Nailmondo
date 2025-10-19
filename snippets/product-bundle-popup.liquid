@@ -1,0 +1,136 @@
+<div class="product-bundle-popup-overlay"></div>
+<div class="product-bundle-popup" data-numberofstep="{{ numberOfStep }}">
+  <div class="product-bundle-popup-header">
+    <div class="product-bundle-popup-header-top">
+      <div class="product-bundle-popup-header-left">
+        <span class="after">{{ section.settings.bundle_title_after }}</span>
+        <span class="before">{{ section.settings.bundle_title }}</span>
+      </div>
+      <div class="product-bundle-popup_header-right">
+        <!--
+          <span class="number-of-selected-items">0</span> von
+          <span class="number-of-items">{{ numberOfStep }}</span> ausgewählt
+        -->
+        <span class="bundle-popup-close">
+          {% render 'icon' with 'bundle-cross' %}
+        </span>
+      </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-bar-fill" style="width: 0%;"></div>
+    </div>
+    <!-- Text unter der Fortschrittsleiste -->
+    <div class="progress-text">
+      <span class="number-of-selected-items">0</span> von
+      <span class="number-of-items">{{ numberOfStep }}</span> ausgewählt
+    </div>
+
+    <div class="product-bundle-products-selection">
+      {% for block in section.blocks %}
+        {% if block.type == 'bundle_builder' %}
+          {% assign allFree = true %}
+          {% for product in block.settings.products %}
+            {% if product.price != 0 %}
+              {% assign allFree = false %}
+            {% endif %}
+          {% endfor %}
+
+          <div
+            class="product-bundle-add-product {% if allFree %}all_free{% endif %}"
+            data-step="{{ block.settings.step | handle }}"
+          >
+            <!--
+              <span class="bundle-product-cross">
+                {% render 'icon' with 'bundle-product-cross' %}
+              </span>
+            -->
+            <div class="product-bundle-add-product-img">
+              {{ block.settings.image | image_url: width: auto | image_tag: class: 'img' }}
+            </div>
+            <div class="step-name">
+              {{ block.settings.step }}
+              {% if block.settings.price %}
+                <span>{{ block.settings.price }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% assign optional_product = section.settings.optional_product %}
+  <div class="product-bundle-popup-content">
+    <div class="bundle-popup-products">
+      {% for block in section.blocks %}
+        {% if block.type == 'bundle_builder' %}
+          <div class="bundle-popup-products-block-wrapper" data-step="{{ block.settings.step | handle }}">
+            <div class="product-bundle-popup-content-info">
+              {{ block.settings.info | raw }}
+            </div>
+            <div class="bundle-popup-products-block_wrap">
+              <div class="bundle-popup-products-block">
+                {% for product in block.settings.products %}
+                  {% if product.images.first %}
+                    <div
+                      class="bundle-popup-products-block-product {% unless product.available %}soldout{% endunless %}"
+                      data-step="{{ block.settings.step | handle }}"
+                      data-img=" {% if product.images.first %} {{ product.images.first | image_url: width: 300 }}{% endif %}"
+                      data-title="{{ product.title }}"
+                      data-vid="{{ product.selected_or_first_available_variant.id }}"
+                      data-optional="0"
+                    >
+                      {% unless product.available %}
+                        <span class="soldout_label">ausverkauft</span>
+                      {% endunless %}
+                      {% if product.images.first %}
+                        {{ product.images.first | image_url: width: 300 | image_tag }}
+                      {% endif %}
+                      <p>{{ product.title }}</p>
+                      {% assign price = product.selected_or_first_available_variant.price %}
+                      {% if price > 0 %}
+                        <div class="bundle-product-price">
+                          {{ price | money }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+
+                {% if block.settings.optional %}
+                  <div
+                    class="bundle-popup-products-block-product {% unless optional_product.available %}soldout{% endunless %}"
+                    data-step="{{ block.settings.step | handle }}"
+                    data-img=" {% if optional_product.images.first %} {{ optional_product.images.first | image_url: width: 300 }}{% endif %}"
+                    data-title="{{ optional_product.title }}"
+                    data-vid="{{ optional_product.selected_or_first_available_variant.id }}"
+                    data-optional="1"
+                  >
+                    {% unless optional_product.available %}
+                      <span class="soldout_label">ausverkauft</span>
+                    {% endunless %}
+                    {% if optional_product.images.first %}
+                      {{ optional_product.images.first | image_url: width: 300 | image_tag }}
+                    {% endif %}
+                    <p>{{ optional_product.title }}</p>
+                    {% assign price = optional_product.selected_or_first_available_variant.price %}
+                    {% if price > 0 %}
+                      <div class="bundle-product-price">
+                        {{ price | money }}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="bundle-button-wrapper">
+              <button class="bundle-popup-products-block-btn" disabled data-text="{{ block.settings.btn_text }}">
+                {{ block.settings.btn_text }}
+              </button>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

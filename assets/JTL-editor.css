@@ -1,0 +1,80 @@
+.columns-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start; /* Dies stellt sicher, dass die Höhe der Spalten dem Inhalt entspricht */
+}
+
+.column {
+  flex: 1 1 30%; /* Behält die 30% Breite bei */
+  margin: 10px;
+  text-align: left;
+  font-size: 14px;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px -10px #0000002e;
+}
+
+.column-icon {
+  /* Andere Stile wie Größe oder Farbe nach Bedarf */
+  font-size: 18px; /* Oder eine andere Größe, die du für das Icon verwenden möchtest */
+  width: 24px; /* Breite des Icons für Ausrichtungszwecke */
+  height: 24px; /* Höhe des Icons für Ausrichtungszwecke */
+  margin-right: 10px; /* Abstand rechts vom Icon */
+  color: #be9c54; /* Farbe des Icons */
+}
+
+.icon-heading-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.column-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.column-heading {
+  margin: 0 0 10px 0;
+}
+
+.column-heading, h2, .subtitle {
+  font-family: 'Rajdhani', sans-serif; /* Setzt Rajdhani als Schriftart für Überschriften */
+  font-size: 18px; /* Beispielgröße, passen Sie diese nach Bedarf an */
+  color: #333; /* Beispiel Farbe, passen Sie diese nach Bedarf an */
+  line-height:18px;
+font-weight:600;
+}
+
+.column-text {
+  margin-top: 10px;
+}
+
+/* Anpassung für Mobilgeräte */
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+  }
+}
+.column-text ul {
+  list-style: none;
+  padding-left: 6px;
+}
+
+.column-text li {
+  position: relative;
+  padding-left: 28px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.column-text li::before {
+  content: '\f00c'; /* Unicode für das Häkchen-Zeichen */
+  font-family: 'FontAwesome'; /* Stelle sicher, dass FontAwesome korrekt eingebunden ist */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #be9c54; /* Farbe des Icons */
+}

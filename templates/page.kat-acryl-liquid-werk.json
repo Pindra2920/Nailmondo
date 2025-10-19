@@ -1,0 +1,241 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/87a9e1594e985be6a2831f8b71d6de48ac073c1e1013133a393fb6ca4e2391a9.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/c301b8a2fbce8d357cc1ea264dc7cd9bf282bdb7a48439896a33dfe1c581dc27.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/87a9e1594e985be6a2831f8b71d6de48ac073c1e1013133a393fb6ca4e2391a9.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/c301b8a2fbce8d357cc1ea264dc7cd9bf282bdb7a48439896a33dfe1c581dc27.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/87a9e1594e985be6a2831f8b71d6de48ac073c1e1013133a393fb6ca4e2391a9.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#test",
+            "title": "Liquids",
+            "icon": "shopify://shop_images/c301b8a2fbce8d357cc1ea264dc7cd9bf282bdb7a48439896a33dfe1c581dc27.png",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "settings": {
+        "subheading": "",
+        "title": "Acryl Liquid & Werkzeuge",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-acryl-liquid-pinsel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Liquid & Werkzeuge",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-acryl-zubehor",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Tools",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Acryl Flüssigkeit</h2><p>Eine Nagelmodellage auf Basis von <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"&quot;Liquid\"><strong>Acryl Liquid</strong></a> mit <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Liquid\"><strong>Acryl Pulver</strong></a> sorgt für haltbare und gepflegte Fingernägel. Schöne Hände mit dezenten oder auffallenden Nägeln gehören zum attraktiven Auftritt vieler Frauen. Nicht immer hat Frau jedoch von Natur aus stabile, feste Naturnägel. Bedingt durch Faktoren wie Arbeit, Krankheit oder Genetik werden die Nägel brüchig. Hier können künstliche Fingernägel Abhilfe schaffen. Die häufigst angewandten Methoden sind Acryl- und Gelmodellagen. Acryl härtet an der Luft aus, nachdem man Pulver und Liquid gemischt hat, während <a href=\"https://lynis-nailshop.de/gele\" title=\"Gele\"><strong>Gel</strong></a> eine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/uv-lampe-classic-weiss\" title=\"UV Lampe\"><strong>UV- oder LED-Lampe</strong> </a>zum Festwerden benötigt.</p><h2>Was ist Acryl Liquid?</h2><p>Acryl Liquid und Acryl Pulver bilden zusammen die Grundlage für eine Nagelmodellage aus Acryl. Das richtige Mischungsverhältnis der beiden Komponenten ist dabei ausschlaggebend für den Erfolg. Die Mischung erfolgt direkt bei der Anwendung. Aus der Acryl Flüssigkeit und dem Pulver entsteht eine Art Masse, die Du direkt auf die Fingernägel auftragen kannst. Durch das Mischen der Komponenten entsteht eine chemische Reaktion und die Masse härtet nach einer kurzen Zeit an der Luft. Acryl<a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong> Liquid</strong> </a>lässt sich vielseitig einsetzen – nicht nur für das Modellieren von Kunstnägeln. Bei einem Nageldesign auf Basis von <a href=\"https://lynis-nailshop.de/acrylgel\" title=\"Acrylgel\"><strong>Acrylgel</strong></a>, dient das Liquid bei Bedarf anstatt anderer Acryl Gel Flüssigkeit. Als Flüssigkeit für das Verabeiten von Acrylgel ersetzt es den <a href=\"https://lynis-nailshop.de/suche?controller=search&s=cleaner\" title=\"Cleaner\"><strong>Cleaner</strong> </a>und hilft beim Formen des Materials. Ferner eignet sich Acryl Liquid zum einfachen Reinigen Deiner <a href=\"https://lynis-nailshop.de/suche?controller=search&s=pinsel\" title=\"Pinsel\"><strong>Pinsel</strong></a>. Der große Vorteil von Acryl-Nägeln ist, dass sie an der Luft trocknen und daher keine UV- oder LED-Lampe zum Aushärten brauchen. Mit einer mittleren Aushärtungszeit eignet sich Acryl Liquid sowohl für Anfänger als auch für Profis. Bei einer Modellage mit Acryl mischst Du das Acryl Liquid mit dem Acryl Pulver direkt am Pinsel und trägst das Acryl flüssig, also sofort auf den natürlichen Fingernagel auf. Dabei bringst Du den Nagel in die gewünschte Form, ob rund, eckig, oval oder spitz. Mithilfe einer Feile kannst Du die Form später gegebenfalls einfach nachbessern. Nägel mit Acryltechnik geformt sind besonders haltbar und haften gut auf dem Naturnagel und dies ohne zusätzlichen <a href=\"https://lynis-nailshop.de/fluessigkeiten/primer-saeurehaltig\" title=\"Primer\"><strong>Primer</strong></a>, da dieser oft schon im Liquid enthalten ist. Ein weiterer Vorteil von Acrylnägeln ist das Entfernen, da man das Altmaterial auch mit <a href=\"https://lynis-nailshop.de/fluessigkeiten/reinigung/soak-off-remover-fuer-acryl-und-gelpolish-300ml\" title=\"Aceton Remover\"><strong>Aceton Remover</strong></a> ablösen kann.</p><h2>Acryl Pulver Flüssigkeits System und Acrylgel – worin liegt der Unterschied?</h2><p>Acryl Liquid gemischt mit Acryl Pulver bietet eine Methode zur Herstellung von künstlichen Fingernägeln. Weitere Möglichkeiten zur Modellage sind die Verwendung von <a href=\"https://lynis-nailshop.de/gele\" title=\"Gele\"><strong>Gel</strong> </a>oder von <a href=\"https://lynis-nailshop.de/acrylgel\" title=\"Acrylel\"><strong>Acrylgel</strong></a>. Acrylgel bildet dabei eine Variante zwischen beiden Methoden und vereint deren Vorteile in einem System. Der Hauptunterschied zwischen Acryl und Acrylgel liegt in der Zusammensetzung. Während Du das flüssige Acryl Liquid zunächst mit<strong> </strong><a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Powder\"><strong>Acryl Powder</strong></a> vermischen musst, kannst du Acrylgel direkt verwenden. Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>ist eine dünne Flüssigkeit, die mit Acrylpulver vermischt, eine zähflüssige Masse ergibt, die Du direkt auf die Fingernägel auftragen kannst. Ein weiterer Unterschied liegt in der Art der Aushärtung. Während die Mischung aus Acryl Liquids und Pulver an der Luft trocknet, erfordert die Nagelmodellage mit Acrylgel den Einsatz eines UV- oder LED-Lichts.</p><h2>Ist Acryl Flüssigkeit/ Liquid geruchlos?</h2><p>Die Acryl Flüssigkeit auch<a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong> Liquid</strong></a> genannt riecht etwas strenger. Das kennen Künstler, die mit Acrylfarben arbeiten und Maler, die die Wohnung frisch streichen. Schuld daran sind organische Stoffe, die bereits bei niedrigen Raumtemperaturen gasförmig entweichen. Es ist also nicht möglich mit Acryl Liquid geruchlos zu arbeiten. Wo bekomme ich zumindest Acryl Flüssigkeit geruchsarm? Keine Angst, im Vergleich zu billigen Liquids aus Asien, die penetrant stinken, ist hochwertige Acryl Flüssigkeit für Nägel hierzulande in den Ausdünstungen nicht so stark. Geruchloses Acryl Liquid gibt es nicht, der Geruch lässt sich zwar minimieren, aber die chemische Ausdünstung verschwindet nicht ganz. Das Acryl Liquid aus lynis-nailshop.de ist vom Geruch her mild und besitzt einen angenehmen, nicht zu penetranten Duft. Selbst wenn Acryl Liquid geruchsarm ist, solltest Du Acrylnägel nur in gut belüfteten Räumen modellieren und anschließend mindestens für zehn Minuten lüften. Eine gute Staubabsaugung hilft zusätzlich den Geruch zu minimieren. Entsorge gebrauchte Papiertücher schnellstens aus dem Mülleimer, damit der Geruch nicht im Raum hängen bleibt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Nagelmodellage Acryl - Verarbeitung des Pulver Flüssigkeits System</h2><p>Nagelmodellage mit Acryl Anleitung: Für die Vorbereitung der Nägel lege Dir Deine Arbeitsmaterialien bereit. Dazu gehören Nagelhautschieber, Fingernagelfeile, Buffer, Staubbürste, Modellierschablone, Verlängerungstips mit Kleber und Zelletten. Bevor Du mit der Nagelmodellage beginnst, heißt es Hände waschen und dann desinfizieren. Eventuell vorhandene Farbe oder Kunstnägel entfernen, die Nagelhaut zurückschieben und vor allem die unsichtbare Nagelhaut entfernen. Die Fingernägel feilen, buffern und von Staub befreien. Eventuell Tips zur Verlängerung anbringen oder die Schablone ansetzen. Nach der Vorbereitung der Nägel beginnt die eigentliche Modellage. Dafür brauchst Du einen <a href=\"https://lynis-nailshop.de/acryl/dappen-dish\" title=\"Dappen Dish\"><strong>Dappen Dish</strong></a>, einen <a href=\"https://lynis-nailshop.de/nageldesign-zubehoer/acryl-pinsel-8\" title=\"Acryl Pinsel\"><strong>Acryl Pinsel</strong></a>, <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Acryl Liquid\"><strong>Acryl Liquid</strong> </a>und <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Pulver</strong></a> in der gewünschten Farbe sowie ein<a href=\"https://lynis-nailshop.de/versiegelungsgel\" title=\"Versiegelungsgel\"><strong> Versiegelungsgel</strong> </a>und <a href=\"https://lynis-nailshop.de/lovemynails/nagelpflegeoil\" title=\"Nagelöl\"><strong>Nagelöl</strong></a>. Eine kleine Menge des Liquids in einen Dappen Dish geben. Mit dem Acryl Liquid Nägel vorbereiten, indem man sie mit der Flüssigkeit vorsichtig bestreicht. Dabei darauf achten, dass nur die Nagelplatte benetzt wird. Für das Mischen eines Acrylbällchens den Acryl Pinsel zuerst in der Flüssigkeit ausfächern, am Rand den Überschuss an Flüssigkeit abstreifen und dann die Spitze fast horizontal auf das Pulver legen. (Hier muss das Mischverhältnis beachtet werden) An der Pinselspitze bildet sich in Sekundenschnelle ein kleines Bällchen. Das streichfähige Kügelchen in der Mitte des Fingernagels auftragen und an die entsprechenden Stellen drücken. Nach dem Aushärten in Form feilen und die Oberfläche buffern. Das <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Powder</strong></a> ist in verschiedenen Farb- und Covertönen erhältlich. Ein <a href=\"https://lynis-nailshop.de/versiegelungsgel\" title=\"versiegelungsgel\"><strong>Versiegelungsgel</strong> </a>in hochglänzend, matt oder mit Schimmer schützt die Nagelmodellage vor Kratzern und sonstige Einflüsse. Die UV-Versiegelung gibt den Nägeln den letzten Feinschliff. Massiere zum Abschluss die Nagelhaut mit<a href=\"https://lynis-nailshop.de/lovemynails/nagelpflegeoil\" title=\"Nagelöl\"><strong> Nagelöl</strong></a> um sie zu pflegen.</p><h2>Ist Acryl Liquid Drogerie Ware?</h2><p>Du fragst dich bestimmt, wo du Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>kaufen kannst? Oft möchte man etwas auf die Schnelle ausprobieren und es gibt immer mehr Nageldesign Produkte, die man in der Drogerie vor Ort erwerben kann, aber davon raten wir dir ab. Da du für eine Acrylmodellage zwei Komponenten benötigst und ein gewisses Fachwissen vorhanden sein sollte, damit Du deine Naturnägel nicht verletzt, raten wir Dir Dein Equipment bei einem Händler mit Erfahrung zu kaufen. Das zeichnet die Produkte von Lynis-Nailshop aus. Sie sind von einer Nageldesignerin für Nageldesigner!</p><h2>Do it yourself – Nagelmodellage mit Acryl</h2><p>Nagelstudios sind in den letzten Jahren wie Pilze aus dem Boden geschossen, denn Nageldesign ist kein anerkannter Ausbildungsberuf. Jeder kann sich mit einem Gewerbeschein selbständig machen. Ob die erforderlichen Hygienevoraussetzungen erfüllt sind und das entsprechende Fachwissen vorhanden ist, ist nicht immer gewährleistet. Zudem sind Kunstnägel Luxusartikel und somit ein Kostenfaktor. Dies können zum Beispiel Gründe sein, dich für eine do it yourself – Nagelmodellage zu entscheiden. Die Zwei-Komponenten-Methode mit Acryl Liquid und Acryl Pulver setzt einiges an Fingerspitzengefühl und Erfahrung voraus. Zum einen muss das Mischungsverhältnis stimmen und zum anderen musst du zügig arbeiten, da das Acryl an der Luft aushärtet. Das Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>und das <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Pulver</strong> </a>werden direkt am <a href=\"https://lynis-nailshop.de/nageldesign-zubehoer/acryl-pinsel-8\" title=\"Acryl Pinsel\"><strong>Pinse</strong>l </a>gemischt, damit die Masse zeitnah als Bällchen auf den natürlichen Nagel gesetzt und dort modelliert werden kann. Bei falscher Anwendung kann man nicht nur den Pinsel und das Material unbrauchbar machen, auch bietet es Risiken für Deinen Naturnagel. Möchtest Du Dich also an Acrylnägel mit Acryl Liquid wagen, empfiehlt sich zuvor unbedingt einen Schulungskurs zu absolvieren.</p><h2>Acryl Liquid – ist es schädlich für die Nägel?</h2><p>Künstliche Nägel bergen gewisse Gefahren. Bakterien und Pilze können sich zwischen dem Naturnagel und dem Kunstnagel einnisten und den eigenen Nagel schädigen, daher ist besondere Hygiene erforderlich. Aufgrund des Infektionsrisikos sind Fake-Nägel in Medizin- und Pflegeberufen sowie im Lebensmittelbereich meist untersagt. Wir empfehlen dir also erst Rücksprache mit deinem Arbeitgeber zu halten. Liquid Acryl Inhaltsstoffe können Ethyl Methacrylat (EMA) oder Methylmethacrylat (MMA) sein. Acryl Liquid von lynis-nailshop.de enthält EMA, während viele andere Hersteller oft statt des hochwertigeren Materials das kostengünstigere MMA beimischen. In hoher Konzentration ist dieser Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>Inhaltsstoff gesundheitsschädlich und außerhalb der EU bereits vielfach verboten. Des Weiteren können Acrylate allergische Reaktion hervorrufen. An den Händen, im Gesicht oder am Hals können Blasen oder Rötungen entstehen. Zusätzlich kann es jucken oder brennen. Wer allergisch reagiert, sollte zum Arzt gehen und dies überprüfen lassen. Die acrylhaltigen Dämpfe, die beim Aushärten entstehen sind sehr gering und nur in größeren Mengen schädlich. Es empfiehlt sich jedoch, bei der Modellage einen Mundschutz zu tragen und gut zu lüften. Eine Staubabsaugung mit passendem Filter kann zusätzlich helfen. Ein Verdacht, dass sie krebserregend oder giftig seien ist bisher nicht nachgewiesen. <a href=\"https://lynis-nailshop.de/nageldesign-geraete/uv-lampe-classic-weiss\" title=\"UV Lampe\"><strong>UV-Lampen</strong> </a>stehen im Verdacht, dass ihre Strahlen die Haut schädigen könnten. Bei Acrylnägeln entfällt dieses Risiko, da Acryl an der Luft aushärtet und der Einsatz von UV-Licht entfällt. Sollte fürs Finish ein Gel zum Einsatz kommen, empfiehlt sich ein Aushärten mit einer LED-Lampe, die als eher unbedenklich gilt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "ed_headline_HUkXrn",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "main",
+    "multi_column_KUgUz4"
+  ]
+}

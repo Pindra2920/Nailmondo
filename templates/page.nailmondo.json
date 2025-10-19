@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "rich_text_MtaMBz": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Nailmondo? Wir sind Lynis-Nailshop!",
+        "content": "<p>Du hast <strong>Nailmondo</strong> gelesen und bist dir unsicher wer dahinter steckt?</p><p><strong>Keine Sorge!</strong> Wir sind<strong> Lynis-Nailshop,</strong> lediglich unsere eigentragene GmbH heißt seit 2021 nailmondo. Es ändert sich für dich nichts.</p><p>Du bist also völlig Richtig hier und kannst in unserem Online-Shop ganz normal einkaufen.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "bild_image_Xpatwj": {
+      "type": "Bild-Image",
+      "settings": {
+        "bild": "shopify://shop_images/Lyni-Dashboard3.png",
+        "alt_text": "Nageldesign-Bild",
+        "bild_groesse": "large",
+        "bild_positionierung": "zentriert",
+        "custom_class": "Benutzerdefinierte CSS-Klasse"
+      }
+    },
+    "featured_collections_qDGh7r": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Efny9q": {
+          "type": "collection",
+          "settings": {
+            "collection": "aufbaugel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Efny9q"
+      ],
+      "settings": {
+        "subheading": "Neue Artikel",
+        "title": "",
+        "content": "",
+        "products_count": 15,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MtaMBz",
+    "bild_image_Xpatwj",
+    "featured_collections_qDGh7r"
+  ]
+}

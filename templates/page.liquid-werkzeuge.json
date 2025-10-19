@@ -1,0 +1,465 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_UpbCxz",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "model_view_VmDxBy": {
+      "type": "model-view",
+      "settings": {
+        "checkfield_color": "#bababa"
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Liquid & Werkzeuge",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-acryl-liquid-pinsel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Liquid & Pinsel",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-acryl-zubehor",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Zubehör",
+        "content": "",
+        "css-klasse": "cover",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-fiberglas",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Verstärkt den Nagel mit Fiberglasfasern",
+        "title": "Fiberglas Gele",
+        "content": "",
+        "css-klasse": "fiberglas",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-effektgele",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für funkelnde & schimmernde Nägel",
+        "title": "Effekt Gele",
+        "content": "",
+        "css-klasse": "effekt",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_xcddhE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_dqMkE6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-french",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqMkE6"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für perfekten French mit optimaler Deckkraft",
+        "title": "French Gele",
+        "content": "",
+        "css-klasse": "french",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_9gz3Gy": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_9GF7Nd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-farbige",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9GF7Nd"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für langanhaltendes Farbergebnis",
+        "title": "Farbige Gele",
+        "content": "",
+        "css-klasse": "farbige",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_iDjfXC": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_i36Ki6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-non-sticky",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_i36Ki6"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Kann wie Knete mit Fingern geformt werden",
+        "title": "Non Sticky Gele",
+        "content": "",
+        "css-klasse": "sticky",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>In diesem Beitrag werden wir alles Wissenswerte über Aufbaugel erklären, von den Vorteilen bis zur Anwendung und Pflege. Wenn du auf der Suche nach einem Produkt bist, das deinen Nägeln Stabilität und eine natürliche Optik verleiht, dann bist du hier genau richtig. Begleite uns auf einer Reise durch die Welt des Aufbaugels und entdecke, warum es ein absolutes Must-Have in der Nagelpflege ist!</p><h2>Aufbaugel: Was ist das?</h2><p>Bevor wir ins Detail gehen, schauen wir uns das Aufbaugel genauer an. Aufbaugel ist ein speziell formuliertes Gel, das verwendet wird, um künstlichen Nägeln oder dem natürlichen Nagel zusätzliche Stabilität und Festigkeit zu verleihen. Es wird in der Regel nach dem Auftragen des Grundierungsgels auf den Nagel aufgetragen und unter einer UV- oder LED-Lampe ausgehärtet. Das Aufbaugel bildet eine robuste Schicht, die den Nagel verstärkt und ihm eine natürliche, gleichmäßige Form gibt.</p><h2>Die Vorteile von Aufbaugel</h2><p>Aufbaugel bietet zahlreiche Vorteile für deine Nägel.Hier sind einige der wichtigsten:</p><ul><li>Stärkung der Nägel: <a href=\"https://lynis-nailshop.de/aufbaugel\">Aufbaugel </a>stärkt die Nägel und verleiht ihnen mehr Stabilität. Es bildet eine Schutzschicht, die vor Brüchen und Absplittern schützt und so das Wachstum gesunder Nägel fördert.</li></ul><p></p><ul><li>Natürliches Aussehen: Das <a href=\"https://lynis-nailshop.de/aufbaugel\">Aufbaugel</a> sorgt für ein natürliches Aussehen der Nägel. Es gleicht Unebenheiten aus und verleiht den Nägeln eine glatte und gleichmäßige Oberfläche. So kannst du auch ohne künstliche Nagelverlängerungen schöne und gepflegte Nägel genießen.</li></ul><p></p><ul><li>Verlängerung der Nägel: <a href=\"https://lynis-nailshop.de/aufbaugel\">Aufbaugel </a>ermöglicht es, kurze Nägel zu verlängern. Damit kannst du individuelle Nagelstile kreieren und deiner Kreativität freien Lauf lassen.</li></ul><p></p><ul><li>Haltbarkeit der Maniküre: Das <a href=\"https://lynis-nailshop.de/aufbaugel\">Aufbaugel </a>sorgt dafür, dass deine Maniküre länger hält. Es schützt den Lack vor Absplittern und verlängert die Haltbarkeit des Designs. So kannst du dich länger an einer perfekten Maniküre erfreuen.</li></ul><p></p><ul><li>Einfache Anwendung: <a href=\"https://lynis-nailshop.de/aufbaugel\">Aufbaugel </a>kann sowohl von professionellen Nageldesignern als auch von dir zu Hause angewendet werden. Mit etwas Übung und den richtigen Werkzeugen kannst du das Gel problemlos auftragen und unter einer UV- oder LED-Lampe aushärten.</li></ul><h2>Nagelmodellage Acryl - Verarbeitung des Pulver Flüssigkeits System</h2><p>Nagelmodellage mit Acryl Anleitung: Für die Vorbereitung der Nägel lege Dir Deine Arbeitsmaterialien bereit. Dazu gehören Nagelhautschieber, Fingernagelfeile, Buffer, Staubbürste, Modellierschablone, Verlängerungstips mit Kleber und Zelletten. Bevor Du mit der Nagelmodellage beginnst, heißt es Hände waschen und dann desinfizieren. Eventuell vorhandene Farbe oder Kunstnägel entfernen, die Nagelhaut zurückschieben und vor allem die unsichtbare Nagelhaut entfernen. Die Fingernägel feilen, buffern und von Staub befreien. Eventuell Tips zur Verlängerung anbringen oder die Schablone ansetzen. Nach der Vorbereitung der Nägel beginnt die eigentliche Modellage. Dafür brauchst Du einen <a href=\"https://lynis-nailshop.de/acryl/dappen-dish\" title=\"Dappen Dish\"><strong>Dappen Dish</strong></a>, einen <a href=\"https://lynis-nailshop.de/nageldesign-zubehoer/acryl-pinsel-8\" title=\"Acryl Pinsel\"><strong>Acryl Pinsel</strong></a>, <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Acryl Liquid\"><strong>Acryl Liquid</strong> </a>und <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Pulver</strong></a> in der gewünschten Farbe sowie ein<a href=\"https://lynis-nailshop.de/versiegelungsgel\" title=\"Versiegelungsgel\"><strong> Versiegelungsgel</strong> </a>und <a href=\"https://lynis-nailshop.de/lovemynails/nagelpflegeoil\" title=\"Nagelöl\"><strong>Nagelöl</strong></a>. Eine kleine Menge des Liquids in einen Dappen Dish geben. Mit dem Acryl Liquid Nägel vorbereiten, indem man sie mit der Flüssigkeit vorsichtig bestreicht. Dabei darauf achten, dass nur die Nagelplatte benetzt wird. Für das Mischen eines Acrylbällchens den Acryl Pinsel zuerst in der Flüssigkeit ausfächern, am Rand den Überschuss an Flüssigkeit abstreifen und dann die Spitze fast horizontal auf das Pulver legen. (Hier muss das Mischverhältnis beachtet werden) An der Pinselspitze bildet sich in Sekundenschnelle ein kleines Bällchen. Das streichfähige Kügelchen in der Mitte des Fingernagels auftragen und an die entsprechenden Stellen drücken. Nach dem Aushärten in Form feilen und die Oberfläche buffern. Das <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Powder</strong></a> ist in verschiedenen Farb- und Covertönen erhältlich. Ein <a href=\"https://lynis-nailshop.de/versiegelungsgel\" title=\"versiegelungsgel\"><strong>Versiegelungsgel</strong> </a>in hochglänzend, matt oder mit Schimmer schützt die Nagelmodellage vor Kratzern und sonstige Einflüsse. Die UV-Versiegelung gibt den Nägeln den letzten Feinschliff. Massiere zum Abschluss die Nagelhaut mit<a href=\"https://lynis-nailshop.de/lovemynails/nagelpflegeoil\" title=\"Nagelöl\"><strong> Nagelöl</strong></a> um sie zu pflegen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Ist Acryl Liquid Drogerie Ware?</h2><p>Du fragst dich bestimmt, wo du Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>kaufen kannst? Oft möchte man etwas auf die Schnelle ausprobieren und es gibt immer mehr Nageldesign Produkte, die man in der Drogerie vor Ort erwerben kann, aber davon raten wir dir ab. Da du für eine Acrylmodellage zwei Komponenten benötigst und ein gewisses Fachwissen vorhanden sein sollte, damit Du deine Naturnägel nicht verletzt, raten wir Dir Dein Equipment bei einem Händler mit Erfahrung zu kaufen. Das zeichnet die Produkte von Lynis-Nailshop aus. Sie sind von einer Nageldesignerin für Nageldesigner!</p><h2>Do it yourself – Nagelmodellage mit Acryl</h2><p>Nagelstudios sind in den letzten Jahren wie Pilze aus dem Boden geschossen, denn Nageldesign ist kein anerkannter Ausbildungsberuf. Jeder kann sich mit einem Gewerbeschein selbständig machen. Ob die erforderlichen Hygienevoraussetzungen erfüllt sind und das entsprechende Fachwissen vorhanden ist, ist nicht immer gewährleistet. Zudem sind Kunstnägel Luxusartikel und somit ein Kostenfaktor. Dies können zum Beispiel Gründe sein, dich für eine do it yourself – Nagelmodellage zu entscheiden. Die Zwei-Komponenten-Methode mit Acryl Liquid und Acryl Pulver setzt einiges an Fingerspitzengefühl und Erfahrung voraus. Zum einen muss das Mischungsverhältnis stimmen und zum anderen musst du zügig arbeiten, da das Acryl an der Luft aushärtet. Das Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>und das <a href=\"https://lynis-nailshop.de/acryl-powder?page=1\" title=\"Acryl Pulver\"><strong>Acryl Pulver</strong> </a>werden direkt am <a href=\"https://lynis-nailshop.de/nageldesign-zubehoer/acryl-pinsel-8\" title=\"Acryl Pinsel\"><strong>Pinse</strong>l </a>gemischt, damit die Masse zeitnah als Bällchen auf den natürlichen Nagel gesetzt und dort modelliert werden kann. Bei falscher Anwendung kann man nicht nur den Pinsel und das Material unbrauchbar machen, auch bietet es Risiken für Deinen Naturnagel. Möchtest Du Dich also an Acrylnägel mit Acryl Liquid wagen, empfiehlt sich zuvor unbedingt einen Schulungskurs zu absolvieren.</p><h2>Acryl Liquid – ist es schädlich für die Nägel?</h2><p>Künstliche Nägel bergen gewisse Gefahren. Bakterien und Pilze können sich zwischen dem Naturnagel und dem Kunstnagel einnisten und den eigenen Nagel schädigen, daher ist besondere Hygiene erforderlich. Aufgrund des Infektionsrisikos sind Fake-Nägel in Medizin- und Pflegeberufen sowie im Lebensmittelbereich meist untersagt. Wir empfehlen dir also erst Rücksprache mit deinem Arbeitgeber zu halten. Liquid Acryl Inhaltsstoffe können Ethyl Methacrylat (EMA) oder Methylmethacrylat (MMA) sein. Acryl Liquid von lynis-nailshop.de enthält EMA, während viele andere Hersteller oft statt des hochwertigeren Materials das kostengünstigere MMA beimischen. In hoher Konzentration ist dieser Acryl <a href=\"https://lynis-nailshop.de/suche?controller=search&s=liquid\" title=\"Liquid\"><strong>Liquid</strong> </a>Inhaltsstoff gesundheitsschädlich und außerhalb der EU bereits vielfach verboten. Des Weiteren können Acrylate allergische Reaktion hervorrufen. An den Händen, im Gesicht oder am Hals können Blasen oder Rötungen entstehen. Zusätzlich kann es jucken oder brennen. Wer allergisch reagiert, sollte zum Arzt gehen und dies überprüfen lassen. Die acrylhaltigen Dämpfe, die beim Aushärten entstehen sind sehr gering und nur in größeren Mengen schädlich. Es empfiehlt sich jedoch, bei der Modellage einen Mundschutz zu tragen und gut zu lüften. Eine Staubabsaugung mit passendem Filter kann zusätzlich helfen. Ein Verdacht, dass sie krebserregend oder giftig seien ist bisher nicht nachgewiesen. <a href=\"https://lynis-nailshop.de/nageldesign-geraete/uv-lampe-classic-weiss\" title=\"UV Lampe\"><strong>UV-Lampen</strong> </a>stehen im Verdacht, dass ihre Strahlen die Haut schädigen könnten. Bei Acrylnägeln entfällt dieses Risiko, da Acryl an der Luft aushärtet und der Einsatz von UV-Licht entfällt. Sollte fürs Finish ein Gel zum Einsatz kommen, empfiehlt sich ein Aushärten mit einer LED-Lampe, die als eher unbedenklich gilt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "model_view_VmDxBy",
+    "ed_headline_HUkXrn",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_WJ8Ter",
+    "unterkategorie_xcddhE",
+    "unterkategorie_9gz3Gy",
+    "unterkategorie_iDjfXC",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

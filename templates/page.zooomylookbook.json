@@ -1,0 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "zooomylookbook",
+      "custom_css": [
+        "a.zooomyseedetails {display: none !important;}"
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "custom_liquid_r3pEzP": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>.zooomy___show___tags {\n    border-radius: 15px;\n    box-shadow: 1px 0px 10px -5px black;\n}\n.zooomytagptitle {\n    padding: 10px 0 5px;\n    font-family: 'Open Sans', sans-serif;\n    font-size: 10px;\nline-height: 12px;\n}\n.zooomytagprice {\n    font-size: 10px;\n    color: grey;\n}\na.zooomyseedetails {\n    font-size: 10px !important;\n    font-family: 'Rajdhani', sans-serif;\n    text-transform: uppercase;\n    color: black !important;\n    font-weight: 500;\n}\n.zooomyaddtocart {\n    background: #FAC850 !important;\n    color: #141414 !important;\n    font-size: 13px !important;\n    font-family: 'Rajdhani', sans-serif;\n    text-transform: uppercase;\n    font-weight: 600;\n    letter-spacing: 0.5px;\n}\n.zooomyaddtocart:hover {\n    opacity:0.4;\n}\n.zooomyitemadded {\n    font-variant-caps: all-small-caps !important;\n}\n\na.zooomyseedetails {\n    display: none !important;\n}\n.zooomytagspot {\n    width: 15px !important;\n    height: 15px !important;\nline-height: 15px !important;\n-webkit-animation: zooomytagspot 5s ease-out infinite !important; /* verlängerte Dauer */\n  animation: zooomytagspot 5s ease-out infinite !important; /* verlängerte Dauer */\n}\na.zooomytagspot {\n    font-size: 10px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_r7VTby": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n<script>\n    $(document).ready(function(){\n        $('a[aria-controls=\"mini-cart\"]').on('click', function(event) {\n            // Prevent default action\n            event.preventDefault();  \n\n            // Fetch the cart content and update the side cart\n            updateSideCart();\n        });\n\n        function updateSideCart() {\n            $.ajax({\n                type: 'GET',\n                url: '/?section_id=mini-cart', // Using section rendering for updating only the mini-cart\n                success: function(data) {\n                    // Extract the cart drawer content\n                    var cartDrawerHtml = $(data).find('#mini-cart').html();\n                    // Update the current cart drawer with the new content\n                    $('#mini-cart').html(cartDrawerHtml);\n\n                    // Trigger any events or reinitialize any plugins if necessary\n                    var event = new CustomEvent('cart:updated');\n                    document.dispatchEvent(event);\n                },\n                error: function() {\n                    alert('Es gab ein Problem beim Aktualisieren des Warenkorbs.');\n                }\n            });\n        }\n\n        // Listen for the custom cart updated event\n        document.addEventListener('cart:updated', function(event) {\n            console.log('The cart has been updated!');\n            // Add any additional custom logic for when the cart is updated\n        });\n    });\n</script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_r3pEzP",
+    "custom_liquid_r7VTby"
+  ]
+}

@@ -1,0 +1,41 @@
+<!-- Top Bar nur bei utm_source=google oder utm_campaign=google_campaign -->
+<div id="google-utm-bar" class="utm-top-bar" style="display: none;">
+  🎁 <strong>HEUTE:</strong> Gratis NailArt zu deiner Bestellung!
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Funktion, um die URL-Parameter zu überprüfen
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    // Überprüfen, ob utm_source=google oder utm_campaign=google_campaign in der URL ist
+    var utmSource = getUrlParameter('utm_source');
+    var utmCampaign = getUrlParameter('utm_campaign');
+
+    if (utmSource === 'dennis' || utmCampaign === 'google_campaign') {
+        document.getElementById('google-utm-bar').style.display = 'block';
+    }
+  });
+</script>
+
+
+<style>
+.utm-top-bar {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 2px solid #ddd;
+}
+  </style>

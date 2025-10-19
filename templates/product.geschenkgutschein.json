@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_iBqdjN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"geschenk-text\">Dieses Mal den <b>Jackpot</b> bei den Geschenken geknackt? <u><b>Absolut!</u></b></p>Es scheint, als hätte nicht nur ich, sondern auch die Person, die du beschenken möchtest, eine Schwäche für Nägel und alles, was glitzert.<br><br>Mit diesem Geschenk wirst du definitiv ALLES richtig machen! Bereite dich darauf vor, mit <b>Liebe überschüttet zu werden!</b><br><br>Die passende Druckvorlage kannst du hier downloaden:\n<a href=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Druckvorlagen.pdf?v=1710832589\" class=\"download-button\" target=\"_blank\">Vorlage herunterladen</a>\n\n<!-- CSS -->\n<style>\n.download-button {\n  display: inline-block;\n  padding: 5px 10px;\n  background-color: black;\n  color: white;\n  text-decoration: none;\n  border-radius: 5px;\n  font-size: 13px;\n}\n\n.download-button:hover {\n  background-color: grey;\n}\n</style>\n<style>\n.geschenk-text {\n    color: #060606;\n    font-size: 18px;\n    font-family: 'Rajdhani', sans-serif;\n    text-align: center;\n    font-weight: 500;\n    text-align: left;\n    padding-top: 10px;\n}</style>"
+          }
+        },
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "enable_block_styling": false,
+            "block_background": "#f5f5f5",
+            "block_border": "#000000",
+            "block_font_color": "#0d0d0d",
+            "block_background_selected": "#000000",
+            "block_border_selected": "#000000",
+            "block_font_color_selected": "#ffffff",
+            "block_border_not_available": "#0d0d0d",
+            "block_font_color_not_available": "#0d0d0d",
+            "selector_mode": "dropdown",
+            "color_mode": "block",
+            "size_chart_page": ""
+          }
+        },
+        "136a629f-7d9f-49d0-8277-16d8527be548": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_payment_button": false,
+            "atc_button_background": "#fac850",
+            "atc_button_text_color": "#000000",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "show_qty_discount": false,
+            "qty_discount_title": "Menge auswählen:",
+            "qty_discount_badge_color": "",
+            "qty_discount_font_color": ""
+          }
+        },
+        "liquid_YBbxrB": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"color:green;\">Du erhältst den Gutschein innerhalb von <b>5 Minuten per E-Mail</b></p>"
+          }
+        },
+        "liquid_UmnFDe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if customer and customer.tags contains 'Bestandskunde' %}\n{% else %}\n  <!-- Der Kunde ist kein Bestandskunde, zeige den speziellen Inhalt an -->\n  <div class=\"ed-payment-bar-pdp\">\n    {% render 'ed-payment-bar' %}\n    {% if settings.show_rate_payment_pdp %}\n      {% render 'ed-klarna-custom-payment' %}\n    {% endif %}\n  </div>\n{% endif %}"
+          }
+        },
+        "text_bndUmW": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>*Diese Code ist nur für den Online-Shop und nicht für die Online-Schulungen von Lynis-Nailacademy.de</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_iBqdjN",
+        "7e57fcd9-a2af-4b1d-b789-b7f61f67d00e",
+        "136a629f-7d9f-49d0-8277-16d8527be548",
+        "liquid_YBbxrB",
+        "liquid_UmnFDe",
+        "text_bndUmW"
+      ],
+      "custom_css": [
+        ".product-form__custom-liquid {font-size: 12px; color: grey; line-height: 16px;}",
+        "a.iWishAdd {display: none;}",
+        ".ed-buy-box {box-shadow: #00000030 0 0 19px -5px !important; padding: 0px 0px 15px 0px !important;}",
+        ".b2b-text {display: none;}",
+        ".product-meta__price-list-container {margin-top: 2px !important;}"
+      ],
+      "settings": {
+        "bundle_title": "",
+        "bundle_title_after": "",
+        "optional_product": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_title_sticky_add_to_cart": false,
+        "show_variant_selection_sticky_add_to_cart": false,
+        "show_price_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "enable_image_zoom_icon": false,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "color_video_story": "#c8c8c8",
+        "show_thumbnails_on_mobile": true,
+        "show_arrow_of_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "show_application_steps": false,
+        "application_steps_background": "#0d0d0d",
+        "application_steps_color": "#f5f5f5",
+        "font_size_application_steps": 12,
+        "application_steps_text_1": "It is a long established fact that a reader will be",
+        "application_steps_text_2": "It is a long established fact that a reader will be",
+        "application_steps_text_3": "It is a long established fact that a reader",
+        "application_steps_text_4": "It is a long established fact that a reader will",
+        "enable_social_proof": true,
+        "social_proof_background": "#f2f2f2",
+        "social_proof_text": "#000000",
+        "social_proof_box_style": "10px",
+        "social_proof_image_1": "shopify://shop_images/2024-02-29_16.20.31.jpg",
+        "social_proof_image_2": "shopify://shop_images/photo_2024-02-29_16.20.49.jpg",
+        "ppl_social_proof": "",
+        "enable_insta_checkmark": false,
+        "text_social_proof": "Bereits über 1.000 mal wurde  Freude verschenkt!",
+        "enable_text_bold": false,
+        "enable_popular_variants": false,
+        "popular_variants_badge": "#de2a2a",
+        "popular_variants_badge_color": "#f5f5f5",
+        "popular_variants_text": "Bestseller",
+        "enable_buy_box": true,
+        "buy_box_border_color": "#d7d7d7",
+        "buy_box_bg_color": "#ffffff",
+        "buy_box_border_radius": 15,
+        "update_prices_on_qty_change": true
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "custom_css": [
+        "li::marker {color: white !important;}",
+        "h3 {margin: 0px !important; font-size: 20px !important; line-height: 22px !important; letter-spacing: 0px !important;}"
+      ],
+      "settings": {
+        "enable_desktop_accordion": false
+      }
+    },
+    "image_with_text_block_t47TDW": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/100311_1.jpg",
+        "subheading": "",
+        "title": "Geschenke die <b>Eindruck </b>machen.",
+        "content": "Über 90% lösen ihren Gutschein innerhalb von 30 Tagen nach dem Geschenken ein, damit kannst du sicher gehen, dass du das <b>richtige</b> Geschenk hast.",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "175137439677cd1c98": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_XnqD8M": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "",
+            "iwish_added_txt": "",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#FFFFFF",
+            "z_index": 1,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_XnqD8M"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "image_with_text_block_t47TDW",
+    "175137439677cd1c98"
+  ]
+}

@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_rkkaVj": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div style=\"text-align: center;\">\n    <h3>Freischaltung möglicherweise verzögert</h3>\n    In der Zeit vom <b>16.10 - 27.10.24</b> befinden wir uns im Betriebsurlaub, sollte unser KI-System dich nicht automatisiert erkennen, wirst du ab dem <b>28.10.24</b> manuell freigeschaltet, danke für dein Verständnis.\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#cf0000",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "170894925874366f78": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_YmMDP3": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MzA3MTc=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_YmMDP3"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "custom_html_t4jACc": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Werde Gewerbekunde bei uns!",
+        "title": "Spare 10% auf jede Bestellung",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fdeae6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_b7jn6d": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".image-with-text-block__content:not(.image-with-text-block__content--tight) {padding: 34px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/26826_2.jpg",
+        "mobile_image": "shopify://shop_images/26826_ade0636b-f67f-48c1-a40b-a734067ecb4f.jpg",
+        "subheading": "Formular ausfüllen",
+        "title": "Gewerbeschein hochladen!",
+        "content": "Du wirst so schnell wie möglich geprüft und erhältst sofort eine E-Mail wenn du freigeschaltet wurdest.<br><br>\n\nDu erhältst dann auf ALLES Rabatt, außer <b>bereits reduzierte Artikel, Geräte, Wimpern</b><br>\n<hr>\n<div class=\"globo-formbuilder\" data-id=\"MzA3MTc=\"></div>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_rkkaVj",
+    "main",
+    "170894925874366f78",
+    "custom_html_t4jACc",
+    "image_with_text_block_b7jn6d"
+  ]
+}

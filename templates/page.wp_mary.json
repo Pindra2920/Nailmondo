@@ -1,0 +1,306 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_kTRLWf": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .discount-bar {\n    background-color: #4CAF50; \n    color: white;\n    padding: 4px;\n    text-align: center;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: Open Sans, sans-serif;\nmargin:0px -15px 0px -20px;\nbox-shadow: 0px 5px 7px -2px #0000008c;    z-index: 9;\n  }\n\n.discount-bar .checkmark-icon {\n    margin-right: 5px;\n    width: 15px;\n    height: 15px;\n}\n\n  .discount-bar .checkmark-icon path {\n    fill: white;\n  }\n</style>\n\n<div class=\"discount-bar\">\n  <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n    <path d=\"M20.285,2.288l-11.69,11.69-4.869-4.869L2,11.835l6.594,6.594,13.881-13.881L20.285,2.288z\"/>\n  </svg>\n  <span>Dein <b>10% Rabattcode</b> von Mary wurde aktiviert</span>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "h3.heading.h2 {text-shadow: 0px 0px 20px #000; font-weight: 500;}",
+        ".image-overlay__text-container {font-weight: 500; text-shadow: 0 0 12px black;}",
+        ".image-overlay--small {--image-height: 200px;}",
+        ".button {line-height: 18px; padding: 5px 10px 5px 10px; letter-spacing: 0.5px; font-size: 10px; text-transform: none; line-height: 14px;}",
+        "@media (min-width: 1024px) {.button {font-size: 12px; line-height: 16px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Screenshot_2024-06-18_082725.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "https://lynis-nailshop.de/discount/COM15?redirect=%2Fpages%2Fneu",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#fac850",
+        "button_text_color": "#0d0d0d",
+        "overlay_color": "#0d0d0d",
+        "overlay_opacity": 40
+      }
+    },
+    "bild_image_6CqB3H": {
+      "type": "Bild-Image",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative;}"
+      ],
+      "settings": {
+        "bild": "shopify://shop_images/Screenshot_2024-06-18_083406-Photoroom.png",
+        "alt_text": "",
+        "bild_groesse": "medium",
+        "bild_positionierung": "zentriert",
+        "custom_class": "insta-image-proof"
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "custom_css": [
+        ".insta-image-proof {margin-top: -50px; z-index: 2 !important; position: relative;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "@Nails by Mary",
+        "content": "<p>Ich zeige dir alle Produkte, die ich nutze und mit meinem Code \"<strong>tiktok_mary</strong>\" kannst du noch <strong>10% sparen!</strong></p><h6>Der Code wird automatisch abgezogen, nachdem du Artikel in den Warenkorb eingefügt hast.</h6>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_RMTgG4": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_q7n8PM": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/993ce474-b72c-4e73-9796-bcbf1138cc2a.jpg",
+            "dot_type": "inverted",
+            "product_1": "tunneltips-clear-nachfuellbeutel-500-stueck",
+            "product_1_horizontal_position": 47,
+            "product_1_vertical_position": 48,
+            "product_1_horizontal_position_mobile": 62,
+            "product_1_vertical_position_mobile": 38,
+            "product_2": "acrylpowder-soft-white-35g",
+            "product_2_horizontal_position": 20,
+            "product_2_vertical_position": 47,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 37,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_DwnQTC": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-06-18_084926.png",
+            "dot_type": "inverted",
+            "product_1": "acrylpowder-cover-extender-35g",
+            "product_1_horizontal_position": 48,
+            "product_1_vertical_position": 21,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "sugar-pastell-blue-farbgel-5ml",
+            "product_2_horizontal_position": 24,
+            "product_2_vertical_position": 26,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "sugar-pastell-rose-farbgel-5ml",
+            "product_3_horizontal_position": 64,
+            "product_3_vertical_position": 11,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_U6yprH": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/e3b6d184-d094-4f13-8e45-bab0600151e1_9b9b4a30-1eb3-4f7a-8435-7e59f935a874.jpg",
+            "dot_type": "inverted",
+            "product_1": "tunneltips-clear-nachfuellbeutel-500-stueck",
+            "product_1_horizontal_position": 36,
+            "product_1_vertical_position": 49,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "acrylpowder-opal-glimmer",
+            "product_2_horizontal_position": 28,
+            "product_2_vertical_position": 51,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 48,
+            "product_3_vertical_position": 28,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_q7n8PM",
+        "look_DwnQTC",
+        "look_U6yprH"
+      ],
+      "custom_css": [
+        ".shop-the-look,.shop-the-look__item {max-width: 700px; margin: auto;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Inspo"
+      }
+    },
+    "model_view_QNMnNc": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "mary-lieblingsfarben",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "Produkte, auf die ich nicht verzichten will",
+        "title": "Meine Favoriten",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_zxDPyw": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_6dM4Jt": {
+          "type": "collection",
+          "settings": {
+            "collection": "mary-lieblingsfarben-1",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6dM4Jt"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lieblingsfarben",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "mary-alles-sonstige",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Alles was ich sonst nutze",
+        "content": "",
+        "css-klasse": "block2",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_kTRLWf",
+    "image_with_text_overlay_a94x7r",
+    "bild_image_6CqB3H",
+    "rich_text_teMzPn",
+    "shop_the_look_RMTgG4",
+    "model_view_QNMnNc",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_zxDPyw",
+    "unterkategorie_cGRNLE",
+    "main"
+  ]
+}

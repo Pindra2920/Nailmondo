@@ -1,0 +1,166 @@
+{% assign story_items_quantity = 0 %}
+{% for block in section.blocks %}
+  {% if block.type == 'story-item' and block.settings.link != blank %}
+    {% assign story_items_quantity = story_items_quantity | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if story_items_quantity > 0 %}
+  <div
+    class="ed-section stories-wrapper stories-wrapper-{{ section.settings.section_story_icon_slider }}"
+    {% if section.settings.stories_bg_color != blank %}
+      style="background-color: {{ section.settings.stories_bg_color }}"
+    {% endif %}
+  >
+    <div class="inner">
+      <nav class="stories-nav {% if story_items_quantity <= 4 %}center-items{% endif %}">
+        {% for block in section.blocks %}
+          {% if block.type == 'story-item' and block.settings.link != blank %}
+            <div class="story-item story-item-{{ section.settings.section_story_icon_slider }}">
+              <a class="story-link" href="{{ block.settings.link }}">
+                {% if section.settings.section_story_icon_slider == 'show_bubbles' %}
+                  <div class="image-wrapper">
+                    {% if block.settings.svg_story_icon != blank %}
+                      {{ block.settings.svg_story_icon }}
+                    {% else %}
+                      <img src="{{ block.settings.icon | img_url: '100x' }}">
+                    {% endif %}
+                  </div>
+                  <div
+                    class="label-wrapper"
+                    {% if section.settings.stories_text_color != blank %}
+                      style="color: {{ section.settings.stories_text_color }}"
+                    {% endif %}
+                  >
+                    {{ block.settings.title | raw }}
+                  </div>
+                {% else %}
+                  <div
+                    class="title__container"
+                    {% if section.settings.stories_text_color != blank %}
+                      style="border-color: {{ section.settings.stories_text_color }}"
+                    {% endif %}
+                  >
+                    <div
+                      class="label-wrapper"
+                      {% if section.settings.stories_text_color != blank %}
+                        style="color: {{ section.settings.stories_text_color }}"
+                      {% endif %}
+                    >
+                      {{ block.settings.title | raw }}
+                    </div>
+                  </div>
+                {% endif %}
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+{% endif %}
+
+<style>
+  {% if section.settings.stories_sticky %}
+    @media only screen and (min-width: 1200px) {
+      .shopify-section--story-icon-slider {position: sticky; top: 132px; z-index: 3;}
+    }
+    @media screen and (min-width: 741px) and (max-width: 1199px) {
+      .shopify-section--story-icon-slider {position: sticky; top: 81px; z-index: 3;}
+    }
+    @media screen and (max-width: 740px) {
+      .shopify-section--story-icon-slider {position: sticky; top: 69px; z-index: 3;}
+    }
+
+  {% endif %}
+
+  @media only screen and (min-width: 1000px) {
+    .stories-wrapper {width: 100%;}
+    .stories-wrapper .inner {width: 75%; margin: 0 auto;}
+    .stories-wrapper .inner:after {display: none;}
+  }
+  {% if section.settings.section_story_icon_slider == 'show__titles' %}
+  .stories-wrapper .inner:after {
+      width: 0 !important;
+  }
+  {% endif %}
+</style>
+
+{% schema %}
+{
+"name": "Story-Icon-Slider",
+  "class": "shopify-section--story-icon-slider",
+"tag": "section",
+"settings": [
+{
+"type": "header",
+"content": "Stories"
+},
+{
+"type": "select",
+"id": "section_story_icon_slider",
+"label": "Style",
+"options": [
+{
+"value": "show_bubbles",
+"label": "Show bubbles"
+},
+{
+"value": "show_titles",
+"label": "Show titles"
+}
+]
+},
+{
+"type": "color",
+"id": "stories_bg_color",
+"label": "Background Color"
+},
+{
+"type": "color",
+"id": "stories_text_color",
+"label": "Text Color"
+},
+{
+  "type": "checkbox",
+  "id": "stories_sticky",
+  "label": "Sticky Story Slider",
+  "default": true
+}
+],
+"blocks": [
+{
+"type": "story-item",
+"name": "Story",
+"settings": [
+{
+"type": "url",
+"id": "link",
+"label": "Link"
+},
+{
+"type": "liquid",
+"id": "title",
+"label": "Title"
+},
+{
+"type": "image_picker",
+"id": "icon",
+"label": "Icon"
+},
+{
+"type": "html",
+"id": "svg_story_icon",
+"label": "SVG",
+"info": "If svg set it will override the image"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Story-Icon-Slider"
+}
+]
+}
+{% endschema %}

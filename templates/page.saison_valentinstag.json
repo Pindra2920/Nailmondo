@@ -1,0 +1,607 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block1",
+            "title": "Farbgel",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block4",
+            "title": "Holo",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block2",
+            "title": "Cat Eye",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block3",
+            "title": "Reflective",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#block5",
+            "title": "NailArt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block5",
+            "title": "Sonstiges",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3TTeMm": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block7",
+            "title": "Wraps",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_GPLCWA": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#block7",
+            "title": "",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_3JL4xx",
+        "story_item_TLG6iA",
+        "story_item_XKAYAz",
+        "story_item_PK38LE",
+        "story_item_BDmQte",
+        "story_item_3TTeMm",
+        "story_item_GPLCWA"
+      ],
+      "custom_css": [
+        ".stories-wrapper .inner:after {display: none;}",
+        ".image-wrapper {display: none !important;}",
+        ".stories-wrapper .inner .stories-nav .story-item {padding: 7px 10px 5px 10px !important; background: white; border-radius: 5px; color: white !important; border: 1px solid white; margin-left: 10px;}",
+        ".stories-wrapper .inner .stories-nav {padding: 10px 0 7px !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#880707",
+        "stories_text_color": "#000000",
+        "stories_sticky": true
+      }
+    },
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".image-overlay--small {--image-height: 200px;}",
+        ".button {line-height: 18px; padding: 5px 10px 5px 10px; letter-spacing: 0.5px; font-size: 10px; text-transform: none; line-height: 14px;}",
+        "@media (min-width: 1024px) {.button {font-size: 12px; line-height: 16px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/485.jpg",
+        "subheading": "LIEBE ZU DEINEN NÄGELN",
+        "title": "VALENTINSTAG 🤍",
+        "content": "<p>Lass deine Nägel mit Liebe strahlen!</p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_left",
+        "text_color": "#0d0d0d",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "#fafafa",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 27
+      }
+    },
+    "custom_liquid_qihcPQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "Inspiration für dich",
+        "title": "",
+        "liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6787bf25147b71003e573756\"></div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "model_view_QNMnNc": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "disabled": true,
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "MÄRZ 2024",
+        "title": "NEUE Produkte",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Das wird dich erwarten..",
+        "content": "<p>Es wird neue Farbgele geben, dazu neue Werkzeuge von Staleks und die beliebten Nailart Perlen in drei verschiedenen Farben!</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_8TBYaX": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".parent {text-align: center;}",
+        ".switch-launch {text-align: center; margin-top: 20px; border: 1px solid lightgray; border-radius: 25px; display: inline-block; padding: 3px 15px 0px 15px; background: #0000000a; font-family: \"Rajdhani\", sans-serif;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"parent\">\n  <a href=\"/pages/neu\">\n    <div class=\"switch-launch\"><u><b>HIER</b></u> gehts zu den neuen Produkten · Dezember 2024</div>\n  </a>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_7P6WWV": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<!-- fallende Herzen -->\n<style>\n  .heart {\n    position: fixed;\n    top: -10px;\n    color: red;\n    font-size: 1em;\n    z-index: 9999;\n    pointer-events: none;\n    animation: fall linear forwards;\n  }\n\n  @keyframes fall {\n    0% {\n      transform: translateY(0);\n    }\n    100% {\n      transform: translateY(100vh);\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const initialHearts = 100; // Anzahl der Herzen am Anfang\n    const body = document.body;\n\n    // Funktion zum Erstellen eines Herzens\n    function createHeart() {\n      const heart = document.createElement(\"div\");\n      heart.className = \"heart\";\n      heart.textContent = \"❤️\";\n      heart.style.left = Math.random() * 100 + \"vw\";\n      heart.style.animationDuration = Math.random() * 3 + 2 + \"s\";\n      heart.style.fontSize = Math.random() * 10 + 10 + \"px\";\n      heart.style.opacity = Math.random();\n      body.appendChild(heart);\n\n      // Entfernen des Herzens, nachdem es aus dem Bildschirm verschwindet\n      heart.addEventListener(\"animationend\", function () {\n        heart.remove();\n      });\n    }\n\n    // Anfangs einmalig Herzen fallen lassen\n    for (let i = 0; i < initialHearts; i++) {\n      createHeart();\n    }\n  });\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_7FrdqR": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Your title",
+        "liquid": "<!-- HTML + CSS + JavaScript für fallende Schneeflocken -->\n<style>\n  .snowflake {\n    position: fixed;\n    top: -10px;\n    color: #fff;\n    font-size: 1em;\n    z-index: 9999;\n    pointer-events: none;\n    animation: fall linear forwards;\n  }\n\n  @keyframes fall {\n    0% {\n      transform: translateY(0);\n    }\n    100% {\n      transform: translateY(100vh);\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const initialSnowflakes = 100; // Anzahl der Schneeflocken am Anfang\n    const body = document.body;\n\n    // Funktion zum Erstellen einer Schneeflocke\n    function createSnowflake() {\n      const snowflake = document.createElement(\"div\");\n      snowflake.className = \"snowflake\";\n      snowflake.textContent = \"❄\";\n      snowflake.style.left = Math.random() * 100 + \"vw\";\n      snowflake.style.animationDuration = Math.random() * 3 + 2 + \"s\";\n      snowflake.style.fontSize = Math.random() * 10 + 10 + \"px\";\n      snowflake.style.opacity = Math.random();\n      body.appendChild(snowflake);\n\n      // Entfernen der Schneeflocke, nachdem sie aus dem Bildschirm verschwindet\n      snowflake.addEventListener(\"animationend\", function () {\n        snowflake.remove();\n      });\n    }\n\n    // Anfangs einmalig Schneeflocken fallen lassen\n    for (let i = 0; i < initialSnowflakes; i++) {\n      createSnowflake();\n    }\n  });\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-1",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; margin-top: 30px; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Farbgele",
+        "content": "",
+        "css-klasse": "block1",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_blocks_ipAPCn": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_LAgcRD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farbgel-rosy-deckend-3.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_CrRLmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farbgel-rosy-deckend-3.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_Fca9BT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shellac-chrome-peach-farbe-fuer-naegel-led-uv-geeignet-selbstglaettend-gel-polish-fuer-gel-gellack-acryl-nageldesigns.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_LAgcRD",
+        "image_CrRLmc",
+        "image_Fca9BT"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-4",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "Perfekt für Winterdesigns",
+        "title": "Farbgel Holo",
+        "content": "",
+        "css-klasse": "block4",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-2",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Cat Eye Shellace",
+        "content": "",
+        "css-klasse": "block2",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-3",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Reflective Shellace",
+        "content": "",
+        "css-klasse": "block3",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_xcddhE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_dqMkE6": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-5",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqMkE6"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "NailArt",
+        "content": "",
+        "css-klasse": "block5",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_9gz3Gy": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_9GF7Nd": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-6",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9GF7Nd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "ABVERKAUF Wimpern",
+        "content": "",
+        "css-klasse": "block6",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_AF487M": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_FLMHLJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-block-7",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_FLMHLJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece; background: white;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Wraps",
+        "content": "",
+        "css-klasse": "block7",
+        "products_count": 100,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.block1, .block2, .block3, .block4 , .block5 , .block6 {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .block1, .block2, .block3, .block4 , .block5 , .block6 {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_bjnHxR": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\nbody {\n    background: #FFF1F1;\n}\n.section__color-wrapper {\n    display: flow-root;\n    background: transparent;\n}\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#fff1f1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "image_with_text_overlay_a94x7r",
+    "custom_liquid_qihcPQ",
+    "model_view_QNMnNc",
+    "ed_headline_HUkXrn",
+    "rich_text_teMzPn",
+    "custom_liquid_8TBYaX",
+    "custom_liquid_7P6WWV",
+    "custom_liquid_7FrdqR",
+    "unterkategorie_bjNPkn",
+    "promotion_blocks_ipAPCn",
+    "unterkategorie_WJ8Ter",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_xcddhE",
+    "unterkategorie_9gz3Gy",
+    "unterkategorie_AF487M",
+    "main",
+    "custom_html_DnEbXa",
+    "custom_liquid_bjnHxR"
+  ]
+}

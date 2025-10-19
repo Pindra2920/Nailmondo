@@ -1,0 +1,45 @@
+{% assign numberOfStep = 0 %}
+<div class="product-bundle-wrapper">
+  <div class="product-bundle">
+    <h5 class="product-bundle-title">
+      <span class="after">{{ section.settings.bundle_title_after }}</span>
+      <span class="before">{{ section.settings.bundle_title }}</span>
+    </h5>
+    <div class="product-bundle-products-selection">
+      {% for block in section.blocks %}
+        {% if block.type == 'bundle_builder' %}
+          {% assign numberOfStep = numberOfStep | plus: 1 %}
+          {% assign allFree = true %}
+          {% for product in block.settings.products %}
+            {% if product.price != 0 %}
+              {% assign allFree = false %}
+            {% endif %}
+          {% endfor %}
+
+          <div
+            class="product-bundle-add-product {% if allFree %}all_free{% endif %}"
+            data-step="{{ block.settings.step | handle }}"
+          >
+            <!--
+              <span class="bundle-product-cross">
+                {% render 'icon' with 'bundle-product-cross' %}
+              </span>
+            -->
+            <div class="product-bundle-add-product-img">
+              {{ block.settings.image | image_url: width: auto | image_tag: class: 'img img-bundle' }}
+            </div>
+            <div class="step-name">
+              {{ block.settings.step }}
+              {% if block.settings.price %}
+                <span>{{ block.settings.price }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% if numberOfStep > 0 %}
+    {% render 'product-bundle-popup', numberOfStep: numberOfStep %}
+  {% endif %}
+</div>

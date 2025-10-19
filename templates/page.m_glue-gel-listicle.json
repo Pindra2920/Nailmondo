@@ -1,0 +1,274 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_DbpTg6": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\ndiv#shopify-section-header {\n    display: none;\n}\ndiv#shopify-section-announcement-bar {\n    display: none;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "bild_image_6tUVVH": {
+      "type": "Bild-Image",
+      "custom_css": [
+        ".logo-listicle {margin-top: 30px !important; max-width: 30%; margin: auto;}"
+      ],
+      "settings": {
+        "bild": "shopify://shop_images/lynis-nailshop-logo.png",
+        "alt_text": "Nageldesign-Bild",
+        "bild_groesse": "original",
+        "bild_positionierung": "zentriert",
+        "custom_class": "logo-listicle"
+      }
+    },
+    "rich_text_n4xp6Q": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "5 Gründe, warum das Glue Gel Set deine Nagelroutine revolutionieren wird.",
+        "content": "<p>Der Sommer steht vor der Tür und mit ihm die Zeit für schöne Outfits, Strandbesuche und lange Abende im Freien. Um bei all diesen Gelegenheiten perfekt auszusehen, gehören makellose Nägel einfach dazu. Mit dem Glue Gel Set kannst du dir ganz einfach selbst professionelle Nägel zaubern, die den ganzen Sommer über halten.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_DFQAwE": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_bi38Qe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Listicle2.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "1. Perfekte Nägel in kürzester Zeit",
+            "content": "<p>Keine Zeit für stundenlange Besuche im Nagelstudio? Mit dem Glue Gel Set kannst du dir zu Hause in wenigen Minuten professionelle Nägel zaubern. Glue Gel mit dem Tip aus dem Tiegel nehmen, Tip auf den Nagel anpressen, aushärten, in Form bringen, Wunschfarbe auftragen - et voilà! So sparst du wertvolle Zeit und siehst immer fantastisch aus!</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_bi38Qe"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_YtLbRE": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_qqt3qU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Listicle1.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "2. Langanhaltende Ergebnisse",
+            "content": "<p>Die hochwertigen Produkte im Glue Gel Set sind so entwickelt, dass deine Nägel 4-6 Wochen halten. Das bedeutet weniger Stress und Aufwand für dich, da du nicht ständig deine Nägel nachbessern oder ins Nagelstudio rennen musst. Sind deine Nägel einmal gemacht, kannst du sie wochenlang tragen, egal welche Herausforderungen deine Fingernägel im Alltag meistern müssen. Und wenn deine Nägel rauswachsen, musst du sie nicht komplett neu machen – du kannst sie kinderleicht mit dem Glue Gel auffüllen.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qqt3qU"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_Ugmmyd": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_3Gazrj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Listicle3.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "3. Einfach und bequem",
+            "content": "<p>Das Set ist perfekt für Anfänger und eine sehr anfängerfreundliche Methode, um tolle Ergebnisse zu erzielen. Ob du zu Hause bist oder unterwegs – das Glue Gel ist immer griffbereit. Es ist einfach in der Anwendung und ermöglicht dir, jederzeit und überall deine Nägel nach Belieben zu gestalten. Wähle aus sechs verschiedenen Formen und Längen und zaubere dir jederzeit professionelle Nägel wie aus dem Nagelstudio. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_3Gazrj"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_jyw9X6": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_XPanKV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Listicle4.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "4. Vielseitige Anwendungsmöglichkeiten",
+            "content": "<p>Das Glue Gel Set ist nicht nur für künstliche Nägel, sondern auch für Nagelverlängerungen geeignet. Es sorgt für eine starke und langanhaltende Verbindung, sodass du dich jederzeit auf deine Nägel verlassen kannst. Lass deiner Kreativität freien Lauf und experimentiere mit verschiedenen Designs! Und wenn du deine Nägel entfernen möchtest, geht das innerhalb von wenigen Minuten mit Aceton.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XPanKV"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_image_with_text_FJ97R6": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "item_KEawRC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Listicle5.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "5. Geld sparen leicht gemacht",
+            "content": "<p>Ein Besuch im Nagelstudio kann teuer sein, aber mit dem Glue Gel Set kostet dich eine Anwendung nur 4€. Das bedeutet, dass du deine Nägel öfter machen kannst, ohne die Haushaltskasse zu sprengen. Fang heute noch an zu sparen und genieße wochenlang perfekte Nägel zum kleinen Preis.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_KEawRC"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_PCfjjT": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"spring-offer\">\n    <div class=\"header\">\n        <h2>Exklusives Frühlingsangebot</h2>\n        <div class=\"timer\">\n            <p>Angebot endet <span id=\"time\">23:55:56</span></p>\n        </div>\n        <p>(Dieses Angebot ist nur exklusiv für diese Seite verfügbar & ist nicht offiziell im Shop auffindbar)</p>\n    </div>\n    <div class=\"content\">\n        <img src=\"https://lynis-nailshop.de/cdn/shop/files/gluegel-set_700x.jpg?v=1710418281\" >\n        <div class=\"features\">\n            <p><span class=\"checkmark\">✔</span> Gratis Videokurs im Wert von 29,95€</p>\n            <p><span class=\"checkmark\">✔</span>bis zu 15 Anwendungen</p>\n            <p><span class=\"checkmark\">✔</span> Spare über 57,66€ im Frühling</p>\n        </div>\n    </div>\n    <div class=\"cta\">\n        <a href=\"https://lynis-nailshop.de/products/glue-gel-set-system\">Bis zu -50% sparen</a>\n        <p><b>RISIKO DES AUSVERKAUFS: </b><span class=\"high-risk\">HOCH</span></p>\n    </div>\n</div>\n<style>\n.spring-offer {\n    border: 2px dashed black;\nborder-radius:20px;\n    padding: 20px;\n    max-width: 600px;\n    margin: auto;\n    background-color: #fff7e6;\n}\n\n.header {\n    text-align: center;\nfont-family: 'Rajdhani', sans-serif;\n}\n\n.header p {\n    margin: 5px 0;\nfont-family: 'Open-Sans', sans-serif\n}\n\n.timer {\n    font-weight: bold;\n}\n\n.timer span {\n    font-size: 1.2em;\n    color: red;\n}\n\n.content {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.content img {\n    max-width: 100%;\n    height: auto;\n}\n\n.features {\n    text-align: left;\n    margin-top: 20px;\n}\n\n.features p {\n    display: flex;\n    align-items: center;\n    margin: 5px 0;\n}\n\n.checkmark {\n    color: green;\n    margin-right: 10px;\n}\n\n.cta {\n    text-align: center;\n    margin-top: 20px;\n}\n\n.cta a {\n    display: inline-block;\n    background-color: black;\n    color: white;\n    padding: 10px 20px;\n    letter-spacing: 2px;\n    font-weight: bold;\n    border-radius: 5px;\n    text-transform: uppercase;\n}\n\n.high-risk {\n    color: red;\n    font-weight: bold;\n}\n\n.cta p {\n    margin: 5px 0;\n}\n.content img {\n    max-width: 100%;\n    height: auto;\n    border-radius: 20px;\n}\n.image-with-text__image-wrapper {\n    border-radius: 20px;\n}\n</style>\n<script>\nfunction startTimer(duration, display) {\n    var timer = duration, hours, minutes, seconds;\n    setInterval(function () {\n        hours = parseInt(timer / 3600, 10)\n        minutes = parseInt((timer % 3600) / 60, 10);\n        seconds = parseInt(timer % 60, 10);\n\n        hours = hours < 10 ? \"0\" + hours : hours;\n        minutes = minutes < 10 ? \"0\" + minutes : minutes;\n        seconds = seconds < 10 ? \"0\" + seconds : seconds;\n\n        display.textContent = hours + \":\" + minutes + \":\" + seconds;\n\n        if (--timer < 0) {\n            timer = duration;\n        }\n    }, 1000);\n}\n\nwindow.onload = function () {\n    var twentyFourHours = 24 * 60 * 60,\n        display = document.querySelector('#time');\n    startTimer(twentyFourHours, display);\n};\n</script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_AByyLg": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"button-container\">\n    <a href=\"https://lynis-nailshop.de/products/glue-gel-set-system\" class=\"cta-button\">Jetzt Angebot sichern!</a>\n</div>\n<style>\n.button-container {\n    text-align: center;\n    margin-top: 20px;\n}\n\n.cta-button {\nfont-family: 'Rajdhani', sans-serif;\n    display: inline-block;\n    background-color: #fac850;\n    color: black;\n    padding: 10px 30px;\n    text-decoration: none;\n    font-weight: bold;\n    border-radius: 25px;\n    font-size: 1.2em;\ntext-transform:uppercase;\nletter-spacing:2px;\n}\n\n.cta-button:hover {\n    background-color: #fac850;\n}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_p89Bta": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.h2 {\n    font-weight: 600;\n}\nh3.heading.h3 {\n    font-weight: 600 !important;\n}\n.ed-image-with-text .image-with-text__wrapper {\n    padding-top: 0px !important;\n    padding-bottom: 50px;\n}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_DbpTg6",
+    "main",
+    "bild_image_6tUVVH",
+    "rich_text_n4xp6Q",
+    "ed_image_with_text_DFQAwE",
+    "ed_image_with_text_YtLbRE",
+    "ed_image_with_text_Ugmmyd",
+    "ed_image_with_text_jyw9X6",
+    "ed_image_with_text_FJ97R6",
+    "custom_liquid_PCfjjT",
+    "custom_liquid_AByyLg",
+    "custom_liquid_p89Bta"
+  ]
+}

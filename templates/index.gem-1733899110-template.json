@@ -1,0 +1,542 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "searchbar_frontpage_W986Gk": {
+      "type": "searchbar-frontpage",
+      "custom_css": [
+        ".ed-search-bar .search-bar-container {max-height: 60px; padding: 8px 8px;}",
+        ".ed-search-bar {background: linear-gradient(181deg, #f4f4f4, white);}"
+      ],
+      "settings": {
+        "activate_search_bar": true,
+        "search_bar_background": "#fafafa",
+        "search_bar_border": "#f2f2f2",
+        "search_bar_style": "20px",
+        "section_height": "small",
+        "transition_type": "sweep"
+      }
+    },
+    "custom_liquid_KmXjR6": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"welcome-message\">\n    <h3>Herzlich Willkommen in unserem neuen Online-Shop</h3>\n    <p class=\"front-text\">Wir haben viele Dinge für dich überarbeitet und du wirst noch mehr Spaß beim Shoppen haben.<br>\n    Schau dir unbedingt die Änderungen an und aktivier dein Konto</p>\n    <a href=\"/pages/neuer-shop\" class=\"welcome-button\">Zeig mir, was neu ist</a>\n</div>\n\n<style>\n.front-text {\n    margin: -10px;\n}\n    .welcome-message {\n        background-color: #ffffff;\n        padding: 20px;\n        border-radius: 10px;\n        box-shadow: 0 4px 8px rgba(0,0,0,0.1);\n        text-align: center;\n    }\n    .welcome-button {\n    display: inline-block;\n    margin-top: 20px;\n    padding: 5px 10px;\n    background-color: #000000;\n    color: #ffffff;\n    text-decoration: underline;\n    border-radius: 5px;\n    font-weight: bold;\n    border-color: white;\n}\n    .welcome-button:hover {\n        opacity: 0.5;\n    }\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#f4f4f4",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "startseiten_banner_qhkRE4": {
+      "type": "Startseiten-Banner",
+      "blocks": {
+        "collection_ykcRdk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/12_24_Red-Passion_BANNER.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/products/lynibox-red-passion",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_DTT3R6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/12_24_neue_produkte_BANNER2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/neu",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_hgwrtm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/12_24_neue_produkte_BANNER.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/neu#block1",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rGPPPw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/12_24_Wintersale_BANNER.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/winter-sale",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_ykcRdk",
+        "collection_DTT3R6",
+        "collection_hgwrtm",
+        "collection_rGPPPw"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "startseiten_banner_FzKtt8": {
+      "type": "Startseiten-Banner",
+      "blocks": {
+        "collection_4hHbRL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/no-file-webinar.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailacademy.de/no-file/",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#2e2e2e",
+            "overlay_opacity": 29
+          }
+        },
+        "collection_TdUqeM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/11_24Rainbow_Shellace.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/neu#block1",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_mbtB8a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fastival_Banner.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/neu",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_R3N3he": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/11_24_Neuheiten_bf072091-ff8e-4930-9951-7b10f6bd19c3.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https://lynis-nailshop.de/pages/neu#block2",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_4hHbRL",
+        "collection_TdUqeM",
+        "collection_mbtB8a",
+        "collection_R3N3he"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "883b623b-6f82-474e-a735-7ce4317b5314": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16592146432249__883b623b-6f82-474e-a735-7ce4317b5314-166944511869255757-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "neu",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "collection_c9M9wQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "neu-1",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16592146432249__883b623b-6f82-474e-a735-7ce4317b5314-166944511869255757-0",
+        "collection_c9M9wQ"
+      ],
+      "custom_css": [
+        "span.loader-button__text {font-size: 10px; height: 30px; background: #d9d9d9;}",
+        "button.product-item__cta.button.button--primary {padding: 0px 10px 0px 10px; background: #d9d9d9;}",
+        ".product-item__info--with-button {justify-content: flex-start;}",
+        ".product-item-meta__title {display: block; line-height: 1.2; margin-bottom: 0 !important; font-size: 12px;}",
+        "span.label.label--highlight {display: none;}"
+      ],
+      "settings": {
+        "subheading": "JEDEN MONAT ETWAS NEUES!",
+        "title": "Neue Produkte: Dezember 2024",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1ead77e8-5f9e-446f-b0dd-3b589c1fbb21": {
+      "type": "ed-text-with-icons",
+      "blocks": {
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon": "shopify://shop_images/youtube-icon.png",
+            "custom_icon_width": 110,
+            "title": "",
+            "content": "<p>Bekannt aus <strong>YouTube</strong> mit <br/>über <strong>105.000 Abonnenten</strong></p>"
+          }
+        },
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify://shop_images/google-icon.png",
+            "custom_icon_width": 110,
+            "title": "",
+            "content": "<p><strong>5,0 Sterne</strong> Google Bewertung<br/>bei über 1832 Rezensionen</p>"
+          }
+        },
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify://shop_images/social-media-icon.png",
+            "custom_icon_width": 110,
+            "title": "",
+            "content": "<p>Über<strong> 256.495 Follower</strong><br/>in den sozialen Netzwerken</p>"
+          }
+        },
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify://shop_images/umfrage.png",
+            "custom_icon_width": 110,
+            "title": "",
+            "content": "<p><strong>98% </strong>würden unsere Produkte<br/>(nach einer Umfrage) <strong>weiterempfehlen</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-1",
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-2",
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-3",
+        "template--16592146432249__1ead77e8-5f9e-446f-b0dd-3b589c1fbb21-item-4"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "17097396276e0bb601": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_rating_bar_FKJd8Q": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-rating-bar/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": "LBqHs5QjJcXk8uKp"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_rating_bar_FKJd8Q"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
+    "promotion_blocks_E7zUGM": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_AzAXVW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nageldesign-kurs.jpg",
+            "highlight": false,
+            "subheading": "LASS DICH VON MIR SCHULEN!",
+            "title": "<b>Nageldesign<br>Schulungen </b>zu<br>JEDEM Thema!",
+            "link_text": "Schulungen entdecken",
+            "link_url": "https://www.lynis-nailacademy.de",
+            "link_style": "button",
+            "text_position": "top_left",
+            "background": "#f7f8fd",
+            "text_color": "#2e2e2e",
+            "button_background": "#2e2e2e",
+            "button_text_color": "#f4f4f4"
+          }
+        },
+        "image_MaXP9T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nageldesign-schulung-online.jpg",
+            "highlight": false,
+            "subheading": "VERSCHENKE WAHRE FREUDE!",
+            "title": "Geschenkgutscheine <br>zum <b>Verschenken</b>",
+            "link_text": "Gutscheine verschenken",
+            "link_url": "/products/geschenkgutschein-lynis-nailshop",
+            "link_style": "button",
+            "text_position": "middle_right",
+            "background": "#f7f8fd",
+            "text_color": "#2e2e2e",
+            "button_background": "#0d0d0d",
+            "button_text_color": "#f4f4f4"
+          }
+        },
+        "image_aLrEYB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nailshop-nageldesign.jpg",
+            "highlight": false,
+            "subheading": "JETZT SPAREN!",
+            "title": "<b>10% RABATT</b><br>mit Gewerbeschein",
+            "link_text": "Gewerbekunde werden",
+            "link_url": "shopify://pages/gewerbekunden-studiokunden",
+            "link_style": "button",
+            "text_position": "middle_left",
+            "background": "#f7f8fd",
+            "text_color": "#0d0d0d",
+            "button_background": "#2e2e2e",
+            "button_text_color": "#f4f4f4"
+          }
+        }
+      },
+      "block_order": [
+        "image_AzAXVW",
+        "image_MaXP9T",
+        "image_aLrEYB"
+      ],
+      "custom_css": [
+        ".button--small,#shopify-product-reviews .spr-summary-actions-newreview {padding: 0px 14px !important; line-height: 28px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "17097392078133eedb": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_card_carousel_nJkUz3": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-card-carousel/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#fac850",
+            "review_type": "product",
+            "reviews_shown": 15,
+            "header_bg_colour": "#000000",
+            "header_colour": "#ffffff",
+            "header_star_colour": "#fac850",
+            "heading_text_colour": "#000000",
+            "heading_font": "open_sans_n4",
+            "body_text_colour": "#0e1311",
+            "badge_icon_colour": "#0ca265",
+            "badge_text_colour": "#0e1311",
+            "bg_start_colour": "#fff7f7",
+            "bg_end_colour": "#f4f4f4",
+            "item_border_width": "",
+            "item_border_colour": "#f7f7f7",
+            "item_border_radius": "",
+            "item_shadow_size": "",
+            "item_shadow_colour": "#f1f1f1",
+            "enable_rich_snippets": true,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_card_carousel_nJkUz3"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "multi_column_Kg9eRh": {
+      "type": "multi-column",
+      "blocks": {
+        "item_JRMKeh": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p><strong>Nicht mehr wegzudenken:</strong> Lynis <a href=\"https://www.lynis-nailshop.de/\" title=\"Nailshop Nageldesign\"><strong>Nailshop </strong></a><strong>-</strong> der Online-Shop von einer der größten <strong>Nageldesign</strong>-Bloggerin aus Deutschland. Mit über <strong>80.000 Abonnenten</strong> und über <strong>17,3 Millionen Klicks</strong> auf <a href=\"https://www.youtube.com/user/LyniNails?adb_sid=16f4c71a-0ed2-46c7-ace2-9882cd460a93\" title=\"LyniNails\">YouTube</a> hat sie es in wenigen Jahren geschafft einen <a href=\"https://www.lynis-nailshop.de/\" title=\"Nailshop\"><strong>Nailshop</strong></a> mit über <strong>1000 Nail Produkten</strong> aufzubauen und tausenden Zuschauern mit Schritt-für-Schritt Videoanleitungen zu zeigen, wie sie <strong>Nageldesign</strong> Produkte, <a href=\"https://lynis-nailshop.de/nailart\" title=\"Nailart-Nageldesign\">Nail Art</a>, <a href=\"https://lynis-nailshop.de/nageldesign-pinsel\" title=\"Nageldesign-Pinsel\">Pinsel</a>, <a href=\"https://lynis-nailshop.de/farbgel\" title=\"Farbgel\">Farbgele</a>, <a href=\"https://lynis-nailshop.de/nailart-wraps\" title=\"NailArt-Wraps\">Wraps</a>, <a href=\"https://lynis-nailshop.de/aufbaugel\" title=\"Aufbaugel-Nageldesign\">Aufbaugele</a> richtig zu verarbeiten haben. Ihre Kunden und Zuschauer lieben die ehrliche und sympathische Art und sind für die Videos dankbar. Durch ihre Produktpräsentationen und Videoanleitungen bietet sie den Zuschauern die perfekte Möglichkeit in einem Online-Shop wie diesem günstige und qualitative Produkte einzukaufen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_gP8eij": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p><strong>Lyni</strong> (Evelyn Gerz) ist Trainerin für <strong>Nageldesigner</strong> und schult seit neuestem in ihren Online-Schulungen im Internet wie man professionell Nägel modelliert und wunderschöne Nageldesigns zaubert. Sie hat es innerhalb eines Jahres geschafft die größte <strong>Online-Schulungsplattform</strong> in Deutschland für <strong>Nageldesigner</strong> zu gründen und zu etablieren. <a href=\"http://www.lynis-nailacademy.de/?adb_sid=16f4c71a-0ed2-46c7-ace2-9882cd460a93\" title=\"Lynis-Nailacademy\"><strong>Lynis-Nailacademy</strong></a> bietet jedem die Chance und die Möglichkeit das <strong>Nageldesign</strong> zu erlernen und ein <strong>Nagelstudio</strong> zu gründen. In ihrem Online-Kurs hat sie bereits über <strong>4000 Schülern</strong> und Kunden ihr bestes Wissen vermittelt. Diese Kombination lieben die Kunden, Schüler und Zuschauer - denn sie lernen von ihr und wissen genau, dass die Produkte in ihrem Online-Shop qualitativ und hochwertig sind.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_JRMKeh",
+        "item_gP8eij"
+      ],
+      "custom_css": [
+        ".metafield-rich_text_field {text-align: justify;}",
+        "@media (min-width: 1024px) {.multi-column__inner {grid-template-columns: repeat(2, 1fr); }}",
+        ".multi-column__inner > * {min-width: 0; max-width: 100%;}",
+        "h2 {font-size: 14px; font-family: \"Rajdhani\", sans-serif; color: #e9a9b6; font-weight: 600; margin-bottom: -5px; margin-top: 20px; line-height: 17px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "Lynis-Nailshop gehört zu einem der größten und beliebtesten Nailshops in Deutschland",
+        "title": "NAILSHOP FÜR NAGELDESIGN PRODUKTE",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_gkzrga": {
+      "type": "custom-html",
+      "custom_css": [],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>@media (max-width: 768px) {\n  a.iwish-float-icon.header__icon-wrapper.tap-area {\n    display: none;\n  }\ncollection-list.list-collections.list-collections--collage {\n    margin-top: -25px;\n}\n}\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "17200871326eed5dd4": {
+      "type": "apps",
+      "blocks": {
+        "iwish_wishlist_app_block_qKGFmJ": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/app-block/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "is_collection": true,
+            "is_text_only_col": false,
+            "iwish_add_txt": "Add To Wishlist",
+            "iwish_added_txt": "Added To Wishlist",
+            "outline_icon": "default_outline",
+            "filled_icon": "default_filled",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "iwish_theme_class": "",
+            "txt_font_size": 14,
+            "iwish_text_clr": "#000000",
+            "iwish_text_hover_clr": "#000000",
+            "variant_change_wrapper": "",
+            "variant_name_id_selector": "[name=id]",
+            "iwish_qvWrapper": "",
+            "iwish_qvBtn_click": "",
+            "iwish_custom_filters": "",
+            "filter_timeout": 1500
+          }
+        }
+      },
+      "block_order": [
+        "iwish_wishlist_app_block_qKGFmJ"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "searchbar_frontpage_W986Gk",
+    "custom_liquid_KmXjR6",
+    "startseiten_banner_qhkRE4",
+    "startseiten_banner_FzKtt8",
+    "883b623b-6f82-474e-a735-7ce4317b5314",
+    "1ead77e8-5f9e-446f-b0dd-3b589c1fbb21",
+    "17097396276e0bb601",
+    "promotion_blocks_E7zUGM",
+    "17097392078133eedb",
+    "multi_column_Kg9eRh",
+    "custom_html_gkzrga",
+    "17200871326eed5dd4"
+  ]
+}

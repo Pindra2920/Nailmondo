@@ -1,0 +1,70 @@
+<!-- sections/social-proof.liquid -->
+<div class="Wearing__Wrapper-sc-kxytb2-0 eRxizD">
+    <div class="Wearing__Avatars-sc-kxytb2-1 fXzBFz">
+        <div class="Wearing__Avatar-sc-kxytb2-2 eOwbSc">
+            <span class="image__cirlce">
+                <img src="{{ section.settings.img_1 | img_url: 'medium' }}">
+            </span>
+        </div>
+        <div class="Wearing__Avatar-sc-kxytb2-2 eOwbSc">
+            <span class="image__cirlce">
+                <img src="{{ section.settings.img_2 | img_url: 'medium' }}">
+            </span>
+        </div>
+    </div>
+    <span class="Typo__Span-sc-zggg7h-0 Wearing__Label-sc-kxytb2-3 btIBWJ iABqZZ">
+        <span class="Wearing__Name-sc-kxytb2-4 gziXoO" style="color: {{ section.settings.social_proof_text }}">
+            {{ section.settings.ppl_social_proof }}
+            {% if section.settings.enable_insta_checkmark %}
+            <span class="social_proof_icon">
+                {% render 'icon', icon: 'icon-checkmark-instagram' %}
+            </span>
+            {% endif %}
+        </span>
+        <span class="social_proof_text" style="color: {{ section.settings.social_proof_text }}; {% if section.settings.enable_text_bold %} font-weight: 500;{% endif %}">{{ section.settings.text_social_proof }}</span>
+    </span>
+</div>
+
+<!-- settings for the section -->
+{% schema %}
+{
+  "name": "Social Proof DL",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "text",
+      "id": "ppl_social_proof",
+      "label": "Social Proof Text"
+    },
+    {
+      "type": "color",
+      "id": "social_proof_text",
+      "label": "Social Proof Text Color"
+    },
+    {
+      "type": "text",
+      "id": "text_social_proof",
+      "label": "Additional Social Proof Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_insta_checkmark",
+      "label": "Enable Instagram Checkmark"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_text_bold",
+      "label": "Enable Bold Text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,69 @@
+<section>
+  <div class="">
+    <div class="model-view-switcher__wrapper">
+      {% render 'ed-model-view' %}
+    </div>
+  </div>
+</section>
+<style>
+  .shopify-section--model-view-switcher .model-view-switcher__wrapper {align-items: center; display: flex; justify-content: flex-end; padding-left: var(--container-gutter); padding-right: var(--container-gutter); padding-top: 15px;}
+    @media screen and (max-width: 999px) {
+      .shopify-section--model-view-switcher {position: sticky; z-index: 2;}
+      .shopify-section--model-view-switcher .model-view-switcher__wrapper {background: #fafafa; padding: 10px; border-top: 1px solid rgb(var(--border-color)); border-bottom: 1px solid rgb(var(--border-color)); justify-content: center;}
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let header = document.querySelector('.shopify-section--header');
+    let stickyStories = document.querySelector('.shopify-section--story-icon-slider');
+    let stickyModelView = document.querySelector('.shopify-section--model-view-switcher');
+
+    function updateHeights() {
+      let totalHeight = 0;
+
+      // Prüfe, ob das header-Element existiert
+      if (header) {
+        totalHeight += header.offsetHeight;
+      }
+
+      // Prüfe, ob das stickyStories-Element existiert
+      if (stickyStories) {
+        totalHeight += stickyStories.offsetHeight;
+      }
+
+      // Setze die Höhe des stickyModelView-Elements
+      if (stickyModelView) {
+        stickyModelView.style.top = totalHeight + 'px';
+      }
+    }
+
+    // Initial Heights
+    updateHeights();
+
+    // Event Listener für Größenänderung des Fensters
+    window.addEventListener('resize', updateHeights);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Model View",
+  "class": "shopify-section--model-view-switcher",
+  "settings": [
+    {
+      "type": "color",
+      "id": "checkfield_color",
+      "label": "Model View Switcher",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Model View"
+    }
+  ],
+  "disabled_on": {
+    "templates": ["collection"]
+  }
+}
+{% endschema %}

@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_bMBpE8": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<br><div class=\"hinweis\">\n  ❗<b><u>HINWEIS</u>: Wir haben ein NEUES System</b>❗<br><br>\n<b><u>ALLE Bestandskunden vor 26.03.24</b></u> müssen ihr ALTES KONTO einmalig <u>REAKTIVIEREN</u>.\n <div class=\"button-container\">\n    <button type=\"button\" onclick=\"location.href='/account/register'\"><u>HIER <b>REAKTIVIEREN</b></u></button>\n  </div>\n</div>\n<style>\n  .button-container button {\n    background-color: #DE2A2A; /* Rote Farbe */\n    color: white;\n    border: none;\n    padding: 5px 10px;\n    text-align: center;\n    text-decoration: none;\n    display: inline-block;\n    font-size: 12px;\n    margin: 4px 2px;\n    cursor: pointer;\n    border-radius: 5px; /* Ecken abrunden */\nbackground:black;\n  }\n  .hinweis {\n    background-color: #ED7D7D;\n    border-left: 5px solid #DE2A2A;\n    padding: 10px;\n    font-family: 'Open Sans', sans-serif;\n    line-height: 1.6;\nmax-width: 530px;\n    margin: auto;\ncolor:white;\n}\n  .hinweis-icon {\n    margin-right: 10px;\n    font-size: 24px;\n  }\n\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_GzFTrk": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<br><div class=\"hinweis\">\n  ❗<b><u>WICHTIGER HINWEIS!</u> Bitte lesen!</b>❗<br>Wenn du ein Kundenkonto <b><u>VOR dem März 2024</b></u> hattest, musst du es <b>einmalig aktivieren</b>, danach kannst du auf deine alten Bestellungen zugreifen.<br><br>Kundenkonten <b><u>nach März 2024</b></u> können sich normal einloggen.\n</div>\n<style>\n  .hinweis {\n    background-color: #ED7D7D;\n    border-left: 5px solid #DE2A2A;\n    padding: 10px;\n    font-family: 'Open Sans', sans-serif;\n    line-height: 1.6;\nmax-width: 530px;\n    margin: auto;\ncolor:white;\n}\n  .hinweis-icon {\n    margin-right: 10px;\n    font-size: 24px;\n  }\n\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "liquid_JwVD8d": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "Dein Konto muss, falls du im alten Shop ein Konto hattest, erst <b>aktiviert werden</b>. Solltest du ab April 2024 das erste mal bestellen, kannst du dich normal einloggen."
+          }
+        },
+        "login_XBgQiL": {
+          "type": "login",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_JwVD8d",
+        "login_XBgQiL"
+      ],
+      "custom_css": [
+        ".input__field-link {position: absolute; top: 2px; left: 5px !important;}",
+        "button.form__submit.button.button--primary.button--full {margin-top: 9%;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_7qi8Y6": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "Sekunde..",
+        "title": "Wann hast du dich registriert?",
+        "liquid": "Solltest du VOR dem",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_bMBpE8",
+    "custom_liquid_GzFTrk",
+    "main",
+    "custom_liquid_7qi8Y6"
+  ]
+}

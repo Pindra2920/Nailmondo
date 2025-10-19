@@ -1,0 +1,163 @@
+{% liquid
+  assign alphabet = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z' | split: ','
+  assign glossary_available_letters = ''
+  assign glossary_has_special_characters = false
+  paginate pages by 1000
+    for page in pages
+      if page.template_suffix == 'glossary'
+        assign item_first_letter = page.title | slice: 0 | capitalize
+        if alphabet contains item_first_letter
+          assign glossary_available_letters = glossary_available_letters | append: item_first_letter | append: ','
+        else
+          assign glossary_has_special_characters = true
+        endif
+      endif
+    endfor
+  endpaginate
+  assign glossary_available_letters_array = glossary_available_letters | split: ',' | uniq
+%}
+<style>
+  .cc-glossary .glossary__letter-nav-wrapper {background: {{ section.settings.glossary_letter_nav_background }}; display: flex; overflow: scroll; padding: 15px;}
+  .cc-glossary .glossary__letter-nav-letter a {color: {{ section.settings.glossary_letter_nav_color }}; padding: 15px;}
+  .cc-glossary .glossary__items-wrapper {padding: 25px 0;}
+  .cc-glossary .glossary__items-block {padding: 15px 0; border-bottom: 1px solid #e1e1e1; scroll-behavior: smooth;}
+  .cc-glossary .glossary__items-block-letter {padding: 0 0 10px 0; scroll-margin-top: 150px;}
+  .cc-glossary .glossary__items {display: flex; flex-wrap: wrap; gap: 20px;}
+
+  @media screen and (max-width: 740px) {
+      .cc-glossary .glossary__item {width: calc((100% / {{ section.settings.glossary_mobile_columns }}) - 20px);}
+      }
+    }
+
+    @media screen and (min-width: 741px) and (max-width: 999px) {
+      .cc-glossary .glossary__item {width: calc((100% / {{ section.settings.glossary_desktop_columns }}) - 20px);}
+    }
+
+    @media screen and (min-width: 1000px) {
+      .cc-glossary .glossary__letter-nav-wrapper {justify-content: center;}
+      .cc-glossary .glossary__item {width: calc((100% / {{ section.settings.glossary_desktop_columns }}) - 20px);}
+      }
+    }
+</style>
+<section class="cc-glossary">
+  <div class="glossary__letter-nav-wrapper">
+    {% for letter in alphabet %}
+      {% if glossary_available_letters_array contains letter %}
+        <div class="glossary__letter-nav-letter">
+          <a href="#glossary-letter-{{ letter }}">{{ letter }}</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% if glossary_has_special_characters %}
+      <div class="glossary__letter-nav-letter">
+        <a href="#glossary-letter-#">#</a>
+      </div>
+    {% endif %}
+  </div>
+  <div class="container">
+    <div class="glossary__items-wrapper">
+      {% for letter in alphabet %}
+        {% if glossary_available_letters_array contains letter %}
+          <div class="glossary__items-block">
+            <div id="glossary-letter-{{ letter }}" class="glossary__items-block-letter">
+              <span class="heading h2">{{ letter }}</span>
+            </div>
+            <div class="glossary__items">
+              {% paginate pages by 1000 %}
+                {% for page in pages %}
+                  {% if page.template_suffix == 'glossary' %}
+                    {% assign item_first_letter = page.title | slice: 0 | capitalize %}
+                    {% if item_first_letter == letter %}
+                      <div class="glossary__item">
+                        <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+                      </div>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              {% endpaginate %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+      {% if glossary_has_special_characters %}
+        <div class="glossary__items-block">
+          <div id="glossary-letter-#" class="glossary__items-block-letter">
+            <span class="heading h2">#</span>
+          </div>
+          <div class="glossary__items">
+            {% paginate pages by 1000 %}
+              {% for page in pages %}
+                {% if page.template_suffix == 'glossary' %}
+                  {% assign item_first_letter = page.title | slice: 0 | capitalize %}
+                  {% unless alphabet contains item_first_letter %}
+                    <div class="glossary__item">
+                      <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+                    </div>
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            {% endpaginate %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Glossary Listing",
+  "class": "shopify-section--cc-glossary",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Options"
+    },
+    {
+      "type": "range",
+      "id": "glossary_desktop_columns",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "label": "Desktop Columns",
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "glossary_mobile_columns",
+      "label": "Mobile Columns",
+      "options": [
+        {
+          "value": "1",
+          "label": "One"
+        },
+        {
+          "value": "2",
+          "label": "Two"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "header",
+      "content": "Background Options"
+    },
+    {
+      "type": "color",
+      "id": "glossary_letter_nav_background",
+      "label": "Letter Nav Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Font Options"
+    },
+    {
+      "type": "color",
+      "id": "glossary_letter_nav_color",
+      "label": "Letter Nav Font Color",
+      "default": "#2e2e2e"
+    }
+  ]
+}
+{% endschema %}

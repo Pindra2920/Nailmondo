@@ -1,0 +1,447 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_dzJQBn": {
+          "type": "story-item",
+          "settings": {
+            "link": "#zubehör",
+            "title": "Zubehör",
+            "icon": "shopify://shop_images/tip_zubehoer.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#extrakurz",
+            "title": "Extra kurz",
+            "icon": "shopify://shop_images/tip_extra_kurz.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#kurz",
+            "title": "Kurz",
+            "icon": "shopify://shop_images/tip_kurz.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#normal",
+            "title": "Normal",
+            "icon": "shopify://shop_images/tip_normal.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#lang",
+            "title": "Lang",
+            "icon": "shopify://shop_images/tip_lang.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#set",
+            "title": "Set",
+            "icon": "shopify://shop_images/tip_set.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_dzJQBn",
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_UpbCxz",
+        "story_item_6DfUrC"
+      ],
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "Perfekte Press on Tips in jeder Größe",
+        "title": "Press on Nails",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_9gz3Gy": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_9GF7Nd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-zubehoer",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9GF7Nd"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Zubehör & Gele",
+        "content": "",
+        "css-klasse": "zubehör",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-extra-kurz",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Mehr Größen: Extra Breite & extra klein · kein Feilen mehr nötig",
+        "title": "Extra kurze Tips",
+        "content": "",
+        "css-klasse": "extrakurz",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-kurz",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Natürliche Länge ohne viel zu Feilen",
+        "title": "Kurze Tips",
+        "content": "",
+        "css-klasse": "kurz",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-normal",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Normale Tips",
+        "content": "",
+        "css-klasse": "normal",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_HGLqQW": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_jr3DHk": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-softgel",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_jr3DHk"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Soft Gel Press On",
+        "content": "",
+        "css-klasse": "Soft Gel Press On",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-lang",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lange Tips",
+        "content": "",
+        "css-klasse": "lang",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_xcddhE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_dqMkE6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-press-on-set",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqMkE6"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Alles, was du für perfekte Press on Nails brauchst",
+        "title": "Sets",
+        "content": "",
+        "css-klasse": "set",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.extrakurz, .kurz, .normal, .lang , .set , .zubehör {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .extrakurz, .kurz, .normal, .lang , .set , .zubehör  {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Hast du keine Zeit oder Lust, stundenlang im Nagelstudio zu sitzen? Dann sind Press on Nails genau das Richtige für dich! Mit diesen praktischen Nagelsticker kannst du im Handumdrehen professionell aussehende Nägel zaubern. Hier erfährst du, wie du sie richtig anbringst und lange Freude daran hast.</p><h2>Press on Nails Anleitung, wie wird’s gemacht?</h2><p>Bevor du mit dem Auftragen der <a href=\"https://lynis-nailshop.de/click-it-tips-nageldesign\">Press on Nails</a> beginnst, solltest du deine Naturnägel gut vorbereiten.</p><p>Kürze sie auf die gewünschte Länge und feile sie in die gewünschte Form. Entferne deine <a href=\"https://lynis-nailshop.de/nageldesign-werkzeuge/naildesign-werkzeuge/pro-pusher-nagelhautschieber\">Nagelhaut </a>und reinige deine Nägel gründlich.</p><p><span style=\"text-decoration:underline\">Auswahl der richtigen Größe:</span> In der Packung mit den <a href=\"https://lynis-nailshop.de/click-it-tips-nageldesign\">Press on Nails</a> findest du verschiedene Größen. Wähle diejenigen aus, die am besten zu deinen natürlichen Nägeln passen. Es ist wichtig, dass die Nägel perfekt auf den Nagel passen, um ein natürliches Aussehen zu erzielen.</p><p><span style=\"text-decoration:underline\">Anbringen der</span><a href=\"https://lynis-nailshop.de/click-it-tips-nageldesign\"><span style=\"text-decoration:underline\"> Press on Nails</span></a><span style=\"text-decoration:underline\">:</span> Zur Befestigung der Tips kannst du Click it Gel, Glue Gel, <a href=\"https://lynis-nailshop.de/acryl\">Acrylgel</a>, <a href=\"https://lynis-nailshop.de/acryl\">Acryl </a>und normales Aufbaugel verwenden. Nimm den ersten Tip und platziere ihn vorsichtig auf deinem Nagel. Drücke ihn sanft an und achte darauf, dass keine Luftblasen entstehen und lasse ihn unter der Lampe aushärten (bei Acryl geht dies an der Luft). Wiederhole diesen Vorgang für alle Nägel.</p><p><span style=\"text-decoration:underline\">Feinschliff:</span> Nachdem du alle <a href=\"https://lynis-nailshop.de/click-it-tips-nageldesign\">Press on Nails</a> angebracht hast, kannst du sie noch etwas in Form feilen, um das gewünschte Endergebnis zu erzielen. </p><p><a href=\"https://lynis-nailshop.de/gellacke\"><span style=\"text-decoration:underline\">Farbauftrag </span></a><span style=\"text-decoration:underline\">und Versiegelung</span>: Nun ist deine Kreativität gefragt. Suche dir einen <a href=\"https://lynis-nailshop.de/gellacke\">Shellac </a>deiner Wahl aus und kreiere dir deine Press ons so wie es dir gefällt. Im Anschluss nur noch den <a href=\"https://lynis-nailshop.de/versiegelungsgel\">Versiegler </a>auftragen und du bist fertig.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Press on Nails selbst entfernen, so wird’s gemacht!</h2><p>Irgendwann ist es Zeit, die Press on Nails zu entfernen und Platz für ein neues Design zu machen.</p><p>Hier ist eine einfache Anleitung, wie du die Modellage selbst entfernen kannst, ohne dabei deine Naturnägel zu beschädigen.</p><p>Dies geht am besten mit einer Soak off Schale. Befülle den unteren Teil der Schale mit sehr warmen Wasser. Jetzt kannst du den oberen Teil mit Aceton Remover so voll machen, dass deine Nägel damit bedeckt sind. Weiche nun die angerauten Nägel darin ein und entferne dein Soak Off Produkt. Lass deine Nägel für etwa 10-15 Minuten einweichen. Nimm im Anschluss  den Holzstab und schiebe ihn vorsichtig unter den Rand der Press on Nails. Hebe sie langsam an und arbeite dich vorsichtig vor, bis der Tip vollständig abgelöst ist. Wiederhole diesen Vorgang für alle Nägel. Achte darauf, sanft vorzugehen, um die Naturnägel nicht zu beschädigen. Nachdem du die Press on Nails entfernt hast, ist es wichtig, deine Naturnägel gut zu pflegen. Trage eine feuchtigkeitsspendende Nagelcreme oder -öl auf, um sie zu stärken und mit Feuchtigkeit zu versorgen.</p><p>Reinige anschließend deine Nägel gründlich, um sie auf das nächste Nageldesign vorzubereiten</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "ed_headline_HUkXrn",
+    "unterkategorie_9gz3Gy",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_HGLqQW",
+    "unterkategorie_WJ8Ter",
+    "unterkategorie_xcddhE",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

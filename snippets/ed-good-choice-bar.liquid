@@ -1,0 +1,55 @@
+{% assign incrementDaysMin = settings.delivery_time_in_days | times: 24 | times: 60 | times: 60 %}
+<div class="shipping-header-info-container"
+     style="{% if cart.item_count == 0 %}display: none; {% else %} display: block; {% endif %}">
+    <div class="shipping-header-info" style="background-color: {{ settings.color_good_choice_background }};">
+        {%- render 'icon' with 'good-choice-icon' -%}
+        <span class="content" style="color: {{ settings.color_good_choice_text }};">
+            {% if settings.text_in_bold != blank %}
+                <span class="goodchoice">
+                    {{ settings.text_in_bold  }}
+                </span>
+            {% endif %}
+            {% if settings.text_before_date != blank %}
+               {{ settings.text_before_date  }}
+            {% endif %}
+            {% if settings.deactivate_date_label != true %}
+                {% assign wday = 'now' | date: "%s" | date: "%a" %}
+                {% case wday %}
+                    {% when 'Wed' %}
+                        {% assign addDaytoExcludeWeekendDay = 2 | times: 24 | times: 60 | times: 60 %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | plus: addDaytoExcludeWeekendDay | date: "%d.%m.%Y" %}
+                    {% when 'Thu' %}
+                        {% assign addDaytoExcludeWeekendDay = 2 | times: 24 | times: 60 | times: 60 %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | plus: addDaytoExcludeWeekendDay | date: "%d.%m.%Y" %}
+                    {% when 'Fri' %}
+                        {% assign addDaytoExcludeWeekendDay = 2 | times: 24 | times: 60 | times: 60 %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | plus: addDaytoExcludeWeekendDay | date: "%d.%m.%Y" %}
+                    {% when 'Sat' %}
+                        {% assign addDaytoExcludeWeekendDay = 1 | times: 24 | times: 60 | times: 60 %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | plus: addDaytoExcludeWeekendDay | date: "%d.%m.%Y" %}
+                    {% else %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | date: "%a" %}
+                        {% assign addDaytoExcludeWeekendDay = 0 %}
+                        {% if wday == 'Sat' %}
+                            {% assign addDaytoExcludeWeekendDay = 2 | times: 24 | times: 60 | times: 60 %}
+                        {% endif %}
+                        {% if  wday == 'Sun' %}
+                            {% assign addDaytoExcludeWeekendDay = 1 | times: 24 | times: 60 | times: 60 %}
+                        {% endif %}
+                        {% assign wday = 'now' | date: "%s" | plus: incrementDaysMin | plus: addDaytoExcludeWeekendDay | date: "%d.%m.%Y" %}
+                {% endcase %}
+                {{ wday }}
+            {% endif %}
+            {% if settings.text_after_date != blank %}
+                {{ settings.text_after_date }}
+            {% endif %}
+    </span>
+    </div>
+</div>
+
+
+<style>
+    .shipping-header-info svg path {
+        stroke: {{ settings.color_good_choice_icon }};
+    }
+</style>

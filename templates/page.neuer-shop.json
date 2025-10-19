@@ -1,0 +1,372 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_t4jACc": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "NOCH BESSER, NOCH SCHNELLER!",
+        "title": "UNSER <b>NEUER SHOP</b> &<br> WAS DU WISSEN SOLLTEST!",
+        "html": "<div style=\"text-align:center;\">In den letzten Monaten haben wir alles dafür gegeben, dass wir dein Einkaufserlebnis auf ein neues Level heben. Wieso? Das wirst du jetzt erfahren!</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fdeae6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_bbpPkk": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"welcome-message\">\n    <h3>Wichtiger Hinweis zu bestehenden Kundenkonten</h3>\n    <p>Du kannst dich in dein Konto einloggen, nachdem du es AKTIVIERT hast, dass bedeutet du legst dir ein beliebiges Passwort fest! Danach ist alles beim Alten.<br></p>\n    <a href=\"/account/register\" class=\"welcome-button\">Konto aktivieren / registrieren</a>\n<br><br>\nSolltest du Gewerbekunde sein, sind die Rabatte auch weiterhin in deinem Konto hinterlegt. Alle Gutschein & Rabattcodes sind ebenfalls noch aktiv.</div>\n<style>\np {\n    margin: -10px;\n}\n    .welcome-message {\n        background-color: #ffffff;\n        padding: 20px;\n        border-radius: 10px;\n        box-shadow: 0 4px 8px rgba(0,0,0,0.1);\n        text-align: center;\n    }\n    .welcome-button {\n    display: inline-block;\n    margin-top: 20px;\n    padding: 5px 10px;\n    background-color: #000000;\n    color: #ffffff;\n    text-decoration: underline;\n    border-radius: 5px;\n    font-weight: bold;\n    border-color: white;\n}\n    .welcome-button:hover {\n        opacity: 0.5;\n    }\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#f4f4f4",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_JYbkAb": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/61194_1.jpg",
+        "subheading": "",
+        "title": "Das WICHTIGSTE.",
+        "content": "<b>Geschwindigkeit & Abstürze</b><br>\nDieser Shop wird zu 99% nicht mehr während unseren Launches & Rabattaktionen verlangsamt sein oder abstürzen.<br>\n<br>\n<b>Kundenkonten & Bestellungen</b><br>\nAlle registrierten Konten bestehen weiterhin, du musst dich lediglich dein Konto einmalig <b>\"aktivieren / registrieren\"</b> und bist dann in deinem alten Konto inkl. aller Bestellungen & Adressen.<br>\n<br>\n<b>Funktionen die du lieben wirst</b><br>\nWir haben uns viele tolle Dinge überlegt, die dir das Einkaufen vereinfachen, diese wirst du selbst entdecken & wir zeigen sie dir jetzt!<br>\n<br>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_JmfhEB": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h4>In einem neuen System läuft zum Start, trotz Beta-Tester manchmal nicht alles rund, sollte dir etwas auffallen, melde dich gerne im Support & wir lösen die Sache so schnell es geht.</h4>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_HqDbHP": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_74cmnD": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<video id=\"meinVideo3\" width=\"100%\" height=\"100%\" loop playsinline oncontextmenu=\"return false;\" muted>\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/a648401f3a364dae95d8f7a2e0ac5b75.mp4\" type=\"video/mp4\">\n  Ihr Browser unterstützt das Video-Tag nicht.\n</video>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var video = document.getElementById('meinVideo3');\n\n  // Funktion, um das Video zu starten\n  function versucheAutoplay() {\n    var promise = video.play();\n    \n    if (promise !== undefined) {\n      promise.then(_ => {\n        // Autoplay started!\n        console.log('Autoplay erfolgreich.');\n      }).catch(error => {\n        // Autoplay was prevented.\n        console.log('Autoplay verhindert:', error);\n        aktiviereManuelleSteuerung();\n      });\n    }\n  }\n\n  function aktiviereManuelleSteuerung() {\n    // Füge die Videosteuerungen hinzu, damit der Benutzer das Video manuell starten kann.\n    video.setAttribute('controls', 'true');\n\n    // Optional: Versuche, das Video in den Vollbildmodus zu schalten (abhängig von Browser und Benutzererlaubnis).\n    if (video.requestFullscreen) {\n      video.requestFullscreen().catch(err => {\n        console.log('Der Wechsel in den Vollbildmodus wurde vom Benutzer abgelehnt', err);\n      });\n    }\n  }\n\n  // Versuche, das Video beim Laden zu starten\n  versucheAutoplay();\n});\n</script>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_ApkVBy": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p class=\"heading h5\"><b>Nie</b> wieder Chaos</p>\nAnstatt endloses scrollen zur richtigen Farbe, kannst du nun deine Wunschfarbe sofort wählen.\n<br><br>\n<p class=\"heading h5\"><b>Zweitbilder</b> ohne Klicken</p>\nOben kannst du \"Zweitbilder anzeigen\" klicken und dir werden (wenn vorhanden) Bilder auf Tips angezeigt. So kannst du die Farbe vergleichen in Matt & Glänzend.<br><br>\n<p class=\"heading h5\"><b>Bilder anschauen</b> ohne Klicken</p>\nAnstatt jedes mal in das Produkt zu klicken, kannst du aus der Übersichtseite mit einem Swipe bereits alle Bilder aus dem Produkt anschauen.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_74cmnD",
+        "item_ApkVBy"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; }}",
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Farbgele & Shellace",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_BRypnJ": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_7dwPxp": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p class=\"heading h5\"><b>Unterteilung</b> in Kategorien</p>\nDu wirst eine deutlich angenehmere Sortierung in den Kategorien finden, z.B. sind Aufbaugele nun in Unterkategorien sortiert wie Make-Up, Farbige, usw.\n<br><br>\n<p class=\"heading h5\"><b>Schneller</b> Weg zum Ziel</p>\nIn einigen Kategorien findest du eine \"Icon-Menü\" wo du in der Kategorie navigieren kannst um direkt zu den Artikel zu kommen die du suchst.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_9bDeRm": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<video id=\"meinVideo\" width=\"100%\" height=\"100%\" loop playsinline oncontextmenu=\"return false;\" muted>\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/464963a301ad4a61a8692296221fa11c.mp4\" type=\"video/mp4\">\n  Ihr Browser unterstützt das Video-Tag nicht.\n</video>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var video = document.getElementById('meinVideo');\n\n  // Funktion, um das Video zu starten\n  function versucheAutoplay() {\n    var promise = video.play();\n    \n    if (promise !== undefined) {\n      promise.then(_ => {\n        // Autoplay started!\n        console.log('Autoplay erfolgreich.');\n      }).catch(error => {\n        // Autoplay was prevented.\n        console.log('Autoplay verhindert:', error);\n        aktiviereManuelleSteuerung();\n      });\n    }\n  }\n\n  function aktiviereManuelleSteuerung() {\n    // Füge die Videosteuerungen hinzu, damit der Benutzer das Video manuell starten kann.\n    video.setAttribute('controls', 'true');\n\n    // Optional: Versuche, das Video in den Vollbildmodus zu schalten (abhängig von Browser und Benutzererlaubnis).\n    if (video.requestFullscreen) {\n      video.requestFullscreen().catch(err => {\n        console.log('Der Wechsel in den Vollbildmodus wurde vom Benutzer abgelehnt', err);\n      });\n    }\n  }\n\n  // Versuche, das Video beim Laden zu starten\n  versucheAutoplay();\n});\n</script>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_7dwPxp",
+        "item_9bDeRm"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; }}",
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Kategorie-Seiten",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_K8hWGA": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_KFYHzk": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<video id=\"meinVideo2\" width=\"100%\" height=\"100%\" loop playsinline oncontextmenu=\"return false;\" muted>\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/cbd11b4cf3354dc4899f740353f1caff.mp4\" type=\"video/mp4\">\n  Ihr Browser unterstützt das Video-Tag nicht.\n</video>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var video = document.getElementById('meinVideo2');\n\n  // Funktion, um das Video zu starten\n  function versucheAutoplay() {\n    var promise = video.play();\n    \n    if (promise !== undefined) {\n      promise.then(_ => {\n        // Autoplay started!\n        console.log('Autoplay erfolgreich.');\n      }).catch(error => {\n        // Autoplay was prevented.\n        console.log('Autoplay verhindert:', error);\n        aktiviereManuelleSteuerung();\n      });\n    }\n  }\n\n  function aktiviereManuelleSteuerung() {\n    // Füge die Videosteuerungen hinzu, damit der Benutzer das Video manuell starten kann.\n    video.setAttribute('controls', 'true');\n\n    // Optional: Versuche, das Video in den Vollbildmodus zu schalten (abhängig von Browser und Benutzererlaubnis).\n    if (video.requestFullscreen) {\n      video.requestFullscreen().catch(err => {\n        console.log('Der Wechsel in den Vollbildmodus wurde vom Benutzer abgelehnt', err);\n      });\n    }\n  }\n\n  // Versuche, das Video beim Laden zu starten\n  versucheAutoplay();\n});\n</script>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_LNcCMN": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p class=\"heading h5\"><b>Neuigkeiten</b> im Menü</p>\nAnstatt dauerhaft sichtbare Leisten mit unseren Aktionen findest du diese nun ab sofort oben im Menü (wenn Aktionen sind)\n<br><br>\n<p class=\"heading h5\"><b>Weniger scrollen</b>, mehr Übersicht</p>\nIm Menü hast du nun mehrere Menüpunkte als Unterkategorie angezeigt, brauchst weniger scrollen und findest Dinge schneller wieder.\n<br><br>\n<p class=\"heading h5\"><b>Login & Hilfe</b> schnell erreichbar</p>\nDein Kundenkonto & die Hilfe vom Support findest du nun unten im Menü mit einem Klick.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_KFYHzk",
+        "item_LNcCMN"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; }}",
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Menü Navigation",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_tWagJm": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_g3Dxdq": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/quick-view-new.jpg\">\n<p class=\"heading h5\"><b>Schnelleres</b> bestellen</p>\nBei Variationsartikel kannst du bereits in der Kategorie-Übersicht deine Größe Auswählen, ohne in das Produkt zu gehen.\n<br>\n<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/atc-focus.jpg\">\n<p class=\"heading h5\">Nie wieder <b>doppelt kaufen</b></p>\nSobald ein Artikel im Warenkorb ist, färbt sich der Button grün, das bedeutet, du hast volle Übersicht & Kontrolle und behältst in Aktionen eine bessere Übersicht, was bereits im Warenkorb ist.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_dtwcQ8": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/videos.jpg\">\n<p class=\"heading h5\"><b>Produktvideos</b></p>\nWenn ein Artikel ein Video hat, findest du es oben rechts in der Ecke des Produktbildes, welches sich dann öffnet.\n<br>\n<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/b2b-preise.jpg\">\n<p class=\"heading h5\"><b>Studiorabatte</b> verbessert</p>\nAb sofort siehst du den Studiopreis in Brutto im Artikel, wenn du Gewerbekunde bist. Im Warenkorb wird dieser nun auch pro Artikel angezeigt. Ausgeschlossene Artikel haben einen Hinweis.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_wEa6r3": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/search.jpg\">\n<p class=\"heading h5\">Verbesserte <b>Suche</b></p>\nSchneller, besser, einfacher, teste es selbst aus & du wirst dich freuen, wie gut du Artikel finden kannst.\n<br><br>\n<img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/notifi.jpg\">\n<p class=\"heading h5\">Artikel im <b>Angebot sichern</b></p>\nDiese Funktion benachrichtigt, wenn der Artikel mal im Angebot ist, dass ist hilfreich bei Lieblingsartikeln oder wenn du mehrere davon bestellen willst.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_7RAndB": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_g3Dxdq",
+        "item_dtwcQ8",
+        "item_wEa6r3",
+        "item_7RAndB"
+      ],
+      "custom_css": [
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}",
+        ".text-container img:not([style*=\"float\"]),.rte img:not([style*=\"float\"]) {display: block; margin: 20px 0px 5px 0;}",
+        ".text-container {text-align: center;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Sonstiges",
+        "content": "<style>\n  @media (max-width: 768px) {\n    .scroll-hint {\n      display: block;\n      background-color: #f0f0f0;\n      color: #333;\n      text-align: center;\n      padding: 5px;\n      border-radius: 5px;\n line-height:1.2em;\n    }\n  }\n\n  @media (min-width: 769px) {\n    .scroll-hint {\n      display: none;\n    }\n  }\n</style>\n\n<div class=\"scroll-hint\">\nAuf dem Handy kannst du nach links und rechts scrollen, um alles zu sehen.\n</div>",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "loose",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_LxMi9g": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "LOS GEHTS!",
+        "title": "Wir hoffen, es gefällt dir!",
+        "content": "<p>Teste gerne alles aus, klicke dich herum und freu dich auf ein viel besseres und einfacheres Kauferlebnis. </p><p>Wir bedanken uns bei über 100.000 Kunden und freuen uns auf dein Feedback!</p>",
+        "button_text": "Jetzt entdecken",
+        "button_link": "shopify://pages/neu",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_3VjPxR": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.metafield-rich_text_field {\n  font-size: 10px;\n  line-height: 15px;\n  color: #676767;\nword-break: break-word;\n  hyphens: auto;\n}</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_t4jACc",
+    "custom_liquid_bbpPkk",
+    "image_with_text_block_JYbkAb",
+    "rich_text_JmfhEB",
+    "multi_collumn_liquid_HqDbHP",
+    "multi_collumn_liquid_BRypnJ",
+    "multi_collumn_liquid_K8hWGA",
+    "multi_collumn_liquid_tWagJm",
+    "rich_text_LxMi9g",
+    "custom_html_3VjPxR"
+  ]
+}

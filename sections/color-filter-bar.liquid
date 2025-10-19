@@ -1,0 +1,62 @@
+<div class="color-filter-label">
+  {{ section.settings.select_color_text -}}
+</div>
+<product-facet section-id="{{ section.id }}" class="product-facet section-color-filters" id="color-filter-section">
+  <div class="container">
+    {% render 'color-filters', filters: collection.filters %}
+  </div>
+</product-facet>
+<style>
+  .shopify-section--color-filter-bar {position: sticky; z-index: 2; background: #fff;}
+  #color-filter-section::after{content: ""; position: absolute; top: 0; right: 0; height: 100%; width: 120px; background: linear-gradient(to right,#fff0,#fff); pointer-events: none;}
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let header = document.querySelector('.shopify-section--header');
+    let mobileToolbar = document.querySelector('.mobile-toolbar');
+    let colorFilterLabel = document.querySelector('.color-filter-label');
+    let stickyColorFilterBar = document.querySelector('.shopify-section--color-filter-bar');
+
+    function updateHeights() {
+      let headerHeight = header.offsetHeight;
+      let mobileToolbarHeight = mobileToolbar.offsetHeight;
+      let colorFilterLabelHeight = colorFilterLabel.offsetHeight;
+      let totalHeight = headerHeight + mobileToolbarHeight - colorFilterLabelHeight;
+
+      stickyColorFilterBar.style.top = totalHeight + 'px';
+
+      console.log({ headerHeight, mobileToolbarHeight, totalHeight });
+    }
+
+    // Initial Heights
+    updateHeights();
+
+    // Event Listener for Screen Resize
+    window.addEventListener('resize', updateHeights);
+  });
+</script>
+{% schema %}
+{
+  "name": "Color Filter Bar",
+  "class": "shopify-section--color-filter-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "select_color_text",
+      "label": "Select Color Text",
+      "default": "Farbe wählen"
+    },
+    {
+      "type": "text",
+      "id": "color_sorting",
+      "label": "Enter colors for sorting comma separated here",
+      "default": "schwarz,"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Color Filter Bar"
+    }
+  ]
+}
+{% endschema %}

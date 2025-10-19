@@ -1,0 +1,363 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "170894925874366f78": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_YmMDP3": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MzA3MTc=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_YmMDP3"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "custom_html_t4jACc": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Hilfe & Kontakt",
+        "html": "<h3 style=\"text-align: center;line-height:1.3;\">Gib deine Frage in Stichwörtern in die Suchleiste ein.\n</h3>\n<p style=\"text-align: center; font-size:12x;margin-top:-10px;line-height:14px;\">\nz.B. <i><u>Rechnung</u></i> (wenn du deine Rechnung suchst), oder <i><u>Reklamation</u></i>, wenn du Probleme mit einem Produkt hast\n</p>\n<br>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fdeae6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_with_search_eERT6X": {
+      "type": "faq-with-search",
+      "blocks": {
+        "category_3HEQGB": {
+          "type": "category",
+          "settings": {
+            "title": "Bestellung"
+          }
+        },
+        "question_LjwFJj": {
+          "type": "question",
+          "settings": {
+            "title": "Sind eure Produkte TPO frei?",
+            "answer": "<p>Ja, seit <strong>01.09.25</strong> sind ALLE Produkte TPO frei. </p><p>Gewisse Produkte, die du vor dem 01.09.25 bestellt hast, können TPO (CAS: 75980-60-8) enthalten, dieses findest du auf dem jeweiligen Produkt-Etikett abgebildet.</p>",
+            "keywords": "tpo, tpofrei, tpo-l"
+          }
+        },
+        "question_UwYNcR": {
+          "type": "question",
+          "settings": {
+            "title": " Wie und wo kann ich einen Gutschein/Gutscheincode einlösen?",
+            "answer": "<p>Gutscheine können in der Kasse oder in Warenkorb hinzugefügt werden. Klicke auf <strong>\"Rabattcode\"</strong>, um deinen Code einzugeben.</p>",
+            "keywords": "Gutschein, Rabatt, einlösen, Geschenkgutschein, Rabattcode. Code"
+          }
+        },
+        "question_8JDHAx": {
+          "type": "question",
+          "settings": {
+            "title": "Wo finde ich meine Rechnung?",
+            "answer": "<p>Rechnungen werden <strong>automatisch</strong> an deine E-Mail nach Versand der Bestellung verschickt, bitte prüfe dein E-Mail Postfach (falls notwendig auch den Spam).<br/>Du findest Sie im Anhang der <strong>Versandbestätigungsmail</strong> mit dem Betreff \"Rechnung und Lieferung zu Auftrag..\"</p><p><br/><strong>Du findest Sie am schnellsten wenn du nach einen der folgenden Begriffen suchst:<br/></strong>- Lynis-Nailshop<br/>- Team Lyni<br/>- Nailmondo GmbH<br/>- Rechnung und Lieferung zu Auftrag</p>",
+            "keywords": "Rechnung"
+          }
+        },
+        "question_dc8PcF": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Ich habe vergessen meinen Gutschein einzulösen, jedoch schon bestellt. Kann ich den Gutschein im Nachhinein noch einlösen?",
+            "answer": "<p>Es ist technisch leider nicht möglich, du kannst ihn aber in der Regel einfach in der nächsten Bestellung einlösen.</p>",
+            "keywords": "vergessen,nachträglich, einlösen"
+          }
+        },
+        "question_xHy9ji": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe etwas bestellt und möchte noch was ändern, ist das möglich?",
+            "answer": "<p>Du kannst innerhalb von 30 Minuten deine Bestellung selber anpassen - sei es ein Artikel hinzufügen, Anzahl anpassen, oder auch die Lieferadresse korrigieren.</p><p>Nach Ablauf der Zeit ist die reine Bestelländerung nur noch bei Vorkasse Zahlungen möglich. <br/>Wende dich da bitte einmal an unseren Support.</p>",
+            "keywords": "ändern, Bestellung anpassen, anpassen, hinzufügen"
+          }
+        },
+        "question_dtpArM": {
+          "type": "question",
+          "settings": {
+            "title": "Gibt es Rabatte für Gewerbekunden?",
+            "answer": "<p>Ja, es gibt Rabatte für Studios und Gewerbekunden.</p><p>Du findest alle Informationen dazu, wenn du <a href=\"https://nailmondo.myshopify.com/pages/gewerbekunden-studiokunden\" title=\"https://nailmondo.myshopify.com/pages/gewerbekunden-studiokunden\"><strong>HIER</strong></a> klickst.</p>",
+            "keywords": "Kommasepariert"
+          }
+        },
+        "question_bkKMC7": {
+          "type": "question",
+          "settings": {
+            "title": "Wie funktioniert ein Produkt oder wie muss ich es anwenden?",
+            "answer": "<p>Schaue dazu in die Produktbeschreibung. Dort stehen in den meisten Fällen alle wichtigen Informationen, die du benötigst. Sollte dir dort eine Information fehlen kannst du uns gerne kontaktieren oder bei <a href=\"https://www.youtube.com/@LyniNails/videos\" target=\"_blank\" title=\"https://www.youtube.com/@LyniNails/videos\">YouTube</a> schauen, dort haben wir viele Anleitungen.</p>",
+            "keywords": "Verwendung, anwenden, nutzen"
+          }
+        },
+        "question_dcyQVj": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich meinen Geschenkgutschein in mehrere Bestellungen aufteilen?",
+            "answer": "<p>Ja, das ist möglich. Der Restbetrag bleibt auf dem gleichen Geschenkgutschein.</p>",
+            "keywords": "aufteilen, Restguthaben, rest, geschenk, gutschein"
+          }
+        },
+        "category_TRKBAh": {
+          "type": "category",
+          "settings": {
+            "title": "Reklamation / Retoure"
+          }
+        },
+        "question_dVG78W": {
+          "type": "question",
+          "settings": {
+            "title": "Ich möchte etwas zurückschicken, wie muss ich da vorgehen?",
+            "answer": "<p>Du findest <a href=\"https://nailmondo.myshopify.com/policies/refund-policy\" title=\"https://nailmondo.myshopify.com/policies/refund-policy\"><em><strong>HIER</strong></em></a> alle Information dazu.</p>",
+            "keywords": "Widerruf, zurücksenden, gefällt nicht"
+          }
+        },
+        "question_pn4H94": {
+          "type": "question",
+          "settings": {
+            "title": "Wann erhalte ich mein Geld für die Retoure bzw. Widerruf?",
+            "answer": "<p>Das Bearbeiten von Retouren kann bis zu 14 Tage dauern. Dazu kommt auch je nach Zahlungsart eventuell eine Wartezeit durch die Bank/PayPal hinzu. Rückerstattung durch Überweisungen können einige Tage dauern und bei PayPal Rechnungskauf kann es bis zu 14 Tage dauern.</p>",
+            "keywords": "Widerruf, Retoure, Geld zurück, zurückschicken"
+          }
+        },
+        "question_jeMa7G": {
+          "type": "question",
+          "settings": {
+            "title": "Mein Produkt funktioniert nicht oder ist defekt",
+            "answer": "<p>Klicke dafür <a href=\"https://nailmondo.myshopify.com/pages/kontakt\" title=\"https://nailmondo.myshopify.com/pages/kontakt\"><em><strong>HIER</strong></em></a>, um eine Anfrage an den Support zu stellen, dort wird dir dann schnell geholfen.</p>",
+            "keywords": "Hilfe, Kontakt, Kundenservice, defekt, geht nicht, Problem"
+          }
+        },
+        "question_BXBcqG": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe mein Paket erhalten, jedoch fehlt etwas/es wurde etwas Falsches geliefert.",
+            "answer": "<p>Das soll natürlich nicht so sein! Das tut uns leid! Wir finden dafür eine Lösung!<br/></p><p>Dafür kannst du unser Reklamationsformular nutzen, klicke dafür <a href=\"https://nailmondo.myshopify.com/pages/kontakt\" title=\"https://nailmondo.myshopify.com/pages/kontakt\"><em><strong>hier</strong></em></a>. Dort helfen wir dir schnell!</p>",
+            "keywords": "fehlt, Produkt fehlt, falsch, fehlen"
+          }
+        },
+        "question_wbhJ3C": {
+          "type": "question",
+          "settings": {
+            "title": "Mein Primer ist eingefroren/kristallisiert",
+            "answer": "<p>Der Primer kristallisiert, wenn er unterkühlt ist (unter 15° Grad), was gerade bei einem Transport in den kühleren Monaten passieren kann.</p><p>Vor dem Gebrauch bitte erst auf Zimmertemperatur bringen, dann lösen sich diese und du kannst ihn wie gewohnt nutzen.</p>",
+            "keywords": "Primer, gefroren, Kristalle, verklebt, hart"
+          }
+        },
+        "category_KccR6N": {
+          "type": "category",
+          "settings": {
+            "title": "Academy und Schulungen"
+          }
+        },
+        "question_9b74bM": {
+          "type": "question",
+          "settings": {
+            "title": "Wie bekomme ich mein Zertifikat?",
+            "answer": "<p>Schaue dir die Schulung/Workshop bis zum Schluss an. In den letzten Lektionen findest du die Zertifikatslektion, in der Lyni alles genau erklärt.</p>",
+            "keywords": "Zertifikat, wann kommt Zertifikat"
+          }
+        },
+        "question_hg4CUD": {
+          "type": "question",
+          "settings": {
+            "title": "Wo kann ich ein Feedback für meine Modellage anfordern?",
+            "answer": "<p>In der Academy klickst du auf den Reiter Support und kannst dort deine Bilder an uns schicken.</p>",
+            "keywords": "Feedback, Modellage, Support, Anfrage"
+          }
+        },
+        "question_zrwWmm": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich auch aus anderen Ländern als Deutschland eine Schulung buchen?",
+            "answer": "<p>Da unsere Schulungen online stattfinden, können sie von jedem Ort der Welt, der Internet hat absolviert werden.</p>",
+            "keywords": "Schweiz, Schulung, Länder, Österreich"
+          }
+        },
+        "question_dpNRhA": {
+          "type": "question",
+          "settings": {
+            "title": "Wie kann ich die Schulungsinhalte alle direkt ohne Sperre anschauen?",
+            "answer": "<p>Grundsätzlich ist das nicht möglich. Nutze bitte diese Zeit, um dich mit den Inhalten vertraut zu machen, die Arbeitsblätter durchzuarbeiten oder dir die Videos öfters anzuschauen, denn oftmals finden sich kleine und wichtige Infos in den Videos, die du auswendig können solltest. Ansonsten bleibst du in den nächsten Modulen auf der Strecke.<br/><br/>Die einzige Möglichkeit, wie du früher Module freischalten kannst, ist, indem du uns über den Supportbutton in der Academy eine Nachricht schickst, dass du ausdrücklich auf dein Widerrufsrecht verzichtest und die Module freischalten möchtest. Sei dir dann aber bewusst, dass damit dein Widerrufsrecht erlischt und du die Schulung nicht widerrufen kannst.</p>",
+            "keywords": "Module, freischalten, anschauen, direkt"
+          }
+        },
+        "question_HqRHtG": {
+          "type": "question",
+          "settings": {
+            "title": "Wo finde ich alle Schulungen und Workshops?",
+            "answer": "<p>Diese findest du auf unserer Academy Seite unter <a href=\"https://lynis-nailacademy.de/\" title=\"https://lynis-nailacademy.de/\">https://lynis-nailacademy.de/</a></p>",
+            "keywords": "Schulungen, alle Schulungen, Workshops"
+          }
+        },
+        "question_gtq8xr": {
+          "type": "question",
+          "settings": {
+            "title": "Wo finde ich den Gutscheincode nach der Buchung der Basic Schulung?",
+            "answer": "<p>Wenn du eingeloggt und in deiner Schulung drin bist, klickst du auf den Reiter „Materialliste“. Dort findest du den jeweiligen Code, den du dann im Shop verwenden kannst.</p>",
+            "keywords": "Gutscheincode, Schulung Code, Rabatt Schulung"
+          }
+        },
+        "category_ERhXjy": {
+          "type": "category",
+          "settings": {
+            "title": "Technisches Problem"
+          }
+        },
+        "question_6W7P7X": {
+          "type": "question",
+          "settings": {
+            "title": "Mein Gutschein kann nicht eingelöst werden",
+            "answer": "<p>Bitte prüfe ganz genau ob jede Ziffer/Zahl korrekt angegeben wurde. Für einige Gutscheine ist es auch <strong>erforderlich </strong>im Kundenkonto eingeloggt zu sein. Sollte es dennoch nicht klappen, wende dich gerne an den Support.</p>",
+            "keywords": "Gutscheincode, Rabatt, einlösen, einlösbar, geht nicht"
+          }
+        },
+        "question_rWQaaW": {
+          "type": "question",
+          "settings": {
+            "title": "Wieso kann ich meinen Rabatt-Code nicht einlösen?",
+            "answer": "<p>Ist der Code vielleicht bereits abgelaufen?<br/><br/>Unsere Codes gelten nicht auf bereits reduzierte Produkte, Sets, Geräte und Fremdprodukte</p>",
+            "keywords": "Code, einlösen, einlösbar, Rabatt"
+          }
+        },
+        "question_9YqLRk": {
+          "type": "question",
+          "settings": {
+            "title": "Wieso reduziert der Rabattcode meine Versandkosten nicht?",
+            "answer": "<p>Die Rabatte gelten nur für den <strong>Warenwert</strong>, deshalb reduziert ein Rabatt keine Versandkosten. </p>",
+            "keywords": "Versandkosten, Versand, reduziert, günstiger"
+          }
+        },
+        "question_KbF3iR": {
+          "type": "question",
+          "settings": {
+            "title": "Ich kann mich nicht einloggen / Passwort vergessen?",
+            "answer": "<p>Du kannst dein Passwort zurücksetzen, falls du keine E-Mail bekommst und kein Konto existiert, registriere dich <strong>\"neu\"</strong>, solltest du im alten Shop bereits ein Konto gehabt haben, wird dieses automatisch verknüpft. Das kannst du <a href=\"/account/register\" title=\"/account/register\"><strong>hier</strong></a> tun.</p>",
+            "keywords": "Passwort, Konto, Login, vergessen"
+          }
+        },
+        "question_rnQwCc": {
+          "type": "question",
+          "settings": {
+            "title": "Wo finde ich meinen Affiliate-Link?",
+            "answer": "<p>Logge dich <a href=\"https://nailmondo.goaffpro.com\" title=\"https://nailmondo.goaffpro.com\">HIER</a> ein.</p>",
+            "keywords": "Affiliate, Partnerprogramm,Link"
+          }
+        },
+        "question_wrbe3h": {
+          "type": "question",
+          "settings": {
+            "title": "Warum meldet sich keiner auf meine E-Mail zurück?",
+            "answer": "<p>Bitte bedenke, dass wir am Wochenende oder an Feiertagen keinen Support bieten und unsere Büros nicht besetzt sind.</p><p>Sobald diese wieder besetzt sind, bekommst du schnellstmöglich eine Antwort. Vergewissere dich, dass du keinen Rechtschreibfehler oder eine falsche Mailadresse eingegeben hast.</p><p><strong>Wir melden uns auf JEDE Nachricht zurück!</strong></p>",
+            "keywords": "Antwort, Kundenservice, Rückmeldung, melden, meldet, Email, E-Mail"
+          }
+        },
+        "category_YzByJW": {
+          "type": "category",
+          "settings": {
+            "title": "Zahlung & Versand"
+          }
+        },
+        "question_FXAijd": {
+          "type": "question",
+          "settings": {
+            "title": "Ich brauche die Kontodaten für die Überweisung",
+            "answer": "<p>Alle Zahlungsinformationen werden automatisch nach dem Bestellabschluss per Mail an dich verschickt. Bitte prüfe dein Postfach.<br/><br/><strong>Wichtig: </strong>Wenn du per Rechnungskauf bestellt hast, ist PayPal der Zahlungsempfänger und nicht wir, du hältst die Daten in einer separaten PayPal E-Mail.</p>",
+            "keywords": "Kontodaten, Bank, Überweisungsdaten, Überweisung, IBAN"
+          }
+        },
+        "question_URTBEx": {
+          "type": "question",
+          "settings": {
+            "title": "Ist meine Zahlung schon bei euch angekommen?",
+            "answer": "<p>Wenn du per <strong>Sofortzahlart</strong> wie z.B. PayPal, SofortÜberweisung, Lastschrift bezahlt hast, ist deine Zahlung angekommen.</p><p>Wenn du per <strong>Vorkasse/Überweisung</strong> bezahlt hast, kannst du den Status deiner Bestellung hier prüfen:<br/><a href=\"https://lynis-nailshop.de/auftragsverfolgung-gast?\"><br/></a>Wenn dort <strong>Zahlung eingegangen</strong> steht, weißt du, dass dein Paket bald auf die Reise geht.</p>",
+            "keywords": "Zahlung, eingegangen Überweisung, prüfen"
+          }
+        },
+        "question_RnxGEp": {
+          "type": "question",
+          "settings": {
+            "title": "Wann wird meine Bestellung verschickt bzw. wo befindet sich mein Paket gerade?",
+            "answer": "<p>Die Bestellungen werden schnellstmöglich nach Zahlungseingang verschickt. Eine Sendungsverfolgung erhältst du per Mail, sobald dein Paket unterwegs ist.</p><p>In deinem Konto unter Bestellungen kannst du den Status anschauen oder in der Bestellbestätigungs-Mail findest du ein Button zum Tracken der Bestellung.</p>",
+            "keywords": "verschickt, versenden, verpckt, Sendungsstatus, wann"
+          }
+        }
+      },
+      "block_order": [
+        "category_3HEQGB",
+        "question_LjwFJj",
+        "question_UwYNcR",
+        "question_8JDHAx",
+        "question_dc8PcF",
+        "question_xHy9ji",
+        "question_dtpArM",
+        "question_bkKMC7",
+        "question_dcyQVj",
+        "category_TRKBAh",
+        "question_dVG78W",
+        "question_pn4H94",
+        "question_jeMa7G",
+        "question_BXBcqG",
+        "question_wbhJ3C",
+        "category_KccR6N",
+        "question_9b74bM",
+        "question_hg4CUD",
+        "question_zrwWmm",
+        "question_dpNRhA",
+        "question_HqRHtG",
+        "question_gtq8xr",
+        "category_ERhXjy",
+        "question_6W7P7X",
+        "question_rWQaaW",
+        "question_9YqLRk",
+        "question_KbF3iR",
+        "question_rnQwCc",
+        "question_wrbe3h",
+        "category_YzByJW",
+        "question_FXAijd",
+        "question_URTBEx",
+        "question_RnxGEp"
+      ],
+      "custom_css": [
+        ".faq {height: 700px; overflow-y: auto;}"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Häufige Fragen & Antworten",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "170894925874366f78",
+    "custom_html_t4jACc",
+    "faq_with_search_eERT6X"
+  ]
+}

@@ -1,0 +1,40 @@
+<div class="shipping-header-info-container"
+     style="{% if cart.item_count == 0 %}display: none; {% else %} display: block; {% endif %}">
+    <div class="shipping-header-info" style="background-color: {{ settings.color_good_choice_background }};">
+        {%- render 'icon' with 'good-choice-icon' -%}
+        <span class="content" style="color: {{ settings.color_good_choice_text }};">
+            {% if settings.text_in_bold != blank %}
+                <span class="goodchoice">
+                    {{ settings.text_in_bold  }}
+                </span>
+            {% endif %}
+            {% if settings.text_before_date != blank %}
+               {{ settings.text_before_date  }}
+            {% endif %}
+          
+          {% if customer %}
+            {% assign shippingDays = "2-5" %} <!-- Standardversandzeit, wenn der Kunde nicht aus Deutschland kommt -->
+            {% for address in customer.addresses %}
+              {% if address.country == "Deutschland" %}
+                {% assign shippingDays = "1-2" %}
+                {% break %} <!-- Stoppt die Suche, sobald eine deutsche Adresse gefunden wurde -->
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% assign shippingDays = "wenigen" %} <!-- Standardtext, wenn kein Benutzer eingeloggt ist -->
+          {% endif %}
+          
+          {{ shippingDays }}
+          
+            {% if settings.text_after_date != blank %}
+                {{ settings.text_after_date }}
+            {% endif %}
+    </span>
+    </div>
+</div>
+
+<style>
+    .shipping-header-info svg path {
+        stroke: {{ settings.color_good_choice_icon }};
+    }
+</style>

@@ -1,0 +1,22 @@
+{% if linkType == 'wishlist-drawer-link' %}
+  <a href="javascript:void(0)" class="iwishDrawer header__icon-wrapper tap-area" aria-label="Wunschliste">
+    <svg viewBox="0 0 256 256" width="20" class="iwishOutline icon icon-iw" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"></rect><path d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+    <iw-count class="iwish-counter header__iw-count header__iw-count--floating bubble-count">0</iw-count>
+  </a>
+{% elsif linkType == 'wishlist-page-link' %}
+  <a class="iwishPage header__icon small-hide" href="{% unless routes.root_url == '/' %}{{ routes.root_url }}{% endunless %}/apps/iwish" title="Wishlist">Wishlist <span class="iwish-counter">0</span></a>
+{% elsif linkType == 'list-product' %}
+  <a class="iWishAddColl iwishcheck" href="#" data-variant="{{ product.variants.first.id }}" data-product="{{ product.id }}" data-pTitle="{{ product.title | escape }}"></a>
+{% elsif linkType == 'single-product' %}
+  <div class="iwish-app-block-product"><a class="iWishAdd st-1" href="#" data-variant="{{ product.variants.first.id }}" data-product="{{ product.id }}" data-pTitle="{{ product.title | escape }}"></a></div>
+{% elsif linkType == 'app-script' %}
+  <script>
+    function addToCartInitCallback(vId, pId, catId){
+      location.href = 'https://lynis-nailshop.de/cart';
+    }
+
+    function addAllToCartInitCallback(iwCart_data){
+      location.href = 'https://lynis-nailshop.de/cart';
+    }
+  </script>
+{% endif %}

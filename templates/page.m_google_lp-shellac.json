@@ -1,0 +1,168 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".image-overlay--small {--image-height: 200px;}",
+        "h3.heading.h2 {text-shadow: 2px 2px 8px black;}",
+        ".image-overlay__text-container {text-shadow: 2px 2px 6px black;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/1479_2.jpg",
+        "subheading": "GESCHENK FÜR DICH!",
+        "title": "GRATIS Shellac sichern & weitere Farben entdecken!",
+        "content": "<p><strong>HEUTE</strong> schenke ich dir ein <strong>GRATIS </strong>Shellac im Wert von 7,95€ um dich von meiner Qualität zu überzeugen.</p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "countdown_evergreen_bis_0uhr_tGg7BT": {
+      "type": "countdown-evergreen-bis-0uhr",
+      "settings": {
+        "title": "Countdown"
+      }
+    },
+    "featured_product_7rGKQA": {
+      "type": "featured-product",
+      "blocks": {
+        "inventory_4Jh9NM": {
+          "type": "inventory",
+          "settings": {
+            "inventory_high_color": "#138a36",
+            "inventory_low_color": "#f9ca4f",
+            "inventory_out_of_stock_color": "#ff0000",
+            "low_inventory_threshold": 0,
+            "text_in_stock": "in 1-2 Werktagen in Deinen Händen"
+          }
+        },
+        "buy_buttons_aW7pXr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "liquid_xbwbPF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"atc-info\">Klicke auf den Button und gib den Code: <b><i>SHELLACTEST</b></i> im Warenkorb ein, dann wird dir <b>7,95€</b> abgezogen und du erhältst den <b>Shellac GRATIS!</b><div>\n<style>\n  .atc-info {\n    border: 1px solid #d3d3d3; /* Hellgraue Farbe für den Rahmen */\n    padding: 10px;\nborder-radius:5px;\n  }\n</style>"
+          }
+        },
+        "social_proof_banner_7BrY3w": {
+          "type": "social_proof_banner",
+          "settings": {
+            "social_proof_background": "#f8f6f3",
+            "social_proof_text": "#000000",
+            "margin": 11,
+            "social_proof_box_style": "10px",
+            "social_proof_image_1": "shopify://shop_images/2024-02-29_16.20.31.jpg",
+            "social_proof_image_2": "shopify://shop_images/photo_2024-02-29_16.20.49.jpg",
+            "ppl_social_proof": "Evelyn, Laura",
+            "enable_insta_checkmark": true,
+            "text_social_proof": "und 24.786 andere sind beigeistert von unseren Farbgelen",
+            "enable_text_bold": false
+          }
+        }
+      },
+      "block_order": [
+        "inventory_4Jh9NM",
+        "buy_buttons_aW7pXr",
+        "liquid_xbwbPF",
+        "social_proof_banner_7BrY3w"
+      ],
+      "custom_css": [
+        ".ed-social-proof-banner .gziXoO {font-size: 12px;}",
+        ".ed-social-proof-banner .social_proof_text {font-size: 12px;}"
+      ],
+      "settings": {
+        "product": "zufaelliger-shellac",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "enable_image_zoom_icon": false,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "show_thumbnails_on_mobile": false,
+        "show_arrow_of_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "#f0f0f0",
+        "text_color": "rgba(0,0,0,0)",
+        "show_application_steps": false,
+        "application_steps_background": "#000000",
+        "application_steps_color": "#ffffff",
+        "font_size_application_steps": 10,
+        "application_steps_text_1": "",
+        "application_steps_text_2": "",
+        "application_steps_text_3": "",
+        "application_steps_text_4": ""
+      }
+    },
+    "rich_text_teMzPn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Schau dir unsere Shellac Farben jetzt an!",
+        "content": "<p>HEMA frei · TPO frei · hochdeckend</p>",
+        "button_text": "Shellac Farben entdecken",
+        "button_link": "https://lynis-nailshop.de/collections/shellac-farben",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ffe8e8",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_a94x7r",
+    "countdown_evergreen_bis_0uhr_tGg7BT",
+    "featured_product_7rGKQA",
+    "rich_text_teMzPn",
+    "main"
+  ]
+}

@@ -1,0 +1,78 @@
+<!--  <div class="b2b-text">
+      <div class="b2b-exclude">
+        <span class="b2bsavings-info exclude">
+          Studiorabatt <b>deaktiviert</b> in der Aktion.
+        </span>
+        <span class="b2b-tooltip"><img src="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/info-icon.png?v=1707912877" alt="Mehr Infos" style="width: 14px; height: 14px; vertical-align: sub;"> Mehr Infos
+          <span class="b2b-tooltip-text">Keinen zusätzlichen Rabatt in der 30% Aktion, da der Aktions-Rabatt deine 10% übersteigt.</span>
+        </span>
+      </div>
+  -->
+
+<div class="b2b-text">
+    {% if product.compare_at_price > product.price %}
+      <div class="b2b-exclude">
+        <span class="b2bsavings-info exclude">
+          Artikel vom Studio-Rabatt <b>ausgeschlossen</b>.
+        </span>
+        <span class="b2b-tooltip"><img src="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/info-icon.png?v=1707912877" alt="Mehr Infos" style="width: 14px; height: 14px; vertical-align: sub;"> Mehr Infos
+          <span class="b2b-tooltip-text">Studio-Rabatte gelten nicht auf bereits reduzierte Artikel & Geräte, sowie Aktionen oder Gutscheine.</span>
+        </span>
+      </div>
+    {% else %}
+      {% if product.variants.size > 1 %}
+        <div class="b2b-variant">
+          <p class="b2b-hinweis">
+            <span class="b2b-tooltip">
+              -10% Rabatt | ✓ Studiokunde
+              <span class="b2b-tooltip-text">Der Rabatt wird im Warenkorb abgezogen!</span>
+            </span>
+          </p>
+        </div>
+      {% else %}
+        <div class="b2b-single">
+          {% assign discount_amount = product.price | times: 0.10 %}
+          {% assign discount_amount_rounded = discount_amount | floor | divided_by: 100.0 | times: 100.0 %}
+          {% assign final_price = product.price | minus: discount_amount_rounded %}
+          <span class="final-price">{{ final_price | money_with_currency }}</span>
+          <p class="b2b-hinweis">
+            ✓ Studiopreis <b>-10%</b>
+          </p>
+          <span class="b2bsavings-info">Du sparst -{{ discount_amount_rounded | money_with_currency }}</span>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  
+<style>
+.bewertungsblock { margin: -3px 0 5px !important; }
+
+.final-price { color: green; font-size: 14px; margin-right: 3px; }
+.b2bsavings-info { color: grey; font-size: 12px; }
+
+.b2b-exclude { margin-top: 10px; margin-bottom: 8px; }
+.b2b-variant { margin-top: 10px; margin-bottom: 8px; }
+.b2b-single { margin-bottom: -10px; }
+
+.b2b-hinweis {
+  background-color: #f0f0f0; color: #008000; padding: 0px 10px;
+  border-radius: 15px; display: inline-block; margin-bottom: 10px; font-size: 12px;
+}
+
+.b2b-tooltip {
+  position: relative; display: inline-block; border-bottom: 1px dotted black;
+  cursor: pointer; font-size: 12px;
+}
+
+.b2b-tooltip-text {
+  visibility: hidden; width: 170%; background-color: black; color: #fff;
+  text-align: center; border-radius: 6px; padding: 5px; position: absolute; z-index: 9999;
+  bottom: 100%; left: 50%; margin-left: -50px; opacity: 0; transition: opacity 0.3s;
+  border: 1px solid white;
+}
+
+.b2b-tooltip:hover .b2b-tooltip-text { visibility: visible; opacity: 1; }
+
+.b2b-text { text-align: left; }
+</style>

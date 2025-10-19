@@ -1,0 +1,184 @@
+
+    {%- liquid
+      assign inventory_quantity = variant.inventory_quantity | default: 0
+      assign is_in_stock = variant.available
+    -%}
+    <gp-product-button
+      style="--bottom-mobile:15px;--left-mobile:15px;--pos-mobile:fixed;--right-mobile:15px;--z-mobile:9999"
+      gp-data-wrapper="true"
+      gp-href="https://lynis-nailacademy.de/basic-gel-schulung/"
+      class="gp-product-button"
+      gp-label-out-of-stock="{{ section.settings.ggy_JZPXeUY_outOfStockLabel }}"
+      gp-label-unavailable="{{ section.settings.ggy_JZPXeUY_unavailableLabel }}"
+      gp-data='{"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"setting":{"errorType":"built-in","actionEffect":"go-to-url","enableMessage":true,"label":"Mehr Infos zur Schulung","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","outOfStockLabel":"Out of stocks","customURL":{"link":"https://lynis-nailacademy.de/basic-gel-schulung/","target":"_self"}},"variantID":"{{variant.id}}","disabled":"{{variant.available}}","totalVariant":"{{total_combinations}}"}'
+      data-variant-selection-required-message=""
+    >
+      
+    <gp-button
+      gp-data='{}'
+      
+      class="gp-flex gp-flex-col"
+    >
+      <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:none;--d-mobile:block;--d-tablet:none;--op:100%;--pageType:GP_PRODUCT;--radius:var(--g-radius-none);--mt:var(--g-s-xl);--mb:var(--g-s-l);--mr:var(--g-s-3xl);--mt-mobile:auto;--ml-mobile:0px;--mb-mobile:auto;--mr-mobile:0px;--ta:left" class="{% unless variant.available %} !gp-hidden {% endunless %}">
+        <style>[data-id="gy_JZPXeUY"].gp-button-base::before, [data-id="gy_JZPXeUY-interaction"].gp-button-base::before {
+      
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border-style: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent;
+  
+    
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      
+  
+    }
+  
+      
+  [data-id="gy_JZPXeUY"]:hover::before, [data-id="gy_JZPXeUY-interaction"]:hover::before {
+    border-style: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent;
+  
+    
+  }</style>
+        
+        <button
+          data-id="gy_JZPXeUY" dataId="gy_JZPXeUY" data-state="idle" aria-label="Mehr Infos zur Schulung"
+          name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
+          type="submit"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:32px;--pr:32px;--pt:14px;--pb:14px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:12px;--pb-tablet:12px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:11px;--pb-mobile:11px;--bblr:40px;--bbrr:40px;--btlr:40px;--btrr:40px;--hvr-bblr:40px;--hvr-bbrr:40px;--hvr-btlr:40px;--hvr-btrr:40px;--shadow:2.4492935982947064e-16px 4px 8px 0px rgba(0, 0, 0, 0.25);--bgi:;--hvr-bgi:;--hvr-bg:#000000;--bg:#BE9C54;--size:19px;--lh:130%;--fs:normal;--ff:var(--g-font-heading, 'heading'), var(--g-font-heading, heading);--weight:600;--ls:normal;--size-tablet:19px;--size-mobile:17px"
+          class="gp-button-atc tcustomizer-submit-button gy_JZPXeUY gp-button-base gp-group gp-relative gp-inline-flex gp-max-w-full gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-200 disabled:gp-btn-disabled disabled:gp-opacity-30  undefined"
+        >
+        
+  <svg
+    class="gp-invisible gp-absolute gp-h-5 gp-w-5 group-data-[state=loading]:gp-animate-spin group-data-[state=loading]:gp-visible"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+  >
+    <circle
+      class="gp-opacity-25"
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="currentColor"
+      stroke-width="4"
+    ></circle>
+    <path
+      class="gp-opacity-75"
+      fill="currentColor"
+      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+    ></path>
+  </svg>
+
+        <div class="gp-inline-flex gp-flex-row-reverse">
+          
+    <span
+      style="--size:19px;--lh:130%;--fs:normal;--ff:var(--g-font-heading, 'heading'), var(--g-font-heading, heading);--weight:600;--ls:normal;--size-tablet:19px;--size-mobile:17px;word-break:break-word;--ml:8px;--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      class="gp-button-icon gp-z-1 gp-inline-flex gp-shrink-0 gp-items-center gp-justify-center group-data-[state=loading]:gp-invisible [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+    >
+      <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817550821818728">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm48.49-92.49a12,12,0,0,1,0,17l-32,32a12,12,0,1,1-17-17L139,140H88a12,12,0,0,1,0-24h51l-11.52-11.51a12,12,0,1,1,17-17Z" /></svg>
+    </span>
+  
+          
+    <span
+      data-gp-text
+      style="--size:19px;--lh:130%;--fs:normal;--ff:var(--g-font-heading, 'heading'), var(--g-font-heading, heading);--weight:600;--ls:normal;--size-tablet:19px;--size-mobile:17px;word-break:break-word"
+      class="gp-content-product-button group-active/button:!gp-text-inherit gp-relative gp-flex gp-h-full gp-items-center gp-overflow-hidden gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-text button-text"
+    >
+      {{ section.settings.ggy_JZPXeUY_label }}
+    </span>
+        </div>
+        
+    
+    
+  
+        </button>
+      </div>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    </gp-button>
+  
+      
+    <gp-button
+      gp-data='{}'
+      
+      class="gp-flex gp-flex-col"
+    >
+      <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:none;--d-mobile:block;--d-tablet:none;--op:100%;--pageType:GP_PRODUCT;--radius:var(--g-radius-none);--mt:var(--g-s-xl);--mb:var(--g-s-l);--mr:var(--g-s-3xl);--mt-mobile:auto;--ml-mobile:0px;--mb-mobile:auto;--mr-mobile:0px;--ta:left" class="{% if variant.available %} !gp-hidden {% endif %}">
+        <style>[data-id="gy_JZPXeUY-sold-out"].gp-button-base::before, [data-id="gy_JZPXeUY-sold-out-interaction"].gp-button-base::before {
+      
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border-style: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent;
+  
+    
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      
+  
+    }
+  
+      
+  [data-id="gy_JZPXeUY-sold-out"]:hover::before, [data-id="gy_JZPXeUY-sold-out-interaction"]:hover::before {
+    
+    
+  }</style>
+        
+        <button
+          data-id="gy_JZPXeUY-sold-out" dataId="gy_JZPXeUY-sold-out" data-state="idle" aria-label="{{ section.settings.ggy_JZPXeUY_outOfStockLabel }}"
+          gp-data-hidden="{% if variant.available %}true{% endif %}"
+          type="button"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:32px;--pr:32px;--pt:14px;--pb:14px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:12px;--pb-tablet:12px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:11px;--pb-mobile:11px;--bblr:40px;--bbrr:40px;--btlr:40px;--btrr:40px;--hvr-bblr:40px;--hvr-bbrr:40px;--hvr-btlr:40px;--hvr-btrr:40px;--shadow:2.4492935982947064e-16px 4px 8px 0px rgba(0, 0, 0, 0.25);--bgi:;--hvr-bgi:;--bg:#BE9C54;--hvr-bg:#BE9C54;--c:#ffffff"
+          class="gp-cursor-default gp-opacity-30 btn-disabled gp-button-sold-out gy_JZPXeUY-sold-out gp-button-base gp-group gp-relative gp-inline-flex gp-max-w-full gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-200 disabled:gp-btn-disabled disabled:gp-opacity-30 "
+        >
+        
+        <div class="gp-inline-flex gp-flex-row-reverse">
+          
+    <span
+      style="word-break:break-word;--ml:8px;--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      class="gp-button-icon gp-z-1 gp-inline-flex gp-shrink-0 gp-items-center gp-justify-center group-data-[state=loading]:gp-invisible [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+    >
+      <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817550821818728">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm48.49-92.49a12,12,0,0,1,0,17l-32,32a12,12,0,1,1-17-17L139,140H88a12,12,0,0,1,0-24h51l-11.52-11.51a12,12,0,1,1,17-17Z" /></svg>
+    </span>
+  
+          
+    <span
+      data-gp-text
+      style="word-break:break-word"
+      class="gp-content-product-button group-active/button:!gp-text-inherit gp-relative gp-flex gp-h-full gp-items-center gp-overflow-hidden gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-text button-text"
+    >
+      {{ section.settings.ggy_JZPXeUY_outOfStockLabel }}
+    </span>
+        </div>
+        
+    
+    
+  
+        </button>
+      </div>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    </gp-button>
+  
+    </gp-product-button>
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  

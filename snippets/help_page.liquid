@@ -1,0 +1,69 @@
+{%- assign help_page = section.settings.help_page -%}
+{%- if help_page != blank -%}
+  <button
+    is="toggle-button"
+    class="product-meta__help link text--subdued hidden-tablet-and-up"
+    aria-controls="product-{{ section.id }}-help-popover"
+    aria-expanded="false"
+  >
+    {{ 'product.general.need_help' | t }}
+  </button>
+  <button
+    is="toggle-button"
+    class="product-meta__help link text--subdued hidden-phone"
+    aria-controls="product-{{ section.id }}-help-drawer"
+    aria-expanded="false"
+  >
+    {{ 'product.general.need_help' | t }}
+  </button>
+{%- endif -%}
+
+{%- if help_page != blank -%}
+  {%- comment -%}Drawer for tablet and higher{%- endcomment -%}
+  <drawer-content id="product-{{ section.id }}-help-drawer" class="drawer drawer--large hidden-phone">
+    <span class="drawer__overlay"></span>
+
+    <header class="drawer__header">
+      <p class="drawer__title heading h6">{{ help_page.title }}</p>
+
+      <button
+        type="button"
+        class="drawer__close-button tap-area"
+        data-action="close"
+        title="{{ 'general.accessibility.close' | t | escape }}"
+      >
+        {%- render 'icon' with 'close' -%}
+      </button>
+    </header>
+
+    <div class="drawer__content drawer__content--padded-start">
+      <div class="rte">
+        {{- help_page.content -}}
+      </div>
+    </div>
+  </drawer-content>
+
+  {%- comment -%}Popover for mobile{%- endcomment -%}
+  <popover-content hidden id="product-{{ section.id }}-help-popover" class="popover hidden-lap-and-up">
+    <span class="popover__overlay"></span>
+
+    <header class="popover__header">
+      <p class="popover__title heading h6">{{ help_page.title }}</p>
+
+      <button
+        type="button"
+        class="popover__close-button tap-area tap-area--large"
+        data-action="close"
+        title="{{ 'general.accessibility.close' | t | escape }}"
+      >
+        {%- render 'icon' with 'close' -%}
+      </button>
+    </header>
+
+    <div class="popover__content">
+      <div class="rte">
+        {{- help_page.content -}}
+      </div>
+    </div>
+  </popover-content>
+{%- endif -%}

@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_a94x7r": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        ".image-overlay--small {--image-height: 200px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/fashion-nails.jpg",
+        "subheading": "die beliebte & limitierte Nageldesign Box, jeden Monat neu",
+        "title": "LyniBox",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25
+      }
+    },
+    "countdown_lynibox_zWicj8": {
+      "type": "countdown-lynibox",
+      "settings": {
+        "title": "Neue LyniBox & neue Produkte werden veröffentlicht in",
+        "end_date": "2025-10-03 16:00",
+        "redirect_url": "https://lynis-nailshop.de/pages/neu"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\nspan.label.label--custom {\n    display: none;\n}\n.clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "featured_product_XhCeN8": {
+      "type": "featured-product",
+      "blocks": {
+        "description_7XiDzA": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_f8R6kH": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "description_7XiDzA",
+        "buy_buttons_f8R6kH"
+      ],
+      "settings": {
+        "product": "lynibox-mokka",
+        "subheading": "",
+        "title": "Aktuelle LyniBox",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "enable_image_zoom_icon": true,
+        "enable_image_zoom_click_mobile": false,
+        "enable_image_zoom_click_desktop": false,
+        "show_thumbnails_on_mobile": false,
+        "show_arrow_of_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "show_application_steps": false,
+        "application_steps_background": "#000000",
+        "application_steps_color": "#ffffff",
+        "font_size_application_steps": 10,
+        "application_steps_text_1": "",
+        "application_steps_text_2": "",
+        "application_steps_text_3": "",
+        "application_steps_text_4": ""
+      }
+    },
+    "custom_html_Jea8EG": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Eintragen & keine Box mehr verpassen!",
+        "html": "<div style=\"text-align: center;\">\n    <iframe class=\"ktv2\" src=\"https://klicktipp.s3.amazonaws.com/userimages/42364/forms/52674/17yyzykez8z99dd.html\" style=\"position:relative;display:inline-block;border:none;background:transparent none no-repeat scroll 0 0;margin:0;\" width=\"256\" height=\"50\" scrolling=\"no\"></iframe>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#f9ebeb",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_a94x7r",
+    "countdown_lynibox_zWicj8",
+    "custom_html_DnEbXa",
+    "main",
+    "featured_product_XhCeN8",
+    "custom_html_Jea8EG"
+  ]
+}

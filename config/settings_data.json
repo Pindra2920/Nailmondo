@@ -1,0 +1,1131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "addons_property_label": "zur Set-Nr.",
+    "main_product_property_label": "Set-Nr.",
+    "property_item_label": "Auswahl",
+    "icon_stroke_width": 1.3,
+    "button_border_radius": 6,
+    "block_border_radius": "none",
+    "vertical_spacing": "small",
+    "heading_color": "#0d0d0d",
+    "text_color": "#2e2e2e",
+    "background": "#ffffff",
+    "secondary_background": "#fafafa",
+    "success_color": "#8f8f8f",
+    "error_color": "#de2a2a",
+    "header_background": "#ffffff",
+    "header_text_color": "#2e2e2e",
+    "footer_background": "#f4f4f4",
+    "footer_text_color": "#2e2e2e",
+    "primary_button_background": "#fac850",
+    "primary_button_text_color": "#0d0d0d",
+    "secondary_button_background": "#dbd1b4",
+    "secondary_button_text_color": "#ffffff",
+    "product_rating_color": "#fac850",
+    "product_on_sale_accent": "#de2b2b",
+    "product_sold_out_accent": "#5b5b5b",
+    "product_custom_label_background": "#000000",
+    "product_custom_label_2_background": "#2e9e7b",
+    "product_in_stock_text_color": "#2e9e7b",
+    "product_low_stock_text_color": "#de2b2b",
+    "heading_font": "rajdhani_n4",
+    "heading_font_size": "small",
+    "heading_text_transform": "normal",
+    "text_font": "open_sans_n4",
+    "text_font_size": 14,
+    "currency_code_enabled": false,
+    "stagger_products_apparition": false,
+    "reveal_product_media": true,
+    "enable_atc_good_choice_label_main_product": true,
+    "enable_atc_good_choice_label_featured_product": true,
+    "round_color_swatches": true,
+    "color_swatch_config": "Sparsets: sparsets.png\nCateye: cateye2.webp\nGlitzer: glitzer_kreis2.webp\nVollton: vollton.png\nPastell: pastell.png\nNeon:Neon.png\nSommer: sommer.png\nFrühling: fruehling.png\nHerbst: herbst.png\nWinter: winter.png\nValentinstag: vtag.png\nHalloween: halloween.png\nWeiß: #FFFFFF\nNude: #F9E0D9\nBlau: #B7E3FF\nBraun: #B08C76\nGelb: #FCF795 \nGold: filter-custom-gold.png\nOrange: #FFB476\nGrün: #C0FF8A\nLila: #DBAEFF\nPink: #FF7DBE\nRosa: #FFCAE8\nRot: #ED4A4A\nSchwarz: #000000\nSilber: #C0C0C0\nTürkis: #40E0D0\nGrau: #D3D3D3\nNatur: #FFFACD\nClear Tips: #F5F5F5\nNatur Tips: #FFF8DC\nAlmond: #e6a79c\nBlossom: #f8c5d3\nSugar´n Sweets: #f5afbe\nMilky White: #e9eaf4\nWarm Pink: #f39da4",
+    "color_saving_amount": "#138a36",
+    "enable_preselection_variants": true,
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "product_add_to_cart": true,
+    "show_product_rating": false,
+    "discount_mode": "saving",
+    "product_color_display": "hide",
+    "product_image_size": "natural",
+    "search_enable_blog_posts": false,
+    "cart_type": "message",
+    "cart_icon": "shopping_bag_icon",
+    "cart_show_good_choice": true,
+    "color_good_choice_background": "#f8f6f3",
+    "color_good_choice_text": "#000000",
+    "color_good_choice_icon": "#000000",
+    "text_in_bold": "Gute Wahl!",
+    "text_before_date": "Dein Paket ist in",
+    "delivery_time_in_days": 2,
+    "deactivate_date_label": true,
+    "text_after_date": "Werktagen bei Dir.",
+    "reservation_label_icon": "#de2b2b",
+    "reservation_label_text": "Deine Artikel werden im Warenkorb <strong>nicht reserviert.</strong><br>Dein Warenkorb wird aber für <u>14 Tage gespeichert.</u>",
+    "shipping_text_color": "#000000",
+    "shipping_bar_color": "#fac850",
+    "cart_show_free_shipping_threshold": true,
+    "calculation_of_free_shipping": true,
+    "cart_free_shipping_threshold": "70",
+    "shipping_price": "499",
+    "show_free_return": false,
+    "enable_social_proof": false,
+    "enable_store_benefits": false,
+    "benefits_background": "#f5f5f5",
+    "benefit_png_1": "shopify://shop_images/Delivery_Shipment.svg",
+    "benefit_png_2": "shopify://shop_images/Group_2.svg",
+    "font_size_desktop": 10,
+    "icon_size_desktop": 30,
+    "font_size_mobile": 8,
+    "icon_size_mobile": 30,
+    "social_facebook": "",
+    "social_instagram": "",
+    "social_linkedin": "",
+    "favicon": "shopify://shop_images/favicon.png",
+    "payment_style": "colorful",
+    "show_paypal": true,
+    "show_master": true,
+    "show_visa": true,
+    "show_amex": true,
+    "show_klarna": true,
+    "show_apple_pay": true,
+    "show_klarna-pay-later": false,
+    "show_sofort": true,
+    "show_bitcoin": false,
+    "show_shopify_pay": false,
+    "show_twint": false,
+    "show_rate_payment_pdp": false,
+    "show_rate_payment_cart": false,
+    "rate_payment_method": "klarna",
+    "text_rate_payment": "Bequem auf Rechnung zahlen",
+    "benefits_on_images_color": "#3c6e71",
+    "show_price_on_collections": false,
+    "show_teaser_on_collection": true,
+    "color_teaser_on_collection": "#2e2e2e",
+    "enable_badge": true,
+    "color_badge": "#f6f6f6",
+    "color_badge_text": "#0d0d0d",
+    "show_teaser_on_pdp": false,
+    "color_badge_text_pdp": "#0d0d0d",
+    "accent_color": "#405de6",
+    "checkout_accent_color": "#be9c54",
+    "checkout_body_background_color": "#f7f7f7",
+    "checkout_body_font": "Open Sans",
+    "checkout_button_color": "#fac850",
+    "checkout_error_color": "#de2a2a",
+    "checkout_heading_font": "Open Sans",
+    "checkout_input_background_color_mode": "white",
+    "checkout_layout": "threepage",
+    "checkout_logo_image": "shopify://shop_images/checkout-icons.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_sidebar_background_color": "#ffffff",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "fa40d519-53d7-4b74-a1e5-c97afe02a742": {
+            "type": "message",
+            "settings": {
+              "icon_svg": "<svg id=\"fi_2671525\" enable-background=\"new 0 0 512 512\" height=\"512\" viewbox=\"0 0 512 512\" width=\"512\" xmlns=\"http://www.w3.org/2000/svg\"><g><g><g><g><path d=\"m281.089 157.972c-5.522 0-9.998-4.476-9.998-9.998v-11.09c0-5.522 4.476-9.998 9.998-9.998s9.998 4.476 9.998 9.998v11.09c-.001 5.522-4.477 9.998-9.998 9.998z\"></path></g><g><path d=\"m281.089 206.584c-5.522 0-9.998-4.476-9.998-9.998v-11.089c0-5.522 4.476-9.998 9.998-9.998s9.998 4.476 9.998 9.998v11.089c-.001 5.522-4.477 9.998-9.998 9.998z\"></path></g></g><g><g><path d=\"m310.939 176.734h-11.09c-5.522 0-9.998-4.476-9.998-9.998s4.476-9.998 9.998-9.998h11.09c5.522 0 9.998 4.476 9.998 9.998s-4.476 9.998-9.998 9.998z\"></path></g><g><path d=\"m262.327 176.734h-11.09c-5.522 0-9.998-4.476-9.998-9.998s4.476-9.998 9.998-9.998h11.09c5.522 0 9.998 4.476 9.998 9.998s-4.476 9.998-9.998 9.998z\"></path></g></g><g><path d=\"m491.585 234.203-42.753-72.456c-1.11-1.889-2.638-2.99-2.638-2.991-.059-.044-1.492-1.068-2.358-1.321l-167.393-67.313-45.672-18.941-19.514-44.219c-1.599-3.623-5.186-5.961-9.147-5.961s-7.548 2.338-9.147 5.961l-19.513 44.219-45.693 18.95c-4.254 1.765-6.821 6.25-6.023 10.944.587 3.455 3.058 6.297 6.295 7.639l30.318 12.574s-90.219 36.161-90.225 36.163c0 0-1.204.576-1.21.58-1.598.9-2.871 2.197-3.743 3.712l-42.755 72.459c-2.035 3.449-1.869 7.894.75 11.273.949 1.225 2.213 2.171 3.603 2.855l37.066 18.263v154.546c0 3.969 2.348 7.563 5.984 9.157l184.168 80.745s.001 0 .001.001c2.511 1.266 5.478 1.277 7.991.017.023-.011.035-.018.036-.018l184.168-80.746c3.635-1.594 5.983-5.187 5.983-9.157v-154.543l37.066-18.263c1.39-.685 2.654-1.631 3.603-2.855 2.622-3.38 2.788-7.825.752-11.274zm-235.585 2.362-158.327-69.416 79.236-31.759 16.055 36.382c1.599 3.623 5.186 5.961 9.147 5.961s7.548-2.338 9.147-5.961l19.514-44.22 41.921-17.387 141.669 56.968zm-71.191-148.448c2.375-.985 4.278-2.847 5.317-5.199l11.985-27.157 11.985 27.157c1.038 2.352 2.942 4.213 5.317 5.199l27.126 11.25-27.126 11.251c-2.374.985-4.278 2.847-5.317 5.198l-11.985 27.158-11.985-27.158c-1.038-2.351-2.942-4.213-5.317-5.198l-27.126-11.251zm-108.872 91.335 166.275 72.9-33.385 64.378-165.714-81.65zm354.234 235.156-164.173 71.979v-66.707c0-5.522-4.476-9.998-9.998-9.998s-9.998 4.476-9.998 9.998v66.707l-164.173-71.979v-138.161l126.945 62.548c1.42.7 2.927 1.031 4.412 1.031 3.619 0 7.106-1.972 8.883-5.397l23.934-46.152v41.011c0 5.522 4.476 9.998 9.998 9.998s9.998-4.476 9.998-9.998v-41.011l23.934 46.152c1.776 3.426 5.263 5.397 8.883 5.397 1.484 0 2.992-.332 4.412-1.031l126.945-62.548v138.161zm-126.998-97.878-33.385-64.378 166.275-72.9 32.823 55.628z\"></path><g><path d=\"m256 384.863c-4.186 0-7.988-2.695-9.404-6.63-1.391-3.864-.201-8.333 2.937-10.988 3.282-2.776 8.09-3.121 11.743-.864 3.506 2.166 5.322 6.41 4.522 10.443-.916 4.618-5.096 8.039-9.798 8.039z\"></path></g></g><path d=\"m389.252 118.716c-3.961 0-7.548-2.338-9.147-5.961l-13.639-30.907-31.961-13.256c-3.734-1.549-6.168-5.193-6.168-9.235s2.434-7.686 6.168-9.235l31.961-13.256 13.639-30.907c1.599-3.621 5.186-5.959 9.147-5.959s7.548 2.338 9.147 5.961l13.639 30.907 31.961 13.256c3.733 1.549 6.167 5.193 6.167 9.235s-2.434 7.686-6.167 9.235l-31.961 13.256-13.639 30.907c-1.6 3.622-5.187 5.959-9.147 5.959zm-24.82-59.358 13.394 5.555c2.375.985 4.278 2.847 5.317 5.198l6.109 13.844 6.109-13.844c1.038-2.352 2.942-4.213 5.317-5.198l13.394-5.555-13.394-5.555c-2.375-.985-4.278-2.847-5.317-5.198l-6.109-13.844-6.109 13.844c-1.038 2.352-2.942 4.214-5.317 5.198z\"></path></g></g></svg>",
+              "text": "KOSTENLOSER VERSAND AB 70€ (IN DE)",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": "",
+              "item_link": ""
+            }
+          },
+          "message_tBxPtp": {
+            "type": "message",
+            "settings": {
+              "icon_svg": "<svg id=\"fi_2325793\" enable-background=\"new 0 0 512.007 512.007\" height=\"512\" viewbox=\"0 0 512.007 512.007\" width=\"512\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"m432.003 271.999c-4.245 0 3.904-2.644-111.593 41.777-65.076-117.243-80.309-297.201-80.459-299.063-1.217-15.111-20.881-20.161-29.261-7.59l-23.125 34.687-34.688-23.125c-9.208-6.137-21.719-1.282-24.397 9.433l-10.493 41.974-29.109-19.406c-9.189-6.125-21.714-1.304-24.397 9.433l-10.493 41.974-29.11-19.407c-11.073-7.381-25.859 1.248-24.827 14.55.322 4.153 8.228 102.86 38.247 203.344 29.263 97.954 83.974 211.42 185.705 211.42 12.863 0 25.624-3.123 36.959-9.036l172.534-71.039c7.278-2.972 4.508-1.738 8.678-3.573 46.654-19.209 44.587-17.846 47.738-21.148 48.329-50.67 12.139-135.205-57.909-135.205zm-184.781 202.022c-5.485 2.255-6.221 2.475-7.767 3.45-4.929 1.68-10.101 2.528-15.452 2.528-123.014 0-172.932-229.469-188.406-351.708l19.531 13.021c9.208 6.137 21.719 1.282 24.397-9.433l10.493-41.974 29.109 19.406c9.189 6.127 21.714 1.302 24.397-9.433l10.493-41.974 29.109 19.406c7.351 4.901 17.286 2.915 22.188-4.438l7.841-11.761c12.012 86.035 35.926 188.215 77.11 264.257l-72.008 27.695c-7.195 2.768-11.395 10.274-9.987 17.854 1.408 7.581 8.021 13.079 15.731 13.079 26.468 0 48 21.533 48 48 .002 17.513-9.473 33.548-24.779 42.025zm221.644-91.266c-298.913 123.074-87.747 36.129-167.298 68.883 7.966-31.558-3.884-65.037-30.773-84.493 246.316-94.737 61.4-23.615 163.975-63.067 39.447 2.254 59.144 48.727 34.096 78.677z\"></path><path d=\"m101.946 206.855 80-32c8.204-3.282 12.195-12.593 8.913-20.798-3.281-8.205-12.594-12.196-20.798-8.913l-80 32c-8.204 3.282-12.195 12.593-8.913 20.798 3.271 8.18 12.573 12.205 20.798 8.913z\"></path><path d=\"m206.859 218.057c-3.281-8.205-12.594-12.196-20.798-8.913l-80 32c-8.204 3.282-12.195 12.593-8.913 20.798 2.502 6.256 8.511 10.062 14.86 10.062 4.327 0-.935 1.6 85.938-33.149 8.204-3.282 12.195-12.593 8.913-20.798z\"></path><path d=\"m304.003 167.999c0 8.836 7.163 16 16 16h7.202c22.741 59.804 92.907 81.16 134.268 16.635 4.77-7.439 2.604-17.336-4.835-22.105-7.438-4.768-17.335-2.604-22.104 4.835-7.204 11.238-19.043 24.635-34.53 24.635-12.932 0-27.117-7.227-37.341-24h21.341c8.837 0 16-7.164 16-16s-7.163-16-16-16h-31.613c-.502-5.353-.53-10.348 0-16h31.613c8.837 0 16-7.164 16-16s-7.163-16-16-16h-21.341c10.231-16.785 24.421-24 37.341-24 15.487 0 27.326 13.396 34.53 24.635 4.768 7.44 14.668 9.604 22.104 4.835 7.439-4.769 9.604-14.666 4.835-22.105-41.349-64.507-111.535-43.147-134.268 16.635h-7.202c-8.837 0-16 7.164-16 16 0 8.452 6.666 16 16.29 16-.381 5.58-.392 10.249 0 16-9.618 0-16.29 7.544-16.29 16z\"></path></g></svg>",
+              "text": "KAUF AUF RECHNUNG",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": "",
+              "item_link": ""
+            }
+          },
+          "message_pnBzVm": {
+            "type": "message",
+            "settings": {
+              "icon_svg": "<svg id=\"fi_2989993\" enable-background=\"new 0 0 100 100\" height=\"512\" viewbox=\"0 0 100 100\" width=\"512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m87 24h-62c-4.4 0-8 3.6-8 8v3c0 1.1.9 2 2 2s2-.9 2-2v-3c0-.4.1-.8.2-1.2l22.4 19.2-22.4 19.2c-.1-.4-.2-.8-.2-1.2v-3c0-1.1-.9-2-2-2s-2 .9-2 2v3c0 4.4 3.6 8 8 8h62c4.4 0 8-3.6 8-8v-36c0-4.4-3.6-8-8-8zm-62.8 4.1c.2-.1.5-.1.8-.1h62c.3 0 .6 0 .8.1l-30.5 26.1c-.8.6-1.8.6-2.6 0zm62.8 43.9h-62c-.3 0-.6 0-.8-.1l22.5-19.3 5.4 4.7c1.1 1 2.5 1.5 3.9 1.5s2.8-.5 3.9-1.5l5.4-4.7 22.5 19.3c-.2.1-.5.1-.8.1zm4-4c0 .4-.1.8-.2 1.2l-22.4-19.2 22.4-19.2c.1.4.2.8.2 1.2zm-80-23c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2s-.9 2-2 2h-12c-1.1 0-2-.9-2-2zm14 12h-18c-1.1 0-2-.9-2-2s.9-2 2-2h18c1.1 0 2 .9 2 2s-.9 2-2 2z\"></path></svg>",
+              "text": "30 TAGE WIDERRUFSRECHT",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": "",
+              "item_link": ""
+            }
+          },
+          "message_mHPnL3": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "icon_svg": "",
+              "text": "<b>GRATIS Cocktail Builder Gel 15ml</b> ab 80€ · nur noch HEUTE! 💫",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": "",
+              "item_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "fa40d519-53d7-4b74-a1e5-c97afe02a742",
+          "message_tBxPtp",
+          "message_pnBzVm",
+          "message_mHPnL3"
+        ],
+        "custom_css": [
+          ".ed-announcement-bar-item {font-weight: 500; padding-top: 2px;}"
+        ],
+        "settings": {
+          "announcement_bar_position": "non_sticky",
+          "announcement_text_size": "small",
+          "autoplay_slide": true,
+          "cycle_speed": 3,
+          "number_of_slides_mobile": 1,
+          "background": "#f4f4f4",
+          "text_color": "#000000",
+          "button_background": "#000000",
+          "button_text_color": "#ffffff",
+          "activate_additional_announcement_bar": true,
+          "show_additional_announcement_bar": "in_all_pages",
+          "background_additional_announcement_bar": "#8f6b63",
+          "text_color_additional_announcement_bar": "#f4f4f4",
+          "text_additional_announcement_bar": "🛒<b>Ombre Gel SALE:</b> Jetzt 20% sparen bis Sonntag 23:59Uhr",
+          "button_additional_announcement_bar": "https://lynis-nailshop.de/pages/nailartgele#ombre"
+        }
+      },
+      "header": {
+        "type": "header",
+        "custom_css": [],
+        "settings": {
+          "color_cart_icon": "#000000",
+          "color_cart_icon_note": "#dbd1b4",
+          "enable_sticky_header": true,
+          "logo": "shopify://shop_images/lynis-nailshop-logo.png",
+          "logo_max_width": 145,
+          "mobile_logo_max_width": 115,
+          "navigation_title": "",
+          "navigation_menu": "main-menu",
+          "sidebar_navigation_menu": "",
+          "initial_open_tab": 0,
+          "header_layout": "logo_center_search_open",
+          "show_icons": true,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": false,
+          "show_country_selector": false,
+          "enable_transparent_header": false,
+          "transparent_header_text_color": "#ffffff",
+          "search_menu": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "liquid_4Bed8t": {
+            "type": "liquid",
+            "settings": {
+              "title": "Hilfe & Kontakt",
+              "liquid": "<!-- Start of lyni Zendesk Widget script \n\n\n<script id=\"ze-snippet\" src=\"https://static.zdassets.com/ekr/snippet.js?key=eb265cac-b39f-4245-9ebb-c28f67d34a10\"> </script> -->\n\n\n<!-- End of lyni Zendesk Widget script -->\n\n<div class=\"footer-menu1_icon-list\">\n        <ul>\n            <li>\n                <a href=\"/pages/hilfe\" class=\"link--faded\">\n                    <i class=\"fa fa-question-circle\"></i>\n                    <span>Kontakt / Kundenservice</span>\n                </a>\n            </li>\n             <li>\n                <a href=\"/pages/telefon-beratung\" class=\"link--faded\">\n                    <i class=\"fa fa-phone-square\"></i>\n                   <span>Telefon-Beratung<br>05741 - 60 33 910<br>Werktags 09:00 - 15:00 Uhr</span>\n                </a>\n            </li>\n            <br>\n            <li>\n                <a href=\"/pages/gewerbekunden-studiokunden\" class=\"link--faded\">\n                    <i class=\"fas fa-heart\"></i>\n                    <span>Gewerbekunden</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"https://nailmondo.goaffpro.com\" class=\"link--faded\">\n                    <i class=\"fa fa-euro\"></i>\n                    <span>Partnerprogramm</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/pages/werbepartner-fuer-lynis-nailshop\" class=\"link--faded\">\n                    <i class=\"fas fa-bullhorn\"></i>\n                    <span>Werbepartner</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/products/geschenkgutschein-lynis-nailshop\" class=\"link--faded\">\n                    <i class=\"fa fa-gift\"></i>\n                    <span>Gutschein</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/policies/shipping-policy\" class=\"link--faded\">\n                    <i class=\"fa fa-credit-card\"></i>\n                    <span>Zahlung & Versand</span>\n                </a>\n            </li>\n        </ul>\n    </div>\n<style>\n.footer-menu1_icon-list ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n\tline-height:20px;\n}\n\n.footer-menu1_icon-list li {\n    margin-bottom: 10px;\n    padding-left: 25px; \n    position: relative;\n}\n\n.footer-menu1_icon-list i {\n    position: absolute;\n    left: 0;\n    top: 2px;\n    font-size: 16px;\n}\n\n.footer-menu1_icon-list span {\n    padding-left: 10px;\n}\n\n\n/* Stile für Links, um Standard-Styling zu entfernen */\n.footer-menu1_icon-list a {\n    text-decoration: none;\n    color: #525252;\n    display: flex;\n    align-items: center;\n}\n\n/* Hover-Effekt für Links */\n.footer-menu1_icon-list a:hover {\n    text-decoration: none;\n}\n</style>"
+            }
+          },
+          "liquid_xHj9iM": {
+            "type": "liquid",
+            "settings": {
+              "title": "Nailshop",
+              "liquid": "<div class=\"footer-menu1_icon-list\">\n    <ul>\n        <li>\n            <a href=\"https://www.facebook.com/Lyninail\" target=\"_blank\" class=\"link--faded\">\n                <i class=\"fab fa-facebook-square\"></i>\n                <span>Facebook</span>\n            </a>\n        </li>\n        <li>\n            <a href=\"https://www.youtube.com/user/LyniNails/\" target=\"_blank\" class=\"link--faded\">\n                <i class=\"fab fa-youtube-square\"></i>\n                <span>YouTube</span>\n            </a>\n        </li>\n        <li>\n            <a href=\"https://www.instagram.com/lyninails/\" target=\"_blank\" class=\"link--faded\">\n                <i class=\"fab fa-instagram\"></i>\n                <span>Instagram</span>\n            </a>\n        </li>\n       <!-- <li>\n            <a href=\"/pages/live-streams\" class=\"link--faded\">\n                <i class=\"fa fa-tv\"></i>\n                <span>Live-Streams</span>\n            </a>\n        </li>-->\n<br>\n\n        <li>\n            <a href=\"https://lynis-nailacademy.de/\" target=\"_blank\" class=\"link--faded\">\n                <i class=\"fa fa-graduation-cap\"></i>\n                <span>Nageldesign Schulungen</span>\n            </a>\n        </li>\n        <li>\n            <a href=\"/pages/nageldesign-lexikon\" class=\"link--faded\">\n                <i class=\"fa fa-book\"></i>\n                <span>Nageldesign Lexikon</span>\n            </a>\n        </li>\n        <li>\n            <a href=\"https://nailmondo.myshopify.com/blogs/nageldesign-blog\" class=\"link--faded\">\n                <i class=\"fa fa-file-text\"></i>\n                <span>Blog für Nageldesign</span>\n            </a>\n        </li>\n    </ul>\n</div>\n<a href=\"#\" onClick=\"UC_UI.showSecondLayer();\"> Cookie-Einstellungen </a>\n<style>\n.footer-menu1_icon-list ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n\tline-height:20px;\n}\n\n.footer-menu1_icon-list li {\n    margin-bottom: 10px;\n    padding-left: 25px; /* Für das Icon */\n    position: relative;\n}\n\n.footer-menu1_icon-list i {\n    position: absolute;\n    left: 0;\n    top: 2px;\n    font-size: 16px;\n}\n\n.footer-menu1_icon-list span {\n    padding-left: 10px; /* Abstand zwischen Icon und Text */\n}\n\n\n/* Stile für Links, um Standard-Styling zu entfernen */\n.footer-menu1_icon-list a {\n    text-decoration: none;\n    color: #525252;\n    display: flex;\n    align-items: center;\n}\n\n/* Hover-Effekt für Links */\n.footer-menu1_icon-list a:hover {\n    text-decoration: none;\n}\n</style>"
+            }
+          },
+          "liquid_CATa8G": {
+            "type": "liquid",
+            "settings": {
+              "title": "",
+              "liquid": "<div class=\"footer_dhl_award-description\">\n    <p>Melde dich zu meinen kostenlosen E-Mail Programm an und profitiere von Nageldesign Tipps und Videos, exklusiven Angeboten und Rabatten für alle Anmelder..</p>\n</div>\n<iframe class=\"ktv2\" src=\"https://klicktipp.s3.amazonaws.com/userimages/42364/forms/52674/17yyzykez8z99dd.html\" style=\"position:relative;display:inline-block;border:none;background:transparent none no-repeat scroll 0 0;margin:0;\" width=\"256\" height=\"50\" scrolling=\"no\"></iframe><div class=\"abmelden\">Du kannst die Anmeldung jederzeit widerrufen.</div>\n<div style=\"margin-top: 20px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/dhl-footer-gross.png\" alt=\"DHL Logo\" width=\"90\" loading=\"lazy\">\n</div>\n<span class=\"footer_dhl_award-title\">Wir versenden mit DHL</span>\n<div class=\"footer_dhl_award-description\">\n    <p>Über 97% der Pakete werden in<br> 1 bis 2 Werktagen zugestellt (DE).</p>\n</div>\n\n<style>\n.footer_dhl_award-title {\n    text-align: left;\n    font-family: \"Rajdhani\", sans-serif;\n    color: #be9c54;\n    font-size: 16px;\n    margin: 10px 0 0px;\nfont-weight: bold;\n}\n\n.footer_dhl_award-description {\n    color: #525252;\n    font-size: 12px;\n    line-height: 16px;\n}\n.abmelden {\n    color: #525252;\n    font-size: 10px;\n    margin-top:-15px;\n}\n</style>"
+            }
+          },
+          "liquid_PLUt7j": {
+            "type": "liquid",
+            "settings": {
+              "title": "",
+              "liquid": "<a href=\"https://g.co/kgs/SjgdTg2\">\n\t<div class=\"footer_trust_image-box\">\n            <figure class=\"footer_trust_image-figure\">\n                    <img src=\"https://cdn.shopify.com/s/files/1/0606/6277/6063/files/google-star.png\" alt=\"Google Bewertung\">\n            </figure>\n            <div class=\"footer_trust_image-content\">\n                <span class=\"footer_trust_title\">\n                    Google Bewertung\n                </span><br>\n                <span class=\"footer_trust_description\">\n                    <strong>5,0 Sterne Bewertung</strong>\n                </span><br>\n                <span class=\"footer_trust_description2\">\n                    auf 1.884 Rezensionen\n                </span>\n            </div>\n        </div></a>\n        <span class=\"footer_trust_award-title\">Deutscher Kunden-Award 2021/22</span>\n        <div class=\"footer_trust_award-description\">\n            <p>Wir wurden <strong>zwei</strong> mal ausgezeichnet in der Branche: Nageldesign Online-Shops</p>\n            <ul class=\"footer_trust_award-list\">\n                <li><strong>1. Platz:</strong> Kundenservice</li>\n                <li><strong>TOP</strong> Preis-Leistungs-Verhältnis</li>\n            </ul>\n            <p>Darüber freuen wir uns sehr. Quelle <a href=\"https://www.dtgv.de/awards/dka2021-22/\" rel=\"nofollow\" target=\"_blank\">hier</a></p>\n</div>\n\n\n<style>\n.footer_trust_image-box {\n    text-align: center;\n    background: white;\n    border-radius: 10px;\n    padding: 10px;\n\tmax-width: 200px;\n}\n\n.footer_trust_image-figure {\n    margin: 0;\n}\n\n.footer_trust_image-figure img {\n    max-width: 100%;\n    height: auto;\n}\n\n.footer_trust_image-content {\n    line-height: 10px;\n}\n\n.footer_trust_title {\n    padding-top: 5px;\n    padding-bottom: 15px;\n    color: #333;\n    font-size: 14px;\nfont-weight: bold;\n}\n\n.footer_trust_description {\n    color: #525252;\n    font-size: 10px;\n\tfont-weight: bold;\n}\n.footer_trust_description2 {\n    color: #525252;\n    font-size: 10px;\n}\n\n.footer_trust_trusted-shops img {\n    display: inline;\n    margin: 10px auto;\n}\n\n.footer_trust_award-title {\n    text-align: left;\n\tfont-family: \"Rajdhani\", sans-serif;\n    color: #be9c54;\n    font-size: 16px;\n    margin: 20px 0px 0px 0px;\nfont-weight: bold;\n}\n\n.footer_trust_award-description {\n    color: #525252;\n    font-size: 12px;\n\tline-height:14px;\n}\n\n.footer_trust_award-list {\n    list-style-type: disc;\n    padding-left: 15px;\n\tline-height:16px\n}\n\n.footer_trust_award-list li {\n    margin-bottom: 5px;\n}\n\n</style>"
+            }
+          },
+          "liquid_UkqXc4": {
+            "type": "liquid",
+            "settings": {
+              "title": "RECHTLICHES",
+              "liquid": "<div class=\"footer-menu4_icon-list\">\n        <ul>\n            <li>\n                <a href=\"/policies/legal-notice\" class=\"link--faded\"><span>Impressum</span>\n                </a>\n            </li>\n             <li>\n                <a href=\"/policies/refund-policy\" class=\"link--faded\">\n                   <span>Widerufsrecht</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/policies/privacy-policy\" class=\"link--faded\">\n                    <span>Datenschutz</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/policies/terms-of-service\" class=\"link--faded\">\n                    <span>AGB</span>\n                </a>\n            </li>\n            <li>\n                <a href=\"/pages/barrierefreiheit\" class=\"link--faded\">\n                    <span>Barriefreiheit</span>\n                </a>\n            </li>\n\t        <li><button onclick=\"iconInstance.toggleWidget()\">\nBarriere-Einstellungen\n</button></li>\n        </ul>\n    </div>\n<style>\n.footer-menu4_icon-list ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n\tline-height:20px;\n}\n\n.footer-menu4_icon-list li {\n    margin-bottom: 10px;\n    position: relative;\n}\n\n.footer-menu4_icon-list i {\n    position: absolute;\n    left: 0;\n    top: 2px;\n    font-size: 16px;\n}\n\n\n.footer-menu4_icon-list a {\n    text-decoration: none;\n    color: #525252;\n    display: flex;\n    align-items: center;\n}\n\n.footer-menu4_icon-list a:hover {\n    text-decoration: none;\n}\n</style>"
+            }
+          }
+        },
+        "block_order": [
+          "liquid_4Bed8t",
+          "liquid_xHj9iM",
+          "liquid_CATa8G",
+          "liquid_PLUt7j",
+          "liquid_UkqXc4"
+        ],
+        "custom_css": [
+          ".footer__copyright {display: flex; align-items: center; font-size: 10px; color: grey; line-height: 11px;}",
+          ".footer__payment-methods {display: inline; align-items: center;}",
+          ".ed-footer .footer__item-title {color: #000 !important;}"
+        ],
+        "settings": {
+          "color_footer_headline": "#ffffff",
+          "show_payment_icons": true,
+          "show_country_selector": false,
+          "show_locale_selector": false,
+          "show_cookie_bar": false,
+          "cookie_bar_title": "Cookie policy",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>"
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "custom_css": [
+          ".newsletter-modal__content.newsletter-modal__content--extra.text-container.text--center {display: none;}",
+          ".newsletter-modal__image {max-height: 100%;}",
+          ".modal__close-button {color: black !important;}"
+        ],
+        "settings": {
+          "enable": false,
+          "apparition_delay": 15,
+          "show_only_on_index": false,
+          "show_only_for_visitors": false,
+          "show_only_once": true,
+          "image": "shopify://shop_images/shop-aca-2.jpg",
+          "image_position": "left",
+          "modal_url": "https://lynis-nailacademy.de/",
+          "title": "",
+          "content": ""
+        }
+      },
+      "mini-cart": {
+        "type": "mini-cart",
+        "custom_css": [
+          ".ed-payment-bar-cart {display: none !important;}"
+        ],
+        "settings": {
+          "show_order_note": false,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify://collections/all",
+          "show_recommendations": false,
+          "recommendations_title": "Das wird dir auch gefallen"
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "static-text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-box",
+              "custom_icon_width": 50,
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            }
+          },
+          "static-text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-phone",
+              "custom_icon_width": 50,
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-lock",
+              "custom_icon_width": 50,
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.</p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-email",
+              "custom_icon_width": 50,
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": true,
+          "reveal_on_scroll": true,
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+          "text_position": "right",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "ed-collection-menu": {
+        "type": "ed-collection-menu",
+        "settings": {
+          "heading": "Deine Vorteile im Überblick"
+        }
+      },
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "custom_css": [
+          "a.button.button--primary {color: white; background: black;}"
+        ],
+        "settings": {
+          "logo": "shopify://shop_images/lynis-nailshop-logo.png",
+          "logo_max_width": 180,
+          "mobile_logo_max_width": 140,
+          "background": "#f4f4f4",
+          "content_background": "#ffffff",
+          "text_color": "#0d0d0d"
+        }
+      },
+      "static-prefooter": {
+        "type": "static-prefooter",
+        "blocks": {
+          "static-prefooter-0": {
+            "type": "text",
+            "settings": {
+              "title": "About our store",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+            }
+          },
+          "static-prefooter-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "liquid_aBNfBz": {
+            "type": "liquid",
+            "settings": {
+              "title": "",
+              "liquid": "Lerne Nageldesign\n<iframe class=\"ktv2\" src=\"https://klicktipp.s3.amazonaws.com/userimages/42364/forms/52674/17yyzykez8z99dd.html\" style=\"position:relative;display:inline-block;border:none;background:transparent none no-repeat scroll 0 0;margin:0;\" width=\"256\" height=\"50\" scrolling=\"no\"></iframe>"
+            }
+          }
+        },
+        "block_order": [
+          "static-prefooter-0",
+          "static-prefooter-1",
+          "liquid_aBNfBz"
+        ],
+        "settings": {
+          "color_footer_headline": ""
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "10603822535667782919": {
+        "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/app-embed/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+        "disabled": true,
+        "settings": {
+          "hide_float_icon": true,
+          "is_show_vendor": false,
+          "heart_icon_color": "",
+          "iwish_count_clr": "#ffffff",
+          "iwish_float_custom_icon": "",
+          "float_heart_position": "middle",
+          "float_heart_alignment": "left",
+          "open_drawer_once": false,
+          "multi_category_wishlist": false,
+          "is_old_cur_convertor": false,
+          "drawer_is_add_all_to_cart": false,
+          "cart_icon_class": ".header__cart-count",
+          "iwish_img_col": "3",
+          "iwish_img_size": "200X200",
+          "is_multi_language": false,
+          "drawer_title": "Meine Wunschliste",
+          "drawer_empty_description": "Auf der Produktseite kannst du auf das Herz Symbol drücken um Artikel auf deine Wunschliste zu legen.",
+          "drawer_empty_msg": "Deine Wunschliste ist leer!",
+          "drawer_login_msg": "Wunschliste ist noch NICHT dauerhaft gespeichert. Bitte<a class=\"link-text\" href=\"/account/login\"> anmelden </a> oder <a class=\"link-text\" href=\"/account/register\"> erstellen </a> um Produkte immer zu speichern.",
+          "add_to_cart_txt": "Ab ins Körbchen",
+          "add_all_to_cart_txt": "Alles in den Warenkorb legen",
+          "drawer_sold_out": "Ausverkauft",
+          "main_wishlist_text": "Hauptwunschliste",
+          "save_btn_text": "SPEICHERN"
+        }
+      },
+      "10830403595879607806": {
+        "type": "shopify://apps/reviews-io/blocks/reviewsio-core/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "www.lynis-nailshop.de",
+          "lang": "de",
+          "enable_syndication": false
+        }
+      },
+      "10891472601742428568": {
+        "type": "shopify://apps/gg-hover-slider/blocks/app-embed-block/614990d1-808d-4cde-ad6d-38290e605d06",
+        "disabled": false,
+        "settings": {}
+      },
+      "11068332061543699368": {
+        "type": "shopify://apps/booster-page-speed-optimizer/blocks/app-embed/d920faf3-7c60-423a-9636-22618b5561b5",
+        "disabled": false,
+        "settings": {}
+      },
+      "11348531219507317188": {
+        "type": "shopify://apps/easy-bundles/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+        "disabled": false,
+        "settings": {}
+      },
+      "11877319286961345690": {
+        "type": "shopify://apps/doc-404-broken-links-repair/blocks/404-fix-broken-links-widget/f4f2d416-cb00-4540-bda9-816d588bad3e",
+        "disabled": true,
+        "settings": {}
+      },
+      "11945366711752539959": {
+        "type": "shopify://apps/zendesk/blocks/zendesk_web_widget/c0b417b1-b90b-4754-baaf-f55627e6acd4",
+        "disabled": true,
+        "settings": {}
+      },
+      "124348908681409149": {
+        "type": "shopify://apps/simple-bundles-kits/blocks/simple-bundles-v2/e553276b-36b2-446d-b80a-aa47fe5f96ac",
+        "disabled": true,
+        "settings": {
+          "select_placeholder": "Please select an option",
+          "disable_oos_options": true,
+          "custom_css": "",
+          "custom_js": ""
+        }
+      },
+      "15316669992541710076": {
+        "type": "shopify://apps/reviews-io/blocks/reviewsio-rating-snippet/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "star": "#fac850",
+          "text_color": "#333333",
+          "snippet_mode": "default",
+          "text": "Sternebewertungen <b>(verifiziert)</b>",
+          "line_break": false,
+          "listen_for_changes": true,
+          "rating_without_brackets": true,
+          "format_review_count": true,
+          "show_popup": true,
+          "anchor_to_reviews_widget": false,
+          "show_empty_stars": true
+        }
+      },
+      "1537173939754162885": {
+        "type": "shopify://apps/accesspro-accessibility/blocks/accesspro-widget/d1a2aee8-6737-4a3e-a6aa-13d82b562c31",
+        "disabled": false,
+        "settings": {}
+      },
+      "15557474716127144420": {
+        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15623156175785154009": {
+        "type": "shopify://apps/qikify-mega-menu-navigation/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "disabled": false,
+        "settings": {}
+      },
+      "16160716078332068383": {
+        "type": "shopify://apps/rubik-variant-images/blocks/rubik-variant-images/e684282e-1343-4a60-8fa2-6393aded15f6",
+        "disabled": false,
+        "settings": {}
+      },
+      "16274361319697914395": {
+        "type": "shopify://apps/reviews-io/blocks/reviewsio-floating/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "widget_id": "5f6ES7vsozQiqHnt",
+          "show_all": false,
+          "show_index": true,
+          "show_product": false,
+          "show_collection": true,
+          "show_cart": false
+        }
+      },
+      "16422382648059844097": {
+        "type": "shopify://apps/boost-ai-search-discovery/blocks/instant-search-app-embedded/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {}
+      },
+      "17368511000352060744": {
+        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "disabled": false,
+        "settings": {}
+      },
+      "17530695623102652971": {
+        "type": "shopify://apps/exemptify/blocks/ExemptifyApp/53648040-92ea-472b-92a5-eb781e92b01b",
+        "disabled": true,
+        "settings": {
+          "execution_mode": "async",
+          "additional_qs": "&"
+        }
+      },
+      "2102808784413787648": {
+        "type": "shopify://apps/krtbite/blocks/main-app-embed/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
+        "disabled": false,
+        "settings": {}
+      },
+      "4318962865815008709": {
+        "type": "shopify://apps/boost-ai-search-discovery/blocks/boost-sd/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": true,
+        "settings": {}
+      },
+      "6279071938380501511": {
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {}
+      },
+      "6403324215520875301": {
+        "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-embed/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+        "disabled": false,
+        "settings": {
+          "multi_language": true,
+          "drawer_title": "My Wishlist",
+          "share_page_title": "Wishlist",
+          "login_msg": "Wishlist is not saved permanently yet. Please <a class=\"link-text\" href=\"/account/login\">log in</a> or <a class=\"link-text\" href=\"/account/register\">Create Account</a> to save it.",
+          "empty_msg": "<h4>Your wishlist is empty!</h4> \r\n<p>Explore more and shortlist some items</p>",
+          "enable_drawer": true,
+          "multi_category": true,
+          "open_drawer_on": "1",
+          "float_icon": false,
+          "heart_icon_color": "#000000",
+          "iwish_count_color": "#ffffff",
+          "icon_position": "middle-left",
+          "custom_icon": "",
+          "variant_selector": ".iw_variant_id",
+          "option_selector": "",
+          "custom_settings": "{\"show_price_on_login\": \"false\", \"show_vendor\": \"false\", \"cart_counter\": \".cart-count-bubble span:first-of-type\", \"remove_all_wishlist\": \"false\"}"
+        }
+      },
+      "6478312753674380289": {
+        "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
+        "disabled": false,
+        "settings": {}
+      },
+      "7194384644902525832": {
+        "type": "shopify://apps/fokkio-automatic-gift/blocks/widget/866ae171-054c-4fa5-8677-5f391a13902b",
+        "disabled": false,
+        "settings": {}
+      },
+      "74204263759510710": {
+        "type": "shopify://apps/dcart-discount-in-cart/blocks/app-embed/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
+        "disabled": false,
+        "settings": {}
+      },
+      "7885500093077574326": {
+        "type": "shopify://apps/videowise-video-commerce/blocks/script_embed/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+        "disabled": false,
+        "settings": {}
+      },
+      "db5a5c8b-7057-4c03-bfab-be88de300484": {
+        "type": "shopify://apps/boost-ai-search-discovery/blocks/boost-sd-ssr/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "disabled": false,
+        "settings": {
+          "templateId": "6UxOItVvTu"
+        }
+      },
+      "9468172321995857178": {
+        "type": "shopify://apps/qikify-bogo-freegift/blocks/app-embed/2e94b962-8172-4839-8ad9-7837eb8b017a",
+        "disabled": true,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Warenkorb Font-Heading */.drawer__title.heading.h6 {font-weight: 600; text-transform: uppercase;}",
+      " /* DOTS tiefer */.ezsd-dots.ezsd-dots--bottom {bottom: -3px;}",
+      "a#cart-link {color: white !important;}",
+      " /*REVIEWS*/.R-LauncherButton {padding: 0px 15px 2px 15px !important; width: 105px !important; font-size: 12px; bottom: -12px !important; left: 25px !important;}",
+      ".R-TextBody.R-TextBody--xxs.u-textCenter--all.u-marginBottom--sm {margin-bottom: 5px !important;}",
+      ".R-RatingStars.R-RatingStars--xs.u-marginTop--xs.u-marginBottom--sm {margin-bottom: 0px !important;}",
+      ".FloatingWidget-prefix .R-Logo--xxs {width: 80px !important;}",
+      ".R-LauncherButton.isActive {margin-bottom: 15px !important;}",
+      "i.R-LauncherButton__icon.R-LauncherButton__icon--close.ricon-thin-close {color: #3f3f3f;}"
+    ]
+  },
+  "presets": {
+    "Carbon": {
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#282828",
+      "text_color": "#282828",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#282828",
+      "footer_background": "#282828",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#405de6",
+      "secondary_button_background": "#f3ff34",
+      "secondary_button_text_color": "#282828",
+      "product_on_sale_accent": "#de2a2a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "zurich_extended_n8",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "zurich_n4",
+      "text_font_size": 15,
+      "currency_code_enabled": false,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "show_product_rating": false,
+      "cart_type": "message",
+      "cart_show_free_shipping_threshold": true,
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "normal",
+            "cycle_speed": 5,
+            "background": "#f3ff34",
+            "text_color": "#282828",
+            "button_background": "#282828",
+            "button_text_color": "#ffffff",
+            "background_additional_announcement_bar": "#1e2d7d",
+            "text_color_additional_announcement_bar": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_cart_icon": "#000000",
+            "color_cart_icon_note": "#000000",
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_left_navigation_center",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Ivory": {
+      "button_border_radius": 4,
+      "block_border_radius": "small",
+      "heading_color": "#1a1a1a",
+      "text_color": "#1a1a1a",
+      "secondary_background": "#f5f1ec",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#56112a",
+      "header_text_color": "#ffffff",
+      "footer_background": "#56112a",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#56112a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f7aea6",
+      "secondary_button_text_color": "#56112a",
+      "product_on_sale_accent": "#913b59",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3e5b6",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "itc_caslon_no_224_n5",
+      "heading_font_size": "medium",
+      "heading_text_transform": "normal",
+      "text_font": "avenir_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f6f3ed",
+      "checkout_accent_color": "#353535",
+      "checkout_button_color": "#353535",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "cycle_speed": 5,
+            "background": "#f7aea6",
+            "text_color": "#56112a",
+            "button_background": "#56112a",
+            "button_text_color": "#ffffff",
+            "background_additional_announcement_bar": "#1e2d7d",
+            "text_color_additional_announcement_bar": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_cart_icon": "#000000",
+            "color_cart_icon_note": "#000000",
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Quartz": {
+      "icon_stroke_width": 1.3,
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "vertical_spacing": "medium",
+      "heading_color": "#0d0d0d",
+      "text_color": "#2e2e2e",
+      "background": "#ffffff",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#3c6e71",
+      "error_color": "#de2a2a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2e2e2e",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#2e2e2e",
+      "primary_button_background": "#051e38",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#dfdfdf",
+      "secondary_button_text_color": "#2e2e2e",
+      "product_on_sale_accent": "#de2b2b",
+      "product_sold_out_accent": "#5b5b5b",
+      "product_custom_label_background": "#051e38",
+      "product_custom_label_2_background": "#2e9e7b",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2b2b",
+      "heading_font": "futura_n3",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "din_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "hide",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "cart_icon": "tote_bag",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#051e38",
+      "checkout_button_color": "#051e38",
+      "checkout_error_color": "#de2a2a",
+      "accent_color": "#405de6",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "cycle_speed": 5,
+            "background": "#051e38",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#051e38",
+            "background_additional_announcement_bar": "#1e2d7d",
+            "text_color_additional_announcement_bar": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_cart_icon": "#000000",
+            "color_cart_icon_note": "#000000",
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": true,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": true,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Sapphire": {
+      "icon_stroke_width": 1.2,
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#0c1b54",
+      "text_color": "#0c1b54",
+      "background": "#ffffff",
+      "secondary_background": "#f7f7f7",
+      "success_color": "#708a7d",
+      "error_color": "#d2545a",
+      "header_background": "#0c1b54",
+      "footer_background": "#0c1b54",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#0c1b54",
+      "secondary_button_background": "#f7f7f7",
+      "secondary_button_text_color": "#0c1b54",
+      "product_rating_color": "#a48156",
+      "product_on_sale_accent": "#d2545a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#d2545a",
+      "heading_font": "chong_modern_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "text_font": "trade_gothic_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_product_rating": true,
+      "product_color_display": "hide",
+      "product_image_size": "natural",
+      "cart_type": "message",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "accent_color": "#405de6",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "cycle_speed": 5,
+            "background": "#ffe5db",
+            "text_color": "#0c1b54",
+            "button_background": "#0c1b54",
+            "button_text_color": "#ffffff",
+            "background_additional_announcement_bar": "#1e2d7d",
+            "text_color_additional_announcement_bar": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_cart_icon": "#000000",
+            "color_cart_icon_note": "#000000",
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": true,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": true,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    }
+  }
+}

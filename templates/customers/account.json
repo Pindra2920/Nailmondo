@@ -1,0 +1,42 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-account",
+      "blocks": {
+        "orders": {
+          "type": "orders",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "orders"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_M6NzEq": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n.account__order-list-item {\n    background: linear-gradient(328deg, #eeeeee, #f8f8f8);\n    padding: 15px;\n    border-radius: 15px;\n    border: 1px solid #c9c9c9;\n    box-shadow: 0 0 20px -10px #5151513b;\n}\nh2.account__order-item-name.heading.h6 {\n    font-weight: 600;\n}\nspan.link--animated {\n    font-weight: 600;\n}\n</style>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_M6NzEq"
+  ]
+}

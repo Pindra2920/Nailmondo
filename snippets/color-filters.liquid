@@ -1,0 +1,106 @@
+{%- comment -%}
+  Code that create the faceted search for the collection and search pages. It currently supports the following options:
+
+    - filters: either the collection or search filters
+    - filters_position: can either be "always_visible" or "drawer"
+{%- endcomment -%}
+
+{%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+{%- assign color_white_label = 'general.label.white' | t | downcase -%}
+{%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
+{%- assign color_priority = section.settings.color_sorting | split: ',' -%}
+
+{%- assign active_filters_count = 0 -%}
+
+{%- for filter in filters -%}
+  {%- if filter.type == 'list' -%}
+    {%- assign active_filters_count = active_filters_count | plus: filter.active_values.size -%}
+  {%- elsif filter.type == 'price_range' and filter.min_value.value or filter.max_value.value -%}
+    {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+  {%- elsif filter.type == 'boolean' and filter.true_value.active -%}
+    {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if request.page_type == 'collection' -%}
+  {%- assign page_url = collection.url -%}
+  {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+{%- elsif request.page_type == 'search' -%}
+  {%- assign page_url = routes.search_url -%}
+  {%- assign sort_by = search.sort_by | default: search.default_sort_by -%}
+{%- endif -%}
+
+<facet-filters class="product-facet__filters color-filters" id="color-facet-filters">
+  <form id="facet-filters-form2" class="facet-filters-form">
+    <input type="hidden" name="sort_by" value="{{ sort_by }}">
+
+    {%- if request.page_type == 'search' -%}
+      <input type="hidden" name="q" value="{{ search.terms | escape }}">
+      <input type="hidden" name="type" value="product">
+      <input type="hidden" name="options[prefix]" value="last">
+      <input type="hidden" name="options[unavailable_products]" value="{{ settings.search_unavailable_products }}">
+    {% elsif request.page_type == 'collection'
+      and collection.current_type != blank
+      or collection.current_vendor != blank
+    %}
+      <input
+        type="hidden"
+        name="q"
+        value="{{ collection.current_vendor | default: collection.current_type | escape }}"
+      >
+    {%- endif -%}
+
+    <div class="product-facet__filter-list">
+      {%- for filter in filters -%}
+        {%- unless filter.type == 'boolean' -%}
+          {%- assign filter_label_downcase = filter.label | downcase -%}
+
+          {%- case filter.type -%}
+            {%- when 'list' -%}
+              {%- if color_label_list contains filter_label_downcase -%}
+                {%- assign color_swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
+
+                <div class="color-swatch-list">
+                  {%- for color in color_priority -%}
+                    {%- for filter_value in filter.values -%}
+                      {%- assign color_value_downcase = filter_value.label | downcase -%}
+                      {%- if color == color_value_downcase -%}
+                        <div
+                          class="color-swatch {% comment %}{% if color_white_label == color_value_downcase %}color-swatch--white{% endif %} {% endcomment %} {% if filter_value.count == 0 %}is-disabled{% endif %}"
+                          data-tooltip="{{ filter_value.label | escape }}"
+                        >
+                          <input
+                            class="color-swatch__radio visually-hidden"
+                            type="checkbox"
+                            name="{{ filter_value.param_name }}"
+                            id="{{ filter_value.param_name | escape }}-{{ forloop.index }}"
+                            value="{{ filter_value.value | escape }}"
+                            title="{{ filter_value.label | escape }}"
+                            {% if filter_value.active %}
+                              checked="checked"
+                            {% endif %}
+                            {% if filter_value.count == 0 %}
+                              disabled
+                            {% endif %}
+                          >
+                          <label
+                            class="color-swatch__item"
+                            for="{{ filter_value.param_name | escape }}-{{ forloop.index }}"
+                            style="{% render 'color-swatch-style', color_swatch_config: color_swatch_config, value: filter_value.label %}"
+                          >
+                            {% render 'icon' with 'color-checked-icon' %}
+
+                            <span class="visually-hidden">{{ filter_value.label }}</span>
+                          </label>
+                        </div>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  {%- endfor -%}
+                </div>
+              {% endif %}
+          {%- endcase -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    </div>
+  </form>
+</facet-filters>

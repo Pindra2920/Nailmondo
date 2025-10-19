@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_t4jACc": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Widerrufsformular",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fdeae6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_text_with_icons_F9pnb8": {
+      "type": "ed-text-with-icons",
+      "blocks": {
+        "item_DGDAhg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon_width": 110,
+            "title": "So geht die Rücksendung",
+            "content": "<p><strong>#1</strong>- Fülle dieses Formular mit allen Informationen genaustens aus<br/><br/><strong>#2</strong>- Du erhältst eine Rückmeldung per E-Mail mit Freigabe & einem Retourenschein, den du ausfüllst<br/><br/><strong>#3</strong>- Du legst den Retourenschein in das Paket<br/><br/><strong>#4</strong>- Du verschickst dein Paket (versichert) an unsere Adresse und fügst \"Retoure + deine Auftragsnummer\" auf dem Versandlabel<br/><br/><strong>#5</strong>- Nach Ankunft im Lager, dauert es 3-5 Tage bis du deine Erstattung erhältst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DGDAhg"
+      ],
+      "custom_css": [
+        ".text-with-icons__content-wrapper {text-align: left; line-height: 1.2;}",
+        "@media screen and (min-width: 1000px) {.text-with-icons__list {display: grid; grid-gap: 48px; gap: 48px; grid-auto-flow: column; grid-auto-columns: minmax(200px, 700px); justify-content: center; margin-left: 0; margin-right: 0; }}"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_b7jn6d": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/61194.jpg",
+        "subheading": "",
+        "title": "Formular ausfüllen",
+        "content": "Bitte achte darauf, dass wir nur Artikel in OVP (mit Versiegelung) zurück nehmen dürfen. Artikel wo die Versiegelung bereits entfernt wurde, sind aus Hygienegründen vom Wideruf ausgeschlossen. <br>\n<hr>\n<div class=\"globo-formbuilder\" data-id=\"MzEyMDQ=\"></div>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_t4jACc",
+    "ed_text_with_icons_F9pnb8",
+    "image_with_text_block_b7jn6d"
+  ]
+}

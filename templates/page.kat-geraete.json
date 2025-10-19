@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "settings": {
+            "link": "",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky_7b4db9de-20f1-4431-9e3e-ce1ae7791dd7.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_MNEMca": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_UpbCxz",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_MNEMca",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Geräte",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-gerate",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Zum Aushärten oder entfernen der Modellage",
+        "title": "Lampen & Fräser",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-gerate-staubabsaugung-tischplatten",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Staubabsaugung & Tischplatten",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Wozu brauche ich ein Lichhärtungsgerät?</h2><p>Ein must have in jedem Nagelstudio, und besonders auch, wenn man sich selber die Nägel zu Hause machen will, ist ein <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a>. Du hast sicher schon öfters davon gehört oder das<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät / UV Lampe</strong></a> bei deiner Nageldesignerin gesehen. Besonders gerne verwendet wird so eine<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>UV Lampe</strong></a> für deine Maniküre oder Pediküre. Ein <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a> wird dazu benötigt, um deine Arbeitsmaterialien wie Farbgele, <a href=\"https://lynis-nailshop.de/aufbaugel\"><strong>Aufbau Gele</strong></a> und <a href=\"https://lynis-nailshop.de/gellacke\"><strong>Gellacke</strong></a> auszuhärten, also sie fest mit deinem Naturnagel zu verbinden. <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong></a> bekommst du schon in verschiedensten Größen und Farben und sogar mit verschiedenen Lichtquellen zur Aushärtung deiner Gele. Doch welche <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> ist wirklich gut und welches <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a> soll ich für meine Nägel verwenden? Ein<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät</strong></a> als <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a>, doch lieber mit LED Licht oder doch eher ein CCFL Gerät?</p><h2>UV Lampe Gelnägel! Welches Lichthärtungsgerät passt am besten zu mir?</h2><p>Eine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Gelnägel UV Lampe</strong></a> besitzt <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Leuchtstoffröhren</strong>, die nach ca. 8000 Betriebsstunden gewechselt werden müssen. Denn nach dieser Zeit bringen diese <strong>Leuchtstoffröhren</strong></a> nicht mehr die Leistung, die du für deine Nägel benötigst, und somit besteht die Gefahr, dass deine <a href=\"https://lynis-nailshop.de/gele\"><strong>Gele</strong></a> nicht mehr ordentlich durch- und ausgehärtet werden. In der Regel lässt man in <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampen</strong></a> mit <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Leuchtstoffröhren</strong> </a>die Finger ca. zwei Minuten aushärten. Worauf solltest du bei einer <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> mit <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Leuchtstoffröhren</strong></a> achten? Achte darauf, dass alle gängigen <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>UV Röhren</strong></a> in deine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> passen. Wichtig ist auch, dass der Innenraum der <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> komplett verspiegelt ist. Schau dir dein  <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a> genau an. Ist ein 2 Minuten Timer mit eingebaut in deine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> und dadurch zusätzlich ein Dauerbetrieb möglich? Was ich noch zusätzlich empfehlen kann, ist ein <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lichthärtungsgerät</strong></a> mit Sensor. Der Sensor der <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> reagiert und schaltet sich ein, sobald deine Kundin mit ihren Händen unter die Lichtschranke von deinem<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät</strong></a> kommt. So musst du nicht immer zusätzlich einen Knopf drücken und deine Kundin kann ganz bequem mit ihren Händen unter die <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> zur Aushärtung.</p><h2>CCFL, Led Lampe? Was ist der Unterschied?</h2><p>LED Lampe Nägel? Etwas ganz anderes ist ein <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät LED</strong></a>. Eine<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>LED Nagellampe</strong></a> enthält als Lichtquelle Emitting Diodes (LED). Diese <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>LED Nagellampen</strong></a> härten das <a href=\"https://lynis-nailshop.de/gele\"><strong>Gel</strong></a> genau gleich aus wie jeder andere UV Nagelhärter, mit nur dem einen Unterschied, dass das Licht mit LED erzeugt wird und nicht mit einer <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Lichtröhre</strong></a>. Bei einem UV, <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>LED Lichthärtungsgerät</strong></a> sind die Oberseite und die Seiten komplett mit LED bedeckt. Je nachdem wie viel Watt deine<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärungsgeräte</strong></a> haben, desto mehr LEDs sind in deinen <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>LED Lampen</strong> </a>enthalten. Die vielen kleinen Ioden erzeugen dann genug Licht im<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät</strong></a>, sodass deine Materialien ordentlich durch- und ausgehärtet werden. Leider sind für eine<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>LED Lampe</strong></a> nicht alle <a href=\"https://lynis-nailshop.de/gele\"><strong>Gele</strong></a> geeignet. Du solltest immer darauf achten, dass deine Materialien LED tauglich sind. Solltest du einmal nicht weiterwissen, frag einfach bei deinem <a href=\"https://lynis-nailshop.de/\"><strong>Online Shop</strong></a> nach. Am besten ist ein Kombi Gerät, wo UV und LED in einem <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong> </a>enthalten sind. So braucht man nicht so viele Geräte und hat für jedes Arbeitsmaterial das richtige<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät</strong></a>.</p><h2>Sind Lichthärtungsgeräte schädlich?</h2><p>Du wirst sicher schon des Öfteren gehört haben, dass <a href=\"https://lynis-nailshop.de/gele\"><strong>Gelnägel</strong></a>, <a href=\"https://lynis-nailshop.de/gellacke\"><strong>Shellac</strong></a> und Co schädlich sind. Jedoch ist damit nicht gemeint, dass die Materialien, die man verwendet, schädlich sind, sondern das UV Licht, das unsere <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong> </a>ausstrahlen. Viele sind durch solche Aussagen immer total verunsichert und machen sich um ihre Gesundheit sorgen. Doch man soll nicht immer glauben, was alles geredet wird. Die Zeit, die unsere Händen der UVA Strahlung ausgesetzt sind, ist so minimal, dass da nichts passieren kann. Würde man natürlich 24h die Hände unter das <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong> </a>halten, hat das natürlich wieder andere Auswirkungen. Du brauchst dir also keine Gedanken über deinen Nagelstudiobesuch und deine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong></a> zu Hause machen. Wichtig ist trotzdem, dass man darauf achtet, natürlich gut zertifizierte <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong></a> zu kaufen. Gerade mit LED<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgeräte</strong></a> spart man noch mal einiges an Zeit, die man unter der Lampe verbringt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>UV Lampe für Gelnägel! Was kann dieses Lichthärtungsgerät?</h2><p>Welches <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lichthärtungsgerät</strong></a> ist nun gut und auf was soll ich achten? Diese Frage stellt sich früher oder später jeder, der mit dem Nageldesign beginnen möchte und dadurch ein<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgerät</strong></a> benötigt. Gerade für Anfänger ist es sehr schwer, sich bei den ganzen Angeboten von<a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"> <strong>Lichthärtungsgeräten</strong> </a>zurechtzufinden. Eine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> ist eine Leuchtvorrichtung, in der statt einer gewöhnlichen <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Glühbirne Leuchtstoffröhren</strong>, <strong>Kaltkathodenröhren</strong></a> oder LED´s eingebaut sind. Diese Ultraviolette Strahlung ist für die Aushärtung von deinem UV Gel oder Lacken zuständig. Wie du siehst unterscheiden sich die <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong></a> wirklich nur in der Art der Beleuchtung. Ein klassisches UVA <a href=\"https://lynis-nailshop.de/nageldesign-geraete\"><strong>Lichthärtungsgerät</strong> </a>hat einen verspiegelten Innenraum und auch eine verspiegelte Bodenplatte. So kann sich das UV Licht schön im gesamten Innenraum der Lampe verteilen und dein Gel wird optimal von allen Seiten richtig gut ausgehärtet.</p><h2>Kann ich ein LED Lichthärtungsgerät für alle Gele nutzen?</h2><p>Hierbei gibt es einiges zu beachten! Alle <a href=\"https://lynis-nailshop.de/gele\"><strong>Gele</strong></a>, die du verwendest, müssen zu deinem jeweiligen Gerät passen. Du kannst zum Beispiel nicht alle UV Gele unter einer <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>LED Lampe</strong></a> aushärten. Dazu muss das <a href=\"https://lynis-nailshop.de/gele\"><strong>Gel</strong></a> auch LED fähig sein oder du besitzt ein Kombi <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a>, was UV Led zugleich hat. Genau so wenig kannst du Nagellack unter einer <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>UV Lampe</strong></a> aushärten. Da ein Nagellack keine Polymere enthält und somit dafür nicht geeignet ist. Bei <a href=\"https://lynis-nailshop.de/gellacke\"><strong>Gellacken</strong></a> sieht es schon wieder anders aus, da kommt es wieder darauf an, ob deine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgeräte</strong></a> UV, Led fähig sind.</p><h2>CCFL Lichthärtungsgerät, davon habe ich ja noch nie gehört!</h2><p><a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lampe LED</strong></a>, CCFL! Bei einer CCFL Lampe wird das Licht mit Cold Cathode Florescent Lamps (CCFL) erzeugt. Bedeutet, dass bei einer Lampe CCFL das UV Gel im kalten Licht ausgehärtet wird. Jedes andere <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a> wird heiß, egal, ob <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Röhre</strong></a> oder <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>LED Lampen</strong></a>. CCFL Lichthärtungsgeräte erzeugen hingegen ein Licht, das ohne Erhitzung entsteht. Dadurch, dass diese Lampen nicht heiß werden, haben sie eine längere Lebensdauer. Bis zu 100.000 Stunden kannst du so ein CCFL Lichthärtungsgerät ohne Probleme nutzen. Wenn du dir das genauer anschaust und durchrechnest, hält ein CCFL Gerät ohne Probleme etwas mehr als 10 Jahre. Der Innenraum der CCFL Lichthärtungsgeräte ist wie bei einem UV Röhren Lichthärtungsgerät komplett verspiegelt. Dadurch kommt das Licht genau dort hin, wo es auch hin soll. Anders als bei den anderen Lichthärtungsgeräten sind auf der Oberseite im Innenraum nur 2-2 CCFL Kathoden angebracht. Zu beachten bei CCFL Geräten ist die spezielle Verarbeitungstechnik. Die 4-4-2 Technik ist bei CCFL Geräten üblich. Hierbei werden nacheinander die 4 Finger ausgehärtet und anschließen die beiden Daumen, da diese Lichthärtungsgeräte über keinerlei direktes Licht von den Innenseiten verfügen.</p><h2>Profi Qualität in Lynis Nailshop!</h2><p>In unserem <a href=\"https://lynis-nailshop.de/\"><strong>Online Shop</strong></a> findest du nur qualitativ hochwertige Produkte. Egal, ob Anfänger, Forti oder Profi, jeder wird bei uns fündig. Die große Auswahl an Produkten lässt dein Nageldesigner Herz höher schlagen. Egal, ob <a href=\"https://lynis-nailshop.de/nailart-sonstiges\"><strong>Glitzer</strong></a>, <a href=\"https://lynis-nailshop.de/nailart-folien\"><strong>Folie</strong></a> oder <a href=\"https://lynis-nailshop.de/nailart-steinchen\"><strong>Steine</strong></a>, in unserem Sortiment findest du alles, was du für deine besondere <a href=\"https://lynis-nailshop.de/nailart\"><strong>Nailart</strong></a> benötigst. Unsere Aufbau Gele und <a href=\"https://lynis-nailshop.de/farbgel\"><strong>Farbgele</strong></a> bestehen die höchsten Ansprüche. Alles wurde von Lyni erprobt und getestet. Erst, wenn es für sehr gut befunden wurde, gelangt es in den <a href=\"https://lynis-nailshop.de/\"><strong>Shop</strong></a>. Unter der Shop Kategorie <a href=\"https://lynis-nailshop.de/nageldesign-geraete\"><strong>Geräte</strong></a> findest du unser <a href=\"https://lynis-nailshop.de/nageldesign-geraete/twin-led-lampe\"><strong>Lichthärtungsgerät</strong></a> und die dazu passenden <a href=\"https://lynis-nailshop.de/nageldesign-geraete/universal-uva-rohre\"><strong>Röhren</strong></a>. Für Fragen zu unseren Produkten kannst du dich jederzeit an uns wenden. Wenn du unseren Newsletter abonnierst, schicken wird dir immer alle Aktion, Rabatte und natürlich Neuheiten per Email zu. </p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "ed_headline_HUkXrn",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

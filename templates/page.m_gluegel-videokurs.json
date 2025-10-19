@@ -1,0 +1,232 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_t4jACc": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "GLUE GEL <b>VIDEOKURS</b>",
+        "html": "<div style=\"text-align:center;\">In den letzten Monaten haben wir alles dafür gegeben, dass wir dein Einkaufserlebnis auf ein neues Level heben. Wieso? Das wirst du jetzt erfahren!</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#fdeae6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_with_liquid_azYCCK": {
+      "type": "faq-with-liquid",
+      "blocks": {
+        "question_Up9tqx": {
+          "type": "question",
+          "settings": {
+            "title": "#1 · Begrüßung",
+            "answer": "<div style=\"padding: 56.25% 0 0 0; position: relative;\"><iframe width=\"300\" height=\"150\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" src=\"https://player.vimeo.com/video/802665624?h=1eb7a41e99&badge=0&autopause=0&player_id=0&app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"allowfullscreen\" title=\"Begrüßungsvideo\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>"
+          }
+        },
+        "question_3iJakk": {
+          "type": "question",
+          "settings": {
+            "title": "#2 · Welche Produkte werden benötigt?",
+            "answer": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/798774101?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<b>Glue Gel 20ml</b> · <u><a href=\"/products/glue-gel-fur-click-it-tips\">HIER klicken</a></u><br>\n<b>Glue Gel Ultra Base</b> · <u><a href=\"/products/glue-gel-ultrabase\">HIER klicken</a></u><br>\n<b>Ballerina Normal Clear</b> · <u><a href=\"/products/klick-it-tips\">HIER klicken</a></u>"
+          }
+        },
+        "question_z6Pazz": {
+          "type": "question",
+          "settings": {
+            "title": "#3 · Neumodellage",
+            "answer": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/802660942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<b>Zelletten</b> · <u><a href=\"/products/zelletten\">HIER klicken</a></u><br>\n<b>Pro Pusher</b> · <u><a href=\"/products/pro-pusher-nagelhautschieber\">HIER klicken</a></u><br>\n<b>Bufferfeile Mini</b> · <u><a href=\"/products/bufferfeile-mini\">HIER klicken</a></u><br>\n<b>Cleaner für Nägel</b> · <u><a href=\"/products/cleaner-nageldesign\">HIER klicken</a></u><br>\n<b>Nagelbürste</b> · <u><a href=\"/products/nagelburste\">HIER klicken</a></u><br>\n<b>Zebrafeile Halbmond 100/180</b> · <u><a href=\"/products/zebra-feile-halbmond-100-180\">HIER klicken</a></u><br>\n<b>Nagelpflegeöl</b> · <u><a href=\"/products/nagelpflegeol-5ml-wildkirsche\">HIER klicken</a></u>"
+          }
+        },
+        "question_nfz3cW": {
+          "type": "question",
+          "settings": {
+            "title": "#4 · Auffüllen der Nägel",
+            "answer": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/800874752?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<b>Click it Gel</b> · <u><a href=\"/products/click-it-gel-fuer-press-on-nails\">HIER klicken</a></u><br>\n<b>Allrounder Gel Pinsel</b> · <u><a href=\"/products/lyni-allrounder-pinsel-groesse-6\">HIER klicken</a></u><br>\n<b>Schleif Mandrell</b> · <u><a href=\"/products/schleif-mandrell-metall-aufsatz\">HIER klicken</a></u><br>\n<b>Schleifband Manschetten</b> · <u><a href=\"/products/schleifband-manschetten-koernung-240-100er-pack\">HIER klicken</a></u><br>\n<b>Zapfenbit Grob</b> · <u><a href=\"/products/hm-zapfen-grob\">HIER klicken</a></u><br>\n<b>Zebrafeile Halbmond 100/180</b> · <u><a href=\"/products/zebra-feile-halbmond-100-180\">HIER klicken</a></u><br>\n<b>Nagelpflegeöl</b> · <u><a href=\"/products/nagelpflegeol-5ml-wildkirsche\">HIER klicken</a></u>\n<br>\n<b>Tunnelbit Fein</b> · <u><a href=\"/products/tunnelbit-kemmer\">HIER klicken</a></u>\n<br>\n<b>Nagelfräser</b> · <u><a href=\"/products/fraeser-tritor-one\">HIER klicken</a></u>\n<br>\n<b>Shellac Girly</b> · <u><a href=\"/products/gel-polish-girly\">HIER klicken</a></u>\n<br>\n<b>Ultra Bond</b> · <u><a href=\"/products/ultra-bond-saurefrei-15ml\">HIER klicken</a></u>"
+          }
+        },
+        "question_XEMkTe": {
+          "type": "question",
+          "settings": {
+            "title": "#5 · Nägel entfernen mit Aceton",
+            "answer": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/798769078?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<b>Remover Set</b> · <u><a href=\"/products/remover-set-fur-glue-gel-nails\">HIER klicken</a></u><br>\n<b>Soak Off Schale</b> · <u><a href=\"/products/soak-off-schale\">HIER klicken</a></u>\n<br>\n<b>Aceton Remover</b> · <u><a href=\"/products/soak-off-remover-fuer-acryl-und-gelpolish\">HIER klicken</a></u>\n<br>\n<b>Handcreme</b> · <u><a href=\"/products/handcreme-30ml-1\">HIER klicken</a></u>\n<br>\n<b>Polierfeile</b> · <u><a href=\"/products/polierfeile-1\">HIER klicken</a></u>\n<br>\n<b>Rosenholzstäbchen</b> · <u><a href=\"/products/rosenholzstabchen-100-stk\">HIER klicken</a></u>"
+          }
+        },
+        "question_AwNLyp": {
+          "type": "question",
+          "settings": {
+            "title": "#6 · Babyboomer",
+            "answer": "<h4>Anleitung mit Light Rose (pastelles Rosa)</h4>\n<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/833625758?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<h4>Anleitung mit Old Rose (intensiveres Rosa)\n\n</h4>\n<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/833626204?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>\n<h4>Tipps: Do's & Dont's\n\n</h4>\n<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/833626884?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Welche Produkte werden benötigt\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "question_Up9tqx",
+        "question_3iJakk",
+        "question_z6Pazz",
+        "question_nfz3cW",
+        "question_XEMkTe",
+        "question_AwNLyp"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "Klicke einfach auf die einzelnen Lektionen, um dir alle Videos anzuschauen. Speicher dir die Seite unbedingt ab, damit du später drauf zugreifen kannst.",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_JYbkAb": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/61194_1.jpg",
+        "subheading": "",
+        "title": "Meine <b>Überraschung</b> für DICH!",
+        "content": "Du möchtest die Base oder das Remover Set testen?<br>Ich schenke dir <b>heute</b> einen <b><u>15% Rabatt-Code</u></b> auf alle Artikel für's Glue Gel. Einzeln, auf die Sets + Remover Set.<br><br><b>Code:</b> GLUE15 (gültig bis Sonntag)",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_HqDbHP": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_74cmnD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Glue-Gel-Facebook-Gruppe.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_ApkVBy": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p style=\"text-align: center;\"><strong>Wichtig:</strong> Natürlich wird es beim <b>ersten Mal</b> nicht perfekt klappen & deine Nägel werden 6 Wochen halten! Das darf nicht dein Anspruch beim ersten Mal sein!<br /><br />Mit etwas <strong>Übung</strong> & Geduld wird es sicherlich auch bei dir nach dem <b>zweiten</b> oder dritten Mal <b>schneller</b> klappen & deutlich <b>länger</b> halten. Damit du schnellstmöglich zu deinem Ergebnis kommst, haben wir dir diesen <b>Kurs</b> aufgenommen, um dich dabei zu <b>unterstützen!<br /><br /></b>Tritt unbedingt auch unserer <a href=\"https://www.facebook.com/groups/gluegel\" target=\"_blank\"><b><i>Glue-Gel Community</i></b></a> Gruppe auf Facebook bei. Dort kannst du dich mit anderen <b>austauschen</b> & wirklich <b>JEDE Frage</b> stellen!</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_74cmnD",
+        "item_ApkVBy"
+      ],
+      "custom_css": [
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "Du brauchst noch Hilfe? Offene Fragen oder Probleme?​",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_collumn_liquid_BRypnJ": {
+      "type": "multi-collumn-Liquid",
+      "blocks": {
+        "item_7dwPxp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/feedback-1.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_9bDeRm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/feedback-1_967e19a0-2603-4295-a054-efb8e96ba22e.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_7dwPxp",
+        "item_9bDeRm"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; }}",
+        "p.heading.h5 {margin: 0px 0px 0px 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "Warum ich dir sage, dass es auch bei dir klappen wird?",
+        "content": "Das Produkt funktioniert - bei tausenden - wochenlang - ohne Liftings - das steht fest! Nun liegt es an dir & an der Übung!",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_t4jACc",
+    "faq_with_liquid_azYCCK",
+    "image_with_text_block_JYbkAb",
+    "multi_collumn_liquid_HqDbHP",
+    "multi_collumn_liquid_BRypnJ"
+  ]
+}

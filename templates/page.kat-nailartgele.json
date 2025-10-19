@@ -1,0 +1,624 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#ombre",
+            "title": "Ombre Gel",
+            "icon": "shopify://shop_images/Ombre.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_D67DYz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sonstiges",
+            "title": "Diverse Gele",
+            "icon": "shopify://shop_images/NailArt-Gele-divers.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#3d",
+            "title": "3D Gel",
+            "icon": "shopify://shop_images/3D-Gel.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XYGmy9": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#nofile",
+            "title": "No File",
+            "icon": "shopify://shop_images/nofile.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "disabled": true,
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_D67DYz",
+        "story_item_TLG6iA",
+        "story_item_XYGmy9",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_UpbCxz",
+        "story_item_6DfUrC"
+      ],
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "announcement_bar_animated_sh_wAQR4t": {
+      "type": "announcement-bar-animated-SH",
+      "settings": {
+        "background_color": "#f29d9d",
+        "marquee_padding": 8,
+        "scroll_speed": 40,
+        "delimiter": "·",
+        "text_color": "#000000",
+        "font_size": 12,
+        "text_1": "💕 <strong>OMBRE SALE</strong> NUR BIS SONNTAG 💕",
+        "text_1_enabled": true,
+        "text_2": "💕 <strong>OMBRE SALE</strong> NUR BIS SONNTAG 💕",
+        "text_2_enabled": true,
+        "text_3": "💕 <strong>OMBRE SALE</strong> NUR BIS SONNTAG 💕",
+        "text_3_enabled": true,
+        "text_4": "💕 <strong>OMBRE SALE</strong> NUR BIS SONNTAG 💕",
+        "text_4_enabled": true
+      }
+    },
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "NailArt Gele",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "model_view_VmDxBy": {
+      "type": "model-view",
+      "custom_css": [
+        ".model-view-switcher__wrapper {justify-content: center;}"
+      ],
+      "settings": {
+        "checkfield_color": "#bababa"
+      }
+    },
+    "custom_liquid_EmXKPQ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_68677c6a489524005855d3c3\"></div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-nailart-gele-ombre",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 120px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für einen perfekten Babyboomer in Sekunden",
+        "title": "Ombre Babyboomer Gele",
+        "content": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_68677c6a489524005855d3c3\"></div>",
+        "css-klasse": "ombre",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_twaEDU": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_KLxigQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-nailart-gele-sonstiges",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KLxigQ"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Diverse NailArt Gele",
+        "content": "",
+        "css-klasse": "sonstiges",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-nailart-gele-3d-4d",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "3D & 4D Gele",
+        "content": "",
+        "css-klasse": "3d",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_W8QB3R": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_XGB9mr": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-liquidbuilder",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_XGB9mr"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 120px !important;}"
+      ],
+      "settings": {
+        "subheading": "Aufbaugele in der Flasche",
+        "title": "Liquid Builder",
+        "content": "",
+        "css-klasse": "liquid-gele",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-fiberglas",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Verstärkt den Nagel mit Fiberglasfasern",
+        "title": "Fiberglas Gele",
+        "content": "",
+        "css-klasse": "fiberglas",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-effektgele",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für funkelnde & schimmernde Nägel",
+        "title": "Effekt Gele",
+        "content": "",
+        "css-klasse": "effekt",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_xcddhE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_dqMkE6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-french",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqMkE6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für perfekten French mit optimaler Deckkraft",
+        "title": "French Gele",
+        "content": "",
+        "css-klasse": "french",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_9gz3Gy": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_9GF7Nd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-farbige",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9GF7Nd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Für ein langanhaltendes Farbergebnis",
+        "title": "Farbige Gele",
+        "content": "",
+        "css-klasse": "farbige",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_iDjfXC": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_i36Ki6": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-aufbaugele-non-sticky",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_i36Ki6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}",
+        ".product-item--sold-out {opacity: 1 !important;}",
+        ".product-item__quick-buy-button {bottom: 110px !important;}"
+      ],
+      "settings": {
+        "subheading": "Kann wie Knete mit Fingern geformt werden (Als Fullcover oder für Designs geeignet)",
+        "title": "Non Sticky Gele",
+        "content": "",
+        "css-klasse": "sticky",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.ombre, .3d, .sonstiges  {\n    margin-top: -200px;\n    padding-top: 200px;\nscroll-margin-top: 200px;\n  }\n\n@media (min-width: 1024px) {\n  .ombre, .3d, .sonstiges {\n    margin-top: -270px;\n    padding-top: 270px;\nscroll-margin-top: 200px;\n  }\n}\n\n.product-item__quick-buy-button {\n    right: 5px !important;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Willkommen zu unserem umfangreichen Artikel über <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>– die perfekte Wahl, um deine Nägel mit Kreativität und Farbe zu verschönern. In diesem Beitrag werden wir alles Wissenswerte über <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele</a> erklären, von ihrer Vielfalt und Anwendung bis hin zu Tipps und Tricks für atemberaubende <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailart-Designs</a>. Egal, ob du ein professioneller Nagelstylist bist oder deine Nägel zu Hause gestaltest, <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>sind die ideale Lösung, um deiner Fantasie freien Lauf zu lassen und einzigartige Nagelkreationen zu erschaffen. Begleite uns auf dieser spannenden Reise durch die Welt der <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele</a>!</p><h2>Was sind <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele</a>?</h2><p><a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>sind spezielle Gele, die für das Nailart-Design verwendet werden. </p><p>Sie sind in einer breiten Palette von Farben, Texturen und Effekten erhältlich und ermöglichen es, beeindruckende und individuelle Nailart-Designs zu kreieren. </p><p>Von glitzernden <a href=\"https://lynis-nailshop.de/products/metallic-painting-gel-03\">Metallic-Farben</a> bis hin zu den beliebten <a href=\"https://lynis-nailshop.de/products/liniengel-schwarz\">Liniengelen</a>– <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>bieten unzählige Möglichkeiten, um deine Nägel zum Blickfang zu machen.</p><h2>Verschiedene Arten von <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgelen</a></h2><p><a href=\"https://lynis-nailshop.de/products/stamping-paint-gel-yellow\">Stamping Gel</a>: <a href=\"https://lynis-nailshop.de/products/stamping-paint-gel-yellow\">Stamping Gel</a> ist ein dickflüssiges Gel, das eine gute Deckkraft und Haftung aufweist, um klare und präzise Stempelmotive zu erzeugen. </p><p><a href=\"https://lynis-nailshop.de/products/farbgel-chrome-silver-5ml-premium\">Effektgel</a>: Effektgel bietet spezielle Effekte wie holografische, <a href=\"https://lynis-nailshop.de/products/farbgel-chrome-silver-5ml-premium\">chromatische </a>oder duochrome Farben. Es verleiht den Nägeln einen faszinierenden und futuristischen Look. </p><p><a href=\"https://lynis-nailshop.de/products/black-3d-gel-5ml\">3D-Gel</a>: <a href=\"https://lynis-nailshop.de/products/black-3d-gel-5ml\">3D-Gel</a> ermöglicht es, dreidimensionale Designs auf den Nägeln zu kreieren. Es wird verwendet, um Strukturen, Blumen, Perlen und andere dekorative Elemente aufzutragen und einen faszinierenden <a href=\"https://lynis-nailshop.de/products/black-3d-gel-5ml\">3D-Effekt</a> zu erzielen.</p><h2><a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele</a>: Anwendungen und Tipps</h2><p>Jetzt, da wir wissen, was <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>sind, schauen wir uns an, wie man sie richtig anwendet und beeindruckende Nailart-Designs erschafft.</p><h2>Vorbereitung der Nägel</h2><ul><li>Entferne alten Nagellack und reinige die Nägel gründlich.</li><li>Kürze und feile die Nägel in die gewünschte Form.</li><li>Sorge für eine saubere und fettfreie Nageloberfläche.</li></ul><p>Die Verwendung von <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgelen </a>eröffnet unendliche Möglichkeiten, um deine Nägel mit atemberaubenden Designs zu verschönern. Egal, ob du ein Fan von glitzernden Akzenten, farbenfrohen Mustern oder dreidimensionalen Verzierungen bist, Nailartgele sind das perfekte Werkzeug, um deiner Kreativität Ausdruck zu verleihen. Mit ein paar einfachen Schritten kannst du beeindruckende Nailart-Designs erschaffen:</p><ul><li>Schritt 1: Aufbau: bereite den Nagel wie gewohnt vor und gestalte deinen Aufbau des Naturnagels.</li></ul><p></p><ul><li>Schritt 2: Auftragen des Farbgels: Wähle dein gewünschtes Farbgel aus und trage es gleichmäßig auf den Nagel auf. Du kannst es entweder mit einem Pinsel oder einem speziellen Nailartwerkzeug auftragen, je nachdem, welchen Effekt du erzielen möchtest. Experimentiere mit verschiedenen Farben, Texturen und Designs, um einzigartige Looks zu kreieren.</li></ul><p></p><ul><li>Schritt 3: Künstlerisches Gestalten: Jetzt kommt der kreative Teil! Verwende feine Pinsel, Dotting Tools oder andere Nailartwerkzeuge, um Muster, Linien, Punkte oder andere Verzierungen auf deinen Nägeln zu erstellen. Lass deiner Fantasie freien Lauf und experimentiere mit verschiedenen Techniken.</li></ul><p></p><ul><li>Schritt 4: Aushärten: Härte das aufgetragene Nailartgel unter einer UV- oder LED-Lampe gemäß den Anweisungen des Herstellers aus. Dadurch wird das Gel ausgehärtet und erhält seine maximale Haltbarkeit.</li></ul><p></p><ul><li>Schritt 5: Versiegelung: Trage eine Schicht Versiegelungsgel auf deine Nägel auf, um das Nailart zu schützen und einen glänzenden Finish-Effekt zu erzielen. Achte darauf, dass du auch die Nagelspitzen versiegelst, um ein Absplittern des Designs zu verhindern</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>FAQ's zu <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgelen</a></h2><p>Wie lange hält <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgel</a>?</p><p>Die Haltbarkeit von <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgel </a>hängt von verschiedenen Faktoren ab, wie der Qualität des Gels, der richtigen Anwendung und der Pflege der Nägel. In der Regel hält Nailartgel jedoch zwischen zwei und vier Wochen, abhängig vom Wachstum der Nägel.</p><p>Kann ich <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>auch zu Hause verwenden?</p><p>Ja. Es erfordert jedoch etwas Übung, Geduld und das richtige Werkzeug, um professionelle Ergebnisse zu erzielen. Du kannst mit einfachen Designs beginnen und dich dann schrittweise weiterentwickeln zu komplexeren <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailart-Designs</a>.</p><p>Kann ich <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>auch mit anderen Gelen verwenden?</p><p>Ja, du kannst <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>mit anderen Lacken kombinieren, um einzigartige Effekte zu erzielen. Sei jedoch vorsichtig bei der Schichtung von Gelen und Lacken, um sicherzustellen, dass sie gut miteinander haften und sich nicht abblättern.</p><p>Wie kann ich <a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>am besten aufbewahren?</p><p><a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>sollten kühl und trocken gelagert werden, idealerweise in einem dunklen Schrank oder in einer Schublade. Achte darauf, die Deckel der Gele fest zu verschließen, um ein Austrocknen zu verhindern.</p><h2>Fazit</h2><p><a href=\"https://lynis-nailshop.de/collections/nailartgele\">Nailartgele </a>bieten eine Welt voller kreativer Möglichkeiten, um deine Nägel in wahre Kunstwerke zu verwandeln. Mit einer breiten Palette von Farben, Texturen und Effekten kannst du einzigartige und individuelle Nailart-Designs kreieren. Egal, ob du ein professioneller Nagelstylist oder ein DIY-Nagelliebhaber bist, Nailartgele sind das perfekte Werkzeug, um deine Fantasie auf die Nägel zu bringen. Sei experimentierfreudig, lerne neue Techniken und erschaffe beeindruckende Nailart-Designs, die alle Blicke auf sich ziehen. Mit Nailartgelen wird jeder Tag zu einer kreativen Nagelreise!</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "NAILARTGELE - KREATIVITÄT UND FARBE FÜR DEINE NÄGEL",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "announcement_bar_animated_sh_wAQR4t",
+    "ed_headline_HUkXrn",
+    "model_view_VmDxBy",
+    "custom_liquid_EmXKPQ",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_twaEDU",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_W8QB3R",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_WJ8Ter",
+    "unterkategorie_xcddhE",
+    "unterkategorie_9gz3Gy",
+    "unterkategorie_iDjfXC",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

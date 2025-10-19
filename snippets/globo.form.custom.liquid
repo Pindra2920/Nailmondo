@@ -1,0 +1,71 @@
+<div class="globo-custom-order globo-hidden">
+  {%- for order in customer.orders -%}
+    <div class="globo-list-order">
+      {{ order.name }} - {{ order.created_at | date: format: 'date' }}
+    </div>
+{%- endfor -%}
+</div>
+{% raw %}
+  <script>
+     let customerOrders = []
+      document.querySelectorAll('.globo-custom-order .globo-list-order').forEach(item => {
+        let orderID = item.innerText
+        customerOrders.push(orderID)
+      })
+      console.log(customerOrders)
+    
+      document.addEventListener("globo.formbuilder.form.loaded",function(e){
+        if(customerOrders.length  > 1) {
+           var email = document.querySelector('.globo-form-control input[data-type="email"]');
+           if(email && {% endraw %} '{{ customer.email }}'{% raw %} ){
+             email.value = {% endraw %} '{{ customer.email }}'{% raw %}
+           }
+          
+          var select = document.getElementById('30624-select-1');
+          for (var i = 0; i<customerOrders.length; i++){
+            var opt = document.createElement('option');
+            opt.value = customerOrders[i];
+            opt.innerHTML = customerOrders[i];
+            select.appendChild(opt);
+          }
+
+          var divsToHide = document.querySelectorAll('.globo-form-control.layout-2-column');
+          divsToHide.forEach(function(div) {
+          var input = div.querySelector('input[id="30624-text-1"]');
+            if (input) {
+                div.style.display = 'none';
+            }
+            else{
+              div.style.display = 'block';
+            }
+          });
+        }
+        else{
+          var divsToHide = document.querySelectorAll('.globo-form-control.layout-2-column');
+          divsToHide.forEach(function(div) {
+            var selects = div.querySelectorAll('select');
+            console.log(selects)
+            var hasSelect = false;
+            selects.forEach(function(select) {
+              hasSelect = true;
+            });
+            if (hasSelect) {
+            div.style.display = 'none';
+            }
+            else{
+              div.style.display = 'block';
+            }
+          });
+        }
+      });
+</script>
+{% endraw %}
+
+{% style %}
+  .globo-hidden{
+    display : none !important;
+  }
+  .globo-form-app .flex-wrap{
+    margin-left : 0px !important;
+  }
+{% endstyle %}

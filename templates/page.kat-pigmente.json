@@ -1,0 +1,334 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "settings": {
+            "link": "",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky_7b4db9de-20f1-4431-9e3e-ce1ae7791dd7.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_MNEMca": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_UpbCxz",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_MNEMca",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "dl_page_collection_headline_mNdjQE": {
+      "type": "dl-page-collection-headline",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Farbgel_Rosy_5ml_Premium.jpg",
+        "subheading": "",
+        "title": "Pigmente, Glitzer & Flakes",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pigmente-pigmente",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Pigmente",
+        "content": "",
+        "css-klasse": "pigmente",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pigmente-glitzer",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Glitzer",
+        "content": "",
+        "css-klasse": "glitzer",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-pigmente-flakes",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Flakes",
+        "content": "",
+        "css-klasse": "flakes",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Nail Art Pigmente so beliebt wie noch nie</h2><p>Es war noch nie so einfach in Nagelstudios neue Looks auf deinen Nägeln zu kreieren wie jetzt. Mit Nail Art <strong>Pigmente</strong> kannst du ganz einfach deine Nägel in Szene setzen. Egal, ob nur einen Nagel oder die komplette Modellage. Nailart Pigmente machen immer Wirbel auf deinen Nägeln und jede Kundin ist überglücklich und stolz, wenn sie aus deinem Nagelstudio geht. Deiner Kreativität sind mit den Pigmenten keine Grenzen gesetzt, du kannst dich komplett austoben. Du hast eine Menge Auswahl, was Nailart Pigmente oder Nail Art Flakes betrifft. Doch wie verarbeite ich die ganzen <strong>Pigmente</strong>? Und gibt es Unterschiede von der Verarbeitung? Das kann ich dir eindeutig mit Ja beantworten. Die Unterschiede und die verschiedenen Verarbeitungsweisen gucken wir uns jetzt Schritt für Schritt an. Doch was noch wichtiger ist, wo bekomme ich die ganzen verschiedenen Nail Art Pigmente her?</p><h2>Aurora Pigment, ein Must Have…</h2><p>Pigmente Nageldesign? Aurora Pigmente sind derzeit die beliebtesten Nailart <strong>Pigmente</strong> am Markt. Jeder will sie haben, da das Funkeln einfach einzigartig ist. Ein Aurora Pigmet zaubert auf deinen Nägeln einen Chrome Effekt Schimmer, sodass deine Fingernägel wie Polarlichter leuchten. Der Name Aurora kommt von dem lateinischen Wort für Polarlicht, da der Effekt vom Aurora Pigment die atemberaubenden Lichtspiele der Natur widerspiegelt. Je nach Untergrundfarbe, die du für dein Nageldesign verwendest, sehen deine Aurora <strong>Pigment</strong> Nails anders aus. Ein Aurora Pigment für den beliebten Polarlicht Effekt bekommst du in verschiedenen Farben angeboten. Bei uns im Shop findest du verschiedene Farben vom Aurora Pigment, Blue/Purple, Rose/Green und Orange für deine Aurora Nägel. Du musst für dich selbst entscheiden, welches Aurora schimmern am besten zu deinen Wunsch Aurora Nails und deinem Design passt. Verwechsele das Aurora Pigment nicht mit dem Mermaid Pigment. Die Verarbeitung der beiden auf der Nagelmodellage ist unterschiedlich.</p><h2>Nailart Pigmente Anleitung! Nailart Pigmente verarbeiten, wie wird es gemacht?</h2><p>Wie lassen sich Nailart <strong>Pigmente</strong> und das Aurora Pigment verarbeiten? Hier findest du eine ausführliche Aurora Pigment Anleitung! Das Aurora Pigment und das Chrome Pigment haben dieselbe Verarbeitungsweise. Du bereitest deinen Nagel wie gewohnt vor und entfernst die Nagelhaut gründlich. Mattiere deinen Nagel sorgfältig an, damit die Haltbarkeit für deine Modellage gegeben ist. <a href=\"https://lyninails.de/fluessigkeiten/nail-prep-dehydrator\" title=\"Dehydrator\"><strong>Dehydrator</strong></a>, <a href=\"https://lyninails.de/fluessigkeiten/primer-saeurehaltig\" title=\"Primer\"><strong>Primer</strong> </a>oder<a href=\"https://lyninails.de/gellacke/gellack-haftung/ultra-bond-saurefrei-10ml\" title=\"Ultra Bond\"><strong> Ultra Bond</strong> </a>auftragen. Jetzt kannst du deinen Aufbau mit <a href=\"https://lyninails.de/gele\" title=\"Gel\"><strong>Gel</strong> </a>oder <a href=\"https://lyninails.de/acryl\" title=\"Acryl\"><strong>Acryl</strong> </a>modellieren. Wenn du damit fertig bist und aus der Lampe kommst, entfernst du gründlich die Schwitzschicht und feilst deine Nägel danach in Form. Deine Modellage sollte sehr gut gefeilt sein. Es sollen keine Unebenheiten mehr zu sehen sein. Denn diese Nailart <strong>Pigmente</strong> bringen alles zum Vorschein, was nicht ordentlich eben gefeilt wurde. Entferne gründlich den Feilstaub. Du kannst jetzt mit dem UV Gel Farbauftrag beginnen. Lasse dieses Gel gut unter der UV oder LED Lampe aushärten.</p><h2>Neon Pigmente Nägel und Mermaidpigment!</h2><p>Diese Nailart <strong>Pigmente</strong> machen auf deinen Nägeln noch zusätzlich Wirbel besonders Nailart Flakes. Sie sind leicht anwendbar und ein absoluter Hingucker. Gerade das Mermaidpigment ist im Frühling sehr beliebt. Besonders auf Pastellfarben kommen Nailart Pigmente und die Nails Flakes wunderschön und Edel zur Geltung. Dieses Produkt wird in die Schwitzschicht von deinem Farb Gel vorsichtig mit einem Applikator eingerieben und mit einem weichen Staubpinsel der Überschuss an Glitter entfernt. Danach kannst du deinen Nagel, wo du das Nailart Pigment eingerieben hast, einfach versiegeln. Auch sehr beliebt ist das Mermaidpigment für den Sugar Effekt. Einfach das Nailart Pigment in die noch nicht ausgehärtete Versiegelung oder auf dein gemaltes Muster mit verschiedenen Gelen einstreuen, aushärten, und fertig sind deine Sugar Nails. Du brauchst deine Nägel nicht mehr zusätzlich versiegeln. Neon Pigmente lassen sich auch ganz einfach verarbeiten! Du tupfst das Produkt einfach in die Schwitzschicht von deinem ausgehärteten <a href=\"https://lyninails.de/farbgel\" title=\"Farbgel\"><strong>Farbgel</strong></a>. Vergiss nicht zu versiegeln. So kannst du damit tolle Designs kreieren.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Nailart Pigmente kaufen</h2><p>Bei uns im Shop findest du jede Menge Naildesign Produkte, die du für die Anwendung der Nail Art <strong>Pigmente</strong> benötigst. Wir haben eine riesige Auswahl im Shop, angefangen von Aurora Pigment, Nail Art Glitter Flakes, Nailart Pigmente Neon, Chrome Pigment, einfach alles, was du dafür benötigst, um deine Fingernägel richtig in Szene zu setzen. Du findest unsere verschiedensten Nail Art Pigmente, unter der Kategorie Nailart, Pigmente und Flakes. Solltest du etwas für deine Nagelmodellage benötigen, wirst du bei uns im Shop fündig. Jahre lange Erfahrung und die daraus resultierenden qualitativ hochwertigen Produkte machen es uns möglich, dir nur das Beste anbieten zu können. Wenn du unseren Newsletter abonnierst, kannst du dir einige Vorteile sichern. Also sei schnell und melde dich an, damit du nichts mehr versäumst.</p><h2>Nailart Chrome Pigment, ein Mirror Effekt für deine Nägel</h2><p>Was auch noch einen wahnsinnigen Effekt auf deine Nägel zaubert, sind die verschiedenen Chrome <strong>Pigmente</strong>. Du kannst mit den Chrome Pigmenten einen atemberaubenden Spiegeleffekt auf deine Fingernägel zaubern. Diese Chrome Pigmente lassen deinen Fingernagel je nach gewünschter Farbe funkeln und es entsteht ein Mirror Effekt. Mirror bedeutet Spiegel, also das sich deine Nägel in deiner gewünschten Farbe spiegeln und so ein Mirror Effekt erzielt wird. Chrome <strong>Pigmente</strong> erzeugen einen Chrome Spiegelhochglanz auf deinen Nägeln. Der Untergrund ist genauso entscheidend bei den Chrome Pigmenten wie bei Aurora Pigmenten. Je nach Farbuntergrund bekommst du einen neuen Mirror Look kreiert. Chrome Pigmente Nailart? Du bekommst diese Nailart Pigmente in so vielen unterschiedlichen Farben. Schaue dich bei uns im Shop um und such dir dein Lieblings Nailart Pigment aus. Angefangen von einem wunderschönen Blau bis hin zu Gold und Silber und natürlich das all beliebteste Rosegold. Ein Chrome Pigment ist ein Muss für jedes Nagelstudio. Du kannst sogar verschiedene Farbverläufe damit kreieren.</p><h2>Aurora Pigment Nailart, Chrom Pigmente Nailart Anwendung…</h2><p>Jetzt kommt es darauf an, ob du bei deiner Chrome Pigment Nailart, Metallische oder Chrome Effekte haben willst. Wenn du dich für einen metallischen Effekt entschieden hast, kannst du direkt in die Inhibitionsschicht das Nailart <strong>Pigment</strong> mit einem Schwämmchen, Pinsel oder mit deinem Finger einreiben. Den Überschuss bürstet du mit einem Pinsel ab und versiegelst deine Nägel anschließend mit unserem <a href=\"https://lyninails.de/gele/versiegelungsgel/high-gloss-no-wipe-10ml\" title=\"Versiegler\"><strong>Versiegelungsgel</strong></a>. Für den Chrome Effekt muss das Farbgel mit einen <a href=\"https://lyninails.de/gele/versiegelungsgel/high-gloss-no-wipe-10ml\" title=\"Versiegler\"><strong>Versiegler ohne Schwitzschicht </strong></a>versiegelt werden. Du reibst dann anschließend das Aurora oder das Chrome Pigment in den noch warmen ausgehärteten<a href=\"https://lyninails.de/gele/versiegelungsgel/high-gloss-no-wipe-10ml\" title=\"Versiegler\"> <strong>Versiegler</strong> </a>ein und bürstest den Überschuss weg. Jetzt versiegelst du deine Nägel mit einem Versiegler ohne Schwitzschicht erneut. Sei gründlich und ummantle die Ränder und den Nagel gut. Du kannst noch zusätzlich für eine bessere Haftung vor dem Versiegeln eine Schicht <a href=\"https://lyninails.de/gellacke/gellack-haftung/ultra-bond-saurefrei-10ml\" title=\"Ultra Bond\"><strong>Ultrabond</strong> </a>lufttrocknend an den Nagelrändern auftragen. So kann dir auf deinen Nägeln nichts mehr absplittern und du hast länger Freude an deinem Ergebnis mit Chrome Nägeln.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "dl_page_collection_headline_mNdjQE",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

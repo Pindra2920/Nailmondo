@@ -1,0 +1,61 @@
+
+{% comment %}All code is (c) 2016-2023 Zoom Buzz Ltd and may not be reused without written permission{% endcomment %}
+{% assign block_version_number = '1.60.0' %}
+<!-- Begin uncomplicated category select box v{{ block_version_number }}tw - PLEASE DO NOT CHANGE as this is auto-generated in an embed -->
+{%- comment -%} initialise local variables {%- endcomment -%}
+{% assign bucket_source = 'https://themeassets.aws-dns.uncomplicatedapps.com/shopify' %}
+{% assign category_hierarchy_iteration = shop.metafields.uncomptcat.cathiter.value %}
+
+<select id="uncomplicated-select" class="category-select show-styled">
+    <option value="" selected="selected" disabled="disabled">&lt;Jump to a category&gt;</option>
+        <option value="/collections/fluessigkeiten">Flüssigkeiten</option>
+    <option value="/collections/nailartgele">Nailart Gele</option>
+    <option value="/collections/farbgel">Farbgele</option>
+    <option value="/collections/jtl-dl">Nageldesign</option>
+    <option value="/collections/haftgel">Haftgel</option>
+    <option value="/collections/aufbaugel">Aufbaugele</option>
+    <option value="/collections/rubber-base-gele">Rubber Base</option>
+    <option value="/collections/acrylgel">Acrylgel</option>
+    <option value="/collections/gellack-versiegler">Versiegler</option>
+    <option value="/collections/gellack-haftung">Haftung</option>
+    <option value="/collections/shellac-farben">Shellac Farben</option>
+    <option value="/collections/gellack-versiegler">Versiegler</option>
+    <option value="/collections/shellac-sets">Shellac-Sets</option>
+    <option value="/collections/acryl-liquid">Liquid · Werkzeuge</option>
+    <option value="/collections/acryl-farbpowder">Farbpowder</option>
+    <option value="/collections/acryl-powder">Powder</option>
+    <option value="/collections/nagel-tips">Nageltips</option>
+    <option value="/collections/click-it-tips-nageldesign">Press on Tips</option>
+    <option value="/collections/dual-tips-popits">Dual Tips</option>
+    <option value="/collections/schablone">Schablone</option>
+    <option value="/collections/praesentation-nageldesign">Präsentationstips</option>
+    <option value="/collections/nagelfeilen-buffer">Feilen · Buffer</option>
+    <option value="/collections/nageldesign-bits">Fräserbits</option>
+    <option value="/collections/nageldesign-pinsel">Pinsel</option>
+    <option value="/collections/nageldesign-zubehoer">Zubehör</option>
+    <option value="/collections/naildesign-werkzeuge">Werkzeuge · Tools</option>
+    <option value="/collections/nailart-glitzer-pigmente">Pigmente · Glitzer · Flakes</option>
+    <option value="/collections/nailart-steinchen">Steinchen · Perlen · Overlays</option>
+    <option value="/collections/nailart-sticker">Sticker · Stripes · Folien</option>
+    <option value="/collections/nailart-stamping">Stamping</option>
+    <option value="/collections/nailart-wraps">Wraps</option>
+    <option value="/collections/nailart-sonstiges">Watercolor · Marble Ink</option>
+    <option value="/collections/nailart-sets-nageldesign">Nailart Sets</option>
+    <option value="/collections/starter-sets-nageldesign">Starter Sets</option>
+    <option value="/collections/diverse-sets">Diverse Sets</option>
+    <option value="/collections/nailart-sets-nageldesign">Nailart Sets</option>
+    <option value="/collections/material-listen">Material-Listen</option>
+    <option value="/collections/lovemynails">lovemynails Werbeartikel</option>
+    <option value="/collections/nageldesign-geraete">Geräte</option>
+    <option value="/collections/staubabsaugungen-nagelstudios">Staubabsaugungen</option>
+    <option value="/collections/wimpern-lashes">Wimpern &amp; Lashes</option>
+    <option value="/collections/wimpern-zubehoer-werkzeuge">Wimpern Zubehör &amp; Werkzeuge</option>
+    <option value="/collections/wimpern-fluessigkeiten">Wimpern Flüssigkeiten</option>
+
+</select>
+
+{%- comment -%} attach scripts (async) and styles from remote assets folder using shop permanent name, cachebust on iteration number (if set) {%- endcomment -%}
+<script src="{{ bucket_source | append: "/" | append: shop.permanent_domain | append: "-catlist.min.js?cbi=" | append: block_version_number | append: category_hierarchy_iteration }}" async></script>
+{{ bucket_source | append: "/" | append: shop.permanent_domain | append: "-catlist.css?cbi=" | append: block_version_number  | append: category_hierarchy_iteration | stylesheet_tag }}
+<!-- End uncomplicated category select box (embed) -->
+

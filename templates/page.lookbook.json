@@ -1,0 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "rich_text_UntzmV": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Inspiration für deine Nägel",
+        "content": "<p>Du findest viele Design-Ideen und Farben, die du direkt von hier in den Warenkorb packen kannst. Klicke dafür auf das kleine Plus Symbol und du findest das passende Produkt dazu.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_Bf7Pqj": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div id=\"ZooomyLookbook-13702\"></div><script src=\"https://lynis-nailshop.de/cdn/shop/t/49/assets/zooomylookbook.js?v=175314388529598655861725008886\" data-id=\"13702\" ></script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_KANbAN": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>.zooomy___show___tags {\n    border-radius: 15px;\n    box-shadow: 1px 0px 10px -5px black;\n}\n.zooomytagptitle {\n    padding: 10px 0 5px;\n    font-family: 'Open Sans', sans-serif;\n    font-size: 10px;\n}\n.zooomytagprice {\n    font-size: 10px;\n    color: grey;\n}\na.zooomyseedetails {\n    font-size: 10px !important;\n    font-family: 'Rajdhani', sans-serif;\n    text-transform: uppercase;\n    color: black !important;\n    font-weight: 500;\n}\n.zooomyaddtocart {\n    background: #FAC850 !important;\n    color: #141414 !important;\n    font-size: 13px !important;\n    font-family: 'Rajdhani', sans-serif;\n    text-transform: uppercase;\n    font-weight: 600;\n    letter-spacing: 0.5px;\n}\n.zooomyaddtocart:hover {\n    opacity:0.4;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_UntzmV",
+    "custom_liquid_Bf7Pqj",
+    "custom_liquid_KANbAN"
+  ]
+}

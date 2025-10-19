@@ -1,0 +1,261 @@
+{% schema %}
+{
+  "name": {
+    "de": "SH Ankündigung Animiert",
+    "en": "SH Announcement Animated"
+  },
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": {
+        "de": "Hintergrundfarbe",
+        "en": "Background Color"
+      },
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "marquee_padding",
+      "label": {
+        "de": "Abstand oben und unten",
+        "en": "Padding top and bottom"
+      },
+      "default": 14,
+      "min": 5,
+      "max": 30,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": {
+        "de": "Animationsgeschwindigkeit",
+        "en": "Animation Speed"
+      },
+      "default": 40,
+      "min": 0,
+      "max": 50,
+      "step": 5
+    },
+    {
+      "type": "text",
+      "id": "delimiter",
+      "label": {
+        "de": "Trennzeichen",
+        "en": "Delimiter"
+      },
+      "default": "●"
+    },
+    {
+      "type": "header",
+      "content": {
+        "de": "Texteinstellungen",
+        "en": "Text Settings"
+      }
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": {
+        "de": "Textfarbe",
+        "en": "Text Color"
+      },
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": {
+        "de": "Schriftgröße",
+        "en": "Font Size"
+      },
+      "default": 12,
+      "min": 8,
+      "max": 24,
+      "step": 1
+    },
+    {
+      "type": "liquid",
+      "id": "text_1",
+      "label": {
+        "de": "Text 1",
+        "en": "Text 1"
+      },
+      "default": "Text 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_1_enabled",
+      "label": {
+        "de": "Text 1 anzeigen",
+        "en": "Display Text 1"
+      },
+      "default": true
+    },
+    {
+      "type": "liquid",
+      "id": "text_2",
+      "label": {
+        "de": "Text 2",
+        "en": "Text 2"
+      },
+      "default": "Text 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_2_enabled",
+      "label": {
+        "de": "Text 2 anzeigen",
+        "en": "Display Text 2"
+      },
+      "default": true
+    },
+    {
+      "type": "liquid",
+      "id": "text_3",
+      "label": {
+        "de": "Text 3",
+        "en": "Text 3"
+      },
+      "default": "Text 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_3_enabled",
+      "label": {
+        "de": "Text 3 anzeigen",
+        "en": "Display Text 3"
+      },
+      "default": true
+    },
+    {
+      "type": "liquid",
+      "id": "text_4",
+      "label": {
+        "de": "Text 4",
+        "en": "Text 4"
+      },
+      "default": "Text 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_4_enabled",
+      "label": {
+        "de": "Text 4 anzeigen",
+        "en": "Display Text 4"
+      },
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+        "name": {
+    "de": "SH Ankündigung Animiert",
+    "en": "SH Announcement Animated"
+  },
+      "category": "Ankündigungsleiste",
+      "settings": {
+        "delimiter": "●",
+        "background_color": "#000000",
+        "text_color": "#FFFFFF",
+        "marquee_padding": 15,
+        "scroll_speed": 40,
+        "font_size": 12
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+
+  .marquee-{{ section.id }} {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+  }
+
+  .marquee-content-{{ section.id }} {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    min-width: 100%;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    gap: 2rem;
+    background: {{ section.settings.background_color }};
+    color: {{ section.settings.text_color }};
+    font-size: {{ section.settings.font_size }}px;
+    padding-top: {{ section.settings.marquee_padding }}px;
+    padding-bottom: {{ section.settings.marquee_padding }}px;
+    margin-right: -1px;
+  }
+
+  .marquee-content-{{ section.id }} div {
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    .marquee-content-{{ section.id }} {
+      font-size: calc({{ section.settings.font_size }}px * 0.8);
+    }
+  }
+
+  @keyframes scroll-{{ section.id }} {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+
+  .scroll-{{ section.id }} {
+    animation: scroll-{{ section.id }} {{ section.settings.scroll_speed }}s linear infinite !important;
+  }
+</style>
+
+<div class="marquee-{{ section.id }}">
+  <div class="marquee-content-{{ section.id }} scroll-{{ section.id }}">
+    {% if section.settings.text_1_enabled %}
+      <div>{{ section.settings.text_1  | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_2_enabled %}
+      <div>{{ section.settings.text_2  | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_3_enabled %}
+      <div>{{ section.settings.text_3  | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_4_enabled %}
+      <div>{{ section.settings.text_4  | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+  </div>
+  <div class="marquee-content-{{ section.id }} scroll-{{ section.id }}">
+    {% if section.settings.text_1_enabled %}
+      <div>{{ section.settings.text_1 | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_2_enabled %}
+      <div>{{ section.settings.text_2 | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_3_enabled %}
+      <div>{{ section.settings.text_3 | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+    {% if section.settings.text_4_enabled %}
+      <div>{{ section.settings.text_4 | raw }}</div>
+      <div>{{ section.settings.delimiter }}</div>
+    {% endif %}
+  </div>
+</div>

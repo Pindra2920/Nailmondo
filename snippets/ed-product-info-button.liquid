@@ -1,0 +1,18 @@
+{% assign index = index | minus: 1 %}
+{% if product.metafields.standard.benefit.value[index].title != blank %}
+    <div class="product-info-button-container" style="background: {{ settings.benefits_on_images_color }}">
+        <div class="inner">
+            <div class="info-title">{{ product.metafields.standard.benefit.value[index].title }}</div>
+        </div>
+        {% if product.metafields.standard.benefit.value[index].text != blank %}
+            <div class="info-icon">
+                <i class="fa fa-circle-info"></i>
+            </div>
+            <div class="info-content-container">
+                <div class="inner">
+                    <span>{{ product.metafields.standard.benefit.value[index].text }}</span>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{% endif %}

@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_WFjMm8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "small",
+        "image": "shopify://shop_images/nails-with-stars-pearls.jpg",
+        "subheading": "ALLES RUND UM NÄGEL",
+        "title": "Nageldesign Lexikon für Fachbegriffe",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "glossary-listing",
+      "settings": {
+        "glossary_desktop_columns": 4,
+        "glossary_mobile_columns": "2",
+        "glossary_letter_nav_background": "#dbd1b4",
+        "glossary_letter_nav_color": "#2e2e2e"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_WFjMm8",
+    "main"
+  ]
+}

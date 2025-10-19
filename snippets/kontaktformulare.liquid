@@ -1,0 +1,81 @@
+<style>
+  /* Stil für die Buttons */
+  #allgemeineAnfrageBtn, #reklamationBtn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight:600;
+  }
+
+  /* Hover-Effekt */
+  #allgemeineAnfrageBtn:hover, #reklamationBtn:hover {
+    opacity: 0.6;
+  }
+
+  /* Flex-Container für die Buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .help-form {
+    display: none;
+  }
+</style>
+
+<div class="button-container">
+  <button id="allgemeineAnfrageBtn">Allgemeine Anfrage</button>
+  <button id="reklamationBtn">Reklamation</button>
+</div>
+<img
+  id="preContentImage"
+  src="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/form-previwe.jpg?v=1709128342"
+  style="display: block; width: 100%; max-width: 600px; margin: 20px auto;"
+>
+<div id="allgemeineAnfrageContent" class="help-form">
+  <div id="general" class="globo-formbuilder" data-id="MzA2MjQ=">
+    Schreibe uns dein Anliegen, wir melden uns werktags innerhalb von 24 Stunden.
+  </div>
+</div>
+
+<div id="reklamationContent" class="help-form">
+  <div id="complaint" class="globo-formbuilder" data-id="MzAzNTQ=">
+    Tut uns leid das etwas schief gelaufen ist, wir werden alles dafür tun, dass wir eine Lösung finden!
+  </div>
+</div>
+
+<script>
+  function makeActive(buttonId) {
+      // Entferne die aktive Klasse von beiden Buttons
+      document.getElementById("allgemeineAnfrageBtn").classList.remove("active-btn");
+      document.getElementById("reklamationBtn").classList.remove("active-btn");
+
+      // Füge die aktive Klasse zum geklickten Button hinzu
+      document.getElementById(buttonId).classList.add("active-btn");
+  }
+
+  document.getElementById("allgemeineAnfrageBtn").addEventListener("click", function() {
+      document.getElementById("allgemeineAnfrageContent").style.display = "block";
+      document.getElementById("reklamationContent").style.display = "none";
+      document.getElementById("preContentImage").style.display = "none"; // Bild entfernen
+      scrollToContent("allgemeineAnfrageContent");
+      makeActive("allgemeineAnfrageBtn");
+  });
+
+  document.getElementById("reklamationBtn").addEventListener("click", function() {
+      document.getElementById("reklamationContent").style.display = "block";
+      document.getElementById("allgemeineAnfrageContent").style.display = "none";
+      document.getElementById("preContentImage").style.display = "none"; // Bild entfernen
+      scrollToContent("reklamationContent");
+      makeActive("reklamationBtn");
+  });
+</script>

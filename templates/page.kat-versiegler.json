@@ -1,0 +1,350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_headline_HUkXrn": {
+      "type": "ed-headline",
+      "custom_css": [
+        "h3.heading.h2 {margin-bottom: 15px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Versiegler",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "model_view_qNf4fX": {
+      "type": "model-view",
+      "disabled": true,
+      "settings": {
+        "checkfield_color": "#8f8f8f"
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-versiegler-glanz",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Als Finish & Schutz der Modellage vor Kratzern",
+        "title": "Glanz & Matt Versiegler",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_hhhXPc": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "EINIGE Versiegler im Vergleich",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_tPcyNC": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/high-gloss-uv-protect-10ml",
+            "title": "<b>Glanz-Versiegler</b><br>High Gloss",
+            "icon": "shopify://shop_images/Perfect-Duo.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_9H4UxN": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/velvet-matt-sealer-no-wipe",
+            "title": "<b>Matt-Versiegler</b><br>Velvet Matt",
+            "icon": "shopify://shop_images/Velvet-Matt.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_znxnTj": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/milky-rose-sealer-15ml",
+            "title": "<b>Milchig-Rosa-Versiegler</b><br>Milky Rose Sealer",
+            "icon": "shopify://shop_images/Milky-Rose.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TRy6eN": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/milky-white-sealer-15ml",
+            "title": "<b>Milchig-Weiß-Versiegler</b><br>Milky White Sealer",
+            "icon": "shopify://shop_images/Milky-White_3e153f80-72f0-469e-8806-e0a1b028dacd.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_rwaj7E": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/diamond-sealer-no-wipe-12ml",
+            "title": "<b>Silber-Glitzer-Versiegler</b><br>Diamond Sealer",
+            "icon": "shopify://shop_images/Diamond-Sealer.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_LE8wWm": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/golden-sealer",
+            "title": "<b>Gold-Glitzer-Versiegler</b><br>Golden Sealer",
+            "icon": "shopify://shop_images/Golden-Sealer.jpg",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_HfPFEn": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify://products/perlmutt-sealer-no-wipe-15-ml",
+            "title": "<b>Perlmutt-Versiegler</b><br>Perlmutt Sealer",
+            "icon": "shopify://shop_images/Perlmutt-Sealer.jpg",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "story_item_tPcyNC",
+        "story_item_9H4UxN",
+        "story_item_znxnTj",
+        "story_item_TRy6eN",
+        "story_item_rwaj7E",
+        "story_item_LE8wWm",
+        "story_item_HfPFEn"
+      ],
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper {width: 100px !important; height: 100px !important;}",
+        ".stories-wrapper.ed-section {border-bottom: none; box-shadow: none;}",
+        ".stories-wrapper .inner .stories-nav {max-width: 1400px;}",
+        ".stories-wrapper .inner:after {width: 0px !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#fafafa",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": false
+      }
+    },
+    "custom_liquid_xcbibx": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".container.vertical-breather {padding-top: 15px; padding-bottom: 25px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<font size=\"1\">  \n<center>Zur Veranschaulichung wurden alle Versiegler auf einen rosa-pinken Untergrund aufgetragen.</center></font>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#fafafa",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-versiegler-effect",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für bezaubernde Effekte & als Finish der Modellage",
+        "title": "Effekt Versiegler",
+        "content": "",
+        "css-klasse": "effekt",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-versiegler-set",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Versiegler Sets",
+        "content": "",
+        "css-klasse": "",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .fiberglas, .effekt , .farbige {\n    margin-top: -85px;\n    padding-top: 85px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige {\n    margin-top: -170px;\n    padding-top: 170px;\n  }\n}\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>In diesem Beitrag werden wir dir alles Wissenswerte über <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>erklären, von seinen Vorteilen bis hin zur Anwendung und Pflege. Wenn du auf der Suche nach einem Produkt bist, das deine Nägel optimal schützt und ihnen einen strahlenden Glanz verleiht, dann bist du hier genau richtig. Tauche ein in die Welt des <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgels </a>und erfahre, warum es ein absolutes Must-Have in der Nagelpflege ist!</p><h2>Versiegelungsgel: Was ist das?</h2><p>Bevor wir uns mit den Details beschäftigen, werfen wir einen genaueren Blick auf das <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>selbst. <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>ist ein speziell formuliertes Gel, das auf den Naturnagel oder auf die künstliche Nagelverlängerung aufgetragen wird, um ihm einen schützenden Überzug zu verleihen. Es bildet eine widerstandsfähige Schicht, die vor äußeren Einflüssen wie Kratzern, Absplittern und Verblassen schützt. Sogar ein vergilben kann man somit verhindern. Das Ergebnis? Deine Nägel bleiben länger schön und gepflegt</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Die Vorteile von Versiegelungsgel</h2><p><a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>hat viele Vorteile zu bieten. Hier sind einige der wichtigsten:</p><ul><li><strong>Langanhaltender Glanz</strong>: <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>verleiht den Nägeln einen wunderschönen Glanz, der lange anhält. Egal, ob du ein glänzendes Finish für deine Naturnägel oder für eine Nagelverlängerung wünschst, das <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>sorgt für ein perfektes Ergebnis.</li><li><strong>Schutz der Nägel</strong>: Durch die Bildung einer schützenden Schicht auf den Nägeln bietet das <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>einen effektiven Schutz vor äußeren Einflüssen wie Feuchtigkeit, Chemikalien und Kratzern. So bleiben deine Nägel länger stark und gesund.</li><li><strong>Verlängerung der Haltbarkeit</strong>: Indem es den Nagel versiegelt und vor Schäden bewahrt, verlängert das <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>die Lebensdauer deiner Maniküre. Es hilft dabei, das Absplittern und Verblassen der Nagellackfarbe zu reduzieren, sodass du länger Freude an deinem perfekten Look hast.</li><li><strong>Einfache Anwendung</strong>: Das Auftragen von <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>ist einfach und unkompliziert. Mit einigen grundlegenden Kenntnissen und etwas Übung kannst du das Gel problemlos selbst anwenden und somit Zeit und Geld im Nagelstudio sparen.</li><li><strong>Vielfältige Auswahl</strong>: <a href=\"https://lynis-nailshop.de/pages/gellack-versiegler\" title=\"Versiegler\">Versiegelungsgel </a>ist in verschiedenen Varianten erhältlich, um den individuellen Bedürfnissen gerecht zu werden. Es gibt <a href=\"https://lynis-nailshop.de/products/velvet-matt-sealer-no-wipe\" title=\"Matter Versiegler\">matte </a>Versiegelungsgels für einen subtilen Look, <a href=\"https://lynis-nailshop.de/products/high-gloss-no-wipe-10ml\" title=\"glänzender Versiegler\">glänzende Gels</a> für einen klassischen Effekt und sogar <a href=\"https://lynis-nailshop.de/products/diamond-sealer-no-wipe-12ml\" title=\"Glitzer Versiegler\">gltzernde </a>für kreative Nailart.</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_headline_HUkXrn",
+    "model_view_qNf4fX",
+    "unterkategorie_bjNPkn",
+    "rich_text_hhhXPc",
+    "ed_story_icon_slider_JY7Rd3",
+    "custom_liquid_xcbibx",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}

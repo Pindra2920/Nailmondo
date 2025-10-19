@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_9jhQft": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{% if request.design_mode == false %}\n<script>\n  let url = window.location.href;\n\n  if (url.includes('/collections/rabattierte-produkte') || url.includes('/collections/tech-nicht-reduzierte-artikel')) {\n    location.href = '/collections/sale';\n  }\n\n  if (url.includes('/collections/kat-aufbau-clear') || url.includes('/collections/kat-aufbaugele-farbige') ||\n      url.includes('/collections/kat-aufbaugele-cover-makeup') || url.includes('/collections/kat-aufbaugele-french') ||\n      url.includes('/collections/kat-aufbaugele-effektgele') || url.includes('/collections/kat-aufbaugele-non-sticky') ||\n      url.includes('/collections/kat-aufbaugele-fiberglas') || url.includes('/collections/kat-aufbaugele-no-file')) {\n    location.href = '/pages/aufbaugele';\n  }\n\n  if (url.includes('/collections/kat-versiegler-glanz') || url.includes('/collections/kat-versiegler-effect') ||\n      url.includes('/collections/kat-versiegler-set')) {\n    location.href = '/pages/gellack-versiegler';\n  }\n\n  if (url.includes('/collections/kat-press-on-extra-kurz') || url.includes('/collections/kat-press-on-kurz') ||\n      url.includes('/collections/kat-press-on-normal') || url.includes('/collections/kat-press-on-lang') ||\n      url.includes('/collections/kat-press-on-set') || url.includes('/collections/kat-press-on-zubehoer')) {\n    location.href = '/pages/press-on-nails-nageldesign';\n  }\n\n  if (url.includes('/collections/kat-bit-nagelhaut') || url.includes('/collections/kat-bit-modellage-abtragebit') ||\n      url.includes('/collections/kat-bit-hornhautbit') || url.includes('/collections/kat-bit-sonstiges')) {\n    location.href = '/pages/nageldesign-bits';\n  }\n\n  if (url.includes('/collections/kat-flussigkeiten-haftung') || url.includes('/collections/kat-flussigkeiten-pflege-1') ||\n      url.includes('/collections/kat-flussigkeiten-entfernung') || url.includes('/collections/kat-flussigkeiten-flussigkeiten')) {\n    location.href = '/pages/fluessigkeiten';\n  }\n\n  if (url.includes('/collections/kat-feilen-buffer') || url.includes('/collections/kat-feilen-wechselfeilen') ||\n      url.includes('/collections/kat-feilen-sonstiges')) {\n    location.href = '/pages/nagelfeilen-buffer';\n  }\n\n  if (url.includes('/collections/kat-pinsel-modellier-pinsel') || url.includes('/collections/kat-pinsel-nailart-pinsel') ||\n      url.includes('/collections/kat-pinsel-sonstiges') || url.includes('/collections/kat-pinsel-staub')) {\n    location.href = '/pages/nageldesign-pinsel';\n  }\n\n  if (url.includes('/collections/kat-werkzeug-schere') || url.includes('/collections/kat-werkzeug-pro-pusher') ||\n      url.includes('/collections/kat-werkzeug-pinchen') || url.includes('/collections/kat-werkzeug-sonstiges')) {\n    location.href = '/pages/naildesign-werkzeuge';\n  }\n\n  if (url.includes('/collections/kat-nailart-stamping') || url.includes('/collections/kat-stamping-lacke') ||\n      url.includes('/collections/kat-stamping-schablone')) {\n    location.href = '/pages/nailart-stamping';\n  }\n\n  if (url.includes('/collections/kat-steinchen-steine') || url.includes('/collections/kat-steinchen-overlay') ||\n      url.includes('/collections/kat-steinchen-einleger')) {\n    location.href = '/pages/nailart-steinchen';\n  }\n\n  if (url.includes('/collections/kat-sticker-sticker') || url.includes('/collections/kat-sticker-folie')) {\n    location.href = '/pages/nailart-sticker';\n  }\n\n  if (url.includes('/collections/kat-pigmente-pigmente') || url.includes('/collections/kat-pigmente-glitzer') ||\n      url.includes('/collections/kat-pigmente-flakes')) {\n    location.href = '/pages/pigmente-flakes';\n  }\n\n  if (url.includes('/collections/kat-gerate') || url.includes('/collections/kat-gerate-staubabsaugung-tischplatten')) {\n    location.href = '/pages/nageldesign-geraete';\n  }\n\n  if (url.includes('/collections/kat-acryl-liquid-pinsel') || url.includes('/collections/kat-acryl-zubehor')) {\n    location.href = '/pages/liquid-werkzeuge';\n  }\n\n  if (url.includes('/collections/block-1') || url.includes('/collections/block-3') ||\n      url.includes('/collections/block-4') || url.includes('/collections/block-6') ||\n      url.includes('/collections/block-2') || url.includes('/collections/block-5')) {\n    location.href = '/pages/neu';\n  }\n\n  if (url.includes('/collections/kat-wimern-lashes') || url.includes('/collections/kat-wimern-flussigkeiten') ||\n      url.includes('/collections/kat-wimpern-zubehor-werkzeug')) {\n    location.href = '/pages/wimpern';\n  }\n\n</script>\n{% endif %}",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 8,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 3,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": true,
+        "filter_position": "drawer",
+        "show_model_view": true,
+        "checkfield_color": "#bfbfbf",
+        "model_view_image_order": 1,
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "1751373865af78a449": {
+      "type": "apps",
+      "blocks": {
+        "mst_wishlist_marketing_flow_v3_app_block_list_x4Jpda": {
+          "type": "shopify://apps/mst-wishlist-marketing-flow/blocks/v3-app-block-list/7f9269b0-1b45-4d0c-8479-faf04f05d8ac",
+          "settings": {
+            "multi_language": false,
+            "iwish_add_txt": "Add To Wishlist",
+            "iwish_added_txt": "Added To Wishlist",
+            "theme_btn_class": "",
+            "icon_position": "top-right",
+            "icon_style": "heart",
+            "iwish_add_icon_outline": "",
+            "iwish_added_icon_filled": "",
+            "text_font_size": 14,
+            "text_color": "#e9a9b6",
+            "text_color_hover": "",
+            "background_color": "#ffffff",
+            "z_index": 2,
+            "qv_wrapper": "",
+            "qv_button": "",
+            "qv_close_button": ""
+          }
+        }
+      },
+      "block_order": [
+        "mst_wishlist_marketing_flow_v3_app_block_list_x4Jpda"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_9jhQft",
+    "main",
+    "1751373865af78a449"
+  ]
+}

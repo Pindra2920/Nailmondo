@@ -1,0 +1,465 @@
+{%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing this theme as much as we did for
+    developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+    hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+    all events, dependencies...) in the "custom.js" file, located in the Assets folder.
+  ------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+{%- assign direction = 'ltr' -%}
+{%- case request.locale.iso_code -%}
+  {%- when 'ar', 'arc', 'dv', 'fa', 'ha', 'he', 'kwh', 'ks', 'ku', 'ps', 'ur', 'yi' -%}
+    {%- assign direction = 'rtl' -%}
+{%- endcase -%}
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+  <head>
+    <script
+      id="usercentrics-cmp"
+      data-settings-id="MxYaTjFCr"
+      data-language="de"
+      src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+      async
+    ></script>
+<meta name="google-site-verification" content="s7POQXvCpNrbs1STVelruvXktpEUDitSYUtmnSPctls" />
+    <!-- Condition for ecommerce tracking events -->
+    {% render 'PsyCommerce-DataLayer' %}
+    <!-- Condition for ecommerce tracking events -->
+
+    <!-- Google Tag Manager -->
+    {% render 'Google-Tag-Manager-GTM-K233C5TJ' %}
+    <!-- Google Tag Manager -->
+
+    <meta name="google-site-verification" content="FeUetizd1xbjgsMx3g9a2xzoY8PaEmr7kqs-Sspk8qs">
+
+    <!-- Varify.io® code for Lynis-Nailshop -->
+    <script>
+      window.varify = window.varify || {};
+      window.varify.iid = 3342;
+    </script>
+    <script src="https://app.varify.io/varify.js"></script>
+
+<meta name="p:domain_verify" content="a8150c86c6fa9cf40ceccb532d60e781"/>
+    
+    <!-- klar -->
+    <script>
+      (function () {
+        var a = document.createElement('script');
+        (a.type = 'text/javascript'),
+          (a.async = !0),
+          (a.src = 'https://1860417863.lynis-nailshop.de/javascript/script.js'),
+          document.getElementsByTagName('script')[0].parentNode.appendChild(a);
+      })();
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+    <title>
+      {% if page_title == blank -%}
+        {{- shop.name -}}
+      {%- else -%}
+        {{- page_title -}}
+        {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+      {%- endif %}
+    </title>
+
+    <script data-usercentrics="Microsoft Clarity" async="" type="text/plain">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "lklp6vv20a");
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
+    {%- endif -%}
+
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    {%- comment -%}<link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">{%- endcomment -%}
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    {%- unless settings.heading_font.system? and settings.text_font.system? -%}
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- endunless -%}
+
+    <link rel="dns-prefetch" href="https://cdn.shopify.com">
+    <link
+      rel="preload"
+      href="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Rajdhani-Light.ttf"
+      as="font"
+      type="font/truetype"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="preload"
+      href="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Rajdhani-Regular.ttf"
+      as="font"
+      type="font/truetype"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="preload"
+      href="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Rajdhani-Medium.ttf"
+      as="font"
+      type="font/truetype"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="preload"
+      href="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Rajdhani-SemiBold.ttf"
+      as="font"
+      type="font/truetype"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="preload"
+      href="https://cdn.shopify.com/s/files/1/0606/6277/6063/files/Rajdhani-Bold.ttf"
+      as="font"
+      type="font/truetype"
+      crossorigin="anonymous"
+    >
+
+
+
+    {%- comment -%}Preload important resources{%- endcomment -%}
+    <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    <link rel="preload" as="style" href="{{ 'ed-custom.css' | asset_url }}">
+    <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'ed-custom.js' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'custom.js' | asset_url }}">
+
+    {%- comment -%}
+      IMPLEMENTATION NOTE: for improving performance, Focal tries to preload images on known pages (such as blog page,
+      product or collection pages). In order to keep a main JS file size minimal, the theme also lazyloads non-essential
+      libraries (such as PhotoSwipe or Flickity) and only loads them on demand.
+    {%- endcomment -%}
+    {%- if request.page_type == 'product' -%}
+      {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
+
+      <link rel="preload" as="fetch" href="{{ product.url }}.js" crossorigin>
+      <link
+        rel="preload"
+        as="image"
+        imagesizes="(max-width: 999px) calc(100vw - 48px), 640px"
+        imagesrcset="{% render 'image-attributes', image: selected_media, sizes: '400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800', sizes_only: true %}"
+      >
+
+      {%- if product.media.size > 1 -%}
+        <link rel="preload" as="script" href="{{ 'flickity.js' | asset_url }}">
+      {%- endif -%}
+    {%- elsif request.page_type == 'collection' and collection.image -%}
+      <link
+        rel="preload"
+        as="image"
+        media="(max-width: 740px)"
+        imagesizes="100vw"
+        imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '400,500,600,700,800,900,1000', height_constraint: 600, crop: 'center', sizes_only: true %}"
+      >
+      <link
+        rel="preload"
+        as="image"
+        media="(min-width: 741px)"
+        imagesizes="100vw"
+        imagesrcset="{% render 'image-attributes', image: collection.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', sizes_only: true %}"
+      >
+    {%- endif -%}
+
+    {% render 'social-meta-tags' %}
+    {% render 'microdata-schema' %}
+    {% render 'css-variables', direction: direction %}
+    {% render 'js-variables', direction: direction %}
+    {% render 'css-fonts' %}
+
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'ed-custom.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
+
+    <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+
+    <script src="{{ 'vendor.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'ed-custom.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    {%- comment -%} elbdev {%- endcomment -%}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    {{ content_for_header }}
+    <script>
+      const interval = setInterval(()=> {
+      	window.boostWidgetIntegration.status = "initializing";
+      }, 20);
+
+      document.addEventListener('DOMContentLoaded', ()=> {
+      	window.boostWidgetIntegration.status = "ready";
+      	clearInterval(interval);
+
+      	setTimeout(()=> {
+      		window.dispatchEvent(new CustomEvent('bind-search-input'));
+      	}, 200);
+      });
+    </script>
+  </head>
+
+  {%- assign feature_classes = '' -%}
+
+  {%- if settings.show_image_zoom -%}
+    {% assign feature_classes = feature_classes | append: ' features--image-zoom' %}
+  {%- endif -%}
+
+  <body class="no-focus-outline {{ feature_classes }} template-{{ template.name }}" data-instant-allow-query-string>
+    
+    <svg class="visually-hidden">
+      <linearGradient id="rating-star-gradient-half">
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" />
+        <stop offset="50%" stop-color="rgb(var(--product-star-rating))" stop-opacity="0.4" />
+      </linearGradient>
+    </svg>
+
+    <script>
+      window.elbDevCustom = {
+        moneyFormat: {{ shop.money_format | json }}
+      }
+    </script>
+
+    <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <loading-bar class="loading-bar"></loading-bar>
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      <div style="display:none"> {%- section 'announcement-bar' -%} </div>
+      <div style="display:none"> {%- section 'popup' -%} </div>
+      <div style="display:none"> {%- section 'header' -%} </div>
+
+      {%- unless settings.cart_type == 'page' or request.page_type == 'cart' -%}
+        {%- section 'mini-cart' -%}
+      {%- endunless -%}
+    {%- endif -%}
+
+    <div id="main" role="main" class="anchor">
+      
+
+      {% if template contains 'collection' %}
+        <div style="display:none"> {% section 'ed-collection-menu' %} </div>
+      {% endif %}
+
+      {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+        {%- assign active_filters_count = 0 -%}
+
+        {%- if request.page_type == 'collection' -%}
+          {%- assign filters = collection.filters -%}
+        {%- else -%}
+          {%- assign filters = search.filters -%}
+        {%- endif -%}
+
+        {%- for filter in filters -%}
+          {%- if filter.type == 'list' -%}
+            {%- assign active_filters_count = active_filters_count | plus: filter.active_values.size -%}
+          {%- elsif filter.type == 'price_range' and filter.min_value.value or filter.max_value.value -%}
+            {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- assign is_toolbar_collapsed = false -%}
+
+        {%- if request.page_type == 'search'
+          and search.results.first.object_type != 'product'
+          and search.results_count > 0
+        -%}
+          {%- assign is_toolbar_collapsed = true -%}
+        {%- endif -%}
+
+        <div
+          id="mobile-facet-toolbar"
+          class="mobile-toolbar {% if is_toolbar_collapsed %}is-collapsed{% endif %} hidden-lap-and-up"
+        >
+          <button
+            is="toggle-button"
+            class="mobile-toolbar__item mobile-toolbar__item--filters {% if active_filters_count > 0 %}has-filters{% endif %}"
+            aria-expanded="false"
+            aria-controls="facet-filters"
+            style="display: none"
+          >
+            <div style="display:none"> {%- render 'icon' with 'filters' -%} </div>
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.filters' | t -}}</span>
+          </button>
+          <button
+            class="mobile-toolbar__item mobile-toolbar__item--model-view"
+            style="display: none"
+          >
+            <span class="mobile-toolbar__item-label"><div style="display:none"> {% render 'ed-model-view' -%} </div></span>
+          </button>
+          <button
+            is="toggle-button"
+            class="mobile-toolbar__item mobile-toolbar__item--sort"
+            aria-expanded="false"
+            aria-controls="sort-by-popover"
+            style="display: none"
+          >
+            <span class="mobile-toolbar__item-label">{{- 'collection.general.sort_by' | t -}}</span>
+            <div style="display:none"> {%- render 'icon' with 'chevron' -%} </div>
+          </button>
+        </div>
+      {%- endif -%}
+
+      {{ content_for_layout }}
+
+      {%- unless request.page_type == 'index' or request.page_type == 'password' or request.page_type == 'gift_card' -%}
+        
+      {%- endunless -%}
+    </div>
+
+    {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
+      {%- section 'footer' -%}
+    {%- endif -%}
+
+    <script src="https://cdn.ablyft.com/s/78810875.js"></script>
+    
+
+    {% include 'globo.form.custom' %}
+    <script>
+      (function() {
+        var updateCart = function() {
+          var counter = 0;
+          var interval = setInterval(function() {
+            fetch(`${window.themeVariables.routes.cartUrl}.js`).then(
+              async (response2) => {
+                const cartContent = await response2.json();
+                document.documentElement.dispatchEvent(
+                  new CustomEvent("cart:updated", {
+                    bubbles: true,
+                    detail: {
+                      cart: cartContent,
+                    },
+                  })
+                );
+                // cartContent["sections"] = responseJson["sections"];
+                document.documentElement.dispatchEvent(
+                  new CustomEvent("cart:refresh", {
+                    bubbles: true,
+                    detail: {
+                      cart: cartContent,
+                	  replacementDelay: 650,
+                    },
+                  })
+                );
+              }
+            );
+
+            if (counter > 2) clearInterval(interval);
+            counter++;
+          }, 500);
+        };
+
+        var removeDiscount = function() {
+          fetch('/checkout?discount=null');
+          updateCart();
+        };
+
+        window.addEventListener('sc:discount.calculated', updateCart);
+        window.addEventListener('sc:discount.remove', removeDiscount);
+      })();
+      var scThemeConfig = {
+         "cartDiscountSelector":{
+            "path":"#shopify-section-template--19193196413196__main section div.container div.page-content form.cart div.cart__aside safe-sticky.cart__aside-inner div.cart__recap button.cart__checkout-button",
+            "type":0
+         },
+         "cartTotalSelector":{
+            "path":"#shopify-section-template--19193196413196__main section div.container div.page-content form.cart div.cart__content table.line-item-table tbody.line-item-table__list tr.line-item td.line-item__price-list-container div.price-list span.price",
+            "type":0
+         },
+         "ajaxDicountSelector":{
+            "path":".sc-toggle__control",
+            "type": 1
+         },
+        "ajaxTotalSelector": {
+          // "path": ".totals-row:last-child .totals__subtotal-value",
+          // "type": 0
+        }
+      };
+    </script>
+    <style>
+      .truck-button input.sc-cube-text {
+        margin-right: 10px !important;
+      }
+
+      .sc_simple-info__row {
+        display: none !important;
+      }
+
+      .sc_simple-info .sc_simple-info__row {
+        font-size: 13px;
+        margin-bottom: -10px;
+      }
+
+      .sc_code-info .money {
+        color: #007600;
+        font-weight: 700;
+      }
+
+      .sc-toggle__control {
+        position: relative;
+        cursor: pointer;
+        display: block;
+      }
+
+      #scToggleControl {
+        display: none;
+      }
+
+      .sc-toggle__control:after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        z-index: 11;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #323232;
+        border-left: 2px solid #323232;
+        transform: rotate(225deg);
+        /* transition: transform 150ms linear; */
+        top: 7px;
+      }
+
+      #scToggleControl:checked + .sc-toggle__control:after {
+        transform: rotate(45deg);
+      }
+
+      .scDiscount__container form,
+      .scDiscount__container .sc_simple-info__tag {
+        display: none;
+      }
+
+      #scToggleControl:checked + .sc-toggle__control + .scDiscount__container form,
+      #scToggleControl:checked + .sc-toggle__control + .scDiscount__container .sc_simple-info__tag {
+        display: block;
+      }
+
+      .sc-toggle .scDiscount.scright > div {
+        width: 100% !important;
+      }
+    </style>
+    <!-- <script src=\"https:\/\/zooomyapps.com\/lookbook\/lookbook.js\" data-id=\"13702\" ><\/script> -->
+    <!-- <script src="{{ 'zooomylookbook.js' | asset_url }}" data-id="13702" async></script> -->
+  </body>
+</html>
+
+{% render 'ed-general-styling' %}

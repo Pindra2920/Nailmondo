@@ -1,0 +1,370 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ed_story_icon_slider_JY7Rd3": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "story_item_ytG3iY": {
+          "type": "story-item",
+          "settings": {
+            "link": "#clear-gele",
+            "title": "Clear",
+            "icon": "shopify://shop_images/clear.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TLG6iA": {
+          "type": "story-item",
+          "settings": {
+            "link": "#cover",
+            "title": "Make-Up",
+            "icon": "shopify://shop_images/makeup.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_BDmQte": {
+          "type": "story-item",
+          "settings": {
+            "link": "#fiberglas",
+            "title": "Fiberglas",
+            "icon": "shopify://shop_images/fieberglass.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_PK38LE": {
+          "type": "story-item",
+          "settings": {
+            "link": "#effekt",
+            "title": "Effekt",
+            "icon": "shopify://shop_images/effect.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_UpbCxz": {
+          "type": "story-item",
+          "settings": {
+            "link": "",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/non_sticky_7b4db9de-20f1-4431-9e3e-ce1ae7791dd7.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_3JL4xx": {
+          "type": "story-item",
+          "settings": {
+            "link": "#french",
+            "title": "French",
+            "icon": "shopify://shop_images/french.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_XKAYAz": {
+          "type": "story-item",
+          "settings": {
+            "link": "#farbige",
+            "title": "Farbige",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_MNEMca": {
+          "type": "story-item",
+          "settings": {
+            "link": "#sticky",
+            "title": "Non Sticky",
+            "icon": "shopify://shop_images/farbige.png",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_6DfUrC": {
+          "type": "story-item",
+          "settings": {
+            "link": "#",
+            "title": "",
+            "svg_story_icon": "<svg width=\"100\" height=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"100\" height=\"100\" fill=\"#F2F2F2\"></rect>\n</svg>"
+          }
+        }
+      },
+      "block_order": [
+        "story_item_ytG3iY",
+        "story_item_TLG6iA",
+        "story_item_BDmQte",
+        "story_item_PK38LE",
+        "story_item_UpbCxz",
+        "story_item_3JL4xx",
+        "story_item_XKAYAz",
+        "story_item_MNEMca",
+        "story_item_6DfUrC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".stories-wrapper .inner .stories-nav .story-item .story-link .image-wrapper img {border-radius: 0% !important;}"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#f2f2f2",
+        "stories_text_color": "#2e2e2e",
+        "stories_sticky": true
+      }
+    },
+    "dl_page_collection_headline_JgM7Rj": {
+      "type": "dl-page-collection-headline",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify://shop_images/Bit.jpg",
+        "subheading": "",
+        "title": "Fräserbits",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "unterkategorie_bjNPkn": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_4RL4dA": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-bit-nagelhaut",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4RL4dA"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für perfekte Maniküre",
+        "title": "Nagelhaut Bits",
+        "content": "",
+        "css-klasse": "nagelhaut",
+        "products_count": 100,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_cGRNLE": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_qBxQQT": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-bit-modellage-abtragebit",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qBxQQT"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Zum Abtragen von Modellagen",
+        "title": "Modellage Bits",
+        "content": "",
+        "css-klasse": "modellage",
+        "products_count": 100,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_FXJRN6": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_BAw7tN": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-bit-hornhautbit",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BAw7tN"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "Für perfekte Pediküre",
+        "title": "Pediküre Bits",
+        "content": "",
+        "css-klasse": "pedi",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "unterkategorie_WJ8Ter": {
+      "type": "Unterkategorie",
+      "blocks": {
+        "collection_tByppH": {
+          "type": "collection",
+          "settings": {
+            "collection": "kat-bit-sonstiges",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tByppH"
+      ],
+      "custom_css": [
+        ".section__header {max-width: 100%; margin-bottom: min(32px, var(--vertical-breather)); margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}",
+        ".container {border-radius: 25px; padding-bottom: 15px; width: 95%; border: 1px solid #cecece;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Sonstiges",
+        "content": "",
+        "css-klasse": "sonstige",
+        "products_count": 100,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_DnEbXa": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\n.clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -180px;\n    padding-top: 180px;\n  }\n\n@media (min-width: 1024px) {\n  .clear-gele, .cover, .fiberglas, .effekt , .farbige , .french , .sticky {\n    margin-top: -270px;\n    padding-top: 270px;\n  }\n}\n@media only screen and (max-width: 768px) {\n/* Non Sticky zu lang */ .label-wrapper {\n    width: 56px;\n}\n\n</style>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_KUgUz4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RRpGHP": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Nagelfräser Bits, wie soll man sich da noch auskennen?</h2><p>Jeder kennt es, und gerade Anfänger haben es sehr schwer. Wer mit dem Nageldesign am Anfang steht, fängt mit einer <a href=\"https://lynis-nailshop.de/nageldesign-zubehoer/nagelfeilen-buffer/zebra-feile-halbmond-100-180\" title=\"Feile\"><strong>Feile</strong> </a>an, alle Vorbereitungen wie den Naturnagel oder später die Modellage zu feilen. Mit der Zeit wirst du aber merken, dass das Ganze viel einfacher mit einem <a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräser\"><strong>Nagelfräser</strong> </a>und den dazu passenden <strong>Fräseraufsatz</strong> für Gelnägel von der Hand geht. Teilweise schmerzen einem schon die Handgelenke vom vielen Feilen. Dann ist es an der Zeit, sich einen <a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräser\"><strong>Nagelfräser</strong> </a>und die dazu passenden Bits zu kaufen. Den Durchblick bei der wahnsinnigen Auswahl an <strong>Nagelfräser Bits</strong> zu behalten, ist gar nicht so einfach. Es gibt unzählige Möglichkeiten und Varianten. Jeder einzelne der Nageldesign Fräser Bits hat seine spezielle Aufgabe und dem wollen wir heute auf die Schliche kommen. Was hat es auf sich mit diesen ganzen Nagelfräser Bits? Welche Vorteile und Nachteile gibt es? Und die immer wieder kehrende Frage: Welche Aufsätze verwendet man für Nagelfräser und für was kann ich die ganzen Nagelfräser Bits benutzen? Dann gucken wir uns einen Nagelfräser und die Nagelfräser Bits mal genauer an!</p><p></p><h2>Nagelfräser Aufsätze welcher für was?</h2><p>Aufsätze Nagelfräser! Für jeden deiner Arbeitsschritte benötigst du die passenden <strong>Nagelfräse Aufsätze</strong>. Egal, ob für deine Maniküre oder Pediküre, das Abtragen einer alt Modellage oder einfach um alles in Form zu bringen. Das Arbeiten mit dem richtigen Nagelfräser Aufsatz erleichtert deine Arbeit enorm. <strong>Bits</strong> für Nagelfräser aus harten Materialien wie zum Beispiel Hartmetall oder Titan sind besonders langlebige Aufsätze. Diese Art von Aufsätze sind perfekt für deine Kunstnagelmodellage, da Diamant und Saphir Nagelfräser Bits nicht so lange halten. Vorteil dieser Nageldesign Bits ist, dass der Naturnagel nicht so leicht verletzt werden kann. Grundregel immer beim Fräsen!!! Alles immer mit Vorsicht, es kommt beim Fräsen sehr leicht zu Verletzungen. Wenn man sich eine Fräse kauft, ist immer ein Bit Set für den Anfang dabei. Damit kannst du schon mal üben und schauen, welcher dir am meisten zu sagt. Schleifkappen für Fräser werden sehr gerne für den Einstieg genommen. Für Nägel eignen sich am besten Schleifkappen 5mm oder Schleifkappen 10mm.</p><h2>Nagelfräser Bits Anleitung!</h2><p><a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräser\"><strong>Nagelfräser</strong></a>, welcher Bit für was? Ein Titan Bit besteht aus einer Titanium Carbit Legierung. Dadurch hält er extremen Ansprüchen stand. Diese Nagelfräser Bits aus Titan haben eine lange Lebensdauer, und sie erhitzen langsamer. Dadurch ist es für dich oder deinen Kunden angenehmer und du kannst länger damit arbeiten. Titan Bits kannst du für alle Arten von Kunstnägeln verwenden, egal, ob <a href=\"https://lynis-nailshop.de/acryl\" title=\"Acryl\"><strong>Acryl</strong></a>, <a href=\"https://lynis-nailshop.de/gele\" title=\"Gele\"><strong>Gel</strong> </a>oder <a href=\"https://lynis-nailshop.de/acrylgel\" title=\"Acrylgel\"><strong>Acrylgel</strong></a>. Das Abtragen von deiner Modellage ist mit diesen <strong>Nagelfräser Bits</strong> im nu erledigt. Du kannst damit sogar ordentlich deine Nägel kürzen. Dieser Bit ist ein kompletter Allrounder. Ein Titan Bit darf nicht für deine Naturnägel verwendet werden, denn dies kann zu schlimmen Verletzungen deines Nagels führen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_trrqkM": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h2>Was ist ein Fräser für Nägel?</h2><p>Nagelfräser für Gelnägel! Ein <a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräser\"><strong>Nagelfräser</strong></a> ist eine Elektrische Nagelfeile. Dieser wird sehr oft gerade im Nageldesign Bereich eingesetzt. Es erleichtert das Arbeiten enorm. Mit den dazu passenden <strong>Nagelfräser Aufsätze</strong> spart man sich eine Menge Zeit und man schont seine Gelenke. Diese Zeit, die man sich mit einem Nagelfräse Set spart, kann man dann mit einer schönen Nail Art auf den Nägeln nutzen. Wo kann ich <strong>Nagelfräser Bits</strong> kaufen? Wo bekomme ich Nagelfräser Bits günstig? Bei uns im Shop findest du alles, was du für deine perfekte Maniküre und Modellage brauchst. Angefangen von <a href=\"https://lynis-nailshop.de/gele\" title=\"Gele\"><strong>Gel</strong></a>, <a href=\"https://lynis-nailshop.de/acryl\" title=\"Acryl\"><strong>Acryl</strong></a>, eine <a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräse\"><strong>Nagelfräse</strong> </a>und natürlich die passenden Fräser Bits, Nageldesign. Bei einem Nagelfräser ist es wichtig, dass er mindestens 20 000 Umdrehungen hat. Im Shop kannst du dir den perfekten Nagelfräser kaufen. Guck dich einfach im Shop um. Fündig wirst du unter dem Button Geräte, <a href=\"https://lynis-nailshop.de/nageldesign-geraete/fraeser-tritor-one\" title=\"Nagelfräser\"><strong>Nagelfräser</strong></a>. Aufsätze findest du unter Zubehör, <strong>Fräseraufsätze/Bits</strong>.</p><p></p><h2>Nagelfräser Aufsätze Anleitung!</h2><p>Fräser Bits Erklärung! Wie weiß ich welcher Nagel Fräser <strong>Bit</strong> für mich geeignet ist? Grundlegend sollte darauf geachtet werden, dass die Nagelfräser Bits einer Langlebigkeit und einer hohen Belastbarkeit standhalten. Der Fräser Bit soll besonders, was eine Modellage bei der Kunstnagelbearbeitung betrifft, eine hohe Abtragleistung und eine geringe Wärmezufuhr aufweisen. Doch welcher Bit ist für was geeignet und für was kann ich die Nagelfräser Bits verwenden? Die erste wichtige Frage ist, aus welchen Materialien bestehen Nagelfräser Bits?<br/>Du hast verschiedene Materialien zur Auswahl!<br/><br/>Titan Bit<br/>Hartmetall Bit<br/>Keramik Bit<br/>Diamant Bit<br/>Saphir Bit<br/>Stein und Sandpapier Bit<br/>Polier Bit<br/><br/>Diese verschiedenen Arten von Materialien von Nageldesign <strong>Bits</strong> sind für die verschiedensten Arbeiten geeignet. Dann gucken wir uns diese Nageldesign Bits und ihren Anwendungsbereich einfach mal genauer an.</p><h2>Nagelfräser Aufsätze Erklärung!</h2><p>Kommen wir jetzt zu den Hartmetall Bits. Diese Nagelfräser Bits sind aus langlebigem Material gemacht. Wie bei dem anderen Bit ist dieser auch zum Bearbeiten von Kunstnägeln geeignet. Mit diesen Nagelfräser Bits kannst du schnell und ordentlich arbeiten. Solche Bits kannst du in den Körnungen von fein bis grob kaufen. Ein Hartmetell Bit wird am meisten gekauft,, da er im Gegensatz zum Titan Bit um einiges günstiger ist. Hartmetall Bits sind auch komplette Allrounder. Egal, ob du den Tip Übergang feilen willst oder deine Modellage kürzen, du kannst alles mit ihm machen. Hartmetallbits sind fast nicht kaputt zu bekommen. Die Abnutzung ist endlos. Bits aus Hartmetall, weisen auch eine geringe Wärmeentwicklung auf. Wie unser Vorgänger Nagelfräser Bit darfst du diesen Bit nicht für deine Naturnägel verwenden!</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_RRpGHP",
+        "item_trrqkM"
+      ],
+      "custom_css": [
+        "h2 {color: #e9a9b6; font-family: \"Rajdhani\", sans-serif; font-weight: 600; margin-bottom: 5px; margin-top: 25px;}",
+        ".multi-column {--item-width: 45%;}",
+        ".text--center {text-align: justify; font-size: 10px; line-height: 15px;}",
+        ".multi-column__inner--scroller {grid-template-columns: auto !important;}",
+        "@media screen and (max-width: 740px) {.multi-column--pocket-large .multi-column__inner--scroller {grid-auto-columns: 50%; gap: 5%; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#676767"
+      }
+    }
+  },
+  "order": [
+    "ed_story_icon_slider_JY7Rd3",
+    "dl_page_collection_headline_JgM7Rj",
+    "unterkategorie_bjNPkn",
+    "unterkategorie_cGRNLE",
+    "unterkategorie_FXJRN6",
+    "unterkategorie_WJ8Ter",
+    "main",
+    "custom_html_DnEbXa",
+    "multi_column_KUgUz4"
+  ]
+}
